@@ -1,0 +1,442 @@
+---
+/**
+ * Shared header. Chrome copy comes from `src/data/site.ts` (captured `shell`).
+ * Only routes present in the registry are linked — everything else is plain text.
+ */
+import { brand, logoPath, menuMarkerPath, navigation, search, searchIconPath, withBase } from '@/data/site';
+import { pageByPath } from '@/data/pages';
+import type { SiteLink } from '@/data/site';
+
+interface Props {
+  currentPath: string;
+}
+
+const { currentPath } = Astro.props;
+const isLive = (link: SiteLink) => pageByPath.has(link.path);
+const isCurrent = (link: SiteLink) => link.path === currentPath;
+
+// The source desktop bar drops "Sản phẩm" entirely; the three-item split leaves
+// room for it on the left, so the catalog stays reachable at 1366px.
+const leftItems = navigation.slice(0, 3);
+const rightItems = navigation.slice(3);
+---
+
+<header class="site-header">
+  <div class="menu-res">
+    <div class="wrap-content mobile-bar">
+      <button
+        type="button"
+        class="hamburger"
+        id="menu-toggle"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="Menu"
+      >
+        <span></span><span></span><span></span>
+      </button>
+      <a class="logo-head" href={withBase('/')}>
+        <img src={withBase(logoPath)} alt={brand.name} width="157" height="59" />
+      </a>
+    </div>
+  </div>
+
+  <div class="w-menu">
+    <nav class="menu" aria-label="Menu" style={`--menu-marker:url(${withBase(menuMarkerPath)})`}>
+      <div class="wrap-content">
+        <div class="nav-row">
+          <ul class="nav-list nav-left">
+            {
+              leftItems.map((item) => (
+                <li class:list={['nav-item', { current: isCurrent(item) }]}>
+                  {isLive(item) ? <a href={withBase(item.path)}>{item.label}</a> : <span>{item.label}</span>}
+                  {item.children && (
+                    <ul class="nav-sub">
+                      {item.children.map((child) => (
+                        <li>
+                          {isLive(child) ? (
+                            <a href={withBase(child.path)}>{child.label}</a>
+                          ) : (
+                            <span>{child.label}</span>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))
+            }
+          </ul>
+
+          <a class="center-menu logo-head" href={withBase('/')}>
+            <img src={withBase(logoPath)} alt={brand.name} width="157" height="59" />
+          </a>
+
+          <ul class:list={['nav-list', 'nav-right']}>
+            {
+              rightItems.map((item) => (
+                <li class:list={['nav-item', { current: isCurrent(item) }]}>
+                  {isLive(item) ? <a href={withBase(item.path)}>{item.label}</a> : <span>{item.label}</span>}
+                </li>
+              ))
+            }
+          </ul>
+
+          <form class="site-search" method="get" action={withBase(search.action)} role="search">
+            <label class="sr-only" for="site-search-keyword">{search.placeholder}</label>
+            <input
+              type="search"
+              id="site-search-keyword"
+              name={search.fieldName}
+              placeholder={search.placeholder}
+              required
+            />
+            <button type="submit" aria-label={search.placeholder}>
+              <img src={withBase(searchIconPath)} alt="" width="16" height="16" />
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="mobile-panel" id="mobile-menu" hidden>
+    <nav class="wrap-content" aria-label="Menu">
+      <ul class="mobile-list">
+        {
+          navigation.map((item) => (
+            <li>
+              {isLive(item) ? <a href={withBase(item.path)}>{item.label}</a> : <span>{item.label}</span>}
+              {item.children && (
+                <ul class="nav-sub-static">
+                  {item.children.map((child) => (
+                    <li>
+                      {isLive(child) ? <a href={withBase(child.path)}>{child.label}</a> : <span>{child.label}</span>}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          ))
+        }
+      </ul>
+      <form class="mobile-search" method="get" action={withBase(search.action)} role="search">
+        <label class="sr-only" for="mobile-search-keyword">{search.placeholder}</label>
+        <input
+          type="search"
+          id="mobile-search-keyword"
+          name={search.fieldName}
+          placeholder={search.placeholder}
+          required
+        />
+        <button type="submit" aria-label={search.placeholder}>
+          <img src={withBase(searchIconPath)} alt="" width="16" height="16" />
+        </button>
+      </form>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const panel = document.getElementById('mobile-menu');
+  if (toggle instanceof HTMLButtonElement && panel) {
+    const setOpen = (open: boolean) => {
+      toggle.setAttribute('aria-expanded', String(open));
+      panel.hidden = !open;
+    };
+    toggle.addEventListener('click', () => setOpen(toggle.getAttribute('aria-expanded') !== 'true'));
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+        setOpen(false);
+        toggle.focus();
+      }
+    });
+  }
+</script>
+
+<style>
+  .site-header {
+    background: #fff;
+  }
+
+  /* Yellow mobile bar — source `.menu-res` (bg var(--background-static)). */
+  .menu-res {
+    display: none;
+    position: relative;
+    z-index: 100;
+    background: var(--background-static);
+  }
+
+  .mobile-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+  .hamburger {
+    width: 30px;
+    height: 23px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    position: relative;
+  }
+
+  .hamburger span {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+  }
+
+  .hamburger span:nth-child(1) {
+    top: 0;
+  }
+
+  .hamburger span:nth-child(2) {
+    top: 10px;
+  }
+
+  .hamburger span:nth-child(3) {
+    top: 20px;
+  }
+
+  .mobile-panel {
+    background: #fff;
+    border-top: 1px solid #eee;
+  }
+
+  .mobile-list,
+  .nav-sub-static {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobile-list > li {
+    border-bottom: 1px solid #ececec;
+  }
+
+  .mobile-list a,
+  .mobile-list > li > span {
+    display: block;
+    padding: 12px 0;
+    color: var(--color-static);
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .nav-sub-static {
+    padding: 0 0 8px 15px;
+  }
+
+  .nav-sub-static a,
+  .nav-sub-static span {
+    display: block;
+    padding: 6px 0;
+    color: var(--color-gray);
+    text-decoration: none;
+  }
+
+  .mobile-search {
+    display: flex;
+    gap: 8px;
+    padding: 14px 0;
+  }
+
+  .mobile-search input {
+    flex: 1 1 auto;
+    min-width: 0;
+    height: 34px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    font: inherit;
+  }
+
+  .mobile-search button,
+  .site-search button {
+    flex: 0 0 auto;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 17px;
+    background: var(--background-powered);
+    cursor: pointer;
+  }
+
+  /* Desktop bar — source `.menu`, fixed 400px sides with a centred logo. */
+  .nav-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+  }
+
+  .nav-row::after {
+    content: '';
+    position: absolute;
+    top: -15px;
+    right: 10px;
+    width: 40px;
+    height: 70px;
+    background-color: var(--color-dark-red);
+    border-radius: 0 0 20px 20px;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .nav-item {
+    position: relative;
+  }
+
+  .nav-item a,
+  .nav-item > span {
+    display: block;
+    position: relative;
+    padding: 10px 20px;
+    color: var(--color-static);
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .nav-item.current > a,
+  .nav-item.current > span {
+    font-weight: 600;
+  }
+
+  /* The source marks the active item with a dog-bone silhouette, not an
+     underline: `::after` at the link baseline, 21x8, centred on the label. */
+  .nav-item.current > a::after,
+  .nav-item.current > span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 10.5px);
+    width: 21px;
+    height: 8px;
+    background: var(--menu-marker) no-repeat center / 21px 8px;
+    pointer-events: none;
+  }
+
+  .nav-sub {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 250px;
+    margin: 0;
+    padding: 0 12px;
+    list-style: none;
+    background: #fafafa;
+    box-shadow: 1px 1px 15px rgb(0 0 0 / 15%);
+    opacity: 0;
+    visibility: hidden;
+    transform: perspective(600px) rotateX(-90deg);
+    transform-origin: 0 0 0;
+    transition:
+      transform 0.25s,
+      opacity 0.25s;
+  }
+
+  .nav-item:hover > .nav-sub,
+  .nav-item:focus-within > .nav-sub {
+    opacity: 1;
+    visibility: visible;
+    transform: perspective(600px) rotateX(0);
+  }
+
+  .nav-sub a,
+  .nav-sub span {
+    display: block;
+    padding: 10px 0;
+    color: #313131;
+    font-size: 14px;
+    text-transform: none;
+    text-decoration: none;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .nav-sub li:last-child a,
+  .nav-sub li:last-child span {
+    border-bottom: 0;
+  }
+
+  .center-menu,
+  .logo-head {
+    display: block;
+    max-width: 157px;
+  }
+
+  .site-search {
+    z-index: 1; /* above the decorative red tab, as in the source (#search z-index:999) */
+    position: absolute;
+    right: 13px;
+    bottom: 9px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Source `#search input[type="text"]{right:0;top:calc(100% + 4px)}`. The panel
+     drops below the pill instead of rising over the nav, so it never covers
+     "Liên hệ". The white field is ours: the source draws only a border. */
+  .site-search input {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 6px);
+    width: 0;
+    height: 38px;
+    padding: 0;
+    border: 1px solid var(--color-gray);
+    border-radius: 4px;
+    background: #fff;
+    font: inherit;
+    opacity: 0;
+    transition:
+      width 0.3s,
+      padding 0.3s,
+      opacity 0.3s;
+  }
+
+  .site-search:hover input,
+  .site-search:focus-within input {
+    width: 260px;
+    padding: 0 0.75rem;
+    opacity: 1;
+  }
+
+  @media (max-width: 991px) {
+    .menu-res {
+      display: block;
+    }
+
+    .w-menu {
+      display: none;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .nav-row {
+      padding: 0 60px;
+    }
+
+    .nav-list {
+      width: auto;
+    }
+  }
+</style>

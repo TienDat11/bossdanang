@@ -1,0 +1,22 @@
+---
+/** Source 404 copy: https://thebossvietnam.com/gio-hang → .scratch/raw/catalog/gio-hang.html */
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import { withBase } from '@/data/site';
+---
+
+<SiteLayout
+  title="ERROR 404 - THE BOSS VIỆT NAM"
+  description="ERROR 404 - Trở lại trang chủ"
+  path="/404"
+  noindex
+>
+  <h1 class="page-title">ERROR 404</h1>
+  <p class="back-home"><a href={withBase('/')}>Trở lại trang chủ</a></p>
+</SiteLayout>
+
+<style>
+  .back-home {
+    text-align: center;
+    font-size: 16px;
+  }
+</style>

@@ -1,0 +1,1615 @@
+{
+  "family": "products-soup",
+  "capturedAt": "2026-09-30 (Asia/Ho_Chi_Minh, +07:00) — the date the saved pages themselves render in their own config block, var TIMENOW = '30/09/2026'",
+  "sourceOrigin": "https://thebossvietnam.com",
+  "feedSnapshot": {
+    "url": "https://thebossvietnam.com/api/product.php?perpage=9&idList=5",
+    "httpStatus": 200,
+    "rawEvidence": ".scratch/raw/products/feed-idList-5.html",
+    "cardCount": 6,
+    "order": [
+      "soup-ga-tiem",
+      "soup-heo-ham",
+      "soup-vit-tiem",
+      "soup-ca-tuoi",
+      "soup-bo-ham",
+      "soup-hai-san"
+    ],
+    "checkHotCount": 0,
+    "newPngCount": 6,
+    "note": "All 6 soups carry <span class=\"check-new\"><img src=\"assets/images/new.png\"></span> and none carries <span class=\"check-hot\">, so a «hot» badge on any soup would contradict this snapshot. The feed prices carry a trailing space before the closing tag, every variant is 500gr with unit «hộp», and the feed ends with an empty <div class=\"pagination-ajax\"></div>."
+  },
+  "routes": [
+    {
+      "path": "/soup-ga-tiem",
+      "sourceUrl": "https://thebossvietnam.com/soup-ga-tiem",
+      "httpStatus": 200,
+      "sourceTitle": "SOUP GÀ TIỀM",
+      "metaDescription": "",
+      "h1": "SOUP GÀ TIỀM",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Sản phẩm",
+        "Pate Tươi",
+        "SOUP GÀ TIỀM"
+      ],
+      "blocks": [
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/1-hop-soup-ga-tiem-500gr-8807.png",
+          "alt": "SOUP GÀ TIỀM",
+          "role": "product-main"
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/1-hop-soup-ga-tiem-500gr-8807.png",
+          "alt": "SOUP GÀ TIỀM",
+          "role": "product-thumb",
+          "order": 1
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/1-soup-ga-tiem-a4-1231.png",
+          "alt": "SOUP GÀ TIỀM",
+          "role": "product-thumb",
+          "order": 2
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/a4huong-dan-su-dungpage2-9410.jpg",
+          "alt": "SOUP GÀ TIỀM",
+          "role": "product-thumb",
+          "order": 3
+        },
+        {
+          "type": "p",
+          "text": "SOUP GÀ TIỀM"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Lượt xem:",
+            "901"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Giá: 45.000đ/hộp (500gr)",
+          "rawHtml": "<p>Giá: <strong><span style=\"font-size:20px;\">45.000đ/hộp</span> </strong><strong>(500gr)</strong></p>",
+          "note": "The source puts a U+00A0 between the price and the (500gr) weight."
+        },
+        {
+          "type": "p",
+          "text": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "normalisedText": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "normalisationNote": "The source puts a U+00A0 (bytes 0xC2 0xA0) after «chó,». text keeps it verbatim; normalisedText is the same sentence with a plain space, which is the form src/data/products.ts documents this file as normalising to."
+        },
+        {
+          "type": "p",
+          "text": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "normalisedText": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "normalisationNote": "The source puts a U+00A0 before «tháng». text keeps it verbatim; normalisedText is the plain-space form."
+        },
+        {
+          "type": "p",
+          "text": "Bảo quản: ở nhiệt độ -18oC hoặc trong ngăn đông tủ lạnh.",
+          "rawHtml": "<p>Bảo quản: ở nhiệt độ -18<sup>o</sup>C hoặc trong ngăn đông tủ lạnh.</p>",
+          "flatteningNote": "The «o» in -18oC is a <sup> superscript in the source and is flattened to a plain «o» in a text block; rawHtml keeps the original markup."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Thông tin sản phẩm",
+            "Bình luận"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Sản phẩm cùng loại"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "SOUP HEO HẦM",
+            "SOUP VỊT TIỀM",
+            "SOUP CÁ TƯƠI",
+            "SOUP BÒ HẦM",
+            "SOUP HẢI SẢN"
+          ]
+        }
+      ],
+      "forms": [],
+      "feed": {
+        "feedUrl": "https://thebossvietnam.com/api/product.php?perpage=9&idList=5",
+        "feedRawFile": ".scratch/raw/products/feed-idList-5.html",
+        "name": "SOUP GÀ TIỀM",
+        "priceText": "45.000đ/hộp (500gr)",
+        "weight": "500gr",
+        "unit": "hộp",
+        "badge": "new",
+        "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-hop-soup-ga-tiem-500gr-8807.png",
+        "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-icon-soup-ga-tiem-500gr-7966.png",
+        "variants": [
+          {
+            "price": "45.000đ/hộp",
+            "weight": "500gr",
+            "verbatim": "45.000đ/hộp (500gr)"
+          }
+        ],
+        "feedPosition": 1,
+        "feedBadgeMarkup": "<span class=\"check-new\"><img src=\"assets/images/new.png\"></span>"
+      },
+      "detailPriceText": {
+        "line1": "45.000đ/hộp (500gr)"
+      },
+      "priceAgreementFeedVsDetail": "exact match",
+      "related": [
+        {
+          "name": "SOUP HEO HẦM",
+          "href": "soup-heo-ham",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-hop-soup-heo-ham-500gr-2426.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-icon-soup-heo-ham-500gr-9409.png"
+        },
+        {
+          "name": "SOUP VỊT TIỀM",
+          "href": "soup-vit-tiem",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-hop-soup-vit-tiem-500gr-6648.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-icon-soup-vit-tiem-500gr-2776.png"
+        },
+        {
+          "name": "SOUP CÁ TƯƠI",
+          "href": "soup-ca-tuoi",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-hop-soup-ca-tuoi-500gr-9469.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-icon-soup-ca-tuoi-500gr-9084.png"
+        },
+        {
+          "name": "SOUP BÒ HẦM",
+          "href": "soup-bo-ham",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-hop-soup-bo-ham-500gr-5025.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-icon-soup-bo-ham-500gr-7759.png"
+        },
+        {
+          "name": "SOUP HẢI SẢN",
+          "href": "soup-hai-san",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-hop-soup-hai-san-500gr-6344.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-icon-soup-hai-san-500gr-6054.png"
+        }
+      ],
+      "interactions": [
+        "Main-image zoom: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCrop: true\" href=\"upload/product/1-hop-soup-ga-tiem-500gr-8807.png\" title=\"SOUP GÀ TIỀM\"> with the image inside it. MagicZoom is initialised in assets/js/main.js.",
+        "Thumbnail switching: each of the 3 thumbnails is <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"…\" title=\"SOUP GÀ TIỀM\">, and thumb 1 is a DIFFERENT URL from the main image — watermark/product/400x200x2/… , the same artwork at 400x200 — while thumbs 2 and 3 are root-relative upload/product/… paths.",
+        "Thumbnail carousel: <div class=\"owl-page owl-carousel owl-theme owl-pro-detail\" data-items=\"screen:0|items:5|margin:10\" data-nav=\"1\" data-navcontainer=\".control-owl-pro-detail\"> wraps the 3 thumbnails.",
+        "Product tabs: <ul class=\"nav nav-tabs\" id=\"tabsProDetail\" role=\"tablist\"> with <a class=\"nav-link active\" id=\"info-pro-detail-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#info-pro-detail\"> and <a class=\"nav-link\" id=\"commentfb-pro-detail-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#commentfb-pro-detail\">. Bootstrap 5 tabs.",
+        "Share bar (AddToAny): <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> with a2a_dd, a2a_button_facebook, a2a_button_twitter, a2a_button_facebook_messenger and a2a_button_copy_link, initialised by https://static.addtoany.com/menu/page.js.",
+        "Zalo share: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/soup-ga-tiem\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div> from the third-party script https://sp.zalo.me/plugins/sdk.js.",
+        "Comment tab embed: <div class=\"fb-comments\" data-href=\"https://thebossvietnam.com/soup-ga-tiem\" data-numposts=\"3\" data-colorscheme=\"light\" data-width=\"100%\">. The Facebook SDK is injected 2000 ms after load by api/addons.php?type=messages-facebook, so the tab stays empty without that request — and nothing in the markup fills it otherwise.",
+        "Chat widget: <div id=\"messages-facebook\"></div> is filled after a 2000 ms timeout by the api/addons.php?type=messages-facebook response (captured at .scratch/raw/products/addons-messages-facebook.html), which renders the FB Messenger launcher.",
+        "Related-products rail: 5 static product cards (the other five soups) in .col-4.col-20 wrappers, each with two lazy images (a.pic-product1 and a.pic-product2, data-src only, no src) and <span class=\"price-new\">Liên hệ</span> as the price element.",
+        "No <form> element and no client-side form validation on this route; the page config still defines a global reCAPTCHA v3 key."
+      ],
+      "seoDefects": [
+        "<title>SOUP GÀ TIỀM</title> is the bare product name in caps: no brand, no price, no weight, no separator.",
+        "<h1 class=\"hidden-seoh\">SOUP GÀ TIỀM</h1> is CSS-hidden, so the only H1 on the page is invisible and the visible product name is an <h3> above the fold. The document outline is inverted: a hidden h1 behind a visible h3.",
+        "<meta name=\"description\" content=\"\" />, <meta name=\"keywords\" content=\"\" />, <meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are ALL empty strings.",
+        "<html lang=\"vi|en\"> is not a valid BCP-47 tag, and <meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width rather than width=device-width, initial-scale=1.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> puts an e-mail address in a Twitter handle field.",
+        "<meta property=\"og:type\" content=\"article\" /> on a product detail page, and no Product or Offer JSON-LD exists anywhere in the document — only Organization and BreadcrumbList — so nothing here can be surfaced as a rich product result.",
+        "The tab labelled «Thông tin sản phẩm» is the default active pane and is completely empty (<div class=\"content-text\"></div>), while every word of the product copy sits outside the tab widget above it. The tab the visitor opens first is the one that shows nothing.",
+        "The price in .attr-pro-detail is commented out (<!-- <li><label class=\"attr-label-pro-detail\">Giá:</label> … -->), so the only structured price element on the page is dead markup and the visible price is free prose inside a <p> that cannot be validated as an Offer.",
+        "All 5 related-product cards render <span class=\"price-new\">Liên hệ</span> instead of a price, so the related rail contradicts the prose line on the same screen.",
+        "BreadcrumbList JSON-LD omits «Trang chủ»: it lists 3 itemListElement entries starting at position 1 = «Sản phẩm», while the visible breadcrumb shows 4 items starting at «Trang chủ».",
+        "The share image og:image is the 400x200 variant of the main artwork, a 2:1 crop of a product photo with the packaging text cut off."
+      ],
+      "notes": [
+        "Captured from the saved raw HTML at .scratch/raw/products/soup-ga-tiem.html. This file was rebuilt offline from that stored response with no network request, so the capture date is the one the page itself renders in its own config block (var TIMENOW = '30/09/2026').",
+        "View counter: <label class=\"attr-label-pro-detail\">Lượt xem:</label> with <div class=\"attr-content-pro-detail\">901</div>, as rendered in the saved HTML. The counter is server-rendered and grows, so treat it as a snapshot, not a current claim.",
+        "VIEW COUNT DISCREPANCY: the stored raw HTML prints 901 for this route, while src/data/products.ts records 896. The same +5 gap is on all 15 raw product pages, so the stored HTML was fetched after the copy was written. This file records the raw truth and src/data/products.ts was NOT changed; its claim that all fifteen values match the raw HTML is false against the stored HTML.",
+        "The «Sản phẩm dành cho chó, …» sentence and «Hạn sử dụng: 06 …» each carry a U+00A0. Both are kept verbatim in text; normalisedText holds the plain-space form on those two blocks.",
+        "The price line differs in markup between routes: this one uses <strong><span style=\"font-size:20px;\">…</span> </strong><strong>(500gr)</strong>.",
+        "The feed idList=5 and this detail page agree exactly: one variant, 500gr, unit «hộp». The feed price string carries a trailing space before the closing tag, which is why the captured feed priceText is «45.000đ/hộp (500gr)».",
+        "All 6 soups carry <span class=\"check-new\"><img src=\"assets/images/new.png\"></span> in the feed and none carries <span class=\"check-hot\">, so copy calling a soup «hot» would contradict the captured feed.",
+        "The feed ends with an empty <div class=\"pagination-ajax\"></div>: there is no pagination markup on this list.",
+        "Not measured in this rebuild: intrinsic image width/height. The rebuild made no network request, so no image header was read; the render size a thumbs/ or watermark/ path encodes is recorded per media entry as sourceRenderSize."
+      ]
+    },
+    {
+      "path": "/soup-heo-ham",
+      "sourceUrl": "https://thebossvietnam.com/soup-heo-ham",
+      "httpStatus": 200,
+      "sourceTitle": "SOUP HEO HẦM",
+      "metaDescription": "",
+      "h1": "SOUP HEO HẦM",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Sản phẩm",
+        "Pate Tươi",
+        "SOUP HEO HẦM"
+      ],
+      "blocks": [
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/2-hop-soup-heo-ham-500gr-2426.png",
+          "alt": "SOUP HEO HẦM",
+          "role": "product-main"
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/2-hop-soup-heo-ham-500gr-2426.png",
+          "alt": "SOUP HEO HẦM",
+          "role": "product-thumb",
+          "order": 1
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/2-soup-heo-ham-a4-5042.png",
+          "alt": "SOUP HEO HẦM",
+          "role": "product-thumb",
+          "order": 2
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/a4huong-dan-su-dungpage2-3888.jpg",
+          "alt": "SOUP HEO HẦM",
+          "role": "product-thumb",
+          "order": 3
+        },
+        {
+          "type": "p",
+          "text": "SOUP HEO HẦM"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Lượt xem:",
+            "788"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Giá: 60.000đ/hộp (500gr)",
+          "rawHtml": "<p>Giá: <strong><span style=\"font-size:20px;\">60.000đ/hộp</span> </strong><strong>(500gr)</strong></p>",
+          "note": "The source puts a U+00A0 between the price and the (500gr) weight."
+        },
+        {
+          "type": "p",
+          "text": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "normalisedText": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "normalisationNote": "The source puts a U+00A0 (bytes 0xC2 0xA0) after «chó,». text keeps it verbatim; normalisedText is the same sentence with a plain space, which is the form src/data/products.ts documents this file as normalising to."
+        },
+        {
+          "type": "p",
+          "text": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "normalisedText": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "normalisationNote": "The source puts a U+00A0 before «tháng». text keeps it verbatim; normalisedText is the plain-space form."
+        },
+        {
+          "type": "p",
+          "text": "Bảo quản: ở nhiệt độ -18oC hoặc trong ngăn đông tủ lạnh.",
+          "rawHtml": "<p>Bảo quản: ở nhiệt độ -18<sup>o</sup>C hoặc trong ngăn đông tủ lạnh.</p>",
+          "flatteningNote": "The «o» in -18oC is a <sup> superscript in the source and is flattened to a plain «o» in a text block; rawHtml keeps the original markup."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Thông tin sản phẩm",
+            "Bình luận"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Sản phẩm cùng loại"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "SOUP GÀ TIỀM",
+            "SOUP VỊT TIỀM",
+            "SOUP CÁ TƯƠI",
+            "SOUP BÒ HẦM",
+            "SOUP HẢI SẢN"
+          ]
+        }
+      ],
+      "forms": [],
+      "feed": {
+        "feedUrl": "https://thebossvietnam.com/api/product.php?perpage=9&idList=5",
+        "feedRawFile": ".scratch/raw/products/feed-idList-5.html",
+        "name": "SOUP HEO HẦM",
+        "priceText": "60.000đ/hộp (500gr)",
+        "weight": "500gr",
+        "unit": "hộp",
+        "badge": "new",
+        "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-hop-soup-heo-ham-500gr-2426.png",
+        "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-icon-soup-heo-ham-500gr-9409.png",
+        "variants": [
+          {
+            "price": "60.000đ/hộp",
+            "weight": "500gr",
+            "verbatim": "60.000đ/hộp (500gr)"
+          }
+        ],
+        "feedPosition": 2,
+        "feedBadgeMarkup": "<span class=\"check-new\"><img src=\"assets/images/new.png\"></span>"
+      },
+      "detailPriceText": {
+        "line1": "60.000đ/hộp (500gr)"
+      },
+      "priceAgreementFeedVsDetail": "exact match",
+      "related": [
+        {
+          "name": "SOUP GÀ TIỀM",
+          "href": "soup-ga-tiem",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-hop-soup-ga-tiem-500gr-8807.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-icon-soup-ga-tiem-500gr-7966.png"
+        },
+        {
+          "name": "SOUP VỊT TIỀM",
+          "href": "soup-vit-tiem",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-hop-soup-vit-tiem-500gr-6648.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-icon-soup-vit-tiem-500gr-2776.png"
+        },
+        {
+          "name": "SOUP CÁ TƯƠI",
+          "href": "soup-ca-tuoi",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-hop-soup-ca-tuoi-500gr-9469.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-icon-soup-ca-tuoi-500gr-9084.png"
+        },
+        {
+          "name": "SOUP BÒ HẦM",
+          "href": "soup-bo-ham",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-hop-soup-bo-ham-500gr-5025.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-icon-soup-bo-ham-500gr-7759.png"
+        },
+        {
+          "name": "SOUP HẢI SẢN",
+          "href": "soup-hai-san",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-hop-soup-hai-san-500gr-6344.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-icon-soup-hai-san-500gr-6054.png"
+        }
+      ],
+      "interactions": [
+        "Main-image zoom: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCrop: true\" href=\"upload/product/2-hop-soup-heo-ham-500gr-2426.png\" title=\"SOUP HEO HẦM\"> with the image inside it. MagicZoom is initialised in assets/js/main.js.",
+        "Thumbnail switching: each of the 3 thumbnails is <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"…\" title=\"SOUP HEO HẦM\">, and thumb 1 is a DIFFERENT URL from the main image — watermark/product/400x200x2/… , the same artwork at 400x200 — while thumbs 2 and 3 are root-relative upload/product/… paths.",
+        "Thumbnail carousel: <div class=\"owl-page owl-carousel owl-theme owl-pro-detail\" data-items=\"screen:0|items:5|margin:10\" data-nav=\"1\" data-navcontainer=\".control-owl-pro-detail\"> wraps the 3 thumbnails.",
+        "Product tabs: <ul class=\"nav nav-tabs\" id=\"tabsProDetail\" role=\"tablist\"> with <a class=\"nav-link active\" id=\"info-pro-detail-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#info-pro-detail\"> and <a class=\"nav-link\" id=\"commentfb-pro-detail-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#commentfb-pro-detail\">. Bootstrap 5 tabs.",
+        "Share bar (AddToAny): <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> with a2a_dd, a2a_button_facebook, a2a_button_twitter, a2a_button_facebook_messenger and a2a_button_copy_link, initialised by https://static.addtoany.com/menu/page.js.",
+        "Zalo share: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/soup-heo-ham\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div> from the third-party script https://sp.zalo.me/plugins/sdk.js.",
+        "Comment tab embed: <div class=\"fb-comments\" data-href=\"https://thebossvietnam.com/soup-heo-ham\" data-numposts=\"3\" data-colorscheme=\"light\" data-width=\"100%\">. The Facebook SDK is injected 2000 ms after load by api/addons.php?type=messages-facebook, so the tab stays empty without that request — and nothing in the markup fills it otherwise.",
+        "Chat widget: <div id=\"messages-facebook\"></div> is filled after a 2000 ms timeout by the api/addons.php?type=messages-facebook response (captured at .scratch/raw/products/addons-messages-facebook.html), which renders the FB Messenger launcher.",
+        "Related-products rail: 5 static product cards (the other five soups) in .col-4.col-20 wrappers, each with two lazy images (a.pic-product1 and a.pic-product2, data-src only, no src) and <span class=\"price-new\">Liên hệ</span> as the price element.",
+        "No <form> element and no client-side form validation on this route; the page config still defines a global reCAPTCHA v3 key."
+      ],
+      "seoDefects": [
+        "<title>SOUP HEO HẦM</title> is the bare product name in caps: no brand, no price, no weight, no separator.",
+        "<h1 class=\"hidden-seoh\">SOUP HEO HẦM</h1> is CSS-hidden, so the only H1 on the page is invisible and the visible product name is an <h3> above the fold. The document outline is inverted: a hidden h1 behind a visible h3.",
+        "<meta name=\"description\" content=\"\" />, <meta name=\"keywords\" content=\"\" />, <meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are ALL empty strings.",
+        "<html lang=\"vi|en\"> is not a valid BCP-47 tag, and <meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width rather than width=device-width, initial-scale=1.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> puts an e-mail address in a Twitter handle field.",
+        "<meta property=\"og:type\" content=\"article\" /> on a product detail page, and no Product or Offer JSON-LD exists anywhere in the document — only Organization and BreadcrumbList — so nothing here can be surfaced as a rich product result.",
+        "The tab labelled «Thông tin sản phẩm» is the default active pane and is completely empty (<div class=\"content-text\"></div>), while every word of the product copy sits outside the tab widget above it. The tab the visitor opens first is the one that shows nothing.",
+        "The price in .attr-pro-detail is commented out (<!-- <li><label class=\"attr-label-pro-detail\">Giá:</label> … -->), so the only structured price element on the page is dead markup and the visible price is free prose inside a <p> that cannot be validated as an Offer.",
+        "All 5 related-product cards render <span class=\"price-new\">Liên hệ</span> instead of a price, so the related rail contradicts the prose line on the same screen.",
+        "BreadcrumbList JSON-LD omits «Trang chủ»: it lists 3 itemListElement entries starting at position 1 = «Sản phẩm», while the visible breadcrumb shows 4 items starting at «Trang chủ».",
+        "The share image og:image is the 400x200 variant of the main artwork, a 2:1 crop of a product photo with the packaging text cut off."
+      ],
+      "notes": [
+        "Captured from the saved raw HTML at .scratch/raw/products/soup-heo-ham.html. This file was rebuilt offline from that stored response with no network request, so the capture date is the one the page itself renders in its own config block (var TIMENOW = '30/09/2026').",
+        "View counter: <label class=\"attr-label-pro-detail\">Lượt xem:</label> with <div class=\"attr-content-pro-detail\">788</div>, as rendered in the saved HTML. The counter is server-rendered and grows, so treat it as a snapshot, not a current claim.",
+        "VIEW COUNT DISCREPANCY: the stored raw HTML prints 788 for this route, while src/data/products.ts records 783. The same +5 gap is on all 15 raw product pages, so the stored HTML was fetched after the copy was written. This file records the raw truth and src/data/products.ts was NOT changed; its claim that all fifteen values match the raw HTML is false against the stored HTML.",
+        "The «Sản phẩm dành cho chó, …» sentence and «Hạn sử dụng: 06 …» each carry a U+00A0. Both are kept verbatim in text; normalisedText holds the plain-space form on those two blocks.",
+        "The price line differs in markup between routes: this one uses <strong><span style=\"font-size:20px;\">…</span> </strong><strong>(500gr)</strong>.",
+        "The feed idList=5 and this detail page agree exactly: one variant, 500gr, unit «hộp». The feed price string carries a trailing space before the closing tag, which is why the captured feed priceText is «60.000đ/hộp (500gr)».",
+        "All 6 soups carry <span class=\"check-new\"><img src=\"assets/images/new.png\"></span> in the feed and none carries <span class=\"check-hot\">, so copy calling a soup «hot» would contradict the captured feed.",
+        "The feed ends with an empty <div class=\"pagination-ajax\"></div>: there is no pagination markup on this list.",
+        "Not measured in this rebuild: intrinsic image width/height. The rebuild made no network request, so no image header was read; the render size a thumbs/ or watermark/ path encodes is recorded per media entry as sourceRenderSize."
+      ]
+    },
+    {
+      "path": "/soup-vit-tiem",
+      "sourceUrl": "https://thebossvietnam.com/soup-vit-tiem",
+      "httpStatus": 200,
+      "sourceTitle": "SOUP VỊT TIỀM",
+      "metaDescription": "",
+      "h1": "SOUP VỊT TIỀM",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Sản phẩm",
+        "Pate Tươi",
+        "SOUP VỊT TIỀM"
+      ],
+      "blocks": [
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/5-hop-soup-vit-tiem-500gr-6648.png",
+          "alt": "SOUP VỊT TIỀM",
+          "role": "product-main"
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/5-hop-soup-vit-tiem-500gr-6648.png",
+          "alt": "SOUP VỊT TIỀM",
+          "role": "product-thumb",
+          "order": 1
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/5-soup-vit-tiem-a4-5984.png",
+          "alt": "SOUP VỊT TIỀM",
+          "role": "product-thumb",
+          "order": 2
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/a4huong-dan-su-dungpage2-1119.jpg",
+          "alt": "SOUP VỊT TIỀM",
+          "role": "product-thumb",
+          "order": 3
+        },
+        {
+          "type": "p",
+          "text": "SOUP VỊT TIỀM"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Lượt xem:",
+            "648"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Giá: 60.000đ/hộp (500gr)",
+          "rawHtml": "<p>Giá: <strong><span style=\"font-size:20px;\">60.000đ/hộp</span> </strong><strong>(500gr)</strong></p>",
+          "note": "The source puts a U+00A0 between the price and the (500gr) weight."
+        },
+        {
+          "type": "p",
+          "text": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "normalisedText": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "normalisationNote": "The source puts a U+00A0 (bytes 0xC2 0xA0) after «chó,». text keeps it verbatim; normalisedText is the same sentence with a plain space, which is the form src/data/products.ts documents this file as normalising to."
+        },
+        {
+          "type": "p",
+          "text": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "normalisedText": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "normalisationNote": "The source puts a U+00A0 before «tháng». text keeps it verbatim; normalisedText is the plain-space form."
+        },
+        {
+          "type": "p",
+          "text": "Bảo quản: ở nhiệt độ -18oC hoặc trong ngăn đông tủ lạnh.",
+          "rawHtml": "<p>Bảo quản: ở nhiệt độ -18<sup>o</sup>C hoặc trong ngăn đông tủ lạnh.</p>",
+          "flatteningNote": "The «o» in -18oC is a <sup> superscript in the source and is flattened to a plain «o» in a text block; rawHtml keeps the original markup."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Thông tin sản phẩm",
+            "Bình luận"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Sản phẩm cùng loại"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "SOUP GÀ TIỀM",
+            "SOUP HEO HẦM",
+            "SOUP CÁ TƯƠI",
+            "SOUP BÒ HẦM",
+            "SOUP HẢI SẢN"
+          ]
+        }
+      ],
+      "forms": [],
+      "feed": {
+        "feedUrl": "https://thebossvietnam.com/api/product.php?perpage=9&idList=5",
+        "feedRawFile": ".scratch/raw/products/feed-idList-5.html",
+        "name": "SOUP VỊT TIỀM",
+        "priceText": "60.000đ/hộp (500gr)",
+        "weight": "500gr",
+        "unit": "hộp",
+        "badge": "new",
+        "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-hop-soup-vit-tiem-500gr-6648.png",
+        "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-icon-soup-vit-tiem-500gr-2776.png",
+        "variants": [
+          {
+            "price": "60.000đ/hộp",
+            "weight": "500gr",
+            "verbatim": "60.000đ/hộp (500gr)"
+          }
+        ],
+        "feedPosition": 3,
+        "feedBadgeMarkup": "<span class=\"check-new\"><img src=\"assets/images/new.png\"></span>"
+      },
+      "detailPriceText": {
+        "line1": "60.000đ/hộp (500gr)"
+      },
+      "priceAgreementFeedVsDetail": "exact match",
+      "related": [
+        {
+          "name": "SOUP GÀ TIỀM",
+          "href": "soup-ga-tiem",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-hop-soup-ga-tiem-500gr-8807.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-icon-soup-ga-tiem-500gr-7966.png"
+        },
+        {
+          "name": "SOUP HEO HẦM",
+          "href": "soup-heo-ham",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-hop-soup-heo-ham-500gr-2426.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-icon-soup-heo-ham-500gr-9409.png"
+        },
+        {
+          "name": "SOUP CÁ TƯƠI",
+          "href": "soup-ca-tuoi",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-hop-soup-ca-tuoi-500gr-9469.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-icon-soup-ca-tuoi-500gr-9084.png"
+        },
+        {
+          "name": "SOUP BÒ HẦM",
+          "href": "soup-bo-ham",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-hop-soup-bo-ham-500gr-5025.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-icon-soup-bo-ham-500gr-7759.png"
+        },
+        {
+          "name": "SOUP HẢI SẢN",
+          "href": "soup-hai-san",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-hop-soup-hai-san-500gr-6344.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-icon-soup-hai-san-500gr-6054.png"
+        }
+      ],
+      "interactions": [
+        "Main-image zoom: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCrop: true\" href=\"upload/product/5-hop-soup-vit-tiem-500gr-6648.png\" title=\"SOUP VỊT TIỀM\"> with the image inside it. MagicZoom is initialised in assets/js/main.js.",
+        "Thumbnail switching: each of the 3 thumbnails is <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"…\" title=\"SOUP VỊT TIỀM\">, and thumb 1 is a DIFFERENT URL from the main image — watermark/product/400x200x2/… , the same artwork at 400x200 — while thumbs 2 and 3 are root-relative upload/product/… paths.",
+        "Thumbnail carousel: <div class=\"owl-page owl-carousel owl-theme owl-pro-detail\" data-items=\"screen:0|items:5|margin:10\" data-nav=\"1\" data-navcontainer=\".control-owl-pro-detail\"> wraps the 3 thumbnails.",
+        "Product tabs: <ul class=\"nav nav-tabs\" id=\"tabsProDetail\" role=\"tablist\"> with <a class=\"nav-link active\" id=\"info-pro-detail-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#info-pro-detail\"> and <a class=\"nav-link\" id=\"commentfb-pro-detail-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#commentfb-pro-detail\">. Bootstrap 5 tabs.",
+        "Share bar (AddToAny): <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> with a2a_dd, a2a_button_facebook, a2a_button_twitter, a2a_button_facebook_messenger and a2a_button_copy_link, initialised by https://static.addtoany.com/menu/page.js.",
+        "Zalo share: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/soup-vit-tiem\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div> from the third-party script https://sp.zalo.me/plugins/sdk.js.",
+        "Comment tab embed: <div class=\"fb-comments\" data-href=\"https://thebossvietnam.com/soup-vit-tiem\" data-numposts=\"3\" data-colorscheme=\"light\" data-width=\"100%\">. The Facebook SDK is injected 2000 ms after load by api/addons.php?type=messages-facebook, so the tab stays empty without that request — and nothing in the markup fills it otherwise.",
+        "Chat widget: <div id=\"messages-facebook\"></div> is filled after a 2000 ms timeout by the api/addons.php?type=messages-facebook response (captured at .scratch/raw/products/addons-messages-facebook.html), which renders the FB Messenger launcher.",
+        "Related-products rail: 5 static product cards (the other five soups) in .col-4.col-20 wrappers, each with two lazy images (a.pic-product1 and a.pic-product2, data-src only, no src) and <span class=\"price-new\">Liên hệ</span> as the price element.",
+        "No <form> element and no client-side form validation on this route; the page config still defines a global reCAPTCHA v3 key."
+      ],
+      "seoDefects": [
+        "<title>SOUP VỊT TIỀM</title> is the bare product name in caps: no brand, no price, no weight, no separator.",
+        "<h1 class=\"hidden-seoh\">SOUP VỊT TIỀM</h1> is CSS-hidden, so the only H1 on the page is invisible and the visible product name is an <h3> above the fold. The document outline is inverted: a hidden h1 behind a visible h3.",
+        "<meta name=\"description\" content=\"\" />, <meta name=\"keywords\" content=\"\" />, <meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are ALL empty strings.",
+        "<html lang=\"vi|en\"> is not a valid BCP-47 tag, and <meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width rather than width=device-width, initial-scale=1.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> puts an e-mail address in a Twitter handle field.",
+        "<meta property=\"og:type\" content=\"article\" /> on a product detail page, and no Product or Offer JSON-LD exists anywhere in the document — only Organization and BreadcrumbList — so nothing here can be surfaced as a rich product result.",
+        "The tab labelled «Thông tin sản phẩm» is the default active pane and is completely empty (<div class=\"content-text\"></div>), while every word of the product copy sits outside the tab widget above it. The tab the visitor opens first is the one that shows nothing.",
+        "The price in .attr-pro-detail is commented out (<!-- <li><label class=\"attr-label-pro-detail\">Giá:</label> … -->), so the only structured price element on the page is dead markup and the visible price is free prose inside a <p> that cannot be validated as an Offer.",
+        "All 5 related-product cards render <span class=\"price-new\">Liên hệ</span> instead of a price, so the related rail contradicts the prose line on the same screen.",
+        "BreadcrumbList JSON-LD omits «Trang chủ»: it lists 3 itemListElement entries starting at position 1 = «Sản phẩm», while the visible breadcrumb shows 4 items starting at «Trang chủ».",
+        "The share image og:image is the 400x200 variant of the main artwork, a 2:1 crop of a product photo with the packaging text cut off."
+      ],
+      "notes": [
+        "Captured from the saved raw HTML at .scratch/raw/products/soup-vit-tiem.html. This file was rebuilt offline from that stored response with no network request, so the capture date is the one the page itself renders in its own config block (var TIMENOW = '30/09/2026').",
+        "View counter: <label class=\"attr-label-pro-detail\">Lượt xem:</label> with <div class=\"attr-content-pro-detail\">648</div>, as rendered in the saved HTML. The counter is server-rendered and grows, so treat it as a snapshot, not a current claim.",
+        "VIEW COUNT DISCREPANCY: the stored raw HTML prints 648 for this route, while src/data/products.ts records 643. The same +5 gap is on all 15 raw product pages, so the stored HTML was fetched after the copy was written. This file records the raw truth and src/data/products.ts was NOT changed; its claim that all fifteen values match the raw HTML is false against the stored HTML.",
+        "The «Sản phẩm dành cho chó, …» sentence and «Hạn sử dụng: 06 …» each carry a U+00A0. Both are kept verbatim in text; normalisedText holds the plain-space form on those two blocks.",
+        "The price line differs in markup between routes: this one uses <strong><span style=\"font-size:20px;\">…</span> </strong><strong>(500gr)</strong>.",
+        "The feed idList=5 and this detail page agree exactly: one variant, 500gr, unit «hộp». The feed price string carries a trailing space before the closing tag, which is why the captured feed priceText is «60.000đ/hộp (500gr)».",
+        "All 6 soups carry <span class=\"check-new\"><img src=\"assets/images/new.png\"></span> in the feed and none carries <span class=\"check-hot\">, so copy calling a soup «hot» would contradict the captured feed.",
+        "The feed ends with an empty <div class=\"pagination-ajax\"></div>: there is no pagination markup on this list.",
+        "Not measured in this rebuild: intrinsic image width/height. The rebuild made no network request, so no image header was read; the render size a thumbs/ or watermark/ path encodes is recorded per media entry as sourceRenderSize."
+      ]
+    },
+    {
+      "path": "/soup-ca-tuoi",
+      "sourceUrl": "https://thebossvietnam.com/soup-ca-tuoi",
+      "httpStatus": 200,
+      "sourceTitle": "SOUP CÁ TƯƠI",
+      "metaDescription": "",
+      "h1": "SOUP CÁ TƯƠI",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Sản phẩm",
+        "Pate Tươi",
+        "SOUP CÁ TƯƠI"
+      ],
+      "blocks": [
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/4-hop-soup-ca-tuoi-500gr-9469.png",
+          "alt": "SOUP CÁ TƯƠI",
+          "role": "product-main"
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/4-hop-soup-ca-tuoi-500gr-9469.png",
+          "alt": "SOUP CÁ TƯƠI",
+          "role": "product-thumb",
+          "order": 1
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/4-soup-ca-tuoi-a4-8303.png",
+          "alt": "SOUP CÁ TƯƠI",
+          "role": "product-thumb",
+          "order": 2
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/a4huong-dan-su-dungpage2-6979.jpg",
+          "alt": "SOUP CÁ TƯƠI",
+          "role": "product-thumb",
+          "order": 3
+        },
+        {
+          "type": "p",
+          "text": "SOUP CÁ TƯƠI"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Lượt xem:",
+            "675"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Giá: 60.000đ/hộp (500gr)",
+          "rawHtml": "<p>Giá: <span style=\"font-size:20px;\"><strong>60.000đ/hộp </strong></span><strong>(500gr)</strong></p>",
+          "note": "The source puts a U+00A0 between the price and the (500gr) weight."
+        },
+        {
+          "type": "p",
+          "text": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "normalisedText": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "normalisationNote": "The source puts a U+00A0 (bytes 0xC2 0xA0) after «chó,». text keeps it verbatim; normalisedText is the same sentence with a plain space, which is the form src/data/products.ts documents this file as normalising to."
+        },
+        {
+          "type": "p",
+          "text": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "normalisedText": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "normalisationNote": "The source puts a U+00A0 before «tháng». text keeps it verbatim; normalisedText is the plain-space form."
+        },
+        {
+          "type": "p",
+          "text": "Bảo quản: ở nhiệt độ -18oC hoặc trong ngăn đông tủ lạnh.",
+          "rawHtml": "<p>Bảo quản: ở nhiệt độ -18<sup>o</sup>C hoặc trong ngăn đông tủ lạnh.</p>",
+          "flatteningNote": "The «o» in -18oC is a <sup> superscript in the source and is flattened to a plain «o» in a text block; rawHtml keeps the original markup."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Thông tin sản phẩm",
+            "Bình luận"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Sản phẩm cùng loại"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "SOUP GÀ TIỀM",
+            "SOUP HEO HẦM",
+            "SOUP VỊT TIỀM",
+            "SOUP BÒ HẦM",
+            "SOUP HẢI SẢN"
+          ]
+        }
+      ],
+      "forms": [],
+      "feed": {
+        "feedUrl": "https://thebossvietnam.com/api/product.php?perpage=9&idList=5",
+        "feedRawFile": ".scratch/raw/products/feed-idList-5.html",
+        "name": "SOUP CÁ TƯƠI",
+        "priceText": "60.000đ/hộp (500gr)",
+        "weight": "500gr",
+        "unit": "hộp",
+        "badge": "new",
+        "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-hop-soup-ca-tuoi-500gr-9469.png",
+        "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-icon-soup-ca-tuoi-500gr-9084.png",
+        "variants": [
+          {
+            "price": "60.000đ/hộp",
+            "weight": "500gr",
+            "verbatim": "60.000đ/hộp (500gr)"
+          }
+        ],
+        "feedPosition": 4,
+        "feedBadgeMarkup": "<span class=\"check-new\"><img src=\"assets/images/new.png\"></span>"
+      },
+      "detailPriceText": {
+        "line1": "60.000đ/hộp (500gr)"
+      },
+      "priceAgreementFeedVsDetail": "exact match",
+      "related": [
+        {
+          "name": "SOUP GÀ TIỀM",
+          "href": "soup-ga-tiem",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-hop-soup-ga-tiem-500gr-8807.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-icon-soup-ga-tiem-500gr-7966.png"
+        },
+        {
+          "name": "SOUP HEO HẦM",
+          "href": "soup-heo-ham",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-hop-soup-heo-ham-500gr-2426.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-icon-soup-heo-ham-500gr-9409.png"
+        },
+        {
+          "name": "SOUP VỊT TIỀM",
+          "href": "soup-vit-tiem",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-hop-soup-vit-tiem-500gr-6648.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-icon-soup-vit-tiem-500gr-2776.png"
+        },
+        {
+          "name": "SOUP BÒ HẦM",
+          "href": "soup-bo-ham",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-hop-soup-bo-ham-500gr-5025.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-icon-soup-bo-ham-500gr-7759.png"
+        },
+        {
+          "name": "SOUP HẢI SẢN",
+          "href": "soup-hai-san",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-hop-soup-hai-san-500gr-6344.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-icon-soup-hai-san-500gr-6054.png"
+        }
+      ],
+      "interactions": [
+        "Main-image zoom: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCrop: true\" href=\"upload/product/4-hop-soup-ca-tuoi-500gr-9469.png\" title=\"SOUP CÁ TƯƠI\"> with the image inside it. MagicZoom is initialised in assets/js/main.js.",
+        "Thumbnail switching: each of the 3 thumbnails is <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"…\" title=\"SOUP CÁ TƯƠI\">, and thumb 1 is a DIFFERENT URL from the main image — watermark/product/400x200x2/… , the same artwork at 400x200 — while thumbs 2 and 3 are root-relative upload/product/… paths.",
+        "Thumbnail carousel: <div class=\"owl-page owl-carousel owl-theme owl-pro-detail\" data-items=\"screen:0|items:5|margin:10\" data-nav=\"1\" data-navcontainer=\".control-owl-pro-detail\"> wraps the 3 thumbnails.",
+        "Product tabs: <ul class=\"nav nav-tabs\" id=\"tabsProDetail\" role=\"tablist\"> with <a class=\"nav-link active\" id=\"info-pro-detail-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#info-pro-detail\"> and <a class=\"nav-link\" id=\"commentfb-pro-detail-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#commentfb-pro-detail\">. Bootstrap 5 tabs.",
+        "Share bar (AddToAny): <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> with a2a_dd, a2a_button_facebook, a2a_button_twitter, a2a_button_facebook_messenger and a2a_button_copy_link, initialised by https://static.addtoany.com/menu/page.js.",
+        "Zalo share: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/soup-ca-tuoi\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div> from the third-party script https://sp.zalo.me/plugins/sdk.js.",
+        "Comment tab embed: <div class=\"fb-comments\" data-href=\"https://thebossvietnam.com/soup-ca-tuoi\" data-numposts=\"3\" data-colorscheme=\"light\" data-width=\"100%\">. The Facebook SDK is injected 2000 ms after load by api/addons.php?type=messages-facebook, so the tab stays empty without that request — and nothing in the markup fills it otherwise.",
+        "Chat widget: <div id=\"messages-facebook\"></div> is filled after a 2000 ms timeout by the api/addons.php?type=messages-facebook response (captured at .scratch/raw/products/addons-messages-facebook.html), which renders the FB Messenger launcher.",
+        "Related-products rail: 5 static product cards (the other five soups) in .col-4.col-20 wrappers, each with two lazy images (a.pic-product1 and a.pic-product2, data-src only, no src) and <span class=\"price-new\">Liên hệ</span> as the price element.",
+        "No <form> element and no client-side form validation on this route; the page config still defines a global reCAPTCHA v3 key."
+      ],
+      "seoDefects": [
+        "<title>SOUP CÁ TƯƠI</title> is the bare product name in caps: no brand, no price, no weight, no separator.",
+        "<h1 class=\"hidden-seoh\">SOUP CÁ TƯƠI</h1> is CSS-hidden, so the only H1 on the page is invisible and the visible product name is an <h3> above the fold. The document outline is inverted: a hidden h1 behind a visible h3.",
+        "<meta name=\"description\" content=\"\" />, <meta name=\"keywords\" content=\"\" />, <meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are ALL empty strings.",
+        "<html lang=\"vi|en\"> is not a valid BCP-47 tag, and <meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width rather than width=device-width, initial-scale=1.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> puts an e-mail address in a Twitter handle field.",
+        "<meta property=\"og:type\" content=\"article\" /> on a product detail page, and no Product or Offer JSON-LD exists anywhere in the document — only Organization and BreadcrumbList — so nothing here can be surfaced as a rich product result.",
+        "The tab labelled «Thông tin sản phẩm» is the default active pane and is completely empty (<div class=\"content-text\"></div>), while every word of the product copy sits outside the tab widget above it. The tab the visitor opens first is the one that shows nothing.",
+        "The price in .attr-pro-detail is commented out (<!-- <li><label class=\"attr-label-pro-detail\">Giá:</label> … -->), so the only structured price element on the page is dead markup and the visible price is free prose inside a <p> that cannot be validated as an Offer.",
+        "All 5 related-product cards render <span class=\"price-new\">Liên hệ</span> instead of a price, so the related rail contradicts the prose line on the same screen.",
+        "BreadcrumbList JSON-LD omits «Trang chủ»: it lists 3 itemListElement entries starting at position 1 = «Sản phẩm», while the visible breadcrumb shows 4 items starting at «Trang chủ».",
+        "The share image og:image is the 400x200 variant of the main artwork, a 2:1 crop of a product photo with the packaging text cut off."
+      ],
+      "notes": [
+        "Captured from the saved raw HTML at .scratch/raw/products/soup-ca-tuoi.html. This file was rebuilt offline from that stored response with no network request, so the capture date is the one the page itself renders in its own config block (var TIMENOW = '30/09/2026').",
+        "View counter: <label class=\"attr-label-pro-detail\">Lượt xem:</label> with <div class=\"attr-content-pro-detail\">675</div>, as rendered in the saved HTML. The counter is server-rendered and grows, so treat it as a snapshot, not a current claim.",
+        "VIEW COUNT DISCREPANCY: the stored raw HTML prints 675 for this route, while src/data/products.ts records 670. The same +5 gap is on all 15 raw product pages, so the stored HTML was fetched after the copy was written. This file records the raw truth and src/data/products.ts was NOT changed; its claim that all fifteen values match the raw HTML is false against the stored HTML.",
+        "The «Sản phẩm dành cho chó, …» sentence and «Hạn sử dụng: 06 …» each carry a U+00A0. Both are kept verbatim in text; normalisedText holds the plain-space form on those two blocks.",
+        "The price line differs in markup between routes: this one wraps the number in <span style=\"font-size:20px;\"><strong>60.000đ/hộp </strong></span> while the other five use <strong><span style=\"font-size:20px;\">…</span> </strong><strong>(500gr)</strong>.",
+        "The feed idList=5 and this detail page agree exactly: one variant, 500gr, unit «hộp». The feed price string carries a trailing space before the closing tag, which is why the captured feed priceText is «60.000đ/hộp (500gr)».",
+        "All 6 soups carry <span class=\"check-new\"><img src=\"assets/images/new.png\"></span> in the feed and none carries <span class=\"check-hot\">, so copy calling a soup «hot» would contradict the captured feed.",
+        "The feed ends with an empty <div class=\"pagination-ajax\"></div>: there is no pagination markup on this list.",
+        "Not measured in this rebuild: intrinsic image width/height. The rebuild made no network request, so no image header was read; the render size a thumbs/ or watermark/ path encodes is recorded per media entry as sourceRenderSize."
+      ]
+    },
+    {
+      "path": "/soup-bo-ham",
+      "sourceUrl": "https://thebossvietnam.com/soup-bo-ham",
+      "httpStatus": 200,
+      "sourceTitle": "SOUP BÒ HẦM",
+      "metaDescription": "",
+      "h1": "SOUP BÒ HẦM",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Sản phẩm",
+        "Pate Tươi",
+        "SOUP BÒ HẦM"
+      ],
+      "blocks": [
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/3-hop-soup-bo-ham-500gr-5025.png",
+          "alt": "SOUP BÒ HẦM",
+          "role": "product-main"
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/3-hop-soup-bo-ham-500gr-5025.png",
+          "alt": "SOUP BÒ HẦM",
+          "role": "product-thumb",
+          "order": 1
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/3-soup-bo-ham-a4-1353.png",
+          "alt": "SOUP BÒ HẦM",
+          "role": "product-thumb",
+          "order": 2
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/a4huong-dan-su-dungpage2-5511.jpg",
+          "alt": "SOUP BÒ HẦM",
+          "role": "product-thumb",
+          "order": 3
+        },
+        {
+          "type": "p",
+          "text": "SOUP BÒ HẦM"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Lượt xem:",
+            "691"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Giá: 70.000đ/hộp (500gr)",
+          "rawHtml": "<p>Giá: <strong><span style=\"font-size:20px;\">70.000đ/hộp</span> </strong><strong>(500gr)</strong></p>",
+          "note": "The source puts a U+00A0 between the price and the (500gr) weight."
+        },
+        {
+          "type": "p",
+          "text": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "normalisedText": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "normalisationNote": "The source puts a U+00A0 (bytes 0xC2 0xA0) after «chó,». text keeps it verbatim; normalisedText is the same sentence with a plain space, which is the form src/data/products.ts documents this file as normalising to."
+        },
+        {
+          "type": "p",
+          "text": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "normalisedText": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "normalisationNote": "The source puts a U+00A0 before «tháng». text keeps it verbatim; normalisedText is the plain-space form."
+        },
+        {
+          "type": "p",
+          "text": "Bảo quản: ở nhiệt độ -18oC hoặc trong ngăn đông tủ lạnh.",
+          "rawHtml": "<p>Bảo quản: ở nhiệt độ -18<sup>o</sup>C hoặc trong ngăn đông tủ lạnh.</p>",
+          "flatteningNote": "The «o» in -18oC is a <sup> superscript in the source and is flattened to a plain «o» in a text block; rawHtml keeps the original markup."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Thông tin sản phẩm",
+            "Bình luận"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Sản phẩm cùng loại"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "SOUP GÀ TIỀM",
+            "SOUP HEO HẦM",
+            "SOUP VỊT TIỀM",
+            "SOUP CÁ TƯƠI",
+            "SOUP HẢI SẢN"
+          ]
+        }
+      ],
+      "forms": [],
+      "feed": {
+        "feedUrl": "https://thebossvietnam.com/api/product.php?perpage=9&idList=5",
+        "feedRawFile": ".scratch/raw/products/feed-idList-5.html",
+        "name": "SOUP BÒ HẦM",
+        "priceText": "70.000đ/hộp (500gr)",
+        "weight": "500gr",
+        "unit": "hộp",
+        "badge": "new",
+        "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-hop-soup-bo-ham-500gr-5025.png",
+        "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-icon-soup-bo-ham-500gr-7759.png",
+        "variants": [
+          {
+            "price": "70.000đ/hộp",
+            "weight": "500gr",
+            "verbatim": "70.000đ/hộp (500gr)"
+          }
+        ],
+        "feedPosition": 5,
+        "feedBadgeMarkup": "<span class=\"check-new\"><img src=\"assets/images/new.png\"></span>"
+      },
+      "detailPriceText": {
+        "line1": "70.000đ/hộp (500gr)"
+      },
+      "priceAgreementFeedVsDetail": "exact match",
+      "related": [
+        {
+          "name": "SOUP GÀ TIỀM",
+          "href": "soup-ga-tiem",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-hop-soup-ga-tiem-500gr-8807.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-icon-soup-ga-tiem-500gr-7966.png"
+        },
+        {
+          "name": "SOUP HEO HẦM",
+          "href": "soup-heo-ham",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-hop-soup-heo-ham-500gr-2426.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-icon-soup-heo-ham-500gr-9409.png"
+        },
+        {
+          "name": "SOUP VỊT TIỀM",
+          "href": "soup-vit-tiem",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-hop-soup-vit-tiem-500gr-6648.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-icon-soup-vit-tiem-500gr-2776.png"
+        },
+        {
+          "name": "SOUP CÁ TƯƠI",
+          "href": "soup-ca-tuoi",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-hop-soup-ca-tuoi-500gr-9469.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-icon-soup-ca-tuoi-500gr-9084.png"
+        },
+        {
+          "name": "SOUP HẢI SẢN",
+          "href": "soup-hai-san",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-hop-soup-hai-san-500gr-6344.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-icon-soup-hai-san-500gr-6054.png"
+        }
+      ],
+      "interactions": [
+        "Main-image zoom: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCrop: true\" href=\"upload/product/3-hop-soup-bo-ham-500gr-5025.png\" title=\"SOUP BÒ HẦM\"> with the image inside it. MagicZoom is initialised in assets/js/main.js.",
+        "Thumbnail switching: each of the 3 thumbnails is <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"…\" title=\"SOUP BÒ HẦM\">, and thumb 1 is a DIFFERENT URL from the main image — watermark/product/400x200x2/… , the same artwork at 400x200 — while thumbs 2 and 3 are root-relative upload/product/… paths.",
+        "Thumbnail carousel: <div class=\"owl-page owl-carousel owl-theme owl-pro-detail\" data-items=\"screen:0|items:5|margin:10\" data-nav=\"1\" data-navcontainer=\".control-owl-pro-detail\"> wraps the 3 thumbnails.",
+        "Product tabs: <ul class=\"nav nav-tabs\" id=\"tabsProDetail\" role=\"tablist\"> with <a class=\"nav-link active\" id=\"info-pro-detail-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#info-pro-detail\"> and <a class=\"nav-link\" id=\"commentfb-pro-detail-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#commentfb-pro-detail\">. Bootstrap 5 tabs.",
+        "Share bar (AddToAny): <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> with a2a_dd, a2a_button_facebook, a2a_button_twitter, a2a_button_facebook_messenger and a2a_button_copy_link, initialised by https://static.addtoany.com/menu/page.js.",
+        "Zalo share: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/soup-bo-ham\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div> from the third-party script https://sp.zalo.me/plugins/sdk.js.",
+        "Comment tab embed: <div class=\"fb-comments\" data-href=\"https://thebossvietnam.com/soup-bo-ham\" data-numposts=\"3\" data-colorscheme=\"light\" data-width=\"100%\">. The Facebook SDK is injected 2000 ms after load by api/addons.php?type=messages-facebook, so the tab stays empty without that request — and nothing in the markup fills it otherwise.",
+        "Chat widget: <div id=\"messages-facebook\"></div> is filled after a 2000 ms timeout by the api/addons.php?type=messages-facebook response (captured at .scratch/raw/products/addons-messages-facebook.html), which renders the FB Messenger launcher.",
+        "Related-products rail: 5 static product cards (the other five soups) in .col-4.col-20 wrappers, each with two lazy images (a.pic-product1 and a.pic-product2, data-src only, no src) and <span class=\"price-new\">Liên hệ</span> as the price element.",
+        "No <form> element and no client-side form validation on this route; the page config still defines a global reCAPTCHA v3 key."
+      ],
+      "seoDefects": [
+        "<title>SOUP BÒ HẦM</title> is the bare product name in caps: no brand, no price, no weight, no separator.",
+        "<h1 class=\"hidden-seoh\">SOUP BÒ HẦM</h1> is CSS-hidden, so the only H1 on the page is invisible and the visible product name is an <h3> above the fold. The document outline is inverted: a hidden h1 behind a visible h3.",
+        "<meta name=\"description\" content=\"\" />, <meta name=\"keywords\" content=\"\" />, <meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are ALL empty strings.",
+        "<html lang=\"vi|en\"> is not a valid BCP-47 tag, and <meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width rather than width=device-width, initial-scale=1.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> puts an e-mail address in a Twitter handle field.",
+        "<meta property=\"og:type\" content=\"article\" /> on a product detail page, and no Product or Offer JSON-LD exists anywhere in the document — only Organization and BreadcrumbList — so nothing here can be surfaced as a rich product result.",
+        "The tab labelled «Thông tin sản phẩm» is the default active pane and is completely empty (<div class=\"content-text\"></div>), while every word of the product copy sits outside the tab widget above it. The tab the visitor opens first is the one that shows nothing.",
+        "The price in .attr-pro-detail is commented out (<!-- <li><label class=\"attr-label-pro-detail\">Giá:</label> … -->), so the only structured price element on the page is dead markup and the visible price is free prose inside a <p> that cannot be validated as an Offer.",
+        "All 5 related-product cards render <span class=\"price-new\">Liên hệ</span> instead of a price, so the related rail contradicts the prose line on the same screen.",
+        "BreadcrumbList JSON-LD omits «Trang chủ»: it lists 3 itemListElement entries starting at position 1 = «Sản phẩm», while the visible breadcrumb shows 4 items starting at «Trang chủ».",
+        "The share image og:image is the 400x200 variant of the main artwork, a 2:1 crop of a product photo with the packaging text cut off."
+      ],
+      "notes": [
+        "Captured from the saved raw HTML at .scratch/raw/products/soup-bo-ham.html. This file was rebuilt offline from that stored response with no network request, so the capture date is the one the page itself renders in its own config block (var TIMENOW = '30/09/2026').",
+        "View counter: <label class=\"attr-label-pro-detail\">Lượt xem:</label> with <div class=\"attr-content-pro-detail\">691</div>, as rendered in the saved HTML. The counter is server-rendered and grows, so treat it as a snapshot, not a current claim.",
+        "VIEW COUNT DISCREPANCY: the stored raw HTML prints 691 for this route, while src/data/products.ts records 686. The same +5 gap is on all 15 raw product pages, so the stored HTML was fetched after the copy was written. This file records the raw truth and src/data/products.ts was NOT changed; its claim that all fifteen values match the raw HTML is false against the stored HTML.",
+        "The «Sản phẩm dành cho chó, …» sentence and «Hạn sử dụng: 06 …» each carry a U+00A0. Both are kept verbatim in text; normalisedText holds the plain-space form on those two blocks.",
+        "The price line differs in markup between routes: this one uses <strong><span style=\"font-size:20px;\">…</span> </strong><strong>(500gr)</strong>.",
+        "The feed idList=5 and this detail page agree exactly: one variant, 500gr, unit «hộp». The feed price string carries a trailing space before the closing tag, which is why the captured feed priceText is «70.000đ/hộp (500gr)».",
+        "All 6 soups carry <span class=\"check-new\"><img src=\"assets/images/new.png\"></span> in the feed and none carries <span class=\"check-hot\">, so copy calling a soup «hot» would contradict the captured feed.",
+        "The feed ends with an empty <div class=\"pagination-ajax\"></div>: there is no pagination markup on this list.",
+        "Not measured in this rebuild: intrinsic image width/height. The rebuild made no network request, so no image header was read; the render size a thumbs/ or watermark/ path encodes is recorded per media entry as sourceRenderSize."
+      ]
+    },
+    {
+      "path": "/soup-hai-san",
+      "sourceUrl": "https://thebossvietnam.com/soup-hai-san",
+      "httpStatus": 200,
+      "sourceTitle": "SOUP HẢI SẢN",
+      "metaDescription": "",
+      "h1": "SOUP HẢI SẢN",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Sản phẩm",
+        "Pate Tươi",
+        "SOUP HẢI SẢN"
+      ],
+      "blocks": [
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/6-hop-soup-hai-san-500gr-6344.png",
+          "alt": "SOUP HẢI SẢN",
+          "role": "product-main"
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/6-hop-soup-hai-san-500gr-6344.png",
+          "alt": "SOUP HẢI SẢN",
+          "role": "product-thumb",
+          "order": 1
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/6-soup-hai-san-a4-4569.png",
+          "alt": "SOUP HẢI SẢN",
+          "role": "product-thumb",
+          "order": 2
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/a4huong-dan-su-dungpage2-5859.jpg",
+          "alt": "SOUP HẢI SẢN",
+          "role": "product-thumb",
+          "order": 3
+        },
+        {
+          "type": "p",
+          "text": "SOUP HẢI SẢN"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Lượt xem:",
+            "646"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Giá: 70.000đ/hộp (500gr)",
+          "rawHtml": "<p>Giá: <strong><span style=\"font-size:20px;\">70.000đ/hộp</span> </strong><strong>(500gr)</strong></p>",
+          "note": "The source puts a U+00A0 between the price and the (500gr) weight."
+        },
+        {
+          "type": "p",
+          "text": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "normalisedText": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "normalisationNote": "The source puts a U+00A0 (bytes 0xC2 0xA0) after «chó,». text keeps it verbatim; normalisedText is the same sentence with a plain space, which is the form src/data/products.ts documents this file as normalising to."
+        },
+        {
+          "type": "p",
+          "text": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "normalisedText": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "normalisationNote": "The source puts a U+00A0 before «tháng». text keeps it verbatim; normalisedText is the plain-space form."
+        },
+        {
+          "type": "p",
+          "text": "Bảo quản: ở nhiệt độ -18oC hoặc trong ngăn đông tủ lạnh.",
+          "rawHtml": "<p>Bảo quản: ở nhiệt độ -18<sup>o</sup>C hoặc trong ngăn đông tủ lạnh.</p>",
+          "flatteningNote": "The «o» in -18oC is a <sup> superscript in the source and is flattened to a plain «o» in a text block; rawHtml keeps the original markup."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Thông tin sản phẩm",
+            "Bình luận"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Sản phẩm cùng loại"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "SOUP GÀ TIỀM",
+            "SOUP HEO HẦM",
+            "SOUP VỊT TIỀM",
+            "SOUP CÁ TƯƠI",
+            "SOUP BÒ HẦM"
+          ]
+        }
+      ],
+      "forms": [],
+      "feed": {
+        "feedUrl": "https://thebossvietnam.com/api/product.php?perpage=9&idList=5",
+        "feedRawFile": ".scratch/raw/products/feed-idList-5.html",
+        "name": "SOUP HẢI SẢN",
+        "priceText": "70.000đ/hộp (500gr)",
+        "weight": "500gr",
+        "unit": "hộp",
+        "badge": "new",
+        "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-hop-soup-hai-san-500gr-6344.png",
+        "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-icon-soup-hai-san-500gr-6054.png",
+        "variants": [
+          {
+            "price": "70.000đ/hộp",
+            "weight": "500gr",
+            "verbatim": "70.000đ/hộp (500gr)"
+          }
+        ],
+        "feedPosition": 6,
+        "feedBadgeMarkup": "<span class=\"check-new\"><img src=\"assets/images/new.png\"></span>"
+      },
+      "detailPriceText": {
+        "line1": "70.000đ/hộp (500gr)"
+      },
+      "priceAgreementFeedVsDetail": "exact match",
+      "related": [
+        {
+          "name": "SOUP GÀ TIỀM",
+          "href": "soup-ga-tiem",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-hop-soup-ga-tiem-500gr-8807.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-icon-soup-ga-tiem-500gr-7966.png"
+        },
+        {
+          "name": "SOUP HEO HẦM",
+          "href": "soup-heo-ham",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-hop-soup-heo-ham-500gr-2426.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-icon-soup-heo-ham-500gr-9409.png"
+        },
+        {
+          "name": "SOUP VỊT TIỀM",
+          "href": "soup-vit-tiem",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-hop-soup-vit-tiem-500gr-6648.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-icon-soup-vit-tiem-500gr-2776.png"
+        },
+        {
+          "name": "SOUP CÁ TƯƠI",
+          "href": "soup-ca-tuoi",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-hop-soup-ca-tuoi-500gr-9469.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-icon-soup-ca-tuoi-500gr-9084.png"
+        },
+        {
+          "name": "SOUP BÒ HẦM",
+          "href": "soup-bo-ham",
+          "priceText": "Liên hệ",
+          "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-hop-soup-bo-ham-500gr-5025.png",
+          "cardImageHover": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-icon-soup-bo-ham-500gr-7759.png"
+        }
+      ],
+      "interactions": [
+        "Main-image zoom: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCrop: true\" href=\"upload/product/6-hop-soup-hai-san-500gr-6344.png\" title=\"SOUP HẢI SẢN\"> with the image inside it. MagicZoom is initialised in assets/js/main.js.",
+        "Thumbnail switching: each of the 3 thumbnails is <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"…\" title=\"SOUP HẢI SẢN\">, and thumb 1 is a DIFFERENT URL from the main image — watermark/product/400x200x2/… , the same artwork at 400x200 — while thumbs 2 and 3 are root-relative upload/product/… paths.",
+        "Thumbnail carousel: <div class=\"owl-page owl-carousel owl-theme owl-pro-detail\" data-items=\"screen:0|items:5|margin:10\" data-nav=\"1\" data-navcontainer=\".control-owl-pro-detail\"> wraps the 3 thumbnails.",
+        "Product tabs: <ul class=\"nav nav-tabs\" id=\"tabsProDetail\" role=\"tablist\"> with <a class=\"nav-link active\" id=\"info-pro-detail-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#info-pro-detail\"> and <a class=\"nav-link\" id=\"commentfb-pro-detail-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#commentfb-pro-detail\">. Bootstrap 5 tabs.",
+        "Share bar (AddToAny): <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> with a2a_dd, a2a_button_facebook, a2a_button_twitter, a2a_button_facebook_messenger and a2a_button_copy_link, initialised by https://static.addtoany.com/menu/page.js.",
+        "Zalo share: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/soup-hai-san\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div> from the third-party script https://sp.zalo.me/plugins/sdk.js.",
+        "Comment tab embed: <div class=\"fb-comments\" data-href=\"https://thebossvietnam.com/soup-hai-san\" data-numposts=\"3\" data-colorscheme=\"light\" data-width=\"100%\">. The Facebook SDK is injected 2000 ms after load by api/addons.php?type=messages-facebook, so the tab stays empty without that request — and nothing in the markup fills it otherwise.",
+        "Chat widget: <div id=\"messages-facebook\"></div> is filled after a 2000 ms timeout by the api/addons.php?type=messages-facebook response (captured at .scratch/raw/products/addons-messages-facebook.html), which renders the FB Messenger launcher.",
+        "Related-products rail: 5 static product cards (the other five soups) in .col-4.col-20 wrappers, each with two lazy images (a.pic-product1 and a.pic-product2, data-src only, no src) and <span class=\"price-new\">Liên hệ</span> as the price element.",
+        "No <form> element and no client-side form validation on this route; the page config still defines a global reCAPTCHA v3 key."
+      ],
+      "seoDefects": [
+        "<title>SOUP HẢI SẢN</title> is the bare product name in caps: no brand, no price, no weight, no separator.",
+        "<h1 class=\"hidden-seoh\">SOUP HẢI SẢN</h1> is CSS-hidden, so the only H1 on the page is invisible and the visible product name is an <h3> above the fold. The document outline is inverted: a hidden h1 behind a visible h3.",
+        "<meta name=\"description\" content=\"\" />, <meta name=\"keywords\" content=\"\" />, <meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are ALL empty strings.",
+        "<html lang=\"vi|en\"> is not a valid BCP-47 tag, and <meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width rather than width=device-width, initial-scale=1.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> puts an e-mail address in a Twitter handle field.",
+        "<meta property=\"og:type\" content=\"article\" /> on a product detail page, and no Product or Offer JSON-LD exists anywhere in the document — only Organization and BreadcrumbList — so nothing here can be surfaced as a rich product result.",
+        "The tab labelled «Thông tin sản phẩm» is the default active pane and is completely empty (<div class=\"content-text\"></div>), while every word of the product copy sits outside the tab widget above it. The tab the visitor opens first is the one that shows nothing.",
+        "The price in .attr-pro-detail is commented out (<!-- <li><label class=\"attr-label-pro-detail\">Giá:</label> … -->), so the only structured price element on the page is dead markup and the visible price is free prose inside a <p> that cannot be validated as an Offer.",
+        "All 5 related-product cards render <span class=\"price-new\">Liên hệ</span> instead of a price, so the related rail contradicts the prose line on the same screen.",
+        "BreadcrumbList JSON-LD omits «Trang chủ»: it lists 3 itemListElement entries starting at position 1 = «Sản phẩm», while the visible breadcrumb shows 4 items starting at «Trang chủ».",
+        "The share image og:image is the 400x200 variant of the main artwork, a 2:1 crop of a product photo with the packaging text cut off."
+      ],
+      "notes": [
+        "Captured from the saved raw HTML at .scratch/raw/products/soup-hai-san.html. This file was rebuilt offline from that stored response with no network request, so the capture date is the one the page itself renders in its own config block (var TIMENOW = '30/09/2026').",
+        "View counter: <label class=\"attr-label-pro-detail\">Lượt xem:</label> with <div class=\"attr-content-pro-detail\">646</div>, as rendered in the saved HTML. The counter is server-rendered and grows, so treat it as a snapshot, not a current claim.",
+        "VIEW COUNT DISCREPANCY: the stored raw HTML prints 646 for this route, while src/data/products.ts records 641. The same +5 gap is on all 15 raw product pages, so the stored HTML was fetched after the copy was written. This file records the raw truth and src/data/products.ts was NOT changed; its claim that all fifteen values match the raw HTML is false against the stored HTML.",
+        "The «Sản phẩm dành cho chó, …» sentence and «Hạn sử dụng: 06 …» each carry a U+00A0. Both are kept verbatim in text; normalisedText holds the plain-space form on those two blocks.",
+        "The price line differs in markup between routes: this one uses <strong><span style=\"font-size:20px;\">…</span> </strong><strong>(500gr)</strong>.",
+        "The feed idList=5 and this detail page agree exactly: one variant, 500gr, unit «hộp». The feed price string carries a trailing space before the closing tag, which is why the captured feed priceText is «70.000đ/hộp (500gr)».",
+        "All 6 soups carry <span class=\"check-new\"><img src=\"assets/images/new.png\"></span> in the feed and none carries <span class=\"check-hot\">, so copy calling a soup «hot» would contradict the captured feed.",
+        "The feed ends with an empty <div class=\"pagination-ajax\"></div>: there is no pagination markup on this list.",
+        "Not measured in this rebuild: intrinsic image width/height. The rebuild made no network request, so no image header was read; the render size a thumbs/ or watermark/ path encodes is recorded per media entry as sourceRenderSize."
+      ]
+    }
+  ],
+  "media": [
+    {
+      "url": "https://thebossvietnam.com/thumbs/157x60x1/assets/images/noimage.png",
+      "role": "image",
+      "alt": "",
+      "localName": "noimage",
+      "sourceRenderSize": "157x60",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/soup-hai-san"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/157x60x1/upload/photo/02-logo-boss-chu-do-nen-trang-5204.png",
+      "role": "image",
+      "alt": "",
+      "localName": "02-logo-boss-chu-do-nen-trang-5204",
+      "sourceRenderSize": "157x60",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/soup-hai-san"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/400x200x1/assets/images/noimage.png",
+      "role": "image",
+      "alt": "",
+      "localName": "noimage",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/soup-hai-san"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/1-hop-soup-ga-tiem-500gr-8807.png",
+      "role": "product-thumb",
+      "alt": "",
+      "localName": "1-hop-soup-ga-tiem-500gr-8807",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-hop-soup-heo-ham-500gr-2426.png",
+      "role": "product-main",
+      "alt": "",
+      "localName": "2-hop-soup-heo-ham-500gr-2426",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/soup-hai-san",
+        "/san-pham",
+        "/pate"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-icon-soup-heo-ham-500gr-9409.png",
+      "role": "product-hover",
+      "alt": "",
+      "localName": "2-icon-soup-heo-ham-500gr-9409",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/soup-hai-san",
+        "/san-pham",
+        "/pate"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-hop-soup-vit-tiem-500gr-6648.png",
+      "role": "product-main",
+      "alt": "",
+      "localName": "5-hop-soup-vit-tiem-500gr-6648",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/soup-hai-san",
+        "/san-pham",
+        "/pate"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-icon-soup-vit-tiem-500gr-2776.png",
+      "role": "product-hover",
+      "alt": "",
+      "localName": "5-icon-soup-vit-tiem-500gr-2776",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/soup-hai-san",
+        "/san-pham",
+        "/pate"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-hop-soup-ca-tuoi-500gr-9469.png",
+      "role": "product-main",
+      "alt": "",
+      "localName": "4-hop-soup-ca-tuoi-500gr-9469",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-bo-ham",
+        "/soup-hai-san",
+        "/san-pham",
+        "/pate"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-icon-soup-ca-tuoi-500gr-9084.png",
+      "role": "product-hover",
+      "alt": "",
+      "localName": "4-icon-soup-ca-tuoi-500gr-9084",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-bo-ham",
+        "/soup-hai-san",
+        "/san-pham",
+        "/pate"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-hop-soup-bo-ham-500gr-5025.png",
+      "role": "product-main",
+      "alt": "",
+      "localName": "3-hop-soup-bo-ham-500gr-5025",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-hai-san",
+        "/san-pham",
+        "/pate"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-icon-soup-bo-ham-500gr-7759.png",
+      "role": "product-hover",
+      "alt": "",
+      "localName": "3-icon-soup-bo-ham-500gr-7759",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-hai-san",
+        "/san-pham",
+        "/pate"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-hop-soup-hai-san-500gr-6344.png",
+      "role": "product-main",
+      "alt": "",
+      "localName": "6-hop-soup-hai-san-500gr-6344",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/san-pham",
+        "/pate"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-icon-soup-hai-san-500gr-6054.png",
+      "role": "product-hover",
+      "alt": "",
+      "localName": "6-icon-soup-hai-san-500gr-6054",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/san-pham",
+        "/pate"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/210x80x1/assets/images/noimage.png",
+      "role": "image",
+      "alt": "",
+      "localName": "noimage",
+      "sourceRenderSize": "210x80",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/soup-hai-san"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/240x180x2/upload/photo/hinh-anh-dan-den-fanpage-9032.jpg",
+      "role": "image",
+      "alt": "",
+      "localName": "hinh-anh-dan-den-fanpage-9032",
+      "sourceRenderSize": "240x180",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/soup-hai-san"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/35x35x2/assets/images/noimage.png",
+      "role": "image",
+      "alt": "",
+      "localName": "noimage",
+      "sourceRenderSize": "35x35",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/soup-hai-san"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/assets/images/zl.png",
+      "role": "image",
+      "alt": "",
+      "localName": "zl",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ga-tiem",
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/soup-hai-san"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/2-hop-soup-heo-ham-500gr-2426.png",
+      "role": "product-thumb",
+      "alt": "",
+      "localName": "2-hop-soup-heo-ham-500gr-2426",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-heo-ham"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-hop-soup-ga-tiem-500gr-8807.png",
+      "role": "product-main",
+      "alt": "",
+      "localName": "1-hop-soup-ga-tiem-500gr-8807",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/soup-hai-san",
+        "/san-pham",
+        "/pate"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-icon-soup-ga-tiem-500gr-7966.png",
+      "role": "product-hover",
+      "alt": "",
+      "localName": "1-icon-soup-ga-tiem-500gr-7966",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-heo-ham",
+        "/soup-vit-tiem",
+        "/soup-ca-tuoi",
+        "/soup-bo-ham",
+        "/soup-hai-san",
+        "/san-pham",
+        "/pate"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/5-hop-soup-vit-tiem-500gr-6648.png",
+      "role": "product-thumb",
+      "alt": "",
+      "localName": "5-hop-soup-vit-tiem-500gr-6648",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-vit-tiem"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/4-hop-soup-ca-tuoi-500gr-9469.png",
+      "role": "product-thumb",
+      "alt": "",
+      "localName": "4-hop-soup-ca-tuoi-500gr-9469",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-ca-tuoi"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/3-hop-soup-bo-ham-500gr-5025.png",
+      "role": "product-thumb",
+      "alt": "",
+      "localName": "3-hop-soup-bo-ham-500gr-5025",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-bo-ham"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/6-hop-soup-hai-san-500gr-6344.png",
+      "role": "product-thumb",
+      "alt": "",
+      "localName": "6-hop-soup-hai-san-500gr-6344",
+      "sourceRenderSize": "400x200",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/soup-hai-san"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+/* Captured design tokens — .scratch/capture/company-home.json → shell.observations */
+@font-face {
+  font-family: 'SVN-Poppins';
+  src: url('./fonts/font-svn-poppins-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SVN-Poppins';
+  src: url('./fonts/font-svn-poppins.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SVN-Poppins';
+  src: url('./fonts/font-svn-poppins-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SVN-Poppins';
+  src: url('./fonts/font-svn-poppins-semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SVN-Poppins';
+  src: url('./fonts/font-svn-poppins-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SRN-CookieRun-Black-1';
+  src: url('./fonts/font-cookierun-black.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* ponytail: the source also loads Inter (variable 100-900) from Google Fonts. It is
+   served as ~18 unicode-range slices of ONE file, and the CSS carrying the
+   `unicode-range` map is a cross-origin stylesheet `scripts/fetch-media.mjs`
+   refuses to fetch. Without that map the slices cannot be bound to @font-face
+   without risking dropped Vietnamese glyphs, so they are excluded at fetch time
+   rather than downloaded and left unused. The Poppins stack carries the whole
+   site. Upgrade: capture the Google CSS alongside the files, then remove the
+   exclusion in fetch-media.mjs and add per-subset @font-face. */
+
+:root {
+  --color-dark-red: #a72223;
+  --color-red: #ec2d3f;
+  --color-black: #212529;
+  --color-gray: #6c757d;
+  --color-static: #000;
+  --background-static: #ffd400;
+  --background-hover: #eceb1b;
+  --background-powered: #f6de00;
+  --background-breadcrumb: #eee;
+  --container: 1200px;
+  --gutter: 24px;
+  --body-font-size: 14px;
+}
+
+/* Two-sided frame. The source is `width:1200px;margin:auto` with no gutter at
+   all, so at 390px its content runs to the very edge. Wide gutters keep the
+   measure readable and give the layout the air a 1200px column needs. */
+@media (min-width: 768px) {
+  :root {
+    --gutter: 48px;
+  }
+}
+
+/* Full-bleed escape hatch: banner carousels and the "Giới thiệu" block stay
+   edge to edge by opt in, everything else sits in the frame. */
+.bleed {
+  width: 100%;
+  max-width: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: var(--body-font-size);
+  font-family: 'SVN-Poppins', Arial, Helvetica, sans-serif;
+  color: var(--color-black);
+  background: #fff;
+  /* Source sets min-width:1366px here — a defect that clips at 390px, not reproduced. */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--color-dark-red);
+}
+
+.wrap-content {
+  width: min(var(--container), 100% - var(--gutter) * 2);
+  margin-inline: auto;
+}
+
+/* Same 1200px frame expressed as padding, for sections that carry their own
+   background or border and so cannot host a `.wrap-content` child without an
+   extra wrapper element. The two must stay in step: one constant, one gutter. */
+.frame {
+  padding-inline: max(var(--gutter), (100% - var(--container)) / 2);
+}
+
+/* Opt back out of the frame: the banner carousel and the "Giới thiệu" block
+   are the source's full-width bands and stay edge to edge. */
+.frame--bleed {
+  padding-inline: 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Content prose. The source sets Arial 16px / 1.5 / justify with a `line-height`
+   that resolves to 16.1px on 14px copy — too tight to read. The measure here is
+   34.5rem, which measures 65–72 characters a line in both fonts in use; the
+   families that already own a narrower column (`.handbook-article`,
+   `.prose.dealers`) override it deliberately. */
+.prose {
+  max-width: 34.5rem;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.prose p {
+  margin: 0 0 1.15em;
+  text-align: justify;
+}
+
+.prose h2 {
+  margin: 1.6em 0 0.6em;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.prose h3 {
+  margin: 1.4em 0 0.5em;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.prose ul,
+.prose ol {
+  margin: 0 0 1.15em;
+  padding-left: 22px;
+}
+
+.prose li {
+  text-align: justify;
+}
+
+.prose blockquote {
+  margin: 0 0 1.15em;
+  padding: 0.1em 0 0.1em 1.25em;
+  border-left: 2px solid var(--color-dark-red);
+  color: var(--color-black);
+  font-style: italic;
+}
+
+.prose blockquote footer {
+  font-style: normal;
+}
+
+.prose figure {
+  margin: 0 0 1.15em;
+}
+
+/* Wide tables (dealer address lists) scroll inside their own box on small screens. */
+.table-scroll {
+  overflow-x: auto;
+  max-width: 100%;
+  margin: 0 0 1.15em;
+}
+
+.prose table {
+  border-collapse: collapse;
+  min-width: 100%;
+}
+
+.prose th,
+.prose td {
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose th {
+  background: var(--background-breadcrumb);
+  font-weight: 600;
+}
+
+.prose .teaser h3 {
+  margin: 0 0 0.6em;
+}
+
+
+/* Product pager. Shared by the catalogue and the homepage grid, so it lives
+   here rather than in either family's stylesheet. The source asks the API for
+   `perpage=9`. The focus ring is the shared `:focus-visible` outline below;
+   every reachable button sits on a white background, so it stays visible. */
+.catalog-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 2.5rem 0 0;
+}
+
+/* `display:flex` above would otherwise beat the user-agent `[hidden]` rule, so
+   the pager would stay visible and dead on a JS-off page. */
+.catalog-pagination[hidden] {
+  display: none;
+}
+
+.catalog-pagination__btn {
+  min-width: 40px;
+  height: 40px;
+  padding: 0 0.65rem;
+  border: 1px solid #dee2e6;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--color-black);
+  font: inherit;
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.catalog-pagination__btn:hover:not(:disabled) {
+  border-color: var(--color-dark-red);
+  color: var(--color-dark-red);
+}
+
+.catalog-pagination__btn[aria-current='page'] {
+  background: var(--color-dark-red);
+  border-color: var(--color-dark-red);
+  color: #fff;
+}
+
+.catalog-pagination__btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+@media (max-width: 767px) {
+  .catalog-pagination {
+    gap: 6px;
+    margin-top: 1.75rem;
+  }
+
+  .catalog-pagination__btn {
+    min-width: 36px;
+    height: 36px;
+    font-size: 14px;
+  }
+}
+
+/* The `hidden` attribute loses to `.product-card { display: flex }`, so paging
+   and filtering would set it correctly and still show every card. */
+.product-card[hidden] {
+  display: none;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 999;
+  padding: 10px 20px;
+  background: var(--background-static);
+  color: var(--color-static);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-red);
+  outline-offset: 2px;
+}
+
+/* Page title — source `.title-main h2`, promoted to a visible <h1>. It is
+   emitted by `src/pages/[slug].astro` above the family view, so it carries the
+   frame itself rather than relying on a wrapper the family owns. */
+.page-title {
+  width: min(var(--container), 100% - var(--gutter) * 2);
+  margin-inline: auto;
+  margin-block: 0 1.5rem;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-dark-red);
+}
+
+main {
+  padding: 2.5rem 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

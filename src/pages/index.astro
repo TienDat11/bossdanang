@@ -1,0 +1,31 @@
+---
+/**
+ * Home `/`. Rendered through the home family's view so `/` and the other registry
+ * routes share one dispatch path.
+ */
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import { pageByPath } from '@/data/pages';
+import { viewFor } from '@/families';
+
+const page = pageByPath.get('/');
+if (!page) throw new Error('[home] "/" is missing from the route registry.');
+
+const body = viewFor(page)(page);
+---
+
+<script>
+  // The family view returns an HTML string, so the carousel markup it emits has
+  // no component to carry its behaviour; the module self-initialises on load.
+  import '@/components/carousel';
+</script>
+
+<SiteLayout
+  title={page.seo.title}
+  description={page.seo.description}
+  path={page.path}
+  image={page.seo.image}
+  noindex={page.noindex}
+>
+  <h1 class="page-title">{page.h1}</h1>
+  <Fragment set:html={body} />
+</SiteLayout>

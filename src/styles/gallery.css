@@ -1,0 +1,207 @@
+/* Gallery family — `/thu-vien-anh` and the four album routes.
+   Inlined into the family view (see the `?raw` import in
+   src/families/gallery/index.ts) because a view renders an HTML string and the
+   shared layout owns <head>. */
+
+/* ---------- Hub: album cards ---------- */
+
+.gallery-hub .album-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery-hub .album-card {
+  margin: 0;
+}
+
+.gallery-hub .album-card__link {
+  display: block;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  color: inherit;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.gallery-hub .album-card__link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgb(0 0 0 / 12%);
+}
+
+.gallery-hub .album-card__cover {
+  display: block;
+  width: 100%;
+  /* Ratio, not a pixel height: the box is reserved before the JPEG arrives, and
+     it keeps the source's 380x300 crop shape at every column count. */
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--background-static);
+}
+
+.gallery-hub .album-card__body {
+  display: block;
+  padding: 14px 16px 18px;
+}
+
+.gallery-hub .album-card__title {
+  margin: 0 0 6px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: var(--color-dark-red);
+}
+
+.gallery-hub .album-card__count {
+  margin: 0;
+  font-size: 13px;
+  color: var(--color-gray);
+}
+
+/* ---------- Album: complete static grid (renders with JS disabled) ---------- */
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.album-grid__item {
+  margin: 0;
+}
+
+.album-thumb {
+  display: block;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  line-height: 0;
+  transition: box-shadow 0.2s ease;
+}
+
+.album-thumb:hover {
+  box-shadow: 0 8px 20px rgb(0 0 0 / 14%);
+}
+
+.album-thumb__img {
+  display: block;
+  width: 100%;
+  /* Same deal: ratio over `height: 170px` so one rule covers 4→1 columns
+     without a per-breakpoint override. */
+  aspect-ratio: 17 / 10;
+  object-fit: cover;
+  background: var(--background-static);
+}
+
+/* ---------- Lightbox (enhancement: the grid above never depends on it) ---------- */
+
+.lightbox {
+  width: 100vw;
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #fff;
+}
+
+.lightbox::backdrop {
+  background: rgb(0 0 0 / 88%);
+}
+
+.lightbox:not([open]) {
+  display: none;
+}
+
+/* The panel spans the dialog so a click in the gap lands on the dialog itself
+   and can close it; only the image and the control bar take pointer events. */
+.lightbox__panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  pointer-events: none;
+}
+
+.lightbox__image {
+  display: block;
+  max-width: 100%;
+  max-height: calc(100dvh - 130px);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  pointer-events: auto;
+}
+
+.lightbox__bar {
+  display: flex;
+  flex: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  pointer-events: auto;
+}
+
+.lightbox__counter {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.lightbox__actions {
+  display: flex;
+  gap: 8px;
+}
+
+.lightbox__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 1px solid rgb(255 255 255 / 55%);
+  border-radius: 50%;
+  background: rgb(255 255 255 / 10%);
+  color: #fff;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.lightbox__btn:hover {
+  background: var(--background-static);
+  border-color: var(--background-static);
+  color: var(--color-static);
+}
+
+@media (max-width: 1024px) {
+  .album-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .album-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .album-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

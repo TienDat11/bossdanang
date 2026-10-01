@@ -1,0 +1,59 @@
+/* Catalog family — product grids, the catalogue tablist, the search result
+   region and the `/ga-xay-hon-hop` detail view.
+   Inlined into the family view (see the `?raw` import in src/families/catalog.ts)
+   because a `PageView` returns an HTML string and the shared layout owns <head>;
+   a bare side-effect import from a plain `.ts` module never reaches the output. */
+
+.product-grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px 24px}
+.product-card{margin:0;display:flex;flex-direction:column}
+/* Source art is 400x200, so every card's picture box is that ratio whatever the
+   file behind it is: equal picture heights, and with the price pushed to the
+   card foot, equal card heights however long the product name runs. */
+.product-card__pic{position:relative;aspect-ratio:2/1;background:#fff;margin-bottom:1rem;overflow:hidden}
+.product-card__img{display:block;width:100%;height:100%;object-fit:contain}
+/* The source swaps pic-product1 for pic-product2 on hover. Same effect, no JS. */
+.product-card__img--hover{position:absolute;inset:0;opacity:0;transition:opacity .2s}
+.product-card:hover .product-card__img--hover,.product-card:focus-within .product-card__img--hover{opacity:1}
+.product-card__name{font-size:18px;text-transform:uppercase;text-align:center;margin:0 0 5px;font-weight:600;line-height:1.35}
+.product-card__name a{color:var(--color-black);text-decoration:none}
+.product-card__name a:hover{color:var(--color-dark-red)}
+.product-card__price{text-align:center;margin:0 0 10px;font-size:18px;color:var(--color-red)}
+.product-card__price:first-of-type{margin-top:auto;padding-top:.5rem}
+.product-card__price-weight{font-size:12px;color:var(--color-black)}
+.product-card__badge{position:absolute;z-index:1;top:15px;width:60px;height:auto}
+.product-card__badge--hot{right:10px}
+.product-card__badge--new{left:10px}
+.product-tabs__list{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 1.5rem;padding:0;list-style:none}
+.product-tabs__tab{border:3px solid transparent;border-bottom:1px solid #dee2e6;background:none;border-radius:3px 3px 0 0;padding:.5rem 1.25rem;font:inherit;font-size:13px;text-transform:uppercase;font-weight:500;color:#333;cursor:pointer}
+.product-tabs__tab:hover{border-color:#e9ecef #e9ecef #dee2e6}
+.product-tabs__tab[aria-selected="true"]{border-top-color:#555;color:#495057;background:#fff;border-color:#dee2e6 #dee2e6 #fff}
+.search-hint{margin:0 0 1.5rem}
+.search-count{margin:0 0 1rem}
+.search-warning{margin:0;color:#664d03;background-color:#fff3cd;border:1px solid #ffecb5;border-radius:4px;padding:.75rem 1rem}
+.search-categories{margin-top:2.5rem}
+.search-categories h2{font-size:20px;margin:0 0 .75rem}
+.search-categories ul{display:flex;flex-wrap:wrap;gap:1.25rem;list-style:none;margin:0;padding:0}
+.product-detail{display:grid;grid-template-columns:minmax(0,45%) minmax(0,1fr);gap:40px;margin-bottom:3rem}
+.product-gallery__main{border:1px solid #eee;border-radius:5px;background:#fff;padding:7px;margin:0 0 10px}
+.product-gallery__main img{display:block;width:100%;height:auto}
+.product-thumbs{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.product-thumbs a{display:block;aspect-ratio:2/1;background:#fff;border:1px solid #eee;border-radius:3px;padding:5px}
+.product-thumbs img{display:block;width:100%;height:100%;object-fit:contain}
+.product-thumbs a[aria-current="true"]{border-color:#cecfd2}
+.product-price{margin:0 0 1rem}
+.product-price__line{margin:0;font-size:20px;font-weight:700}
+.product-price__line + .product-price__line{padding-left:1.75rem}
+.product-price__label{font-size:16px}
+.product-price__weight{font-size:14px;font-weight:400}
+.product-view-count{font-size:13px;color:var(--color-gray);margin:0 0 1rem}
+.product-info{margin-top:2rem}
+.product-info__list{display:flex;gap:0;margin:0;padding:0;list-style:none;border-bottom:1px solid #dee2e6}
+.product-info__tab{border:1px solid transparent;border-top:3px solid transparent;border-radius:3px 3px 0 0;margin-bottom:-1px;background:none;padding:.5rem 1.25rem;font:inherit;font-size:13px;text-transform:uppercase;font-weight:500;color:#333}
+.product-info__tab[aria-selected="true"]{border-top-color:#555;border-color:#dee2e6 #dee2e6 #fff;color:#495057;background:#fff}
+.product-related{margin-top:3rem}
+.product-related h2{font-size:24px;margin:0 0 1.25rem}
+
+
+@media (max-width:1024px){.product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:900px){.product-detail{grid-template-columns:minmax(0,1fr);gap:1.5rem}}
+@media (max-width:767px){.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}}

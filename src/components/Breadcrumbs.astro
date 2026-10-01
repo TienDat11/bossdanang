@@ -1,0 +1,75 @@
+---
+/**
+ * Visible breadcrumb trail. Only routes in the registry are linked; anything
+ * else is plain text, so the trail can never point at a dead URL.
+ */
+import type { Crumb } from '@/data/pages/types';
+import { pageByPath } from '@/data/pages';
+import { withBase } from '@/data/site';
+
+interface Props {
+  items: Crumb[];
+}
+
+const { items } = Astro.props;
+const last = items.length - 1;
+---
+
+<nav class="breadCrumbs" aria-label="Breadcrumb">
+  <div class="wrap-content">
+    <ol class="breadcrumb">
+      {
+        items.map((item, index) => {
+          const current = index === last;
+          return (
+            <li class:list={['breadcrumb-item', { active: current }]}>
+              {current || !pageByPath.has(item.path) ? (
+                <span aria-current={current ? 'page' : undefined}>{item.label}</span>
+              ) : (
+                <a href={withBase(item.path)}>{item.label}</a>
+              )}
+            </li>
+          );
+        })
+      }
+    </ol>
+  </div>
+</nav>
+
+<style>
+  .breadCrumbs {
+    background-color: var(--background-breadcrumb);
+  }
+
+  .breadCrumbs .wrap-content {
+    padding: 0.75rem 0;
+  }
+
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding: 0 0.5rem;
+    color: var(--color-gray);
+    content: '/';
+  }
+
+  .breadcrumb-item a {
+    color: var(--color-black);
+    text-decoration: none;
+  }
+
+  .breadcrumb-item a:hover {
+    color: var(--color-dark-red);
+  }
+
+  .breadcrumb-item.active span {
+    color: var(--color-gray);
+  }
+</style>

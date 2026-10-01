@@ -1,0 +1,1639 @@
+{
+  "family": "products-fresh-1",
+  "capturedAt": "2026-09-30",
+  "sourceOrigin": "https://thebossvietnam.com",
+  "feedSnapshot": {
+    "url": "https://thebossvietnam.com/api/product.php?perpage=9&idList=4",
+    "httpStatus": 200,
+    "rawEvidence": ".scratch/raw/products/feed-idList-4.html",
+    "cardCount": 9,
+    "order": [
+      "ga-xay-hon-hop",
+      "supper-ga",
+      "thit-heo",
+      "thit-bo",
+      "ca-xay",
+      "chim-cut",
+      "thit-vit",
+      "ga-ac",
+      "tom-xay-hon-hop"
+    ],
+    "checkHotCount": 2,
+    "newPngCount": 0,
+    "note": "Badge values in this file come from this snapshot only. Only THỊT HEO (position 3) and THỊT BÒ (position 4) carry <span class=\"check-hot\"><img src=\"assets/images/hot.png\"></span>. GÀ ÁC and CHIM CÚT have no badge span, contradicting any assumption that they are hot."
+  },
+  "routes": [
+    {
+      "path": "/ga-xay-hon-hop",
+      "sourceUrl": "https://thebossvietnam.com/ga-xay-hon-hop",
+      "httpStatus": 200,
+      "sourceTitle": "GÀ XAY HỖN HỢP",
+      "metaDescription": "",
+      "h1": "GÀ XAY HỖN HỢP",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Sản phẩm",
+        "Thịt Tươi Rau Củ",
+        "GÀ XAY HỖN HỢP"
+      ],
+      "blocks": [
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/ga-xay-hon-hop-3116.png",
+          "alt": "GÀ XAY HỖN HỢP",
+          "title": "GÀ XAY HỖN HỢP",
+          "role": "product-main",
+          "width": 400,
+          "height": 200,
+          "localName": "ga-xay-hon-hop-main",
+          "note": "Zoom anchor markup: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCaption: false; history: false;\" href=\"upload/product/ga-xay-hon-hop-3116.png\" title=\"GÀ XAY HỖN HỢP\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/ga-xay-hon-hop-3116.png",
+          "alt": "GÀ XAY HỖN HỢP",
+          "title": "GÀ XAY HỖN HỢP",
+          "role": "product-thumb-1",
+          "width": 400,
+          "height": 200,
+          "localName": "ga-xay-hon-hop-thumb-1",
+          "anchorHref": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/ga-xay-hon-hop-3116.png",
+          "note": "First thumbnail. Its anchor href is already absolute; thumbnails 2 and 3 use relative hrefs resolved through <base href=\"https://thebossvietnam.com/\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/ga-xay-hon-hop-4634.png",
+          "alt": "GÀ XAY HỖN HỢP",
+          "title": "GÀ XAY HỖN HỢP",
+          "role": "product-thumb-2",
+          "width": 842,
+          "height": 596,
+          "localName": "ga-xay-hon-hop-thumb-2",
+          "anchorHref": "https://thebossvietnam.com/upload/product/ga-xay-hon-hop-4634.png",
+          "note": "Thumbnail anchor markup: <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"https://thebossvietnam.com/upload/product/ga-xay-hon-hop-4634.png\" title=\"GÀ XAY HỖN HỢP\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-7753.png",
+          "alt": "GÀ XAY HỖN HỢP",
+          "title": "GÀ XAY HỖN HỢP",
+          "role": "product-thumb-3",
+          "width": 1600,
+          "height": 1131,
+          "localName": "ga-xay-hon-hop-thumb-3",
+          "anchorHref": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-7753.png",
+          "note": "Thumbnail anchor markup: <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-7753.png\" title=\"GÀ XAY HỖN HỢP\">. This third thumbnail is a shared usage-guide image, but it is titled and alt-texted as the product name."
+        },
+        {
+          "type": "p",
+          "text": "GÀ XAY HỖN HỢP",
+          "note": "Visible product name is <p class=\"title-pro-detail mb-2\">GÀ XAY HỖN HỢP</p>. The only <h1> on the page is <h1 class=\"hidden-seoh\">GÀ XAY HỖN HỢP</h1>, hidden by .hidden-seoh { visibility: hidden; height: 0px; margin: 0px; overflow: hidden; }."
+        },
+        {
+          "type": "p",
+          "text": "Lượt xem:",
+          "value": "2047",
+          "rawHtml": "<label class=\"attr-label-pro-detail\">Lượt xem:</label>\n<div class=\"attr-content-pro-detail\">2047</div>",
+          "note": "Live server-side view counter. Captured value 2047 at 2026-09-30."
+        },
+        {
+          "type": "p",
+          "text": "Giá: 33.000đ/cây (800gr)",
+          "rawHtml": "<p>Giá: <strong><span style=\"font-size:20px;\">33.000đ/cây</span><span style=\"font-size:14px;\"> (800gr)</span></strong></p>",
+          "note": "Price line 1: a 20 px price span plus a 14 px weight span inside a <strong>, prefixed by the literal label 'Giá:'."
+        },
+        {
+          "type": "p",
+          "text": "        19.000đ/cây (400gr)",
+          "rawHtml": "<p>        <strong><span style=\"font-size:20px;\">19.000đ/cây</span><span style=\"font-size:14px;\"> (400gr)</span></strong></p>",
+          "note": "Price line 2: the leading run of U+00A0 and space characters is preserved exactly as authored (codepoints a0 20 a0 20 a0 20 a0 20). No label and no bullet on this line."
+        },
+        {
+          "type": "p",
+          "text": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "rawHtml": "<p>Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.</p>",
+          "note": "Minimum-age claim: this exact sentence is identical on all five routes in this family."
+        },
+        {
+          "type": "p",
+          "text": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "rawHtml": "<p>Hạn sử dụng: 06 tháng kể từ ngày sản xuất.</p>",
+          "note": "Shelf-life claim: identical on all five routes in this family."
+        },
+        {
+          "type": "p",
+          "text": "Bảo quản: ở nhiệt độ -18^oC hoặc trong ngăn đông tủ lạnh.",
+          "rawHtml": "<p>Bảo quản: ở nhiệt độ -18<sup>o</sup>C hoặc trong ngăn đông tủ lạnh.</p>",
+          "note": "Storage instruction. The degree letter is a <sup>o</sup> superscript element, rendered above the baseline; the plain-text form keeps a caret marker where the element sits."
+        },
+        {
+          "type": "h2",
+          "text": "Sản phẩm cùng loại",
+          "note": "Heading of the related-products rail. All 8 cards are the other products of the Thịt Tươi Rau Củ category; every card price element is the placeholder <span class=\"price-new\">Liên hệ</span>, so the rail never shows the real prices that the idList=4 feed does show."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "SUPER GÀ -> /supper-ga",
+            "THỊT HEO -> /thit-heo",
+            "THỊT BÒ -> /thit-bo",
+            "CÁ XAY -> /ca-xay",
+            "CHIM CÚT -> /chim-cut",
+            "THỊT VỊT -> /thit-vit",
+            "GÀ ÁC -> /ga-ac",
+            "TÔM XAY HỖN HỢP -> /tom-xay-hon-hop"
+          ],
+          "note": "Related product names + hrefs in DOM order (a.text-split.name-product, href is a relative slug). Each card also carries two lazy card images (a.pic-product1 and a.pic-product2, data-src only with no src attribute); those are listed in the top-level media array with role product-card or related-card."
+        }
+      ],
+      "forms": [],
+      "feed": {
+        "name": "GÀ XAY HỖN HỢP",
+        "priceText": "33.000đ/cây (800gr)",
+        "weight": "800gr",
+        "unit": "cây",
+        "badge": null,
+        "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ga-xay-hon-hop-3116.png",
+        "variants": [
+          {
+            "priceText": "33.000đ/cây (800gr)",
+            "weight": "800gr",
+            "unit": "cây"
+          },
+          {
+            "priceText": "19.000đ/cây (400gr)",
+            "weight": "400gr",
+            "unit": "cây"
+          }
+        ],
+        "hoverCardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ga-xay-hon-hop-2-2399.png",
+        "feedHref": "ga-xay-hon-hop",
+        "feedBadgeImage": null,
+        "rawPriceHtml": null
+      },
+      "detailPriceText": {
+        "line1": "33.000đ/cây (800gr)",
+        "line2": "19.000đ/cây (400gr)"
+      },
+      "priceAgreementFeedVsDetail": "exact match",
+      "interactions": [
+        "Main-image zoom: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCaption: false; history: false;\" href=\"upload/product/ga-xay-hon-hop-3116.png\" title=\"GÀ XAY HỖN HỢP\">. MagicZoomPlus v5.3.4 (Plus) DEMO is bundled in assets/js/main.js and its boot loop auto-initialises every element with class MagicZoom / MagicZoomPlus: c.$A(document.byClass(\"MagicZoom\")).concat(c.$A(document.byClass(\"MagicZoomPlus\"))). The data-options string makes zoom hover-triggered (selectorTrigger: hover), disables the hint, and enables the right-click action.",
+        "Thumbnail switching: each of the 3 thumbnails is <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"...\" title=\"GÀ XAY HỖN HỢP\"><img ...></a>. MagicZoom.setupSelectors in assets/js/main.js binds them to the Zoom-1 instance with document.querySelectorAll('[data-zoom-id=\"Zoom-1\"]') (plus a [rel*=\"zoom-id\"] fallback), so clicking a thumbnail swaps the main image. State CSS: .thumb-pro-detail { display: block !important; border: 1px solid #eee; padding: 5px; border-radius: 3px; cursor: pointer; background-color: #ffffff; } and .thumb-pro-detail.mz-thumb.mz-thumb-selected { border-color: #cecfd2; }.",
+        "Thumbnail carousel: <div class=\"owl-page owl-carousel owl-theme owl-pro-detail\" data-items=\"screen:0|items:5|margin:10\" data-nav=\"1\" data-navcontainer=\".control-pro-detail\"> is initialised by NN_FRAMEWORK.OwlData in assets/js/apps.js, which reads data-items, data-nav and data-navcontainer and injects two inline SVG chevrons (icon-tabler-chevron-left / icon-tabler-chevron-right) into <div class=\"control-pro-detail control-owl transition\">. No data-dots, data-autoplay, data-loop, data-mousedrag or data-touchdrag attributes are present, so no dots, autoplay or drag is configured for this carousel.",
+        "Product tabs: <ul class=\"nav nav-tabs\" id=\"tabsProDetail\" role=\"tablist\"> with <a class=\"nav-link active\" id=\"info-pro-detail-tab\" data-bs-toggle=\"tab\" href=\"#info-pro-detail\" role=\"tab\">Thông tin sản phẩm</a> and <a class=\"nav-link\" id=\"commentfb-pro-detail-tab\" data-bs-toggle=\"tab\" href=\"#commentfb-pro-detail\" role=\"tab\">Bình luận</a>; panes are <div class=\"tab-pane fade show active\" id=\"info-pro-detail\" role=\"tabpanel\"> and <div class=\"tab-pane fade\" id=\"commentfb-pro-detail\" role=\"tabpanel\">. data-bs-toggle=\"tab\" is handled by the Bootstrap 5 tab plugin bundled in assets/js/main.js (hide.bs.tab / show.bs.tab events confirmed present).",
+        "Share bar (AddToAny): <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> containing <a class=\"a2a_dd\" href=\"https://www.addtoany.com/share\"></a>, <a class=\"a2a_button_facebook\"></a>, <a class=\"a2a_button_twitter\"></a>, <a class=\"a2a_button_facebook_messenger\"></a>, <a class=\"a2a_button_copy_link\"></a>. All five anchors are empty in the server HTML and are populated by the third-party script https://static.addtoany.com/menu/page.js.",
+        "Zalo share: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/ga-xay-hon-hop\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div>, initialised by the third-party script https://sp.zalo.me/plugins/sdk.js.",
+        "Comment tab embed: <div class=\"fb-comments\" data-href=\"https://thebossvietnam.com/ga-xay-hon-hop\" data-numposts=\"3\" data-colorscheme=\"light\" data-width=\"100%\"></div>, populated by //connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v15.0 injected into <div id=\"fb-root\">.",
+        "Chat widget: <div id=\"messages-facebook\"></div> is filled after a 2000 ms timeout by $(function(){setTimeout(function(){$(\"#messages-facebook\").load(\"api/addons.php?type=messages-facebook\")},2000);});. The returned fragment was captured at .scratch/raw/products/addons-messages-facebook.html and contains <div class=\"js-facebook-messenger-box onApp rotate bottom-right cfm rubberBand animated\" data-anim=\"rubberBand\"> with an inline messenger SVG and a close SVG, a header reading \"Hotline: .\" (the phone number is empty on the source), and <div class=\"fb-page\" data-href=\"https://www.facebook.com/TheBossVietnam\" data-tabs=\"messages\" data-small-header=\"true\" data-height=\"300\" data-adapt-container-width=\"true\" data-hide-cover=\"false\" data-show-facepile=\"true\"> with a fb-xfbml-parse-ignore blockquote fallback.",
+        "Third-party script block: <div id=\"script-main\"></div> is filled by api/addons.php?type=script-main, whose captured response (.scratch/raw/products/addons-script-main.html) is exactly <div id=\"fb-root\"></div> plus the Facebook SDK, https://sp.zalo.me/plugins/sdk.js and https://static.addtoany.com/menu/page.js.",
+        "Related-products rail: 8 static product cards in .col-4.col-20 wrappers, each with two lazy images (a.pic-product1 and a.pic-product2, data-src only with no src, so nothing renders with JS off) and a price element that is always the placeholder <span class=\"price-new\">Liên hệ</span> — the real prices are absent from the related rail. The .pagination-home container below the rail is empty, so there is no pagination control.",
+        "Header search entry point (shell, not product content): <div id=\"search\"> with <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> plus <input type=\"hidden\" onclick=\"onSearch('keyword');\"> and <a class=\"search\" href=\"javascript:void();\"></a>.",
+        "No variant pickers on this route: the .color-pro-detail, .size-pro-detail and .quantity-pro-detail handlers that exist in assets/js/apps.js never bind because that markup is absent. The colour block's only AJAX call (api/color.php, then MagicZoom.refresh('Zoom-1') and NN_FRAMEWORK.OwlData) is therefore unreachable here.",
+        "No <form> element and no client-side form validation on this route. A global reCAPTCHA v3 key is defined in the page config (RECAPTCHA_ACTIVE = true; RECAPTCHA_SITEKEY = '6LdqpecqAAAAAIhAzHyxZjWEUUOjT0e5KoT8b-NP') but is only loaded on change of 'form input.reset-token', and no such input exists on this route."
+      ],
+      "seoDefects": [
+        "<meta name=\"description\" content=\"\" /> is an empty string; <meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are empty too.",
+        "<meta name=\"keywords\" content=\"\" /> is an empty string.",
+        "<html lang=\"vi|en\"> — the lang attribute value is a pipe-delimited list, not a valid language tag.",
+        "The only <h1> is <h1 class=\"hidden-seoh\">GÀ XAY HỖN HỢP</h1> and assets/css/style.css defines .hidden-seoh { visibility: hidden; height: 0px; margin: 0px; overflow: hidden; }, so the H1 is invisible to sighted users; the visible product name is a <p class=\"title-pro-detail mb-2\">.",
+        "A structured price row exists in the source but is dead-code commented out, so no machine-readable price ships: <!-- <li>\n                <label class=\"attr-label-pro-detail\">Giá:</label>\n                <div class=\"attr-content-pro-detail\">\n                                            <span class=\"price-new-pro-detail\">Liên hệ</span>\n                                    </div>\n            </li> -->. Its value \"Liên hệ\" also contradicts the visible prose prices.",
+        "<meta property=\"og:type\" content=\"article\" /> is used on a product page instead of a product type.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\" /> puts an email address in the twitter:site handle field.",
+        "The Twitter card block re-emits Open Graph properties instead of twitter:* names: <meta property=\"og:url\" content=\"https://thebossvietnam.com/ga-xay-hon-hop\">, <meta property=\"og:title\" content=\"GÀ XAY HỖN HỢP\">, <meta property=\"og:description\" content=\"\"> and <meta property=\"og:image\" content=\"https://thebossvietnam.com/thumbs/400x200x2/upload/product/ga-xay-hon-hop-3116.png\">, duplicating the og block and leaving twitter:title / twitter:description / twitter:image unset.",
+        "<meta name=\"viewport\" content=\"width=1366px\"> pins a fixed desktop viewport instead of width=device-width, initial-scale=1, which is what forces the 390 px horizontal overflow.",
+        "JSON-LD BreadcrumbList has 3 items starting at \"Sản phẩm\" (position 1) while the visible breadcrumb renders 4 items starting at \"Trang chủ\"; \"Trang chủ\" is missing from the structured data.",
+        "JSON-LD Organization declares an empty sameAs array and no telephone; the address uses addressRegion \"Ho Chi Minh\" (English) and addressCountry \"vi\" (lowercase, should be \"VN\"), with a hard-coded postalCode \"70000\".",
+        "The microdata block <ul class=\"h-card hidden\"> declares <li class=\"h-tel tel\"></li> with an empty telephone value.",
+        "<a class=\"logo-head\" href=\"\"> in both the header and the centre menu, and <a class=\"logo-footer\" href=\"\"> in the footer, are empty-href placeholder links.",
+        "The favicon is https://thebossvietnam.com/upload/photo/thiet-ke-chua-co-ten-8-6944.png — the source file name is literally \"thiet-ke-chua-co-ten\" (design without a name).",
+        "Third-party JavaScript loads on every product detail page: assets/js/jquery.min.js, assets/js/main.js (bundles Bootstrap 5, MagicZoomPlus v5.3.4 DEMO and a TOC script), assets/js/functions.js, assets/mmenu/mmenu.js, assets/js/circleText.js, assets/js/flatpickr.js, assets/js/apps.js, then dynamically //connect.facebook.net/vi_VN/sdk.js, https://sp.zalo.me/plugins/sdk.js and https://static.addtoany.com/menu/page.js.",
+        "The floating Zalo button points at the bare domain <a class=\"btn-zalo btn-frame text-decoration-none\" target=\"blank\" href=\"https://zalo.me/\"> instead of a real OA URL, so it is a dead link.",
+        "The chat-widget header text is literally \"Hotline: .\" — the phone number after the colon is empty on the source."
+      ],
+      "notes": [
+        "Captured 2026-09-30. HTTP status 200 for GET https://thebossvietnam.com/ga-xay-hon-hop (curl -sS -o NUL -w \"%{http_code} %{url_effective}\" -L returned \"200 https://thebossvietnam.com/ga-xay-hon-hop\", i.e. no redirect; url_effective equals the request URL).",
+        "Visible view counter captured at 2026-09-30: <div class=\"attr-content-pro-detail\">2047</div> beside <label class=\"attr-label-pro-detail\">Lượt xem:</label>. This is a live server counter that changes on every page view; it is a snapshot, not a build-time constant, and must not be presented as a current claim without re-fetching.",
+        "Feed snapshot: GET https://thebossvietnam.com/api/product.php?perpage=9&idList=4 returned HTTP 200 with 9 cards; the unmodified response is saved at .scratch/raw/products/feed-idList-4.html. This product is card 1 of 9.",
+        "Feed card order and badges, read from the snapshot: 1. GÀ XAY HỖN HỢP (feedHref \"ga-xay-hon-hop\") badge=none prices=33.000đ/cây (800gr) | 19.000đ/cây (400gr) | 2. SUPER GÀ (feedHref \"supper-ga\") badge=none prices=43.000đ/cây (800gr) | 26.000đ/cây (400gr) | 3. THỊT HEO (feedHref \"thit-heo\") badge=hot prices=67.000đ/cây (800gr) | 39.000đ/cây (400gr) | 4. THỊT BÒ (feedHref \"thit-bo\") badge=hot prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 5. CÁ XAY (feedHref \"ca-xay\") badge=none prices=67.000đ/cây (800gr) | 39.000đ/cây (400gr) | 6. CHIM CÚT (feedHref \"chim-cut\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 7. THỊT VỊT (feedHref \"thit-vit\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 8. GÀ ÁC (feedHref \"ga-ac\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 9. TÔM XAY HỖN HỢP (feedHref \"tom-xay-hon-hop\") badge=none prices=56.000đ/cây (400gr). The feed contains exactly 2 check-hot spans and 0 new.png occurrences across all 9 cards.",
+        "Badge is null and this is verified, not assumed: the feed card for GÀ XAY HỖN HỢP has no <span class=\"check-hot\"> and no <span class=\"check-new\"> span at all, and there is no new.png anywhere in the feed response. In particular GÀ ÁC (feed position 8) has NO badge, contrary to the task hint that listed it as hot - only THỊT HEO (position 3) and THỊT BÒ (position 4) are hot.",
+        "Feed and detail prose prices for this route: feed = 33.000đ/cây (800gr) | 19.000đ/cây (400gr); detail = 33.000đ/cây (800gr) | 19.000đ/cây (400gr). They agree exactly. The detail page presents the price only as prose inside .desc-pro-detail, never as a structured field.",
+        "The commented-out price row, reproduced verbatim from the source markup: <!-- <li>\n                <label class=\"attr-label-pro-detail\">Giá:</label>\n                <div class=\"attr-content-pro-detail\">\n                                            <span class=\"price-new-pro-detail\">Liên hệ</span>\n                                    </div>\n            </li> -->",
+        "The \"Thông tin sản phẩm\" tab pane is near-empty: \"<div class=\\\"content-text\\\">\". All product prose lives in .desc-pro-detail above the tabs, not inside the tab, so the default tab shows nothing.",
+        "Third thumbnail is a shared usage-guide image (https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-7753.png), 1600x1131, titled and alt-texted as \"GÀ XAY HỖN HỢP\". Each of the five products carries its own numbered copy of the same guide, so these are five distinct files of one shared document.",
+        "Image dimensions in this file were read from the PNG IHDR chunk of the first 64 bytes via HTTP Range requests (every asset answered 206 Partial Content); no image binary was downloaded. All product PNGs on this family are real image/png - no WebP bytes served under a .png extension.",
+        "Media naming: the top-level media array is deduplicated by URL. A product's own card image is emitted once with role product-card; the same URLs also appear in this route's related rail, so usedOn lists every route that references them. Card images belonging to the four products outside this family (chim-cut, thit-vit, ga-ac, tom-xay-hon-hop) are emitted with role related-card because they are only reachable from these pages' related rails.",
+        "No <form> element exists anywhere in this route's markup and there is no client-side validation; forms[] is empty by observation, not by omission.",
+        "Empty regions to know about when rebuilding: the .pagination-home container under the related rail is empty, the #info-pro-detail pane is empty, and the header search input ships no results markup (results live on a separate route).",
+        "Not captured by design: header, footer, breadcrumb shell and the FB/Zalo/AddToAny widget markup are owned by another family. The interactions list still records their wiring because it is present in these pages."
+      ]
+    },
+    {
+      "path": "/supper-ga",
+      "sourceUrl": "https://thebossvietnam.com/supper-ga",
+      "httpStatus": 200,
+      "sourceTitle": "SUPER GÀ",
+      "metaDescription": "",
+      "h1": "SUPER GÀ",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Sản phẩm",
+        "Thịt Tươi Rau Củ",
+        "SUPER GÀ"
+      ],
+      "blocks": [
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/super-ga-9866.png",
+          "alt": "SUPER GÀ",
+          "title": "SUPER GÀ",
+          "role": "product-main",
+          "width": 400,
+          "height": 200,
+          "localName": "supper-ga-main",
+          "note": "Zoom anchor markup: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCaption: false; history: false;\" href=\"upload/product/super-ga-9866.png\" title=\"SUPER GÀ\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/super-ga-9866.png",
+          "alt": "SUPER GÀ",
+          "title": "SUPER GÀ",
+          "role": "product-thumb-1",
+          "width": 400,
+          "height": 200,
+          "localName": "supper-ga-thumb-1",
+          "anchorHref": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/super-ga-9866.png",
+          "note": "First thumbnail. Its anchor href is already absolute; thumbnails 2 and 3 use relative hrefs resolved through <base href=\"https://thebossvietnam.com/\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/super-ga-5843.png",
+          "alt": "SUPER GÀ",
+          "title": "SUPER GÀ",
+          "role": "product-thumb-2",
+          "width": 842,
+          "height": 596,
+          "localName": "supper-ga-thumb-2",
+          "anchorHref": "https://thebossvietnam.com/upload/product/super-ga-5843.png",
+          "note": "Thumbnail anchor markup: <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"https://thebossvietnam.com/upload/product/super-ga-5843.png\" title=\"SUPER GÀ\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6167.png",
+          "alt": "SUPER GÀ",
+          "title": "SUPER GÀ",
+          "role": "product-thumb-3",
+          "width": 1600,
+          "height": 1131,
+          "localName": "supper-ga-thumb-3",
+          "anchorHref": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6167.png",
+          "note": "Thumbnail anchor markup: <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6167.png\" title=\"SUPER GÀ\">. This third thumbnail is a shared usage-guide image, but it is titled and alt-texted as the product name."
+        },
+        {
+          "type": "p",
+          "text": "SUPER GÀ",
+          "note": "Visible product name is <p class=\"title-pro-detail mb-2\">SUPER GÀ</p>. The only <h1> on the page is <h1 class=\"hidden-seoh\">SUPER GÀ</h1>, hidden by .hidden-seoh { visibility: hidden; height: 0px; margin: 0px; overflow: hidden; }."
+        },
+        {
+          "type": "p",
+          "text": "Lượt xem:",
+          "value": "1596",
+          "rawHtml": "<label class=\"attr-label-pro-detail\">Lượt xem:</label>\n<div class=\"attr-content-pro-detail\">1596</div>",
+          "note": "Live server-side view counter. Captured value 1596 at 2026-09-30."
+        },
+        {
+          "type": "p",
+          "text": "Giá: 43.000đ/cây (800gr)",
+          "rawHtml": "<p>Giá: <strong><span style=\"font-size:20px;\">43.000đ/cây</span><span style=\"font-size:14px;\"> (800gr)</span></strong></p>",
+          "note": "Price line 1: a 20 px price span plus a 14 px weight span inside a <strong>, prefixed by the literal label 'Giá:'."
+        },
+        {
+          "type": "p",
+          "text": "        26.000đ/cây (400gr)",
+          "rawHtml": "<p>        <strong><span style=\"font-size:20px;\">26.000đ/cây</span><span style=\"font-size:14px;\"> (400gr)</span></strong></p>",
+          "note": "Price line 2: the leading run of U+00A0 and space characters is preserved exactly as authored (codepoints a0 20 a0 20 a0 20 a0 20). No label and no bullet on this line."
+        },
+        {
+          "type": "p",
+          "text": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "rawHtml": "<p>Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.</p>",
+          "note": "Minimum-age claim: this exact sentence is identical on all five routes in this family."
+        },
+        {
+          "type": "p",
+          "text": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "rawHtml": "<p>Hạn sử dụng: 06 tháng kể từ ngày sản xuất.</p>",
+          "note": "Shelf-life claim: identical on all five routes in this family."
+        },
+        {
+          "type": "p",
+          "text": "Bảo quản: ở nhiệt độ -18^oC hoặc trong ngăn đông tủ lạnh.",
+          "rawHtml": "<p>Bảo quản: ở nhiệt độ -18<sup>o</sup>C hoặc trong ngăn đông tủ lạnh.</p>",
+          "note": "Storage instruction. The degree letter is a <sup>o</sup> superscript element, rendered above the baseline; the plain-text form keeps a caret marker where the element sits."
+        },
+        {
+          "type": "h2",
+          "text": "Sản phẩm cùng loại",
+          "note": "Heading of the related-products rail. All 8 cards are the other products of the Thịt Tươi Rau Củ category; every card price element is the placeholder <span class=\"price-new\">Liên hệ</span>, so the rail never shows the real prices that the idList=4 feed does show."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "GÀ XAY HỖN HỢP -> /ga-xay-hon-hop",
+            "THỊT HEO -> /thit-heo",
+            "THỊT BÒ -> /thit-bo",
+            "CÁ XAY -> /ca-xay",
+            "CHIM CÚT -> /chim-cut",
+            "THỊT VỊT -> /thit-vit",
+            "GÀ ÁC -> /ga-ac",
+            "TÔM XAY HỖN HỢP -> /tom-xay-hon-hop"
+          ],
+          "note": "Related product names + hrefs in DOM order (a.text-split.name-product, href is a relative slug). Each card also carries two lazy card images (a.pic-product1 and a.pic-product2, data-src only with no src attribute); those are listed in the top-level media array with role product-card or related-card."
+        }
+      ],
+      "forms": [],
+      "feed": {
+        "name": "SUPER GÀ",
+        "priceText": "43.000đ/cây (800gr)",
+        "weight": "800gr",
+        "unit": "cây",
+        "badge": null,
+        "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/super-ga-9866.png",
+        "variants": [
+          {
+            "priceText": "43.000đ/cây (800gr)",
+            "weight": "800gr",
+            "unit": "cây"
+          },
+          {
+            "priceText": "26.000đ/cây (400gr)",
+            "weight": "400gr",
+            "unit": "cây"
+          }
+        ],
+        "hoverCardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/super-ga-2-1997.png",
+        "feedHref": "supper-ga",
+        "feedBadgeImage": null,
+        "rawPriceHtml": null
+      },
+      "detailPriceText": {
+        "line1": "43.000đ/cây (800gr)",
+        "line2": "26.000đ/cây (400gr)"
+      },
+      "priceAgreementFeedVsDetail": "exact match",
+      "interactions": [
+        "Main-image zoom: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCaption: false; history: false;\" href=\"upload/product/super-ga-9866.png\" title=\"SUPER GÀ\">. MagicZoomPlus v5.3.4 (Plus) DEMO is bundled in assets/js/main.js and its boot loop auto-initialises every element with class MagicZoom / MagicZoomPlus: c.$A(document.byClass(\"MagicZoom\")).concat(c.$A(document.byClass(\"MagicZoomPlus\"))). The data-options string makes zoom hover-triggered (selectorTrigger: hover), disables the hint, and enables the right-click action.",
+        "Thumbnail switching: each of the 3 thumbnails is <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"...\" title=\"SUPER GÀ\"><img ...></a>. MagicZoom.setupSelectors in assets/js/main.js binds them to the Zoom-1 instance with document.querySelectorAll('[data-zoom-id=\"Zoom-1\"]') (plus a [rel*=\"zoom-id\"] fallback), so clicking a thumbnail swaps the main image. State CSS: .thumb-pro-detail { display: block !important; border: 1px solid #eee; padding: 5px; border-radius: 3px; cursor: pointer; background-color: #ffffff; } and .thumb-pro-detail.mz-thumb.mz-thumb-selected { border-color: #cecfd2; }.",
+        "Thumbnail carousel: <div class=\"owl-page owl-carousel owl-theme owl-pro-detail\" data-items=\"screen:0|items:5|margin:10\" data-nav=\"1\" data-navcontainer=\".control-pro-detail\"> is initialised by NN_FRAMEWORK.OwlData in assets/js/apps.js, which reads data-items, data-nav and data-navcontainer and injects two inline SVG chevrons (icon-tabler-chevron-left / icon-tabler-chevron-right) into <div class=\"control-pro-detail control-owl transition\">. No data-dots, data-autoplay, data-loop, data-mousedrag or data-touchdrag attributes are present, so no dots, autoplay or drag is configured for this carousel.",
+        "Product tabs: <ul class=\"nav nav-tabs\" id=\"tabsProDetail\" role=\"tablist\"> with <a class=\"nav-link active\" id=\"info-pro-detail-tab\" data-bs-toggle=\"tab\" href=\"#info-pro-detail\" role=\"tab\">Thông tin sản phẩm</a> and <a class=\"nav-link\" id=\"commentfb-pro-detail-tab\" data-bs-toggle=\"tab\" href=\"#commentfb-pro-detail\" role=\"tab\">Bình luận</a>; panes are <div class=\"tab-pane fade show active\" id=\"info-pro-detail\" role=\"tabpanel\"> and <div class=\"tab-pane fade\" id=\"commentfb-pro-detail\" role=\"tabpanel\">. data-bs-toggle=\"tab\" is handled by the Bootstrap 5 tab plugin bundled in assets/js/main.js (hide.bs.tab / show.bs.tab events confirmed present).",
+        "Share bar (AddToAny): <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> containing <a class=\"a2a_dd\" href=\"https://www.addtoany.com/share\"></a>, <a class=\"a2a_button_facebook\"></a>, <a class=\"a2a_button_twitter\"></a>, <a class=\"a2a_button_facebook_messenger\"></a>, <a class=\"a2a_button_copy_link\"></a>. All five anchors are empty in the server HTML and are populated by the third-party script https://static.addtoany.com/menu/page.js.",
+        "Zalo share: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/supper-ga\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div>, initialised by the third-party script https://sp.zalo.me/plugins/sdk.js.",
+        "Comment tab embed: <div class=\"fb-comments\" data-href=\"https://thebossvietnam.com/supper-ga\" data-numposts=\"3\" data-colorscheme=\"light\" data-width=\"100%\"></div>, populated by //connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v15.0 injected into <div id=\"fb-root\">.",
+        "Chat widget: <div id=\"messages-facebook\"></div> is filled after a 2000 ms timeout by $(function(){setTimeout(function(){$(\"#messages-facebook\").load(\"api/addons.php?type=messages-facebook\")},2000);});. The returned fragment was captured at .scratch/raw/products/addons-messages-facebook.html and contains <div class=\"js-facebook-messenger-box onApp rotate bottom-right cfm rubberBand animated\" data-anim=\"rubberBand\"> with an inline messenger SVG and a close SVG, a header reading \"Hotline: .\" (the phone number is empty on the source), and <div class=\"fb-page\" data-href=\"https://www.facebook.com/TheBossVietnam\" data-tabs=\"messages\" data-small-header=\"true\" data-height=\"300\" data-adapt-container-width=\"true\" data-hide-cover=\"false\" data-show-facepile=\"true\"> with a fb-xfbml-parse-ignore blockquote fallback.",
+        "Third-party script block: <div id=\"script-main\"></div> is filled by api/addons.php?type=script-main, whose captured response (.scratch/raw/products/addons-script-main.html) is exactly <div id=\"fb-root\"></div> plus the Facebook SDK, https://sp.zalo.me/plugins/sdk.js and https://static.addtoany.com/menu/page.js.",
+        "Related-products rail: 8 static product cards in .col-4.col-20 wrappers, each with two lazy images (a.pic-product1 and a.pic-product2, data-src only with no src, so nothing renders with JS off) and a price element that is always the placeholder <span class=\"price-new\">Liên hệ</span> — the real prices are absent from the related rail. The .pagination-home container below the rail is empty, so there is no pagination control.",
+        "Header search entry point (shell, not product content): <div id=\"search\"> with <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> plus <input type=\"hidden\" onclick=\"onSearch('keyword');\"> and <a class=\"search\" href=\"javascript:void();\"></a>.",
+        "No variant pickers on this route: the .color-pro-detail, .size-pro-detail and .quantity-pro-detail handlers that exist in assets/js/apps.js never bind because that markup is absent. The colour block's only AJAX call (api/color.php, then MagicZoom.refresh('Zoom-1') and NN_FRAMEWORK.OwlData) is therefore unreachable here.",
+        "No <form> element and no client-side form validation on this route. A global reCAPTCHA v3 key is defined in the page config (RECAPTCHA_ACTIVE = true; RECAPTCHA_SITEKEY = '6LdqpecqAAAAAIhAzHyxZjWEUUOjT0e5KoT8b-NP') but is only loaded on change of 'form input.reset-token', and no such input exists on this route."
+      ],
+      "seoDefects": [
+        "<meta name=\"description\" content=\"\" /> is an empty string; <meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are empty too.",
+        "<meta name=\"keywords\" content=\"\" /> is an empty string.",
+        "<html lang=\"vi|en\"> — the lang attribute value is a pipe-delimited list, not a valid language tag.",
+        "The only <h1> is <h1 class=\"hidden-seoh\">SUPER GÀ</h1> and assets/css/style.css defines .hidden-seoh { visibility: hidden; height: 0px; margin: 0px; overflow: hidden; }, so the H1 is invisible to sighted users; the visible product name is a <p class=\"title-pro-detail mb-2\">.",
+        "A structured price row exists in the source but is dead-code commented out, so no machine-readable price ships: <!-- <li>\n                <label class=\"attr-label-pro-detail\">Giá:</label>\n                <div class=\"attr-content-pro-detail\">\n                                            <span class=\"price-new-pro-detail\">Liên hệ</span>\n                                    </div>\n            </li> -->. Its value \"Liên hệ\" also contradicts the visible prose prices.",
+        "<meta property=\"og:type\" content=\"article\" /> is used on a product page instead of a product type.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\" /> puts an email address in the twitter:site handle field.",
+        "The Twitter card block re-emits Open Graph properties instead of twitter:* names: <meta property=\"og:url\" content=\"https://thebossvietnam.com/supper-ga\">, <meta property=\"og:title\" content=\"SUPER GÀ\">, <meta property=\"og:description\" content=\"\"> and <meta property=\"og:image\" content=\"https://thebossvietnam.com/thumbs/400x200x2/upload/product/super-ga-9866.png\">, duplicating the og block and leaving twitter:title / twitter:description / twitter:image unset.",
+        "<meta name=\"viewport\" content=\"width=1366px\"> pins a fixed desktop viewport instead of width=device-width, initial-scale=1, which is what forces the 390 px horizontal overflow.",
+        "JSON-LD BreadcrumbList has 3 items starting at \"Sản phẩm\" (position 1) while the visible breadcrumb renders 4 items starting at \"Trang chủ\"; \"Trang chủ\" is missing from the structured data.",
+        "JSON-LD Organization declares an empty sameAs array and no telephone; the address uses addressRegion \"Ho Chi Minh\" (English) and addressCountry \"vi\" (lowercase, should be \"VN\"), with a hard-coded postalCode \"70000\".",
+        "The microdata block <ul class=\"h-card hidden\"> declares <li class=\"h-tel tel\"></li> with an empty telephone value.",
+        "<a class=\"logo-head\" href=\"\"> in both the header and the centre menu, and <a class=\"logo-footer\" href=\"\"> in the footer, are empty-href placeholder links.",
+        "The favicon is https://thebossvietnam.com/upload/photo/thiet-ke-chua-co-ten-8-6944.png — the source file name is literally \"thiet-ke-chua-co-ten\" (design without a name).",
+        "Third-party JavaScript loads on every product detail page: assets/js/jquery.min.js, assets/js/main.js (bundles Bootstrap 5, MagicZoomPlus v5.3.4 DEMO and a TOC script), assets/js/functions.js, assets/mmenu/mmenu.js, assets/js/circleText.js, assets/js/flatpickr.js, assets/js/apps.js, then dynamically //connect.facebook.net/vi_VN/sdk.js, https://sp.zalo.me/plugins/sdk.js and https://static.addtoany.com/menu/page.js.",
+        "The floating Zalo button points at the bare domain <a class=\"btn-zalo btn-frame text-decoration-none\" target=\"blank\" href=\"https://zalo.me/\"> instead of a real OA URL, so it is a dead link.",
+        "The chat-widget header text is literally \"Hotline: .\" — the phone number after the colon is empty on the source."
+      ],
+      "notes": [
+        "Captured 2026-09-30. HTTP status 200 for GET https://thebossvietnam.com/supper-ga (curl -sS -o NUL -w \"%{http_code} %{url_effective}\" -L returned \"200 https://thebossvietnam.com/supper-ga\", i.e. no redirect; url_effective equals the request URL).",
+        "Visible view counter captured at 2026-09-30: <div class=\"attr-content-pro-detail\">1596</div> beside <label class=\"attr-label-pro-detail\">Lượt xem:</label>. This is a live server counter that changes on every page view; it is a snapshot, not a build-time constant, and must not be presented as a current claim without re-fetching.",
+        "Feed snapshot: GET https://thebossvietnam.com/api/product.php?perpage=9&idList=4 returned HTTP 200 with 9 cards; the unmodified response is saved at .scratch/raw/products/feed-idList-4.html. This product is card 2 of 9.",
+        "Feed card order and badges, read from the snapshot: 1. GÀ XAY HỖN HỢP (feedHref \"ga-xay-hon-hop\") badge=none prices=33.000đ/cây (800gr) | 19.000đ/cây (400gr) | 2. SUPER GÀ (feedHref \"supper-ga\") badge=none prices=43.000đ/cây (800gr) | 26.000đ/cây (400gr) | 3. THỊT HEO (feedHref \"thit-heo\") badge=hot prices=67.000đ/cây (800gr) | 39.000đ/cây (400gr) | 4. THỊT BÒ (feedHref \"thit-bo\") badge=hot prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 5. CÁ XAY (feedHref \"ca-xay\") badge=none prices=67.000đ/cây (800gr) | 39.000đ/cây (400gr) | 6. CHIM CÚT (feedHref \"chim-cut\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 7. THỊT VỊT (feedHref \"thit-vit\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 8. GÀ ÁC (feedHref \"ga-ac\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 9. TÔM XAY HỖN HỢP (feedHref \"tom-xay-hon-hop\") badge=none prices=56.000đ/cây (400gr). The feed contains exactly 2 check-hot spans and 0 new.png occurrences across all 9 cards.",
+        "The slug 'supper-ga' is misspelled in the source (the product is 'SUPER GÀ'). It is kept verbatim and must not be corrected. The image file is named 'super-ga-9866.png' with the correct double-u spelling, so only the URL is misspelled.",
+        "Feed and detail prose prices for this route: feed = 43.000đ/cây (800gr) | 26.000đ/cây (400gr); detail = 43.000đ/cây (800gr) | 26.000đ/cây (400gr). They agree exactly. The detail page presents the price only as prose inside .desc-pro-detail, never as a structured field.",
+        "The commented-out price row, reproduced verbatim from the source markup: <!-- <li>\n                <label class=\"attr-label-pro-detail\">Giá:</label>\n                <div class=\"attr-content-pro-detail\">\n                                            <span class=\"price-new-pro-detail\">Liên hệ</span>\n                                    </div>\n            </li> -->",
+        "The \"Thông tin sản phẩm\" tab pane is near-empty: \"<div class=\\\"content-text\\\">\". All product prose lives in .desc-pro-detail above the tabs, not inside the tab, so the default tab shows nothing.",
+        "Third thumbnail is a shared usage-guide image (https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6167.png), 1600x1131, titled and alt-texted as \"SUPER GÀ\". Each of the five products carries its own numbered copy of the same guide, so these are five distinct files of one shared document.",
+        "Image dimensions in this file were read from the PNG IHDR chunk of the first 64 bytes via HTTP Range requests (every asset answered 206 Partial Content); no image binary was downloaded. All product PNGs on this family are real image/png - no WebP bytes served under a .png extension.",
+        "Media naming: the top-level media array is deduplicated by URL. A product's own card image is emitted once with role product-card; the same URLs also appear in this route's related rail, so usedOn lists every route that references them. Card images belonging to the four products outside this family (chim-cut, thit-vit, ga-ac, tom-xay-hon-hop) are emitted with role related-card because they are only reachable from these pages' related rails.",
+        "No <form> element exists anywhere in this route's markup and there is no client-side validation; forms[] is empty by observation, not by omission.",
+        "Empty regions to know about when rebuilding: the .pagination-home container under the related rail is empty, the #info-pro-detail pane is empty, and the header search input ships no results markup (results live on a separate route).",
+        "Not captured by design: header, footer, breadcrumb shell and the FB/Zalo/AddToAny widget markup are owned by another family. The interactions list still records their wiring because it is present in these pages."
+      ]
+    },
+    {
+      "path": "/thit-heo",
+      "sourceUrl": "https://thebossvietnam.com/thit-heo",
+      "httpStatus": 200,
+      "sourceTitle": "THỊT HEO",
+      "metaDescription": "",
+      "h1": "THỊT HEO",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Sản phẩm",
+        "Thịt Tươi Rau Củ",
+        "THỊT HEO"
+      ],
+      "blocks": [
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/thit-heo-4805.png",
+          "alt": "THỊT HEO",
+          "title": "THỊT HEO",
+          "role": "product-main",
+          "width": 400,
+          "height": 200,
+          "localName": "thit-heo-main",
+          "note": "Zoom anchor markup: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCaption: false; history: false;\" href=\"upload/product/thit-heo-4805.png\" title=\"THỊT HEO\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/thit-heo-4805.png",
+          "alt": "THỊT HEO",
+          "title": "THỊT HEO",
+          "role": "product-thumb-1",
+          "width": 400,
+          "height": 200,
+          "localName": "thit-heo-thumb-1",
+          "anchorHref": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/thit-heo-4805.png",
+          "note": "First thumbnail. Its anchor href is already absolute; thumbnails 2 and 3 use relative hrefs resolved through <base href=\"https://thebossvietnam.com/\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/thit-heo-1189.png",
+          "alt": "THỊT HEO",
+          "title": "THỊT HEO",
+          "role": "product-thumb-2",
+          "width": 842,
+          "height": 596,
+          "localName": "thit-heo-thumb-2",
+          "anchorHref": "https://thebossvietnam.com/upload/product/thit-heo-1189.png",
+          "note": "Thumbnail anchor markup: <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"https://thebossvietnam.com/upload/product/thit-heo-1189.png\" title=\"THỊT HEO\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6839.png",
+          "alt": "THỊT HEO",
+          "title": "THỊT HEO",
+          "role": "product-thumb-3",
+          "width": 1600,
+          "height": 1131,
+          "localName": "thit-heo-thumb-3",
+          "anchorHref": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6839.png",
+          "note": "Thumbnail anchor markup: <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6839.png\" title=\"THỊT HEO\">. This third thumbnail is a shared usage-guide image, but it is titled and alt-texted as the product name."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/assets/images/hot.png",
+          "alt": "",
+          "role": "badge-hot",
+          "localName": "badge-hot",
+          "width": 226,
+          "height": 136,
+          "usedOn": [
+            "/thit-heo"
+          ],
+          "note": "Badge observed in the idList=4 feed card only. The /thit-heo detail markup contains zero occurrences of check-hot, hot.png or new.png (grep -c returned 0), so the hot badge is a card-level overlay rendered by the category feed and the related-products rail, never inside the detail hero or the right-hand info column."
+        },
+        {
+          "type": "p",
+          "text": "THỊT HEO",
+          "note": "Visible product name is <p class=\"title-pro-detail mb-2\">THỊT HEO</p>. The only <h1> on the page is <h1 class=\"hidden-seoh\">THỊT HEO</h1>, hidden by .hidden-seoh { visibility: hidden; height: 0px; margin: 0px; overflow: hidden; }."
+        },
+        {
+          "type": "p",
+          "text": "Lượt xem:",
+          "value": "1399",
+          "rawHtml": "<label class=\"attr-label-pro-detail\">Lượt xem:</label>\n<div class=\"attr-content-pro-detail\">1399</div>",
+          "note": "Live server-side view counter. Captured value 1399 at 2026-09-30."
+        },
+        {
+          "type": "p",
+          "text": "Giá: 67.000đ/cây (800gr)",
+          "rawHtml": "<p>Giá: <strong><span style=\"font-size:20px;\">67.000đ/cây</span><span style=\"font-size:14px;\"> (800gr)</span></strong></p>",
+          "note": "Price line 1: a 20 px price span plus a 14 px weight span inside a <strong>, prefixed by the literal label 'Giá:'."
+        },
+        {
+          "type": "p",
+          "text": "        39.000đ/cây (400gr)",
+          "rawHtml": "<p>        <strong><span style=\"font-size:20px;\">39.000đ/cây</span><span style=\"font-size:14px;\"> (400gr)</span></strong></p>",
+          "note": "Price line 2: the leading run of U+00A0 and space characters is preserved exactly as authored (codepoints a0 20 a0 20 a0 20 a0 20). No label and no bullet on this line."
+        },
+        {
+          "type": "p",
+          "text": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "rawHtml": "<p>Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.</p>",
+          "note": "Minimum-age claim: this exact sentence is identical on all five routes in this family."
+        },
+        {
+          "type": "p",
+          "text": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "rawHtml": "<p>Hạn sử dụng: 06 tháng kể từ ngày sản xuất.</p>",
+          "note": "Shelf-life claim: identical on all five routes in this family."
+        },
+        {
+          "type": "p",
+          "text": "Bảo quản: ở nhiệt độ -18^oC hoặc trong ngăn đông tủ lạnh.",
+          "rawHtml": "<p>Bảo quản: ở nhiệt độ -18<sup>o</sup>C hoặc trong ngăn đông tủ lạnh.</p>",
+          "note": "Storage instruction. The degree letter is a <sup>o</sup> superscript element, rendered above the baseline; the plain-text form keeps a caret marker where the element sits."
+        },
+        {
+          "type": "h2",
+          "text": "Sản phẩm cùng loại",
+          "note": "Heading of the related-products rail. All 8 cards are the other products of the Thịt Tươi Rau Củ category; every card price element is the placeholder <span class=\"price-new\">Liên hệ</span>, so the rail never shows the real prices that the idList=4 feed does show."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "GÀ XAY HỖN HỢP -> /ga-xay-hon-hop",
+            "SUPER GÀ -> /supper-ga",
+            "THỊT BÒ -> /thit-bo",
+            "CÁ XAY -> /ca-xay",
+            "CHIM CÚT -> /chim-cut",
+            "THỊT VỊT -> /thit-vit",
+            "GÀ ÁC -> /ga-ac",
+            "TÔM XAY HỖN HỢP -> /tom-xay-hon-hop"
+          ],
+          "note": "Related product names + hrefs in DOM order (a.text-split.name-product, href is a relative slug). Each card also carries two lazy card images (a.pic-product1 and a.pic-product2, data-src only with no src attribute); those are listed in the top-level media array with role product-card or related-card."
+        }
+      ],
+      "forms": [],
+      "feed": {
+        "name": "THỊT HEO",
+        "priceText": "67.000đ/cây (800gr)",
+        "weight": "800gr",
+        "unit": "cây",
+        "badge": "hot",
+        "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/thit-heo-4805.png",
+        "variants": [
+          {
+            "priceText": "67.000đ/cây (800gr)",
+            "weight": "800gr",
+            "unit": "cây"
+          },
+          {
+            "priceText": "39.000đ/cây (400gr)",
+            "weight": "400gr",
+            "unit": "cây"
+          }
+        ],
+        "hoverCardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/thit-heo-2-3989.png",
+        "feedHref": "thit-heo",
+        "feedBadgeImage": "https://thebossvietnam.com/assets/images/hot.png",
+        "feedBadgeHtml": "<span class=\"check-hot\"><img src=\"assets/images/hot.png\"></span>",
+        "rawPriceHtml": null
+      },
+      "detailPriceText": {
+        "line1": "67.000đ/cây (800gr)",
+        "line2": "39.000đ/cây (400gr)"
+      },
+      "priceAgreementFeedVsDetail": "exact match",
+      "interactions": [
+        "Main-image zoom: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCaption: false; history: false;\" href=\"upload/product/thit-heo-4805.png\" title=\"THỊT HEO\">. MagicZoomPlus v5.3.4 (Plus) DEMO is bundled in assets/js/main.js and its boot loop auto-initialises every element with class MagicZoom / MagicZoomPlus: c.$A(document.byClass(\"MagicZoom\")).concat(c.$A(document.byClass(\"MagicZoomPlus\"))). The data-options string makes zoom hover-triggered (selectorTrigger: hover), disables the hint, and enables the right-click action.",
+        "Thumbnail switching: each of the 3 thumbnails is <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"...\" title=\"THỊT HEO\"><img ...></a>. MagicZoom.setupSelectors in assets/js/main.js binds them to the Zoom-1 instance with document.querySelectorAll('[data-zoom-id=\"Zoom-1\"]') (plus a [rel*=\"zoom-id\"] fallback), so clicking a thumbnail swaps the main image. State CSS: .thumb-pro-detail { display: block !important; border: 1px solid #eee; padding: 5px; border-radius: 3px; cursor: pointer; background-color: #ffffff; } and .thumb-pro-detail.mz-thumb.mz-thumb-selected { border-color: #cecfd2; }.",
+        "Thumbnail carousel: <div class=\"owl-page owl-carousel owl-theme owl-pro-detail\" data-items=\"screen:0|items:5|margin:10\" data-nav=\"1\" data-navcontainer=\".control-pro-detail\"> is initialised by NN_FRAMEWORK.OwlData in assets/js/apps.js, which reads data-items, data-nav and data-navcontainer and injects two inline SVG chevrons (icon-tabler-chevron-left / icon-tabler-chevron-right) into <div class=\"control-pro-detail control-owl transition\">. No data-dots, data-autoplay, data-loop, data-mousedrag or data-touchdrag attributes are present, so no dots, autoplay or drag is configured for this carousel.",
+        "Product tabs: <ul class=\"nav nav-tabs\" id=\"tabsProDetail\" role=\"tablist\"> with <a class=\"nav-link active\" id=\"info-pro-detail-tab\" data-bs-toggle=\"tab\" href=\"#info-pro-detail\" role=\"tab\">Thông tin sản phẩm</a> and <a class=\"nav-link\" id=\"commentfb-pro-detail-tab\" data-bs-toggle=\"tab\" href=\"#commentfb-pro-detail\" role=\"tab\">Bình luận</a>; panes are <div class=\"tab-pane fade show active\" id=\"info-pro-detail\" role=\"tabpanel\"> and <div class=\"tab-pane fade\" id=\"commentfb-pro-detail\" role=\"tabpanel\">. data-bs-toggle=\"tab\" is handled by the Bootstrap 5 tab plugin bundled in assets/js/main.js (hide.bs.tab / show.bs.tab events confirmed present).",
+        "Share bar (AddToAny): <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> containing <a class=\"a2a_dd\" href=\"https://www.addtoany.com/share\"></a>, <a class=\"a2a_button_facebook\"></a>, <a class=\"a2a_button_twitter\"></a>, <a class=\"a2a_button_facebook_messenger\"></a>, <a class=\"a2a_button_copy_link\"></a>. All five anchors are empty in the server HTML and are populated by the third-party script https://static.addtoany.com/menu/page.js.",
+        "Zalo share: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/thit-heo\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div>, initialised by the third-party script https://sp.zalo.me/plugins/sdk.js.",
+        "Comment tab embed: <div class=\"fb-comments\" data-href=\"https://thebossvietnam.com/thit-heo\" data-numposts=\"3\" data-colorscheme=\"light\" data-width=\"100%\"></div>, populated by //connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v15.0 injected into <div id=\"fb-root\">.",
+        "Chat widget: <div id=\"messages-facebook\"></div> is filled after a 2000 ms timeout by $(function(){setTimeout(function(){$(\"#messages-facebook\").load(\"api/addons.php?type=messages-facebook\")},2000);});. The returned fragment was captured at .scratch/raw/products/addons-messages-facebook.html and contains <div class=\"js-facebook-messenger-box onApp rotate bottom-right cfm rubberBand animated\" data-anim=\"rubberBand\"> with an inline messenger SVG and a close SVG, a header reading \"Hotline: .\" (the phone number is empty on the source), and <div class=\"fb-page\" data-href=\"https://www.facebook.com/TheBossVietnam\" data-tabs=\"messages\" data-small-header=\"true\" data-height=\"300\" data-adapt-container-width=\"true\" data-hide-cover=\"false\" data-show-facepile=\"true\"> with a fb-xfbml-parse-ignore blockquote fallback.",
+        "Third-party script block: <div id=\"script-main\"></div> is filled by api/addons.php?type=script-main, whose captured response (.scratch/raw/products/addons-script-main.html) is exactly <div id=\"fb-root\"></div> plus the Facebook SDK, https://sp.zalo.me/plugins/sdk.js and https://static.addtoany.com/menu/page.js.",
+        "Related-products rail: 8 static product cards in .col-4.col-20 wrappers, each with two lazy images (a.pic-product1 and a.pic-product2, data-src only with no src, so nothing renders with JS off) and a price element that is always the placeholder <span class=\"price-new\">Liên hệ</span> — the real prices are absent from the related rail. The .pagination-home container below the rail is empty, so there is no pagination control.",
+        "Header search entry point (shell, not product content): <div id=\"search\"> with <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> plus <input type=\"hidden\" onclick=\"onSearch('keyword');\"> and <a class=\"search\" href=\"javascript:void();\"></a>.",
+        "No variant pickers on this route: the .color-pro-detail, .size-pro-detail and .quantity-pro-detail handlers that exist in assets/js/apps.js never bind because that markup is absent. The colour block's only AJAX call (api/color.php, then MagicZoom.refresh('Zoom-1') and NN_FRAMEWORK.OwlData) is therefore unreachable here.",
+        "No <form> element and no client-side form validation on this route. A global reCAPTCHA v3 key is defined in the page config (RECAPTCHA_ACTIVE = true; RECAPTCHA_SITEKEY = '6LdqpecqAAAAAIhAzHyxZjWEUUOjT0e5KoT8b-NP') but is only loaded on change of 'form input.reset-token', and no such input exists on this route."
+      ],
+      "seoDefects": [
+        "<meta name=\"description\" content=\"\" /> is an empty string; <meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are empty too.",
+        "<meta name=\"keywords\" content=\"\" /> is an empty string.",
+        "<html lang=\"vi|en\"> — the lang attribute value is a pipe-delimited list, not a valid language tag.",
+        "The only <h1> is <h1 class=\"hidden-seoh\">THỊT HEO</h1> and assets/css/style.css defines .hidden-seoh { visibility: hidden; height: 0px; margin: 0px; overflow: hidden; }, so the H1 is invisible to sighted users; the visible product name is a <p class=\"title-pro-detail mb-2\">.",
+        "A structured price row exists in the source but is dead-code commented out, so no machine-readable price ships: <!-- <li>\n                <label class=\"attr-label-pro-detail\">Giá:</label>\n                <div class=\"attr-content-pro-detail\">\n                                            <span class=\"price-new-pro-detail\">Liên hệ</span>\n                                    </div>\n            </li> -->. Its value \"Liên hệ\" also contradicts the visible prose prices.",
+        "<meta property=\"og:type\" content=\"article\" /> is used on a product page instead of a product type.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\" /> puts an email address in the twitter:site handle field.",
+        "The Twitter card block re-emits Open Graph properties instead of twitter:* names: <meta property=\"og:url\" content=\"https://thebossvietnam.com/thit-heo\">, <meta property=\"og:title\" content=\"THỊT HEO\">, <meta property=\"og:description\" content=\"\"> and <meta property=\"og:image\" content=\"https://thebossvietnam.com/thumbs/400x200x2/upload/product/thit-heo-4805.png\">, duplicating the og block and leaving twitter:title / twitter:description / twitter:image unset.",
+        "<meta name=\"viewport\" content=\"width=1366px\"> pins a fixed desktop viewport instead of width=device-width, initial-scale=1, which is what forces the 390 px horizontal overflow.",
+        "JSON-LD BreadcrumbList has 3 items starting at \"Sản phẩm\" (position 1) while the visible breadcrumb renders 4 items starting at \"Trang chủ\"; \"Trang chủ\" is missing from the structured data.",
+        "JSON-LD Organization declares an empty sameAs array and no telephone; the address uses addressRegion \"Ho Chi Minh\" (English) and addressCountry \"vi\" (lowercase, should be \"VN\"), with a hard-coded postalCode \"70000\".",
+        "The microdata block <ul class=\"h-card hidden\"> declares <li class=\"h-tel tel\"></li> with an empty telephone value.",
+        "<a class=\"logo-head\" href=\"\"> in both the header and the centre menu, and <a class=\"logo-footer\" href=\"\"> in the footer, are empty-href placeholder links.",
+        "The favicon is https://thebossvietnam.com/upload/photo/thiet-ke-chua-co-ten-8-6944.png — the source file name is literally \"thiet-ke-chua-co-ten\" (design without a name).",
+        "Third-party JavaScript loads on every product detail page: assets/js/jquery.min.js, assets/js/main.js (bundles Bootstrap 5, MagicZoomPlus v5.3.4 DEMO and a TOC script), assets/js/functions.js, assets/mmenu/mmenu.js, assets/js/circleText.js, assets/js/flatpickr.js, assets/js/apps.js, then dynamically //connect.facebook.net/vi_VN/sdk.js, https://sp.zalo.me/plugins/sdk.js and https://static.addtoany.com/menu/page.js.",
+        "The floating Zalo button points at the bare domain <a class=\"btn-zalo btn-frame text-decoration-none\" target=\"blank\" href=\"https://zalo.me/\"> instead of a real OA URL, so it is a dead link.",
+        "The chat-widget header text is literally \"Hotline: .\" — the phone number after the colon is empty on the source."
+      ],
+      "notes": [
+        "Captured 2026-09-30. HTTP status 200 for GET https://thebossvietnam.com/thit-heo (curl -sS -o NUL -w \"%{http_code} %{url_effective}\" -L returned \"200 https://thebossvietnam.com/thit-heo\", i.e. no redirect; url_effective equals the request URL).",
+        "Visible view counter captured at 2026-09-30: <div class=\"attr-content-pro-detail\">1399</div> beside <label class=\"attr-label-pro-detail\">Lượt xem:</label>. This is a live server counter that changes on every page view; it is a snapshot, not a build-time constant, and must not be presented as a current claim without re-fetching.",
+        "Feed snapshot: GET https://thebossvietnam.com/api/product.php?perpage=9&idList=4 returned HTTP 200 with 9 cards; the unmodified response is saved at .scratch/raw/products/feed-idList-4.html. This product is card 3 of 9.",
+        "Feed card order and badges, read from the snapshot: 1. GÀ XAY HỖN HỢP (feedHref \"ga-xay-hon-hop\") badge=none prices=33.000đ/cây (800gr) | 19.000đ/cây (400gr) | 2. SUPER GÀ (feedHref \"supper-ga\") badge=none prices=43.000đ/cây (800gr) | 26.000đ/cây (400gr) | 3. THỊT HEO (feedHref \"thit-heo\") badge=hot prices=67.000đ/cây (800gr) | 39.000đ/cây (400gr) | 4. THỊT BÒ (feedHref \"thit-bo\") badge=hot prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 5. CÁ XAY (feedHref \"ca-xay\") badge=none prices=67.000đ/cây (800gr) | 39.000đ/cây (400gr) | 6. CHIM CÚT (feedHref \"chim-cut\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 7. THỊT VỊT (feedHref \"thit-vit\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 8. GÀ ÁC (feedHref \"ga-ac\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 9. TÔM XAY HỖN HỢP (feedHref \"tom-xay-hon-hop\") badge=none prices=56.000đ/cây (400gr). The feed contains exactly 2 check-hot spans and 0 new.png occurrences across all 9 cards.",
+        "Badge \"hot\" is verified from the feed markup: <span class=\"check-hot\"><img src=\"assets/images/hot.png\"></span>. The /thit-heo detail page itself contains zero occurrences of check-hot, hot.png or new.png (grep -c returned 0), so the badge is card chrome only.",
+        "Feed and detail prose prices for this route: feed = 67.000đ/cây (800gr) | 39.000đ/cây (400gr); detail = 67.000đ/cây (800gr) | 39.000đ/cây (400gr). They agree exactly. The detail page presents the price only as prose inside .desc-pro-detail, never as a structured field.",
+        "The commented-out price row, reproduced verbatim from the source markup: <!-- <li>\n                <label class=\"attr-label-pro-detail\">Giá:</label>\n                <div class=\"attr-content-pro-detail\">\n                                            <span class=\"price-new-pro-detail\">Liên hệ</span>\n                                    </div>\n            </li> -->",
+        "The \"Thông tin sản phẩm\" tab pane is near-empty: \"<div class=\\\"content-text\\\">\". All product prose lives in .desc-pro-detail above the tabs, not inside the tab, so the default tab shows nothing.",
+        "Third thumbnail is a shared usage-guide image (https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6839.png), 1600x1131, titled and alt-texted as \"THỊT HEO\". Each of the five products carries its own numbered copy of the same guide, so these are five distinct files of one shared document.",
+        "Image dimensions in this file were read from the PNG IHDR chunk of the first 64 bytes via HTTP Range requests (every asset answered 206 Partial Content); no image binary was downloaded. All product PNGs on this family are real image/png - no WebP bytes served under a .png extension.",
+        "Media naming: the top-level media array is deduplicated by URL. A product's own card image is emitted once with role product-card; the same URLs also appear in this route's related rail, so usedOn lists every route that references them. Card images belonging to the four products outside this family (chim-cut, thit-vit, ga-ac, tom-xay-hon-hop) are emitted with role related-card because they are only reachable from these pages' related rails.",
+        "No <form> element exists anywhere in this route's markup and there is no client-side validation; forms[] is empty by observation, not by omission.",
+        "Empty regions to know about when rebuilding: the .pagination-home container under the related rail is empty, the #info-pro-detail pane is empty, and the header search input ships no results markup (results live on a separate route).",
+        "Not captured by design: header, footer, breadcrumb shell and the FB/Zalo/AddToAny widget markup are owned by another family. The interactions list still records their wiring because it is present in these pages."
+      ]
+    },
+    {
+      "path": "/thit-bo",
+      "sourceUrl": "https://thebossvietnam.com/thit-bo",
+      "httpStatus": 200,
+      "sourceTitle": "THỊT BÒ",
+      "metaDescription": "",
+      "h1": "THỊT BÒ",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Sản phẩm",
+        "Thịt Tươi Rau Củ",
+        "THỊT BÒ"
+      ],
+      "blocks": [
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/thit-bo-3112.png",
+          "alt": "THỊT BÒ",
+          "title": "THỊT BÒ",
+          "role": "product-main",
+          "width": 400,
+          "height": 200,
+          "localName": "thit-bo-main",
+          "note": "Zoom anchor markup: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCaption: false; history: false;\" href=\"upload/product/thit-bo-3112.png\" title=\"THỊT BÒ\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/thit-bo-3112.png",
+          "alt": "THỊT BÒ",
+          "title": "THỊT BÒ",
+          "role": "product-thumb-1",
+          "width": 400,
+          "height": 200,
+          "localName": "thit-bo-thumb-1",
+          "anchorHref": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/thit-bo-3112.png",
+          "note": "First thumbnail. Its anchor href is already absolute; thumbnails 2 and 3 use relative hrefs resolved through <base href=\"https://thebossvietnam.com/\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/thit-bo-5290.png",
+          "alt": "THỊT BÒ",
+          "title": "THỊT BÒ",
+          "role": "product-thumb-2",
+          "width": 842,
+          "height": 596,
+          "localName": "thit-bo-thumb-2",
+          "anchorHref": "https://thebossvietnam.com/upload/product/thit-bo-5290.png",
+          "note": "Thumbnail anchor markup: <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"https://thebossvietnam.com/upload/product/thit-bo-5290.png\" title=\"THỊT BÒ\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-5798.png",
+          "alt": "THỊT BÒ",
+          "title": "THỊT BÒ",
+          "role": "product-thumb-3",
+          "width": 1600,
+          "height": 1131,
+          "localName": "thit-bo-thumb-3",
+          "anchorHref": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-5798.png",
+          "note": "Thumbnail anchor markup: <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-5798.png\" title=\"THỊT BÒ\">. This third thumbnail is a shared usage-guide image, but it is titled and alt-texted as the product name."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/assets/images/hot.png",
+          "alt": "",
+          "role": "badge-hot",
+          "localName": "badge-hot",
+          "width": 226,
+          "height": 136,
+          "usedOn": [
+            "/thit-bo"
+          ],
+          "note": "Badge observed in the idList=4 feed card only. The /thit-bo detail markup contains zero occurrences of check-hot, hot.png or new.png (grep -c returned 0), so the hot badge is a card-level overlay rendered by the category feed and the related-products rail, never inside the detail hero or the right-hand info column."
+        },
+        {
+          "type": "p",
+          "text": "THỊT BÒ",
+          "note": "Visible product name is <p class=\"title-pro-detail mb-2\">THỊT BÒ</p>. The only <h1> on the page is <h1 class=\"hidden-seoh\">THỊT BÒ</h1>, hidden by .hidden-seoh { visibility: hidden; height: 0px; margin: 0px; overflow: hidden; }."
+        },
+        {
+          "type": "p",
+          "text": "Lượt xem:",
+          "value": "1430",
+          "rawHtml": "<label class=\"attr-label-pro-detail\">Lượt xem:</label>\n<div class=\"attr-content-pro-detail\">1430</div>",
+          "note": "Live server-side view counter. Captured value 1430 at 2026-09-30."
+        },
+        {
+          "type": "p",
+          "text": "Giá: 77.000đ/cây (800gr)",
+          "rawHtml": "<p>Giá: <strong><span style=\"font-size:20px;\">77.000đ/cây</span><span style=\"font-size:14px;\"> (800gr)</span></strong></p>",
+          "note": "Price line 1: a 20 px price span plus a 14 px weight span inside a <strong>, prefixed by the literal label 'Giá:'."
+        },
+        {
+          "type": "p",
+          "text": "        46.000đ/cây (400gr)",
+          "rawHtml": "<p>       <span style=\"font-size:22px;\"> </span><strong><span style=\"font-size:20px;\">46.000đ/cây</span><span style=\"font-size:14px;\"> (400gr)</span></strong></p>",
+          "note": "Price line 2: the leading run of U+00A0 and space characters is preserved exactly as authored (codepoints a0 20 a0 20 a0 20 a0 20). No label and no bullet on this line. This route additionally has an empty <span style=\"font-size:22px;\"> </span> spacer before the <strong>, which the other four routes do not."
+        },
+        {
+          "type": "p",
+          "text": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "rawHtml": "<p>Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.</p>",
+          "note": "Minimum-age claim: this exact sentence is identical on all five routes in this family."
+        },
+        {
+          "type": "p",
+          "text": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "rawHtml": "<p>Hạn sử dụng: 06 tháng kể từ ngày sản xuất.</p>",
+          "note": "Shelf-life claim: identical on all five routes in this family."
+        },
+        {
+          "type": "p",
+          "text": "Bảo quản: ở nhiệt độ -18^oC hoặc trong ngăn đông tủ lạnh.",
+          "rawHtml": "<p>Bảo quản: ở nhiệt độ -18<sup>o</sup>C hoặc trong ngăn đông tủ lạnh.</p>",
+          "note": "Storage instruction. The degree letter is a <sup>o</sup> superscript element, rendered above the baseline; the plain-text form keeps a caret marker where the element sits."
+        },
+        {
+          "type": "h2",
+          "text": "Sản phẩm cùng loại",
+          "note": "Heading of the related-products rail. All 8 cards are the other products of the Thịt Tươi Rau Củ category; every card price element is the placeholder <span class=\"price-new\">Liên hệ</span>, so the rail never shows the real prices that the idList=4 feed does show."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "GÀ XAY HỖN HỢP -> /ga-xay-hon-hop",
+            "SUPER GÀ -> /supper-ga",
+            "THỊT HEO -> /thit-heo",
+            "CÁ XAY -> /ca-xay",
+            "CHIM CÚT -> /chim-cut",
+            "THỊT VỊT -> /thit-vit",
+            "GÀ ÁC -> /ga-ac",
+            "TÔM XAY HỖN HỢP -> /tom-xay-hon-hop"
+          ],
+          "note": "Related product names + hrefs in DOM order (a.text-split.name-product, href is a relative slug). Each card also carries two lazy card images (a.pic-product1 and a.pic-product2, data-src only with no src attribute); those are listed in the top-level media array with role product-card or related-card."
+        }
+      ],
+      "forms": [],
+      "feed": {
+        "name": "THỊT BÒ",
+        "priceText": "77.000đ/cây (800gr)",
+        "weight": "800gr",
+        "unit": "cây",
+        "badge": "hot",
+        "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/thit-bo-3112.png",
+        "variants": [
+          {
+            "priceText": "77.000đ/cây (800gr)",
+            "weight": "800gr",
+            "unit": "cây"
+          },
+          {
+            "priceText": "46.000đ/cây (400gr)",
+            "weight": "400gr",
+            "unit": "cây"
+          }
+        ],
+        "hoverCardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/thit-bo-2-1108.png",
+        "feedHref": "thit-bo",
+        "feedBadgeImage": "https://thebossvietnam.com/assets/images/hot.png",
+        "feedBadgeHtml": "<span class=\"check-hot\"><img src=\"assets/images/hot.png\"></span>",
+        "rawPriceHtml": null
+      },
+      "detailPriceText": {
+        "line1": "77.000đ/cây (800gr)",
+        "line2": "46.000đ/cây (400gr)"
+      },
+      "priceAgreementFeedVsDetail": "exact match",
+      "interactions": [
+        "Main-image zoom: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCaption: false; history: false;\" href=\"upload/product/thit-bo-3112.png\" title=\"THỊT BÒ\">. MagicZoomPlus v5.3.4 (Plus) DEMO is bundled in assets/js/main.js and its boot loop auto-initialises every element with class MagicZoom / MagicZoomPlus: c.$A(document.byClass(\"MagicZoom\")).concat(c.$A(document.byClass(\"MagicZoomPlus\"))). The data-options string makes zoom hover-triggered (selectorTrigger: hover), disables the hint, and enables the right-click action.",
+        "Thumbnail switching: each of the 3 thumbnails is <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"...\" title=\"THỊT BÒ\"><img ...></a>. MagicZoom.setupSelectors in assets/js/main.js binds them to the Zoom-1 instance with document.querySelectorAll('[data-zoom-id=\"Zoom-1\"]') (plus a [rel*=\"zoom-id\"] fallback), so clicking a thumbnail swaps the main image. State CSS: .thumb-pro-detail { display: block !important; border: 1px solid #eee; padding: 5px; border-radius: 3px; cursor: pointer; background-color: #ffffff; } and .thumb-pro-detail.mz-thumb.mz-thumb-selected { border-color: #cecfd2; }.",
+        "Thumbnail carousel: <div class=\"owl-page owl-carousel owl-theme owl-pro-detail\" data-items=\"screen:0|items:5|margin:10\" data-nav=\"1\" data-navcontainer=\".control-pro-detail\"> is initialised by NN_FRAMEWORK.OwlData in assets/js/apps.js, which reads data-items, data-nav and data-navcontainer and injects two inline SVG chevrons (icon-tabler-chevron-left / icon-tabler-chevron-right) into <div class=\"control-pro-detail control-owl transition\">. No data-dots, data-autoplay, data-loop, data-mousedrag or data-touchdrag attributes are present, so no dots, autoplay or drag is configured for this carousel.",
+        "Product tabs: <ul class=\"nav nav-tabs\" id=\"tabsProDetail\" role=\"tablist\"> with <a class=\"nav-link active\" id=\"info-pro-detail-tab\" data-bs-toggle=\"tab\" href=\"#info-pro-detail\" role=\"tab\">Thông tin sản phẩm</a> and <a class=\"nav-link\" id=\"commentfb-pro-detail-tab\" data-bs-toggle=\"tab\" href=\"#commentfb-pro-detail\" role=\"tab\">Bình luận</a>; panes are <div class=\"tab-pane fade show active\" id=\"info-pro-detail\" role=\"tabpanel\"> and <div class=\"tab-pane fade\" id=\"commentfb-pro-detail\" role=\"tabpanel\">. data-bs-toggle=\"tab\" is handled by the Bootstrap 5 tab plugin bundled in assets/js/main.js (hide.bs.tab / show.bs.tab events confirmed present).",
+        "Share bar (AddToAny): <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> containing <a class=\"a2a_dd\" href=\"https://www.addtoany.com/share\"></a>, <a class=\"a2a_button_facebook\"></a>, <a class=\"a2a_button_twitter\"></a>, <a class=\"a2a_button_facebook_messenger\"></a>, <a class=\"a2a_button_copy_link\"></a>. All five anchors are empty in the server HTML and are populated by the third-party script https://static.addtoany.com/menu/page.js.",
+        "Zalo share: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/thit-bo\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div>, initialised by the third-party script https://sp.zalo.me/plugins/sdk.js.",
+        "Comment tab embed: <div class=\"fb-comments\" data-href=\"https://thebossvietnam.com/thit-bo\" data-numposts=\"3\" data-colorscheme=\"light\" data-width=\"100%\"></div>, populated by //connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v15.0 injected into <div id=\"fb-root\">.",
+        "Chat widget: <div id=\"messages-facebook\"></div> is filled after a 2000 ms timeout by $(function(){setTimeout(function(){$(\"#messages-facebook\").load(\"api/addons.php?type=messages-facebook\")},2000);});. The returned fragment was captured at .scratch/raw/products/addons-messages-facebook.html and contains <div class=\"js-facebook-messenger-box onApp rotate bottom-right cfm rubberBand animated\" data-anim=\"rubberBand\"> with an inline messenger SVG and a close SVG, a header reading \"Hotline: .\" (the phone number is empty on the source), and <div class=\"fb-page\" data-href=\"https://www.facebook.com/TheBossVietnam\" data-tabs=\"messages\" data-small-header=\"true\" data-height=\"300\" data-adapt-container-width=\"true\" data-hide-cover=\"false\" data-show-facepile=\"true\"> with a fb-xfbml-parse-ignore blockquote fallback.",
+        "Third-party script block: <div id=\"script-main\"></div> is filled by api/addons.php?type=script-main, whose captured response (.scratch/raw/products/addons-script-main.html) is exactly <div id=\"fb-root\"></div> plus the Facebook SDK, https://sp.zalo.me/plugins/sdk.js and https://static.addtoany.com/menu/page.js.",
+        "Related-products rail: 8 static product cards in .col-4.col-20 wrappers, each with two lazy images (a.pic-product1 and a.pic-product2, data-src only with no src, so nothing renders with JS off) and a price element that is always the placeholder <span class=\"price-new\">Liên hệ</span> — the real prices are absent from the related rail. The .pagination-home container below the rail is empty, so there is no pagination control.",
+        "Header search entry point (shell, not product content): <div id=\"search\"> with <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> plus <input type=\"hidden\" onclick=\"onSearch('keyword');\"> and <a class=\"search\" href=\"javascript:void();\"></a>.",
+        "No variant pickers on this route: the .color-pro-detail, .size-pro-detail and .quantity-pro-detail handlers that exist in assets/js/apps.js never bind because that markup is absent. The colour block's only AJAX call (api/color.php, then MagicZoom.refresh('Zoom-1') and NN_FRAMEWORK.OwlData) is therefore unreachable here.",
+        "No <form> element and no client-side form validation on this route. A global reCAPTCHA v3 key is defined in the page config (RECAPTCHA_ACTIVE = true; RECAPTCHA_SITEKEY = '6LdqpecqAAAAAIhAzHyxZjWEUUOjT0e5KoT8b-NP') but is only loaded on change of 'form input.reset-token', and no such input exists on this route."
+      ],
+      "seoDefects": [
+        "<meta name=\"description\" content=\"\" /> is an empty string; <meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are empty too.",
+        "<meta name=\"keywords\" content=\"\" /> is an empty string.",
+        "<html lang=\"vi|en\"> — the lang attribute value is a pipe-delimited list, not a valid language tag.",
+        "The only <h1> is <h1 class=\"hidden-seoh\">THỊT BÒ</h1> and assets/css/style.css defines .hidden-seoh { visibility: hidden; height: 0px; margin: 0px; overflow: hidden; }, so the H1 is invisible to sighted users; the visible product name is a <p class=\"title-pro-detail mb-2\">.",
+        "A structured price row exists in the source but is dead-code commented out, so no machine-readable price ships: <!-- <li>\n                <label class=\"attr-label-pro-detail\">Giá:</label>\n                <div class=\"attr-content-pro-detail\">\n                                            <span class=\"price-new-pro-detail\">Liên hệ</span>\n                                    </div>\n            </li> -->. Its value \"Liên hệ\" also contradicts the visible prose prices.",
+        "<meta property=\"og:type\" content=\"article\" /> is used on a product page instead of a product type.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\" /> puts an email address in the twitter:site handle field.",
+        "The Twitter card block re-emits Open Graph properties instead of twitter:* names: <meta property=\"og:url\" content=\"https://thebossvietnam.com/thit-bo\">, <meta property=\"og:title\" content=\"THỊT BÒ\">, <meta property=\"og:description\" content=\"\"> and <meta property=\"og:image\" content=\"https://thebossvietnam.com/thumbs/400x200x2/upload/product/thit-bo-3112.png\">, duplicating the og block and leaving twitter:title / twitter:description / twitter:image unset.",
+        "<meta name=\"viewport\" content=\"width=1366px\"> pins a fixed desktop viewport instead of width=device-width, initial-scale=1, which is what forces the 390 px horizontal overflow.",
+        "JSON-LD BreadcrumbList has 3 items starting at \"Sản phẩm\" (position 1) while the visible breadcrumb renders 4 items starting at \"Trang chủ\"; \"Trang chủ\" is missing from the structured data.",
+        "JSON-LD Organization declares an empty sameAs array and no telephone; the address uses addressRegion \"Ho Chi Minh\" (English) and addressCountry \"vi\" (lowercase, should be \"VN\"), with a hard-coded postalCode \"70000\".",
+        "The microdata block <ul class=\"h-card hidden\"> declares <li class=\"h-tel tel\"></li> with an empty telephone value.",
+        "<a class=\"logo-head\" href=\"\"> in both the header and the centre menu, and <a class=\"logo-footer\" href=\"\"> in the footer, are empty-href placeholder links.",
+        "The favicon is https://thebossvietnam.com/upload/photo/thiet-ke-chua-co-ten-8-6944.png — the source file name is literally \"thiet-ke-chua-co-ten\" (design without a name).",
+        "Third-party JavaScript loads on every product detail page: assets/js/jquery.min.js, assets/js/main.js (bundles Bootstrap 5, MagicZoomPlus v5.3.4 DEMO and a TOC script), assets/js/functions.js, assets/mmenu/mmenu.js, assets/js/circleText.js, assets/js/flatpickr.js, assets/js/apps.js, then dynamically //connect.facebook.net/vi_VN/sdk.js, https://sp.zalo.me/plugins/sdk.js and https://static.addtoany.com/menu/page.js.",
+        "The floating Zalo button points at the bare domain <a class=\"btn-zalo btn-frame text-decoration-none\" target=\"blank\" href=\"https://zalo.me/\"> instead of a real OA URL, so it is a dead link.",
+        "The chat-widget header text is literally \"Hotline: .\" — the phone number after the colon is empty on the source."
+      ],
+      "notes": [
+        "Captured 2026-09-30. HTTP status 200 for GET https://thebossvietnam.com/thit-bo (curl -sS -o NUL -w \"%{http_code} %{url_effective}\" -L returned \"200 https://thebossvietnam.com/thit-bo\", i.e. no redirect; url_effective equals the request URL).",
+        "Visible view counter captured at 2026-09-30: <div class=\"attr-content-pro-detail\">1430</div> beside <label class=\"attr-label-pro-detail\">Lượt xem:</label>. This is a live server counter that changes on every page view; it is a snapshot, not a build-time constant, and must not be presented as a current claim without re-fetching.",
+        "Feed snapshot: GET https://thebossvietnam.com/api/product.php?perpage=9&idList=4 returned HTTP 200 with 9 cards; the unmodified response is saved at .scratch/raw/products/feed-idList-4.html. This product is card 4 of 9.",
+        "Feed card order and badges, read from the snapshot: 1. GÀ XAY HỖN HỢP (feedHref \"ga-xay-hon-hop\") badge=none prices=33.000đ/cây (800gr) | 19.000đ/cây (400gr) | 2. SUPER GÀ (feedHref \"supper-ga\") badge=none prices=43.000đ/cây (800gr) | 26.000đ/cây (400gr) | 3. THỊT HEO (feedHref \"thit-heo\") badge=hot prices=67.000đ/cây (800gr) | 39.000đ/cây (400gr) | 4. THỊT BÒ (feedHref \"thit-bo\") badge=hot prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 5. CÁ XAY (feedHref \"ca-xay\") badge=none prices=67.000đ/cây (800gr) | 39.000đ/cây (400gr) | 6. CHIM CÚT (feedHref \"chim-cut\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 7. THỊT VỊT (feedHref \"thit-vit\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 8. GÀ ÁC (feedHref \"ga-ac\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 9. TÔM XAY HỖN HỢP (feedHref \"tom-xay-hon-hop\") badge=none prices=56.000đ/cây (400gr). The feed contains exactly 2 check-hot spans and 0 new.png occurrences across all 9 cards.",
+        "Badge \"hot\" is verified from the feed markup: <span class=\"check-hot\"><img src=\"assets/images/hot.png\"></span>. The /thit-bo detail page itself contains zero occurrences of check-hot, hot.png or new.png (grep -c returned 0), so the badge is card chrome only.",
+        "Feed and detail prose prices for this route: feed = 77.000đ/cây (800gr) | 46.000đ/cây (400gr); detail = 77.000đ/cây (800gr) | 46.000đ/cây (400gr). They agree exactly. The detail page presents the price only as prose inside .desc-pro-detail, never as a structured field.",
+        "The commented-out price row, reproduced verbatim from the source markup: <!-- <li>\n                <label class=\"attr-label-pro-detail\">Giá:</label>\n                <div class=\"attr-content-pro-detail\">\n                                            <span class=\"price-new-pro-detail\">Liên hệ</span>\n                                    </div>\n            </li> -->",
+        "The \"Thông tin sản phẩm\" tab pane is near-empty: \"<div class=\\\"content-text\\\">\". All product prose lives in .desc-pro-detail above the tabs, not inside the tab, so the default tab shows nothing.",
+        "Third thumbnail is a shared usage-guide image (https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-5798.png), 1600x1131, titled and alt-texted as \"THỊT BÒ\". Each of the five products carries its own numbered copy of the same guide, so these are five distinct files of one shared document.",
+        "Image dimensions in this file were read from the PNG IHDR chunk of the first 64 bytes via HTTP Range requests (every asset answered 206 Partial Content); no image binary was downloaded. All product PNGs on this family are real image/png - no WebP bytes served under a .png extension.",
+        "Media naming: the top-level media array is deduplicated by URL. A product's own card image is emitted once with role product-card; the same URLs also appear in this route's related rail, so usedOn lists every route that references them. Card images belonging to the four products outside this family (chim-cut, thit-vit, ga-ac, tom-xay-hon-hop) are emitted with role related-card because they are only reachable from these pages' related rails.",
+        "No <form> element exists anywhere in this route's markup and there is no client-side validation; forms[] is empty by observation, not by omission.",
+        "Empty regions to know about when rebuilding: the .pagination-home container under the related rail is empty, the #info-pro-detail pane is empty, and the header search input ships no results markup (results live on a separate route).",
+        "Not captured by design: header, footer, breadcrumb shell and the FB/Zalo/AddToAny widget markup are owned by another family. The interactions list still records their wiring because it is present in these pages."
+      ]
+    },
+    {
+      "path": "/ca-xay",
+      "sourceUrl": "https://thebossvietnam.com/ca-xay",
+      "httpStatus": 200,
+      "sourceTitle": "CÁ XAY",
+      "metaDescription": "",
+      "h1": "CÁ XAY",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Sản phẩm",
+        "Thịt Tươi Rau Củ",
+        "CÁ XAY"
+      ],
+      "blocks": [
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/ca-xay-1854.png",
+          "alt": "CÁ XAY",
+          "title": "CÁ XAY",
+          "role": "product-main",
+          "width": 400,
+          "height": 200,
+          "localName": "ca-xay-main",
+          "note": "Zoom anchor markup: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCaption: false; history: false;\" href=\"upload/product/ca-xay-1854.png\" title=\"CÁ XAY\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/ca-xay-1854.png",
+          "alt": "CÁ XAY",
+          "title": "CÁ XAY",
+          "role": "product-thumb-1",
+          "width": 400,
+          "height": 200,
+          "localName": "ca-xay-thumb-1",
+          "anchorHref": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/ca-xay-1854.png",
+          "note": "First thumbnail. Its anchor href is already absolute; thumbnails 2 and 3 use relative hrefs resolved through <base href=\"https://thebossvietnam.com/\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/ca-xay-2799.png",
+          "alt": "CÁ XAY",
+          "title": "CÁ XAY",
+          "role": "product-thumb-2",
+          "width": 842,
+          "height": 596,
+          "localName": "ca-xay-thumb-2",
+          "anchorHref": "https://thebossvietnam.com/upload/product/ca-xay-2799.png",
+          "note": "Thumbnail anchor markup: <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"https://thebossvietnam.com/upload/product/ca-xay-2799.png\" title=\"CÁ XAY\">."
+        },
+        {
+          "type": "img",
+          "url": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6252.png",
+          "alt": "CÁ XAY",
+          "title": "CÁ XAY",
+          "role": "product-thumb-3",
+          "width": 1600,
+          "height": 1131,
+          "localName": "ca-xay-thumb-3",
+          "anchorHref": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6252.png",
+          "note": "Thumbnail anchor markup: <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6252.png\" title=\"CÁ XAY\">. This third thumbnail is a shared usage-guide image, but it is titled and alt-texted as the product name."
+        },
+        {
+          "type": "p",
+          "text": "CÁ XAY",
+          "note": "Visible product name is <p class=\"title-pro-detail mb-2\">CÁ XAY</p>. The only <h1> on the page is <h1 class=\"hidden-seoh\">CÁ XAY</h1>, hidden by .hidden-seoh { visibility: hidden; height: 0px; margin: 0px; overflow: hidden; }."
+        },
+        {
+          "type": "p",
+          "text": "Lượt xem:",
+          "value": "1336",
+          "rawHtml": "<label class=\"attr-label-pro-detail\">Lượt xem:</label>\n<div class=\"attr-content-pro-detail\">1336</div>",
+          "note": "Live server-side view counter. Captured value 1336 at 2026-09-30."
+        },
+        {
+          "type": "p",
+          "text": "Giá: 67.000đ/cây (800gr)",
+          "rawHtml": "<p>Giá: <strong><span style=\"font-size:20px;\">67.000đ/cây</span><span style=\"font-size:14px;\"> (800gr)</span></strong></p>",
+          "note": "Price line 1: a 20 px price span plus a 14 px weight span inside a <strong>, prefixed by the literal label 'Giá:'."
+        },
+        {
+          "type": "p",
+          "text": "        39.000đ/cây (400gr)",
+          "rawHtml": "<p>        <strong><span style=\"font-size:20px;\">39.000đ/cây</span><span style=\"font-size:14px;\"> (400gr)</span></strong></p>",
+          "note": "Price line 2: the leading run of U+00A0 and space characters is preserved exactly as authored (codepoints a0 20 a0 20 a0 20 a0 20). No label and no bullet on this line."
+        },
+        {
+          "type": "p",
+          "text": "Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.",
+          "rawHtml": "<p>Sản phẩm dành cho chó, mèo từ 3 tháng tuổi trở lên.</p>",
+          "note": "Minimum-age claim: this exact sentence is identical on all five routes in this family."
+        },
+        {
+          "type": "p",
+          "text": "Hạn sử dụng: 06 tháng kể từ ngày sản xuất.",
+          "rawHtml": "<p>Hạn sử dụng: 06 tháng kể từ ngày sản xuất.</p>",
+          "note": "Shelf-life claim: identical on all five routes in this family."
+        },
+        {
+          "type": "p",
+          "text": "Bảo quản: ở nhiệt độ -18^oC hoặc trong ngăn đông tủ lạnh.",
+          "rawHtml": "<p>Bảo quản: ở nhiệt độ -18<sup>o</sup>C hoặc trong ngăn đông tủ lạnh.</p>",
+          "note": "Storage instruction. The degree letter is a <sup>o</sup> superscript element, rendered above the baseline; the plain-text form keeps a caret marker where the element sits."
+        },
+        {
+          "type": "h2",
+          "text": "Sản phẩm cùng loại",
+          "note": "Heading of the related-products rail. All 8 cards are the other products of the Thịt Tươi Rau Củ category; every card price element is the placeholder <span class=\"price-new\">Liên hệ</span>, so the rail never shows the real prices that the idList=4 feed does show."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "GÀ XAY HỖN HỢP -> /ga-xay-hon-hop",
+            "SUPER GÀ -> /supper-ga",
+            "THỊT HEO -> /thit-heo",
+            "THỊT BÒ -> /thit-bo",
+            "CHIM CÚT -> /chim-cut",
+            "THỊT VỊT -> /thit-vit",
+            "GÀ ÁC -> /ga-ac",
+            "TÔM XAY HỖN HỢP -> /tom-xay-hon-hop"
+          ],
+          "note": "Related product names + hrefs in DOM order (a.text-split.name-product, href is a relative slug). Each card also carries two lazy card images (a.pic-product1 and a.pic-product2, data-src only with no src attribute); those are listed in the top-level media array with role product-card or related-card."
+        }
+      ],
+      "forms": [],
+      "feed": {
+        "name": "CÁ XAY",
+        "priceText": "67.000đ/cây (800gr)",
+        "weight": "800gr",
+        "unit": "cây",
+        "badge": null,
+        "cardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ca-xay-1854.png",
+        "variants": [
+          {
+            "priceText": "67.000đ/cây (800gr)",
+            "weight": "800gr",
+            "unit": "cây"
+          },
+          {
+            "priceText": "39.000đ/cây (400gr)",
+            "weight": "400gr",
+            "unit": "cây"
+          }
+        ],
+        "hoverCardImage": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ca-xay-2-5529.png",
+        "feedHref": "ca-xay",
+        "feedBadgeImage": null,
+        "rawPriceHtml": null
+      },
+      "detailPriceText": {
+        "line1": "67.000đ/cây (800gr)",
+        "line2": "39.000đ/cây (400gr)"
+      },
+      "priceAgreementFeedVsDetail": "exact match",
+      "interactions": [
+        "Main-image zoom: <a id=\"Zoom-1\" class=\"MagicZoom\" data-options=\"zoomMode: off; hint: off; rightClick: true; selectorTrigger: hover; expandCaption: false; history: false;\" href=\"upload/product/ca-xay-1854.png\" title=\"CÁ XAY\">. MagicZoomPlus v5.3.4 (Plus) DEMO is bundled in assets/js/main.js and its boot loop auto-initialises every element with class MagicZoom / MagicZoomPlus: c.$A(document.byClass(\"MagicZoom\")).concat(c.$A(document.byClass(\"MagicZoomPlus\"))). The data-options string makes zoom hover-triggered (selectorTrigger: hover), disables the hint, and enables the right-click action.",
+        "Thumbnail switching: each of the 3 thumbnails is <a class=\"thumb-pro-detail\" data-zoom-id=\"Zoom-1\" href=\"...\" title=\"CÁ XAY\"><img ...></a>. MagicZoom.setupSelectors in assets/js/main.js binds them to the Zoom-1 instance with document.querySelectorAll('[data-zoom-id=\"Zoom-1\"]') (plus a [rel*=\"zoom-id\"] fallback), so clicking a thumbnail swaps the main image. State CSS: .thumb-pro-detail { display: block !important; border: 1px solid #eee; padding: 5px; border-radius: 3px; cursor: pointer; background-color: #ffffff; } and .thumb-pro-detail.mz-thumb.mz-thumb-selected { border-color: #cecfd2; }.",
+        "Thumbnail carousel: <div class=\"owl-page owl-carousel owl-theme owl-pro-detail\" data-items=\"screen:0|items:5|margin:10\" data-nav=\"1\" data-navcontainer=\".control-pro-detail\"> is initialised by NN_FRAMEWORK.OwlData in assets/js/apps.js, which reads data-items, data-nav and data-navcontainer and injects two inline SVG chevrons (icon-tabler-chevron-left / icon-tabler-chevron-right) into <div class=\"control-pro-detail control-owl transition\">. No data-dots, data-autoplay, data-loop, data-mousedrag or data-touchdrag attributes are present, so no dots, autoplay or drag is configured for this carousel.",
+        "Product tabs: <ul class=\"nav nav-tabs\" id=\"tabsProDetail\" role=\"tablist\"> with <a class=\"nav-link active\" id=\"info-pro-detail-tab\" data-bs-toggle=\"tab\" href=\"#info-pro-detail\" role=\"tab\">Thông tin sản phẩm</a> and <a class=\"nav-link\" id=\"commentfb-pro-detail-tab\" data-bs-toggle=\"tab\" href=\"#commentfb-pro-detail\" role=\"tab\">Bình luận</a>; panes are <div class=\"tab-pane fade show active\" id=\"info-pro-detail\" role=\"tabpanel\"> and <div class=\"tab-pane fade\" id=\"commentfb-pro-detail\" role=\"tabpanel\">. data-bs-toggle=\"tab\" is handled by the Bootstrap 5 tab plugin bundled in assets/js/main.js (hide.bs.tab / show.bs.tab events confirmed present).",
+        "Share bar (AddToAny): <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> containing <a class=\"a2a_dd\" href=\"https://www.addtoany.com/share\"></a>, <a class=\"a2a_button_facebook\"></a>, <a class=\"a2a_button_twitter\"></a>, <a class=\"a2a_button_facebook_messenger\"></a>, <a class=\"a2a_button_copy_link\"></a>. All five anchors are empty in the server HTML and are populated by the third-party script https://static.addtoany.com/menu/page.js.",
+        "Zalo share: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/ca-xay\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div>, initialised by the third-party script https://sp.zalo.me/plugins/sdk.js.",
+        "Comment tab embed: <div class=\"fb-comments\" data-href=\"https://thebossvietnam.com/ca-xay\" data-numposts=\"3\" data-colorscheme=\"light\" data-width=\"100%\"></div>, populated by //connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v15.0 injected into <div id=\"fb-root\">.",
+        "Chat widget: <div id=\"messages-facebook\"></div> is filled after a 2000 ms timeout by $(function(){setTimeout(function(){$(\"#messages-facebook\").load(\"api/addons.php?type=messages-facebook\")},2000);});. The returned fragment was captured at .scratch/raw/products/addons-messages-facebook.html and contains <div class=\"js-facebook-messenger-box onApp rotate bottom-right cfm rubberBand animated\" data-anim=\"rubberBand\"> with an inline messenger SVG and a close SVG, a header reading \"Hotline: .\" (the phone number is empty on the source), and <div class=\"fb-page\" data-href=\"https://www.facebook.com/TheBossVietnam\" data-tabs=\"messages\" data-small-header=\"true\" data-height=\"300\" data-adapt-container-width=\"true\" data-hide-cover=\"false\" data-show-facepile=\"true\"> with a fb-xfbml-parse-ignore blockquote fallback.",
+        "Third-party script block: <div id=\"script-main\"></div> is filled by api/addons.php?type=script-main, whose captured response (.scratch/raw/products/addons-script-main.html) is exactly <div id=\"fb-root\"></div> plus the Facebook SDK, https://sp.zalo.me/plugins/sdk.js and https://static.addtoany.com/menu/page.js.",
+        "Related-products rail: 8 static product cards in .col-4.col-20 wrappers, each with two lazy images (a.pic-product1 and a.pic-product2, data-src only with no src, so nothing renders with JS off) and a price element that is always the placeholder <span class=\"price-new\">Liên hệ</span> — the real prices are absent from the related rail. The .pagination-home container below the rail is empty, so there is no pagination control.",
+        "Header search entry point (shell, not product content): <div id=\"search\"> with <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> plus <input type=\"hidden\" onclick=\"onSearch('keyword');\"> and <a class=\"search\" href=\"javascript:void();\"></a>.",
+        "No variant pickers on this route: the .color-pro-detail, .size-pro-detail and .quantity-pro-detail handlers that exist in assets/js/apps.js never bind because that markup is absent. The colour block's only AJAX call (api/color.php, then MagicZoom.refresh('Zoom-1') and NN_FRAMEWORK.OwlData) is therefore unreachable here.",
+        "No <form> element and no client-side form validation on this route. A global reCAPTCHA v3 key is defined in the page config (RECAPTCHA_ACTIVE = true; RECAPTCHA_SITEKEY = '6LdqpecqAAAAAIhAzHyxZjWEUUOjT0e5KoT8b-NP') but is only loaded on change of 'form input.reset-token', and no such input exists on this route."
+      ],
+      "seoDefects": [
+        "<meta name=\"description\" content=\"\" /> is an empty string; <meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are empty too.",
+        "<meta name=\"keywords\" content=\"\" /> is an empty string.",
+        "<html lang=\"vi|en\"> — the lang attribute value is a pipe-delimited list, not a valid language tag.",
+        "The only <h1> is <h1 class=\"hidden-seoh\">CÁ XAY</h1> and assets/css/style.css defines .hidden-seoh { visibility: hidden; height: 0px; margin: 0px; overflow: hidden; }, so the H1 is invisible to sighted users; the visible product name is a <p class=\"title-pro-detail mb-2\">.",
+        "A structured price row exists in the source but is dead-code commented out, so no machine-readable price ships: <!-- <li>\n                <label class=\"attr-label-pro-detail\">Giá:</label>\n                <div class=\"attr-content-pro-detail\">\n                                            <span class=\"price-new-pro-detail\">Liên hệ</span>\n                                    </div>\n            </li> -->. Its value \"Liên hệ\" also contradicts the visible prose prices.",
+        "<meta property=\"og:type\" content=\"article\" /> is used on a product page instead of a product type.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\" /> puts an email address in the twitter:site handle field.",
+        "The Twitter card block re-emits Open Graph properties instead of twitter:* names: <meta property=\"og:url\" content=\"https://thebossvietnam.com/ca-xay\">, <meta property=\"og:title\" content=\"CÁ XAY\">, <meta property=\"og:description\" content=\"\"> and <meta property=\"og:image\" content=\"https://thebossvietnam.com/thumbs/400x200x2/upload/product/ca-xay-1854.png\">, duplicating the og block and leaving twitter:title / twitter:description / twitter:image unset.",
+        "<meta name=\"viewport\" content=\"width=1366px\"> pins a fixed desktop viewport instead of width=device-width, initial-scale=1, which is what forces the 390 px horizontal overflow.",
+        "JSON-LD BreadcrumbList has 3 items starting at \"Sản phẩm\" (position 1) while the visible breadcrumb renders 4 items starting at \"Trang chủ\"; \"Trang chủ\" is missing from the structured data.",
+        "JSON-LD Organization declares an empty sameAs array and no telephone; the address uses addressRegion \"Ho Chi Minh\" (English) and addressCountry \"vi\" (lowercase, should be \"VN\"), with a hard-coded postalCode \"70000\".",
+        "The microdata block <ul class=\"h-card hidden\"> declares <li class=\"h-tel tel\"></li> with an empty telephone value.",
+        "<a class=\"logo-head\" href=\"\"> in both the header and the centre menu, and <a class=\"logo-footer\" href=\"\"> in the footer, are empty-href placeholder links.",
+        "The favicon is https://thebossvietnam.com/upload/photo/thiet-ke-chua-co-ten-8-6944.png — the source file name is literally \"thiet-ke-chua-co-ten\" (design without a name).",
+        "Third-party JavaScript loads on every product detail page: assets/js/jquery.min.js, assets/js/main.js (bundles Bootstrap 5, MagicZoomPlus v5.3.4 DEMO and a TOC script), assets/js/functions.js, assets/mmenu/mmenu.js, assets/js/circleText.js, assets/js/flatpickr.js, assets/js/apps.js, then dynamically //connect.facebook.net/vi_VN/sdk.js, https://sp.zalo.me/plugins/sdk.js and https://static.addtoany.com/menu/page.js.",
+        "The floating Zalo button points at the bare domain <a class=\"btn-zalo btn-frame text-decoration-none\" target=\"blank\" href=\"https://zalo.me/\"> instead of a real OA URL, so it is a dead link.",
+        "The chat-widget header text is literally \"Hotline: .\" — the phone number after the colon is empty on the source."
+      ],
+      "notes": [
+        "Captured 2026-09-30. HTTP status 200 for GET https://thebossvietnam.com/ca-xay (curl -sS -o NUL -w \"%{http_code} %{url_effective}\" -L returned \"200 https://thebossvietnam.com/ca-xay\", i.e. no redirect; url_effective equals the request URL).",
+        "Visible view counter captured at 2026-09-30: <div class=\"attr-content-pro-detail\">1336</div> beside <label class=\"attr-label-pro-detail\">Lượt xem:</label>. This is a live server counter that changes on every page view; it is a snapshot, not a build-time constant, and must not be presented as a current claim without re-fetching.",
+        "Feed snapshot: GET https://thebossvietnam.com/api/product.php?perpage=9&idList=4 returned HTTP 200 with 9 cards; the unmodified response is saved at .scratch/raw/products/feed-idList-4.html. This product is card 5 of 9.",
+        "Feed card order and badges, read from the snapshot: 1. GÀ XAY HỖN HỢP (feedHref \"ga-xay-hon-hop\") badge=none prices=33.000đ/cây (800gr) | 19.000đ/cây (400gr) | 2. SUPER GÀ (feedHref \"supper-ga\") badge=none prices=43.000đ/cây (800gr) | 26.000đ/cây (400gr) | 3. THỊT HEO (feedHref \"thit-heo\") badge=hot prices=67.000đ/cây (800gr) | 39.000đ/cây (400gr) | 4. THỊT BÒ (feedHref \"thit-bo\") badge=hot prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 5. CÁ XAY (feedHref \"ca-xay\") badge=none prices=67.000đ/cây (800gr) | 39.000đ/cây (400gr) | 6. CHIM CÚT (feedHref \"chim-cut\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 7. THỊT VỊT (feedHref \"thit-vit\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 8. GÀ ÁC (feedHref \"ga-ac\") badge=none prices=77.000đ/cây (800gr) | 46.000đ/cây (400gr) | 9. TÔM XAY HỖN HỢP (feedHref \"tom-xay-hon-hop\") badge=none prices=56.000đ/cây (400gr). The feed contains exactly 2 check-hot spans and 0 new.png occurrences across all 9 cards.",
+        "Badge is null and this is verified, not assumed: the feed card for CÁ XAY has no <span class=\"check-hot\"> and no <span class=\"check-new\"> span at all, and there is no new.png anywhere in the feed response. In particular GÀ ÁC (feed position 8) has NO badge, contrary to the task hint that listed it as hot - only THỊT HEO (position 3) and THỊT BÒ (position 4) are hot.",
+        "Feed and detail prose prices for this route: feed = 67.000đ/cây (800gr) | 39.000đ/cây (400gr); detail = 67.000đ/cây (800gr) | 39.000đ/cây (400gr). They agree exactly. The detail page presents the price only as prose inside .desc-pro-detail, never as a structured field.",
+        "The commented-out price row, reproduced verbatim from the source markup: <!-- <li>\n                <label class=\"attr-label-pro-detail\">Giá:</label>\n                <div class=\"attr-content-pro-detail\">\n                                            <span class=\"price-new-pro-detail\">Liên hệ</span>\n                                    </div>\n            </li> -->",
+        "The \"Thông tin sản phẩm\" tab pane is near-empty: \"<div class=\\\"content-text\\\"><p> </p>\\r\\n\\r\\n<p> </p>\". All product prose lives in .desc-pro-detail above the tabs, not inside the tab, so the default tab shows nothing.",
+        "Third thumbnail is a shared usage-guide image (https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6252.png), 1600x1131, titled and alt-texted as \"CÁ XAY\". Each of the five products carries its own numbered copy of the same guide, so these are five distinct files of one shared document.",
+        "Image dimensions in this file were read from the PNG IHDR chunk of the first 64 bytes via HTTP Range requests (every asset answered 206 Partial Content); no image binary was downloaded. All product PNGs on this family are real image/png - no WebP bytes served under a .png extension.",
+        "Media naming: the top-level media array is deduplicated by URL. A product's own card image is emitted once with role product-card; the same URLs also appear in this route's related rail, so usedOn lists every route that references them. Card images belonging to the four products outside this family (chim-cut, thit-vit, ga-ac, tom-xay-hon-hop) are emitted with role related-card because they are only reachable from these pages' related rails.",
+        "No <form> element exists anywhere in this route's markup and there is no client-side validation; forms[] is empty by observation, not by omission.",
+        "Empty regions to know about when rebuilding: the .pagination-home container under the related rail is empty, the #info-pro-detail pane is empty, and the header search input ships no results markup (results live on a separate route).",
+        "Not captured by design: header, footer, breadcrumb shell and the FB/Zalo/AddToAny widget markup are owned by another family. The interactions list still records their wiring because it is present in these pages."
+      ]
+    }
+  ],
+  "media": [
+    {
+      "url": "https://thebossvietnam.com/upload/product/ga-xay-hon-hop-3116.png",
+      "role": "product-main",
+      "alt": "GÀ XAY HỖN HỢP",
+      "localName": "ga-xay-hon-hop-main",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/ga-xay-hon-hop-3116.png",
+      "role": "product-thumb-1",
+      "alt": "GÀ XAY HỖN HỢP",
+      "localName": "ga-xay-hon-hop-thumb-1",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/product/ga-xay-hon-hop-4634.png",
+      "role": "product-thumb-2",
+      "alt": "GÀ XAY HỖN HỢP",
+      "localName": "ga-xay-hon-hop-thumb-2",
+      "width": 842,
+      "height": 596,
+      "usedOn": [
+        "/ga-xay-hon-hop"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-7753.png",
+      "role": "product-thumb-3",
+      "alt": "GÀ XAY HỖN HỢP",
+      "localName": "ga-xay-hon-hop-thumb-3",
+      "width": 1600,
+      "height": 1131,
+      "usedOn": [
+        "/ga-xay-hon-hop"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/super-ga-9866.png",
+      "role": "product-card",
+      "alt": "SUPER GÀ",
+      "localName": "supper-ga-card",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/super-ga-2-1997.png",
+      "role": "product-card",
+      "alt": "SUPER GÀ",
+      "localName": "supper-ga-card-hover",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/thit-heo-4805.png",
+      "role": "product-card",
+      "alt": "THỊT HEO",
+      "localName": "thit-heo-card",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/thit-heo-2-3989.png",
+      "role": "product-card",
+      "alt": "THỊT HEO",
+      "localName": "thit-heo-card-hover",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/thit-bo-3112.png",
+      "role": "product-card",
+      "alt": "THỊT BÒ",
+      "localName": "thit-bo-card",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/thit-bo-2-1108.png",
+      "role": "product-card",
+      "alt": "THỊT BÒ",
+      "localName": "thit-bo-card-hover",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ca-xay-1854.png",
+      "role": "product-card",
+      "alt": "CÁ XAY",
+      "localName": "ca-xay-card",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ca-xay-2-5529.png",
+      "role": "product-card",
+      "alt": "CÁ XAY",
+      "localName": "ca-xay-card-hover",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/chim-cut-3392.png",
+      "role": "related-card",
+      "alt": "CHIM CÚT",
+      "localName": "chim-cut-card",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/chim-cut-2-1711.png",
+      "role": "related-card",
+      "alt": "CHIM CÚT",
+      "localName": "chim-cut-card-hover",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/thit-vit-5339.png",
+      "role": "related-card",
+      "alt": "THỊT VỊT",
+      "localName": "thit-vit-card",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/thit-vit-2-5357.png",
+      "role": "related-card",
+      "alt": "THỊT VỊT",
+      "localName": "thit-vit-card-hover",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ga-ac-3281.png",
+      "role": "related-card",
+      "alt": "GÀ ÁC",
+      "localName": "ga-ac-card",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ga-ac-2-8923.png",
+      "role": "related-card",
+      "alt": "GÀ ÁC",
+      "localName": "ga-ac-card-hover",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/tom-xay-1642.png",
+      "role": "related-card",
+      "alt": "TÔM XAY HỖN HỢP",
+      "localName": "tom-xay-hon-hop-card",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/tom-xay-2-2564.png",
+      "role": "related-card",
+      "alt": "TÔM XAY HỖN HỢP",
+      "localName": "tom-xay-hon-hop-card-hover",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ga-xay-hon-hop-3116.png",
+      "role": "product-card",
+      "alt": "GÀ XAY HỖN HỢP",
+      "localName": "ga-xay-hon-hop-card",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ga-xay-hon-hop-2-2399.png",
+      "role": "product-card",
+      "alt": "GÀ XAY HỖN HỢP",
+      "localName": "ga-xay-hon-hop-card-hover",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop",
+        "/supper-ga",
+        "/thit-heo",
+        "/thit-bo",
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/400x200x2/upload/product/ga-xay-hon-hop-3116.png",
+      "role": "og-image",
+      "alt": "GÀ XAY HỖN HỢP",
+      "localName": "ga-xay-hon-hop-og-image",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ga-xay-hon-hop"
+      ],
+      "note": "Declared in <head> as <meta property=\"og:image\" content=\"https://thebossvietnam.com/thumbs/400x200x2/upload/product/ga-xay-hon-hop-3116.png\"> and reused by the Twitter block. A 400x200 downscaled copy of the main product image."
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/product/super-ga-9866.png",
+      "role": "product-main",
+      "alt": "SUPER GÀ",
+      "localName": "supper-ga-main",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/supper-ga"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/super-ga-9866.png",
+      "role": "product-thumb-1",
+      "alt": "SUPER GÀ",
+      "localName": "supper-ga-thumb-1",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/supper-ga"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/product/super-ga-5843.png",
+      "role": "product-thumb-2",
+      "alt": "SUPER GÀ",
+      "localName": "supper-ga-thumb-2",
+      "width": 842,
+      "height": 596,
+      "usedOn": [
+        "/supper-ga"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6167.png",
+      "role": "product-thumb-3",
+      "alt": "SUPER GÀ",
+      "localName": "supper-ga-thumb-3",
+      "width": 1600,
+      "height": 1131,
+      "usedOn": [
+        "/supper-ga"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/400x200x2/upload/product/super-ga-9866.png",
+      "role": "og-image",
+      "alt": "SUPER GÀ",
+      "localName": "supper-ga-og-image",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/supper-ga"
+      ],
+      "note": "Declared in <head> as <meta property=\"og:image\" content=\"https://thebossvietnam.com/thumbs/400x200x2/upload/product/super-ga-9866.png\"> and reused by the Twitter block. A 400x200 downscaled copy of the main product image."
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/product/thit-heo-4805.png",
+      "role": "product-main",
+      "alt": "THỊT HEO",
+      "localName": "thit-heo-main",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/thit-heo"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/thit-heo-4805.png",
+      "role": "product-thumb-1",
+      "alt": "THỊT HEO",
+      "localName": "thit-heo-thumb-1",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/thit-heo"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/product/thit-heo-1189.png",
+      "role": "product-thumb-2",
+      "alt": "THỊT HEO",
+      "localName": "thit-heo-thumb-2",
+      "width": 842,
+      "height": 596,
+      "usedOn": [
+        "/thit-heo"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6839.png",
+      "role": "product-thumb-3",
+      "alt": "THỊT HEO",
+      "localName": "thit-heo-thumb-3",
+      "width": 1600,
+      "height": 1131,
+      "usedOn": [
+        "/thit-heo"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/assets/images/hot.png",
+      "role": "badge-hot",
+      "alt": "",
+      "localName": "badge-hot",
+      "width": 226,
+      "height": 136,
+      "usedOn": [
+        "/thit-heo",
+        "/thit-bo"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/400x200x2/upload/product/thit-heo-4805.png",
+      "role": "og-image",
+      "alt": "THỊT HEO",
+      "localName": "thit-heo-og-image",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/thit-heo"
+      ],
+      "note": "Declared in <head> as <meta property=\"og:image\" content=\"https://thebossvietnam.com/thumbs/400x200x2/upload/product/thit-heo-4805.png\"> and reused by the Twitter block. A 400x200 downscaled copy of the main product image."
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/product/thit-bo-3112.png",
+      "role": "product-main",
+      "alt": "THỊT BÒ",
+      "localName": "thit-bo-main",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/thit-bo"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/thit-bo-3112.png",
+      "role": "product-thumb-1",
+      "alt": "THỊT BÒ",
+      "localName": "thit-bo-thumb-1",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/thit-bo"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/product/thit-bo-5290.png",
+      "role": "product-thumb-2",
+      "alt": "THỊT BÒ",
+      "localName": "thit-bo-thumb-2",
+      "width": 842,
+      "height": 596,
+      "usedOn": [
+        "/thit-bo"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-5798.png",
+      "role": "product-thumb-3",
+      "alt": "THỊT BÒ",
+      "localName": "thit-bo-thumb-3",
+      "width": 1600,
+      "height": 1131,
+      "usedOn": [
+        "/thit-bo"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/400x200x2/upload/product/thit-bo-3112.png",
+      "role": "og-image",
+      "alt": "THỊT BÒ",
+      "localName": "thit-bo-og-image",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/thit-bo"
+      ],
+      "note": "Declared in <head> as <meta property=\"og:image\" content=\"https://thebossvietnam.com/thumbs/400x200x2/upload/product/thit-bo-3112.png\"> and reused by the Twitter block. A 400x200 downscaled copy of the main product image."
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/product/ca-xay-1854.png",
+      "role": "product-main",
+      "alt": "CÁ XAY",
+      "localName": "ca-xay-main",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/watermark/product/400x200x2/upload/product/ca-xay-1854.png",
+      "role": "product-thumb-1",
+      "alt": "CÁ XAY",
+      "localName": "ca-xay-thumb-1",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/product/ca-xay-2799.png",
+      "role": "product-thumb-2",
+      "alt": "CÁ XAY",
+      "localName": "ca-xay-thumb-2",
+      "width": 842,
+      "height": 596,
+      "usedOn": [
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/product/huong-dan-su-dung-thit-tuoi-6252.png",
+      "role": "product-thumb-3",
+      "alt": "CÁ XAY",
+      "localName": "ca-xay-thumb-3",
+      "width": 1600,
+      "height": 1131,
+      "usedOn": [
+        "/ca-xay"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/400x200x2/upload/product/ca-xay-1854.png",
+      "role": "og-image",
+      "alt": "CÁ XAY",
+      "localName": "ca-xay-og-image",
+      "width": 400,
+      "height": 200,
+      "usedOn": [
+        "/ca-xay"
+      ],
+      "note": "Declared in <head> as <meta property=\"og:image\" content=\"https://thebossvietnam.com/thumbs/400x200x2/upload/product/ca-xay-1854.png\"> and reused by the Twitter block. A 400x200 downscaled copy of the main product image."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+---
+/**
+ * Owns the document shell: html lang, metadata, canonical/OG, JSON-LD, chrome.
+ * `path` is a registry path ("/", "/gioi-thieu"); canonical/og:url are built
+ * from SITE_URL + base so a project-site prefix is never dropped.
+ */
+import '@/styles/global.css';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import Footer from '@/components/Footer.astro';
+import Header from '@/components/Header.astro';
+import { absoluteUrl, brand, contact, publish, siteBase, siteUrl } from '@/data/site';
+import { pageByPath } from '@/data/pages';
+import type { Crumb } from '@/data/pages/types';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  image?: string;
+  noindex?: boolean;
+  breadcrumbs?: Crumb[];
+}
+
+const { title, description, path, image, noindex = false, breadcrumbs } = Astro.props;
+
+// Canonical/og:url only for real registry routes: 404 and utility pages such as
+// /tim-kiem must not canonicalise to an indexable URL.
+// A noindex page must not canonicalise to itself: that tells crawlers the
+// noindex URL is the preferred URL for that content.
+const isRoute = pageByPath.has(path);
+const canonical = isRoute && !noindex ? absoluteUrl(path) : null;
+const indexable = publish && !noindex;
+const robots = indexable ? 'index,follow' : 'noindex,nofollow';
+
+const organization = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: brand.name,
+  url: siteUrl + siteBase + '/',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: contact.address,
+    addressCountry: 'VN',
+  },
+  contactPoint: [{ '@type': 'ContactPoint', telephone: contact.phone, contactType: 'customer service' }],
+};
+
+const breadcrumbJsonLd =
+  breadcrumbs && breadcrumbs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: breadcrumbs.map((crumb, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          name: crumb.label,
+          item: absoluteUrl(crumb.path),
+        })),
+      }
+    : null;
+---
+
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={robots} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={brand.name} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {canonical && <meta property="og:url" content={canonical} />}
+    <meta property="og:locale" content="vi_VN" />
+    {image && <meta property="og:image" content={absoluteUrl(image)} />}
+    {image && <meta name="twitter:card" content="summary_large_image" />}
+    <script type="application/ld+json" set:html={JSON.stringify(organization)} />
+    {breadcrumbJsonLd && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Bỏ qua tới nội dung chính</a>
+    <Header currentPath={path} />
+    {breadcrumbs && <Breadcrumbs items={breadcrumbs} />}
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

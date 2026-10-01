@@ -1,0 +1,123 @@
+/* Dealer family — /he-thong-dai-ly plus the three regional lists, up to 66
+   address rows each. This is a reading page, not marketing: running text sits
+   in a 34.5rem measure, the tables get a wider column that still fits the frame,
+   and the row list scrolls inside its own box so 66 rows never widen the page.
+
+   Specificity note: global.css styles `.prose p` / `.prose h2` / `.prose th` at
+   (0,1,1) and `.table-scroll` at (0,1,0). Every rule below that touches one of
+   those is scoped `.prose.dealers …` (0,2,x) so it wins on specificity, not on
+   source order. */
+
+/* `.prose` caps at 900px; the root takes the full 1200px frame instead and the
+   columns below size themselves, so the frame rule holds on every route. */
+.prose.dealers {
+  max-width: none;
+}
+
+/* Reading measure. Every running text block on a dealer route is a direct child
+   of the root or of a hub card, so one rule covers both.
+   NOT `68ch`: `ch` resolves against each element's own font, so the 14px capture
+   note and the 16px body paragraph would get different measures from one value.
+   `rem` is font-independent. 34.5rem = 552px, measured 67 characters a line. */
+.prose.dealers :is(p, ul, ol) {
+  max-width: 34.5rem;
+  margin-inline: auto;
+  text-align: left;
+}
+
+/* Region headings and their tables share one 46rem column: wider than the prose
+   measure, because a shop-name/address pair needs it, and still well inside the
+   frame. */
+.prose.dealers h2,
+.prose.dealers h3,
+.prose.dealers .table-scroll {
+  max-width: 46rem;
+  margin-inline: auto;
+}
+
+.dealer-card {
+  margin-bottom: 1.2em;
+  padding-bottom: 1.2em;
+  border-bottom: 1px solid #eee;
+}
+
+.dealer-card:last-child {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.dealer-note,
+.dealer-meta,
+.dealer-snapshot {
+  font-size: 14px;
+  color: var(--color-gray);
+}
+
+/* The note and the snapshot line are 14px, so the 552px measure above fits
+   ~80 characters for them — measured 78 and 86 on the two lines, both over the
+   60–75 target. Scaling the measure with the type size (16:14) brings them to
+   ~67, the same as the 16px body. Scoped through `.prose.dealers` so it
+   outranks the measure rule above, which matches these elements at (0,2,1). */
+.prose.dealers .dealer-note,
+.prose.dealers .dealer-meta {
+  max-width: 30.2rem;
+  text-align: left;
+}
+
+/* `.table-scroll` (global.css) already carries `overflow-x: auto`, so the
+   min-width below widens the table inside the box without ever widening the
+   page at 390px. `min-width` is scoped to `.prose .dealer-table` (0,2,0)
+   because global.css `.prose table` is (0,1,1) and would otherwise win,
+   pinning the table to 100% of its box and leaving the scroller nothing to
+   scroll. */
+.prose .dealer-table {
+  min-width: 560px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  /* Street and house numbers: one digit shape, so the address column stays
+     optically aligned down a 66-row list. */
+  font-variant-numeric: tabular-nums;
+}
+
+.dealer-table thead th:first-child {
+  width: 40%;
+}
+
+/* Row headers name the shop. Transparent, not white: the zebra stripe below
+   paints on the row and the header cell has to let it through. */
+.prose .dealer-table tbody th {
+  background-color: transparent;
+  font-weight: 600;
+}
+
+/* The address is the one column allowed to wrap, and a long unbroken token
+   must break rather than push the table wider than its scroller. */
+.prose .dealer-table tbody td {
+  overflow-wrap: break-word;
+}
+
+.prose .dealer-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+@media (min-width: 768px) {
+  /* Desktop: the table fits its 46rem column, so the box stops being a scroller
+     entirely (`overflow: visible`) and the page scrolls instead. That is what
+     lets the header pin: `position: sticky` resolves against the nearest
+     scrolling ancestor, and with `overflow: auto` still on the box that ancestor
+     is the box — whose scroll range is zero when nothing overflows, so the
+     header would just be an ordinary thead.
+
+     One page can carry 18 of these regions (the Hồ Chí Minh list), so a
+     per-region `max-height` + `overflow-y: auto` is not an option: that is 18
+     nested scrollers, each trapping the wheel. The page scrolls as one. */
+  .prose.dealers .table-scroll {
+    overflow: visible;
+  }
+
+  .dealer-table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+}

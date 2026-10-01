@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+    "status": "rejected",
+    "reason": "host not allowlisted"
+  },
+  {
+    "url": "https://thebossvietnam.com/api/addons.php?type=messages-facebook",
+    "status": "not-an-image",
+    "reason": "payload is not a recognised image/font type"
+  },
+  {
+    "url": "https://thebossvietnam.com/404_files/sky-bg.png",
+    "status": "failed",
+    "reason": "http-404"
+  }
+]

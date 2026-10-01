@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+.DS_Store
+.omp/
+
+# .scratch/capture/ is COMMITTED, not ignored. It is the verbatim source capture
+# every module cites for provenance, and scripts/fetch-media.mjs derives the media
+# manifest from it, so a clone without it cannot rebuild public/media or audit any
+# string in src/. The rest of .scratch/ is disposable working state.
+.scratch/*
+!.scratch/capture/

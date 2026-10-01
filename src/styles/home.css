@@ -1,0 +1,638 @@
+/* Home `/` — src/families/home/index.ts, inlined per page by `withStyles`.
+   Captured chrome: .wrap-content is 1200px, body 14px SVN-Poppins, brand red
+   #a72223, static yellow #ffd400. Section names are this file's own; the
+   source's section titles are images (spnb.png, vscb.png, feedback.png,
+   cam-nang.png, ha.png, title-ds.png) with no text, so the headings here are
+   text for a reason: an <h2> built only from an image has no accessible name. */
+
+main {
+  padding: 0;
+}
+
+/* ------------------------------------------------------------------ hero -- */
+
+/* CSS-only slider. The radio inputs are the control: native radio-group arrow
+   keys select and move focus, which is exactly a slider's own model, so there
+   is no script. Each radio is `:checked` when its slide is the one shown. */
+.hero {
+  position: relative;
+  background: var(--background-static);
+}
+
+.hero__radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.hero__track {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.hero__track::-webkit-scrollbar {
+  display: none;
+}
+
+.hero__slide {
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+  position: relative;
+}
+
+.hero__image {
+  display: block;
+  width: 100%;
+}
+
+/* Only the checked radio's slide is shown; the rest are still in the DOM and
+   still in the scroll track, so the slide order is the capture's slide order. */
+.hero__radio:nth-of-type(1):checked ~ .hero__track .hero__slide:nth-child(1),
+.hero__radio:nth-of-type(2):checked ~ .hero__track .hero__slide:nth-child(2),
+.hero__radio:nth-of-type(3):checked ~ .hero__track .hero__slide:nth-child(3) {
+  display: block;
+}
+
+.hero__radio:nth-of-type(1):not(:checked) ~ .hero__track .hero__slide:nth-child(1),
+.hero__radio:nth-of-type(2):not(:checked) ~ .hero__track .hero__slide:nth-child(2),
+.hero__radio:nth-of-type(3):not(:checked) ~ .hero__track .hero__slide:nth-child(3) {
+  display: none;
+}
+
+.hero__caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* The 08.08.2026 slide is the source's own expired artwork, kept for fidelity
+   and marked as ended in text (see the note below the image) so it cannot read
+   as a current offer. */
+.hero__ended {
+  position: absolute;
+  left: 50%;
+  bottom: 3.5rem;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0.35rem 0.9rem;
+  background: rgba(33, 37, 41, 0.86);
+  color: #fff;
+  font-size: 0.8125rem;
+  border-radius: 2px;
+  text-align: center;
+  max-width: min(100%, 24rem);
+}
+
+.hero__controls {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.hero__control {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.hero__dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 0 1px rgba(33, 37, 41, 0.25);
+}
+
+.hero__radio:nth-of-type(1):checked ~ .hero__controls .hero__control:nth-child(1) .hero__dot,
+.hero__radio:nth-of-type(2):checked ~ .hero__controls .hero__control:nth-child(2) .hero__dot,
+.hero__radio:nth-of-type(3):checked ~ .hero__controls .hero__control:nth-child(3) .hero__dot {
+  background: var(--color-dark-red);
+}
+
+/* The radio is visually hidden, so the focus ring has to live on its label. */
+.hero__control:focus-within {
+  outline: 2px solid var(--color-dark-red);
+  outline-offset: 2px;
+}
+
+@media (max-width: 575px) {
+  .hero__ended {
+    bottom: 3rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* ----------------------------------------------------------------- intro -- */
+
+.intro {
+  padding-block: 2.5rem;
+  padding-inline: max(var(--gutter), (100% - var(--container)) / 2);
+  text-align: center;
+}
+
+.intro__heading {
+  margin: 0 0 1rem;
+  font-size: 1.75rem;
+  color: var(--color-dark-red);
+  text-transform: uppercase;
+}
+
+.intro__text {
+  max-width: 78ch;
+  margin: 0 auto;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.intro__artwork {
+  display: block;
+  width: min(100%, 46rem);
+  height: auto;
+  margin: 0 auto 1rem;
+}
+
+.intro__images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.intro__copy,
+.intro__images {
+  min-width: 0;
+}
+
+.intro__copy {
+  flex: 1 1 50%;
+}
+
+.intro__images {
+  flex: 1 1 50%;
+}
+
+.intro__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.intro__image--first {
+  width: min(100%, 18.75rem);
+}
+
+.intro__image--second {
+  width: min(100%, 29.375rem);
+}
+
+.accordion__banner,
+.dealer__banner {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1.5rem;
+}
+
+
+/* --------------------------------------------------------- product tabs -- */
+
+.product-tabs {
+  padding-block: 2.5rem 3rem; padding-inline: max(var(--gutter), (100% - var(--container)) / 2);
+  text-align: center;
+}
+
+.product-tabs__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.product-tabs__tab {
+  min-height: 2.75rem;
+  padding: 0.5rem 1.4rem;
+  border: 1px solid var(--color-dark-red);
+  border-radius: 2px;
+  background: #fff;
+  color: var(--color-dark-red);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.product-tabs__tab[aria-selected='true'] {
+  background: var(--color-dark-red);
+  color: #fff;
+}
+
+.product-tabs__empty {
+  margin: 0;
+  color: var(--color-gray);
+}
+
+.product-tabs__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.75rem 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 1023px) {
+  .product-tabs__grid,
+  .testimonials__grid,
+  .articles__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .albums__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .product-tabs__grid,
+  .articles__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem 1rem;
+  }
+
+  .testimonials__grid,
+  .albums__grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.product-card__pic {
+  position: relative;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.product-card__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The source swaps to a second card image on hover; CSS does that without JS. */
+.product-card__img--hover {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.product-card:hover .product-card__img--hover,
+.product-card:focus-within .product-card__img--hover {
+  opacity: 1;
+}
+
+.product-card__badge {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  z-index: 1;
+  width: auto;
+  height: 2rem;
+}
+
+.product-card__name {
+  margin: 0.6rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.product-card__price {
+  margin: 0.15rem 0 0;
+  color: var(--color-dark-red);
+  font-weight: 600;
+}
+
+.product-card__price-weight {
+  font-weight: 400;
+  color: var(--color-gray);
+}
+
+/* ------------------------------------------------------------- accordion -- */
+
+.accordion {
+  padding-block: 2.5rem;
+  padding-inline: max(var(--gutter), (100% - var(--container)) / 2);
+  background: #fdfcf4;
+}
+
+.accordion__heading,
+.testimonials__heading,
+.product-tabs__heading,
+.articles__heading,
+.albums__heading,
+.dealer__heading,
+.partners__heading {
+  margin: 0 0 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--color-dark-red);
+}
+
+.accordion__list {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.accordion__item {
+  margin-bottom: 0.75rem;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 2px;
+}
+
+.accordion__question {
+  padding: 0.9rem 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-dark-red);
+}
+
+.accordion__question h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.accordion__question:focus-visible {
+  outline: 2px solid var(--color-dark-red);
+  outline-offset: -2px;
+}
+
+.accordion__answer {
+  padding: 0 1.1rem 1rem;
+}
+
+.accordion__answer p {
+  margin: 0 0 0.75rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* ---------------------------------------------------------- testimonials -- */
+
+.testimonials {
+  padding-block: 2.5rem;
+  padding-inline: max(var(--gutter), (100% - var(--container)) / 2);
+}
+
+.testimonials__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.testimonial {
+  margin: 0;
+  padding: 1.25rem;
+  background: #fff;
+  border: 1px solid #eee;
+  border-top: 3px solid var(--background-static);
+  border-radius: 2px;
+}
+
+.testimonial__quote {
+  margin: 0 0 0.9rem;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+}
+
+.testimonial__by {
+  display: flex;
+  gap: 0.15rem;
+  font-size: 0.8125rem;
+}
+
+.testimonial__name {
+  font-weight: 600;
+  color: var(--color-dark-red);
+}
+
+.testimonial__role {
+  color: var(--color-gray);
+}
+
+/* --------------------------------------------------------------- articles -- */
+
+.articles {
+  padding-block: 2.5rem;
+  padding-inline: max(var(--gutter), (100% - var(--container)) / 2);
+  background: #fdfcf4;
+}
+
+.articles__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.teaser-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.teaser-card__link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.teaser-card__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.teaser-card__title {
+  margin: 0;
+  padding: 0.9rem 1rem 1.1rem;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+}
+
+.teaser-card__link:hover .teaser-card__title,
+.teaser-card__link:focus-visible .teaser-card__title {
+  color: var(--color-dark-red);
+}
+
+/* --------------------------------------------------------------- partners -- */
+
+/* The source scrolls this strip in a <marquee>. <marquee> is a legacy element
+   that moves regardless of prefers-reduced-motion, so the strip is static and
+   wraps: the eleven marks are all readable and focusable at every viewport. */
+.partners {
+  padding-block: 2.5rem;
+  padding-inline: max(var(--gutter), (100% - var(--container)) / 2);
+  text-align: center;
+  overflow: hidden;
+}
+
+.partners__heading {
+  font-size: 1.25rem;
+  letter-spacing: 0.06em;
+}
+
+.partners__strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem 2.5rem;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  max-width: var(--container);
+}
+
+.partners__item {
+  flex: 0 0 auto;
+}
+
+.partners__logo {
+  display: block;
+  width: auto;
+  height: 72px;
+  width: 72px;
+  object-fit: contain;
+}
+
+/* ----------------------------------------------------------------- albums -- */
+
+.albums {
+  padding-block: 2.5rem;
+  padding-inline: max(var(--gutter), (100% - var(--container)) / 2);
+  text-align: center;
+}
+
+.albums__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.albums__link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.albums__image {
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.albums__title {
+  display: block;
+  padding: 0.75rem 0.9rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.albums__link:hover .albums__title,
+.albums__link:focus-visible .albums__title {
+  color: var(--color-dark-red);
+}
+
+.albums__more {
+  margin: 1.5rem 0 0;
+  font-weight: 600;
+}
+
+/* ----------------------------------------------------------------- dealer -- */
+
+.dealer {
+  padding-block: 2.75rem;
+  padding-inline: max(var(--gutter), (100% - var(--container)) / 2);
+  background: var(--background-powered);
+  text-align: center;
+}
+
+.dealer__text {
+  max-width: 80ch;
+  margin: 0 auto 1.25rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.dealer__cta {
+  margin: 0;
+}
+
+.dealer__cta a {
+  display: inline-block;
+  padding: 0.6rem 1.6rem;
+  background: var(--color-dark-red);
+  color: #fff;
+  border-radius: 2px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ------------------------------------------------------------------ zalo -- */
+
+/* The capture marks `https://zalo.me/` `placeholderTarget: true` and the owner
+   has no confirmed OA URL, so this is branding text, not a button. Styling it
+   as a pressable control would be a lie: it would look live and do nothing. */
+.zalo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding-block: 1.25rem; padding-inline: max(var(--gutter), (100% - var(--container)) / 2);
+  border-top: 1px solid #eee;
+}
+
+.zalo__mark {
+  display: block;
+  width: 35px;
+  height: 35px;
+}
+
+.zalo__note {
+  margin: 0;
+  color: var(--color-gray);
+  font-size: 0.875rem;
+}

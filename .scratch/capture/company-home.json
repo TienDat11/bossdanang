@@ -1,0 +1,2035 @@
+{
+  "family": "company-home",
+  "capturedAt": "2026-09-30 (Asia/Ho_Chi_Minh, +07:00) — the date the saved pages themselves render in their own config block, var TIMENOW = '30/09/2026'",
+  "sourceOrigin": "https://thebossvietnam.com",
+  "shell": {
+    "identicalOnRoutes": [
+      "/",
+      "/gioi-thieu",
+      "/lien-he",
+      "/chinh-sach-bao-mat",
+      "/chinh-sach-tuyen-dung"
+    ],
+    "microdata": [
+      "THE BOSS VIỆT NAM",
+      "THE BOSS VIỆT NAM",
+      "",
+      "https://thebossvietnam.com/"
+    ],
+    "headerDesktop": {
+      "logos": [
+        {
+          "slot": "head (marked class=\"head d-none\" in the markup)",
+          "href": "",
+          "src": "https://thebossvietnam.com/thumbs/157x60x1/upload/photo/02-logo-boss-chu-do-nen-trang-5204.png",
+          "alt": "logo",
+          "title": "logo",
+          "sourceRenderSize": "157x60"
+        },
+        {
+          "slot": "centre menu",
+          "href": "",
+          "src": "https://thebossvietnam.com/upload/photo/02-logo-boss-chu-do-nen-trang-5204.png",
+          "alt": "logo",
+          "title": "logo",
+          "sourceRenderSize": null
+        }
+      ],
+      "leftMenu": [
+        {
+          "text": "Trang chủ",
+          "href": "",
+          "title": "Trang chủ"
+        },
+        {
+          "text": "Giới thiệu",
+          "href": "gioi-thieu",
+          "title": "Giới thiệu"
+        },
+        {
+          "text": "Sản phẩm",
+          "href": "san-pham",
+          "children": [
+            {
+              "text": "Thịt Tươi Rau Củ",
+              "href": "thit-tuoi",
+              "title": "Thịt Tươi Rau Củ"
+            },
+            {
+              "text": "Pate Tươi",
+              "href": "pate",
+              "title": "Pate Tươi"
+            }
+          ]
+        }
+      ],
+      "rightMenu": [
+        {
+          "text": "Hệ thống đại lý",
+          "href": "he-thong-dai-ly",
+          "title": "Hệ thống đại lý"
+        },
+        {
+          "text": "Cẩm nang",
+          "href": "cam-nang",
+          "title": "Cẩm nang"
+        },
+        {
+          "text": "Liên hệ",
+          "href": "lien-he",
+          "title": "Liên hệ"
+        }
+      ],
+      "search": {
+        "toggle": "<a class=\"search\" href=\"javascript:void();\"></a>",
+        "input": "<input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\">",
+        "submit": "<input type=\"hidden\" onclick=\"onSearch('keyword');\">",
+        "label": null,
+        "note": "The search control has no accessible name: the toggle is an empty <a> with only a background image and no aria-label, and the input carries only a placeholder."
+      }
+    },
+    "footer": {
+      "logo": {
+        "href": "",
+        "src": "https://thebossvietnam.com/upload/news/02-logo-boss-chu-do-nen-trang-5204-8553.png",
+        "alt": "logo",
+        "title": "logo",
+        "sourceRenderSize": "210x80"
+      },
+      "socialListEmpty": true,
+      "columns": [
+        {
+          "title": "THE BOSS VIỆT NAM",
+          "blocks": [
+            "Địa chỉ: 225A Kênh Đông, ấp Bàu Tre 1, xã Tân An Hội, Thành phố Hồ Chí Minh.",
+            "Điện thoại: 0978202063",
+            ""
+          ],
+          "items": [
+            {
+              "label": "Địa chỉ:",
+              "value": "225A Kênh Đông, ấp Bàu Tre 1, xã Tân An Hội, Thành phố Hồ Chí Minh."
+            },
+            {
+              "label": "Điện thoại:",
+              "value": "0978202063"
+            },
+            {
+              "label": null,
+              "value": ""
+            }
+          ]
+        },
+        {
+          "title": "Chính sách",
+          "links": [
+            {
+              "text": "Chính sách bảo mật.",
+              "href": "chinh-sach-bao-mat",
+              "title": "Chính sách bảo mật."
+            },
+            {
+              "text": "Chính sách tuyển dụng.",
+              "href": "chinh-sach-tuyen-dung",
+              "title": "Chính sách tuyển dụng."
+            }
+          ]
+        },
+        {
+          "title": null,
+          "badge": "assets/images/fb1.png",
+          "link": {
+            "href": "https://www.facebook.com/TheBossVietnam",
+            "target": "_blank",
+            "image": "https://thebossvietnam.com/thumbs/240x180x2/upload/photo/hinh-anh-dan-den-fanpage-9032.jpg",
+            "alt": "",
+            "title": ""
+          },
+          "note": "Both images in this block carry alt=\"logo\" and alt=\"\" — the Facebook badge is labelled «logo» and the fanpage cover image is unlabelled."
+        }
+      ],
+      "copyright": "Copyright © 2024 The Boss Vietnam - Được cấp phép bởi Cục Chăn Nuôi"
+    },
+    "navigation": [
+      {
+        "label": "Trang chủ",
+        "sourceHref": "",
+        "path": "/"
+      },
+      {
+        "label": "Giới thiệu",
+        "sourceHref": "gioi-thieu",
+        "path": "/gioi-thieu"
+      },
+      {
+        "label": "Sản phẩm",
+        "sourceHref": "san-pham",
+        "path": "/san-pham"
+      },
+      {
+        "label": "Hệ thống đại lý",
+        "sourceHref": "he-thong-dai-ly",
+        "path": "/he-thong-dai-ly"
+      },
+      {
+        "label": "Cẩm nang",
+        "sourceHref": "cam-nang",
+        "path": "/cam-nang"
+      },
+      {
+        "label": "Liên hệ",
+        "sourceHref": "lien-he",
+        "path": "/lien-he"
+      }
+    ],
+    "footerColumns": [
+      {
+        "kind": "brand",
+        "heading": "Logo",
+        "sourceMark": {
+          "href": "upload/news/02-logo-boss-chu-do-nen-trang-5204-8553.png",
+          "alt": "logo",
+          "title": "logo"
+        }
+      },
+      {
+        "kind": "contact",
+        "heading": "THE BOSS VIỆT NAM",
+        "blocks": [
+          "Địa chỉ: 225A Kênh Đông, ấp Bàu Tre 1, xã Tân An Hội, Thành phố Hồ Chí Minh.",
+          "Điện thoại: 0978202063",
+          ""
+        ]
+      },
+      {
+        "kind": "links",
+        "heading": "Chính sách",
+        "links": [
+          {
+            "label": "Chính sách bảo mật.",
+            "sourceHref": "chinh-sach-bao-mat",
+            "path": "/chinh-sach-bao-mat"
+          },
+          {
+            "label": "Chính sách tuyển dụng.",
+            "sourceHref": "chinh-sach-tuyen-dung",
+            "path": "/chinh-sach-tuyen-dung"
+          }
+        ]
+      },
+      {
+        "kind": "links",
+        "heading": "Social",
+        "links": [
+          {
+            "label": "Facebook",
+            "sourceHref": "https://www.facebook.com/TheBossVietnam",
+            "path": "https://www.facebook.com/TheBossVietnam"
+          }
+        ],
+        "dropFromReplica": true,
+        "note": "The source renders this as an <img> badge inside an empty <ul class=\"social social-footer\">. It is a third-party Page link, so the replica keeps the entry as text and never as a control."
+      }
+    ],
+    "observations": {
+      "sourceStylesheets": [
+        ".scratch/source-css/style.css — site theme: :root custom properties, .wrap-content, .breadCrumbs, .hidden-seoh, .menu, .footer-*",
+        ".scratch/source-css/main.css — Bootstrap 5 + Font Awesome + slick + bootstrap-icons, the base layer",
+        ".scratch/source-css/animate.min.css — AOS keyframes",
+        ".scratch/source-css/mmenu.css — mobile menu"
+      ],
+      "rootVariables": {
+        "--color-main": "#207d36",
+        "--color-red": "#ec2d3f",
+        "--color-medium-red": "#cc2c32",
+        "--color-dark-red": "#a72223",
+        "--color-green": "#28a745",
+        "--color-dark-green": "#207d36",
+        "--color-black": "#212529",
+        "--color-gray": "#6c757d",
+        "--background-static": "#ffd400",
+        "--background-hover": "#eceb1b",
+        "--color-static": "#000",
+        "--color-hover": "#ec2d3f"
+      },
+      "body": "body {font-size: 14px;font-family: 'SVN-Poppins';min-width: 1366px;}",
+      "container": ".wrap-content { width: 1200px;margin: auto; }",
+      "fixedWidthWrapper": ".wrap-1366 { width: 1366px; margin: auto; }",
+      "breadcrumbBar": ".breadCrumbs { background-color: #eee; }",
+      "footerPowered": ".footer-powered {color: #000;background-color: #f6de00;text-align: center;position: relative;}",
+      "hiddenSeoh": ".hidden-seoh { visibility: hidden; height: 0px; margin: 0px; overflow: hidden; }",
+      "navActiveMarker": ".menu ul li a:hover::after, .menu ul li a.active:after { content:''; background: url(../images/icon1.png) no-repeat; width: 21px; height: 8px; position: absolute; bottom: 0; left: calc(50% - 10.5px); }",
+      "fonts": [
+        {
+          "family": "SVN-Poppins",
+          "sourceUrl": "https://thebossvietnam.com/fonts/SVN-Poppins.woff",
+          "fontWeight": null,
+          "sourceFontDisplay": "block"
+        },
+        {
+          "family": "SVN-PoppinsBold",
+          "sourceUrl": "https://thebossvietnam.com/fonts/SVN-PoppinsBold.woff",
+          "fontWeight": null,
+          "sourceFontDisplay": "block"
+        },
+        {
+          "family": "SVN-PoppinsLight",
+          "sourceUrl": "https://thebossvietnam.com/fonts/SVN-PoppinsLight.woff",
+          "fontWeight": null,
+          "sourceFontDisplay": "block"
+        },
+        {
+          "family": "SVN-PoppinsMedium",
+          "sourceUrl": "https://thebossvietnam.com/fonts/SVN-PoppinsMedium.woff",
+          "fontWeight": null,
+          "sourceFontDisplay": "block"
+        },
+        {
+          "family": "SVN-PoppinsSemiBold",
+          "sourceUrl": "https://thebossvietnam.com/fonts/SVN-PoppinsSemiBold.woff",
+          "fontWeight": null,
+          "sourceFontDisplay": "block"
+        },
+        {
+          "family": "SRN-CookieRun-Black-1",
+          "sourceUrl": "https://thebossvietnam.com/fonts/SRN-CookieRun-Black-1.woff",
+          "fontWeight": null,
+          "sourceFontDisplay": "block"
+        }
+      ],
+      "webFontNote": "style.css declares FIVE separate Poppins families (SVN-Poppins, SVN-PoppinsLight, SVN-PoppinsMedium, SVN-PoppinsSemiBold, SVN-PoppinsBold) plus SRN-CookieRun-Black-1, each with its own file and no font-weight. A replica may collapse the five into one family with weights 300/400/500/600/700, but it must map each weight to the right source file — the source has no weight axis.",
+      "thirdPartyFontNote": "The pages also request https://fonts.googleapis.com/css?family=Inter (see thirdPartyInventory). style.css uses \"Inter\", sans-serif in a few headings. It is a third-party stylesheet and is not part of this capture."
+    },
+    "thirdPartyInventory": {
+      "note": "Third-party endpoints the pages load. The replica deliberately runs none of them; this list is here so the omission is a recorded decision, not a gap.",
+      "everyEntryIsDropped": true,
+      "dropFromReplicaMeans": "The replica neither loads, embeds nor links this third party. The entry stays so the omission is auditable instead of silent.",
+      "scripts": [
+        "https://connect.facebook.net/vi_VN/sdk.js (via api/addons.php?type=script-main)",
+        "https://sp.zalo.me/plugins/sdk.js (Zalo share and chat widget)",
+        "https://static.addtoany.com/menu/page.js (AddToAny share bar)",
+        "https://www.google.com/recaptcha/api.js (reCAPTCHA v3, contact route only)",
+        "https://fonts.googleapis.com/css?family=Inter (webfont CSS from a third-party origin)"
+      ],
+      "dropFromReplica": [
+        "https://zalo.me/ (floating Zalo widget href — placeholderTarget: true, no OA URL)",
+        "https://connect.facebook.net/vi_VN/sdk.js (#messages-facebook chat launcher and fanpage plugin)"
+      ],
+      "firstPartyLibrariesToDrop": [
+        "jquery.min.js",
+        "bootstrap.bundle.min.js",
+        "main.js",
+        "functions.js",
+        "mmenu/mmenu.js",
+        "circleText.js",
+        "flatpickr.js",
+        "apps.js",
+        "Owl Carousel",
+        "MagicZoom",
+        "AOS"
+      ]
+    }
+  },
+  "routes": [
+    {
+      "path": "/",
+      "sourceUrl": "https://thebossvietnam.com/",
+      "httpStatus": 200,
+      "sourceTitle": "",
+      "metaDescription": "",
+      "h1": "",
+      "breadcrumbs": [],
+      "blocks": [
+        {
+          "type": "img",
+          "href": "",
+          "alt": "Khuyen mai 08.08.2026",
+          "url": "https://thebossvietnam.com/thumbs/1920x800x1/upload/photo/banner-boss-vn-final-03-5325.png",
+          "role": "hero",
+          "sourceTitle": "Khuyen mai 08.08.2026"
+        },
+        {
+          "type": "img",
+          "href": "",
+          "alt": "",
+          "url": "https://thebossvietnam.com/thumbs/1920x800x1/upload/photo/15-sp-1379.png",
+          "role": "hero",
+          "sourceTitle": ""
+        },
+        {
+          "type": "img",
+          "href": "",
+          "alt": "",
+          "url": "https://thebossvietnam.com/thumbs/1920x800x1/upload/photo/9-sp-88630.png",
+          "role": "hero",
+          "sourceTitle": ""
+        },
+        {
+          "type": "p",
+          "text": "The Boss là đơn vị chuyên sản xuất thức ăn tươi cho thú cưng với mong muốn đem đến những sản phẩm chất lượng, an toàn và bổ dưỡng, giúp các bé nhà bạn phát triển khỏe mạnh và hạnh phúc. Với tiêu chí \"an toàn và dinh dưỡng\", The Boss cam kết sử dụng nguồn nguyên liệu được tuyển chọn kỹ lưỡng từ các nhà cung cấp uy tín hàng đầu trên thị trường, kết hợp với quy trình sản xuất hiện đại nhằm bảo toàn giá trị dinh dưỡng của thức ăn."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Tab",
+            "idList",
+            "perpage",
+            "data-tenkhongdau"
+          ],
+          "rows": [
+            [
+              "Tất cả",
+              "0",
+              "9",
+              "san-pham"
+            ]
+          ],
+          "note": "The three source tabs are a control, not page copy. The markup carries no product name, price or image; the cards arrive over AJAX into the empty <div class=\"load_ajax_product\"></div> below them. Nothing may be invented from this row."
+        },
+        {
+          "type": "quote",
+          "text": "Chất lượng sản phẩm.\nThe Boss mang đến công thức dinh dưỡng toàn diện, giúp thú cưng phát triển mạnh mẽ từ bên trong, tăng cường sức đề kháng và duy trì nguồn năng lượng dồi dào. Đồng thời, hương vị thơm ngon khó cưỡng khiến các bé luôn hào hứng và mong chờ mỗi bữa ăn.\nSản phẩm được sản xuất từ nguyên liệu chọn lọc, đảm bảo an toàn thực phẩm và đạt tiêu chuẩn quốc tế. Đặc biệt, sản phẩm còn được Trung tâm Giám định và Chứng nhận Hợp chuẩn Hợp quy VietCert kiểm tra và đánh giá định kỳ hàng năm nhằm đảm bảo chất lượng ổn định và đáng tin cậy, giúp khách hàng hoàn toàn yên tâm về sự an toàn và hiệu quả dinh dưỡng cho thú cưng.",
+          "avatar": null
+        },
+        {
+          "type": "quote",
+          "text": "Sản phẩm đa dạng, nhiều lựa chọn:\nSản phẩm The Boss có nhiều hương vị khác nhau để dễ dàng thay đổi bữa ăn cho các bé, giúp các bé luôn thưởng thức bữa ăn ngon miệng, đầy đủ dinh dưỡng mà không bị ngán.\nNgoài ra, The Boss còn có nhiều mức trọng lượng khác nhau từ nhỏ gọn cho bé mới dùng thử đến trọng lượng lớn tiết kiệm hơn nhằm đáp ứng nhu cầu linh hoạt của các Sen.",
+          "avatar": null
+        },
+        {
+          "type": "quote",
+          "text": "Giá thành hợp lý và cạnh tranh.\nChúng tôi mang đến sản phẩm chất lượng cao với giá cả phải chăng, tối ưu hóa giá trị cho khách hàng.\nVới mức giá chỉ từ 19.000 đồng, The Boss đáp ứng mọi phân khúc khách hàng, vừa tiết kiệm chi phí vừa đảm bảo mang đến nguồn dinh dưỡng tối ưu cho thú cưng.",
+          "avatar": null
+        },
+        {
+          "type": "quote",
+          "text": "Uy tín thương hiệu.\nThe Boss được chứng nhận, công nhận bởi các cơ quan uy tín như:\n+ Cục Chăn Nuôi: công nhận và cấp phép lưu hành sản phẩm một cách hợp pháp.\n+ Sở Nông nghiệp & Phát triển Nông thôn TpHCM: cấp Giấy chứng nhận đủ điều kiện sản xuất thức ăn cho chó mèo.\n+ Trung tâm Giám định & Chứng nhận Hợp chuẩn Hợp quy VietCert: cấp Giấy chứng nhận sản phẩm đạt Quy chuẩn Kỹ thuật Quốc gia QCVN 01-190:2020/BNNPTNT.\n+ Đạt các chứng nhận quốc tế về quản lý chất lượng sản phẩm, an toàn thực phẩm như: ISO 9001:2015 & HACCP.",
+          "avatar": null
+        },
+        {
+          "type": "quote",
+          "text": "Tính tiện dụng.\nSản phẩm dễ sử dụng, đóng gói gọn gàng, dễ bảo quản và phù hợp với nhu cầu dinh dưỡng của thú cưng.",
+          "avatar": null
+        },
+        {
+          "type": "quote",
+          "text": "Độ tin cậy của khách hàng.\nSản phẩm được các Sen đánh giá cao và được Petshop, Phòng khám Thú Y hàng đầu tin tưởng sử dụng và giới thiệu.\nHiện sản phẩm đã có mặt tại hơn 100+ cửa hàng Petshop và Phòng Khám Thú Y trên khắp các tỉnh thành phía Nam như: TP. Hồ Chí Minh, Bình Dương, Đồng Nai, Cần Thơ, Vũng Tàu, Tây Ninh, Long An, Bến Tre, Vĩnh Long, Đồng Tháp,....",
+          "avatar": null
+        },
+        {
+          "type": "quote",
+          "text": "Từ ngày thay đổi thực phẩm tươi nhanh của The Boss thời gian cho ăn được tiết kiệm rất nhiều, bên cạnh đó thể trạng các bé ổn định hơn, lông dài mượt hơn. Cảm ơn thức ăn tươi The Boss mang lại sản phẩm chất lượng cho người nhân giống.",
+          "name": "Quang Thảo",
+          "role": "Trại chó Dreamfarm - Long An",
+          "avatar": null
+        },
+        {
+          "type": "quote",
+          "text": "Các Boss nhà tôi cực kì khó tính nên thức ăn phải thật sự tươi và ngon mới đáp ứng được khẩu vị của các bé. Qua thời gian chọn lọc tôi đã tìm được chân ái thực phẩm tươi The Boss để bổ sung dinh dưỡng cho hơn 30 bé nhà tôi.",
+          "name": "Nhân Nguyễn",
+          "role": "Trại Mèo Tân Bình",
+          "avatar": null
+        },
+        {
+          "type": "quote",
+          "text": "Tôi rất hài lòng về độ tươi ngon cũng như chất lượng được đóng gói quy chuẩn của The Boss. Sẽ tiếp tục ủng hộ trong thời gian tới.",
+          "name": "Anh Uông",
+          "role": "May Hotel",
+          "avatar": null
+        },
+        {
+          "type": "quote",
+          "text": "Ba đứa nhà mình mê nhất vị gà, ăn hoài không biết ngán. Lần nào mua cũng được phản hồi rất nhanh và nhiệt tình, hỗ trợ hết mức có thể để mình nhận được hàng nhanh chóng. Cảm ơn shop và sẽ luôn ủng hộ nha.",
+          "name": "Giunchua",
+          "role": "KH của đối tác mua trên Shopee",
+          "avatar": null
+        },
+        {
+          "type": "quote",
+          "text": "Thịt ok lắm nha, trộn với hạt xay nhuyễn con chó nhà tui nó ăn hết sạch láng cái dĩa luôn.",
+          "name": "Lucylucas",
+          "role": "KH của đối tác mua trên Shopee",
+          "avatar": null
+        },
+        {
+          "type": "quote",
+          "text": "Cây thịt to nặng đúng 800gr, có nhiều vị để lựa chọn. Mình vừa nấu thử thanh thịt heo, chó mình ăn xong còn chóp chép thèm. Đóng hàng cũng đẹp nữa, dùng giấy báo để tiết kiệm các loại bọc khác.",
+          "name": "Tiencatbi",
+          "role": "KH của đối tác mua trên Shopee",
+          "avatar": null
+        },
+        {
+          "type": "quote",
+          "text": "Trộm vía bé nhà mình ăn hợp, cũng có tăng cân một ít, giao hàng nhanh.",
+          "name": "Khanhlinh160299",
+          "role": "KH của đối tác mua trên Shopee",
+          "avatar": null
+        },
+        {
+          "type": "article",
+          "title": "HƯỚNG DẪN CÁCH CHUYỂN ĐỔI THỨC ĂN CHO CHÓ, MÈO AN TOÀN.",
+          "href": "huong-dan-cach-chuyen-doi-thuc-an-cho-cho-meo-an-toan",
+          "image": "https://thebossvietnam.com/thumbs/376x300x1/upload/news/chuyen-doi-thuc-an-cho-cho-meo-an-toan-3612.png",
+          "alt": "HƯỚNG DẪN CÁCH CHUYỂN ĐỔI THỨC ĂN CHO CHÓ, MÈO AN TOÀN."
+        },
+        {
+          "type": "article",
+          "title": "NHỮNG THỰC PHẨM NGUY HIỂM KHÔNG NÊN CHO CHÓ, MÈO ĂN.",
+          "href": "nhung-thuc-pham-nguy-hiem-khong-nen-cho-cho-meo-an",
+          "image": "https://thebossvietnam.com/thumbs/376x300x1/upload/news/2-3691.png",
+          "alt": "NHỮNG THỰC PHẨM NGUY HIỂM KHÔNG NÊN CHO CHÓ, MÈO ĂN."
+        },
+        {
+          "type": "article",
+          "title": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN CHO CHÓ, MÈO NGOÀI CHẾ ĐỘ DINH DƯỠNG.",
+          "href": "cham-soc-suc-khoe-toan-dien-cho-cho-meo-ngoai-che-do-dinh-duong",
+          "image": "https://thebossvietnam.com/thumbs/376x300x1/upload/news/cham-soc-suc-khoe-toan-dien-2472.png",
+          "alt": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN CHO CHÓ, MÈO NGOÀI CHẾ ĐỘ DINH DƯỠNG."
+        },
+        {
+          "type": "img",
+          "href": "",
+          "alt": "",
+          "url": "https://thebossvietnam.com/upload/photo/1-17150.png",
+          "role": "partner"
+        },
+        {
+          "type": "img",
+          "href": "",
+          "alt": "",
+          "url": "https://thebossvietnam.com/upload/photo/3-78501.jpg",
+          "role": "partner"
+        },
+        {
+          "type": "img",
+          "href": "",
+          "alt": "",
+          "url": "https://thebossvietnam.com/upload/photo/41-39172.jpg",
+          "role": "partner"
+        },
+        {
+          "type": "img",
+          "href": "",
+          "alt": "",
+          "url": "https://thebossvietnam.com/upload/photo/4-13183.jpg",
+          "role": "partner"
+        },
+        {
+          "type": "img",
+          "href": "",
+          "alt": "",
+          "url": "https://thebossvietnam.com/upload/photo/5-14164.png",
+          "role": "partner"
+        },
+        {
+          "type": "img",
+          "href": "",
+          "alt": "",
+          "url": "https://thebossvietnam.com/upload/photo/6-13700.jpg",
+          "role": "partner"
+        },
+        {
+          "type": "img",
+          "href": "",
+          "alt": "",
+          "url": "https://thebossvietnam.com/upload/photo/7-49701.jpg",
+          "role": "partner"
+        },
+        {
+          "type": "img",
+          "href": "",
+          "alt": "",
+          "url": "https://thebossvietnam.com/upload/photo/8-75602.jpg",
+          "role": "partner"
+        },
+        {
+          "type": "img",
+          "href": "",
+          "alt": "",
+          "url": "https://thebossvietnam.com/upload/photo/9-39953.jpg",
+          "role": "partner"
+        },
+        {
+          "type": "img",
+          "href": "",
+          "alt": "",
+          "url": "https://thebossvietnam.com/upload/photo/10-44294.jpg",
+          "role": "partner"
+        },
+        {
+          "type": "img",
+          "href": "",
+          "alt": "",
+          "url": "https://thebossvietnam.com/upload/photo/2-42230.png",
+          "role": "partner"
+        },
+        {
+          "type": "album",
+          "title": "THE BOSS & CÁC SEN",
+          "href": "the-boss-va-cac-sen",
+          "image": "https://thebossvietnam.com/thumbs/420x420x1/upload/product/46888521713645814346431795730101411714443059n-5759.jpg",
+          "alt": "THE BOSS & CÁC SEN"
+        },
+        {
+          "type": "album",
+          "title": "SẴN SÀNG CHO BOSS",
+          "href": "menu-the-boss",
+          "image": "https://thebossvietnam.com/thumbs/400x300x1/upload/product/z606654379618397dc21fc4b42ff42e5b8dde4047177a2-8324.jpg",
+          "alt": "SẴN SÀNG CHO BOSS"
+        },
+        {
+          "type": "album",
+          "title": "THE BOSS & PHIÊN HỘI",
+          "href": "the-boss-trong-nhung-phien-hoi",
+          "image": "https://thebossvietnam.com/thumbs/600x300x1/upload/product/z60665223331916862929201120000a7f7c73949df2ead-4394.jpg",
+          "alt": "THE BOSS & PHIÊN HỘI"
+        },
+        {
+          "type": "album",
+          "title": "THE BOSS & ĐỐI TÁC",
+          "href": "the-boss-den-khach-hang",
+          "image": "https://thebossvietnam.com/thumbs/340x380x1/upload/product/z5900547486416aa949ad65d7bb44ee429be3463640095-7034.jpg",
+          "alt": "THE BOSS & ĐỐI TÁC"
+        },
+        {
+          "type": "p",
+          "text": "Chúng tôi tự hào đã có mặt tại hơn 100+ cửa hàng Petshop và Phòng Khám Thú Y trên khắp các tỉnh thành phía Nam như: TP. Hồ Chí Minh, Bình Dương, Cần Thơ và nhiều khu vực khác. Bạn có thể dễ dàng tìm kiếm đại lý gần nhất để trải nghiệm sản phẩm nhanh chóng và thuận tiện."
+        },
+        {
+          "type": "p",
+          "text": "Nhấn vào để xem chi tiết",
+          "href": "https://thebossvietnam.com/he-thong-dai-ly"
+        },
+        {
+          "type": "img",
+          "href": "https://zalo.me/",
+          "alt": "Zalo",
+          "url": "https://thebossvietnam.com/assets/images/zl.png",
+          "role": "zalo",
+          "placeholderTarget": true,
+          "note": "The href is the bare zalo.me domain, not a Zalo OA URL, so this block has no real destination. A replica must render the zl.png mark as branding text, never as a link."
+        }
+      ],
+      "forms": [],
+      "interactions": [
+        "Hero slider: <div class=\"owl-page owl-carousel owl-theme\" data-items=\"screen:0|items:1\" data-rewind=\"1\" data-autoplay=\"1\" data-loop=\"0\" data-lazyload=\"0\" data-mousedrag=\"0\" data-touchdrag=\"0\" data-smartspeed=\"800\" data-autoplayspeed=\"800\" data-autoplaytimeout=\"5000\" data-dots=\"0\" data-nav=\"1\" data-navcontainer=\".control-slideshow\"> holds exactly 3 <div class=\"slideshow-item\"> slides, initialised by NN_FRAMEWORK.OwlData in assets/js/apps.js. data-dots=\"0\" means the source ships NO dots — only the prev/next chevrons injected into <div class=\"control-slideshow control-owl transition\"></div>. Autoplay is on with a 5000 ms timeout.",
+        "Product tabs are a live filter, not a link: the three <a data-page=\"9\" data-id=\"0|4|5\" data-tenkhongdau=\"san-pham|thit-tuoi|pate\"> tabs POST to api/product.php, and the «Tất cả» tab (data-id=\"0\") sends perpage=0, which the source answers with a single card. No card exists in the static HTML — <div class=\"load_ajax_product\"></div> ships empty.",
+        "Accordion: <div class=\"accordion height-question\" id=\"accordionExample\"> with 6 <div class=\"item-question\"> panels, each a <button data-bs-toggle=\"collapse\" data-bs-target=\"#collapseN\"> with aria-expanded=\"false\" and aria-controls=\"collapseN\", all under data-bs-parent=\"#accordionExample\". Bootstrap 5 collapse, every panel closed on load.",
+        "Partner marquee: <marquee scrollamount=\"20\"> carries the heading «ĐỐI TÁC KHÁCH HÀNG CỦA THE BOSS» six times across three spans, and the logo rail is an Owl carousel with data-autoplay=\"1\", data-dots=\"0\", data-nav=\"1\".",
+        "Album section: the circular text is assets/js/circleText.js rendering <div class=\"circle\">THE*BOSS*XIN*CHÀO*QUÝ*KHÁCH</div>. There is no lightbox on the homepage — the four tiles are plain links.",
+        "Header search: <a class=\"search\" href=\"javascript:void();\"> opens the hidden input; <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> submits on Enter, and a hidden <input type=\"hidden\" onclick=\"onSearch('keyword');\"> is the submit trigger.",
+        "Header dropdown: the «Sản phẩm» <li> opens a nested <ul>, driven by assets/mmenu/mmenu.js on mobile and a CSS :hover rule on desktop.",
+        "Lazy-loading contract used site-wide: <img class=\"lazy\" data-src=\"…\"> with an onerror fallback to a thumbs/…/assets/images/noimage.png placeholder, and assets/js/apps.js copying data-src into src on scroll.",
+        "Scroll animation: every section wrapper carries data-aos=\"fade-up\" or data-aos=\"zoom-in\" with data-aos-duration=\"1000\", driven by assets/css/animate.min.css.",
+        "Floating Zalo: <a class=\"btn-zalo btn-frame text-decoration-none\" target=\"_blank\" href=\"https://zalo.me/\"> — the href is the bare Zalo domain, a placeholder, not a real OA URL.",
+        "Chat and Facebook SDK injection: <div id=\"script-main\"></div> and <div id=\"messages-facebook\"></div> are both filled 2000 ms after load from api/addons.php?type=script-main and api/addons.php?type=messages-facebook.",
+        "Go-top: assets/js/apps.js appends <div class=\"scrollToTop\"><img src=\"assets/images/top.png\" alt=\"Go Top\"/></div> after 100 px of scroll."
+      ],
+      "seoDefects": [
+        "<title></title> is completely empty: the homepage ships no title text at all.",
+        "<meta property=\"og:type\" content=\"website\" /> is the only valid og:type in the family; the other four routes reuse \"article\" or \"object\".",
+        "<meta property=\"og:image\" content=\"\" /> plus og:image:alt, og:image:type, og:image:width and og:image:height are ALL empty strings, and the Twitter block re-emits the same empty og: values, so the homepage has no share image.",
+        "The only <h1> is <h1 class=\"hidden-seoh\"></h1> — an H1 with no text at all, and hidden by CSS besides. The homepage has neither a visible nor a machine-readable H1.",
+        "There is NO breadcrumb trail on the homepage and no BreadcrumbList JSON-LD, which is right for a home page but also means no route in the family carries a root crumb in its structured data.",
+        "The hero promotion is stale at capture time: the alt and the title both read «Khuyen mai 08.08.2026» over the artwork banner-boss-vn-final-03-5325.png. That date is before the capture date, so the largest element on the site advertises an expired promotion with no expiry note.",
+        "Hero slides 2 and 3 carry an EMPTY alt AND an EMPTY title (\"<a … title=\"\">\" and \"<img … alt=\"\" title=\"\">\"), so two thirds of the largest visual element is unlabelled.",
+        "All 11 partner logos ship <a class=\"partner\" href=\"\" target=\"_blank\" title=\"\"> — an empty href, an empty title and a target that points nowhere. They are unlabelled non-links pretending to be links; a replica must not make them clickable.",
+        "Each article card exposes three separate anchors to the same URL (the image, the «Xem thêm» line and the title), so one article is three tab stops.",
+        "The partner rail's data-items string contains a typo: \"screen:767|iitems:6|margin:55\" (double i), so that breakpoint is silently ignored by the carousel.",
+        "The partner companies are never named in text anywhere on the page; the heading only says «ĐỐI TÁC KHÁCH HÀNG CỦA THE BOSS». A replica must not name partners by reading their logos.",
+        "<html lang=\"vi|en\"> is not a valid BCP-47 language tag; it is a pipe-delimited list of two tags.",
+        "<meta name=\"description\" content=\"\" /> is an empty string and <meta name=\"keywords\" content=\"\" /> is empty too.",
+        "<meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are empty strings.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> puts an e-mail address in a Twitter handle field; <meta name=\"twitter:creator\" content=\"THE BOSS VIỆT NAM\"> puts a brand name in the same field.",
+        "<meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width, not width=device-width, initial-scale=1 — this is what forces the horizontal overflow on a 390 px screen.",
+        "The Twitter card block re-emits Open Graph property= tags instead of twitter:* name= tags.",
+        "<meta name=\"format-detection\" content=\"telephone=no\"> suppresses iOS link detection site-wide, including on the contact page.",
+        "The Organization JSON-LD declares an empty sameAs array, addressRegion \"Ho Chi Minh\" (English), addressCountry \"vi\" (lowercase) and a hard-coded postalCode \"70000\"; the microdata <ul class=\"h-card hidden\"> declares <li class=\"h-tel tel\"></li> with an empty telephone.",
+        "<a class=\"logo-head\" href=\"\"> in the header and the centre menu, and <a class=\"logo-footer\" href=\"\"> in the footer, are empty-href placeholder links.",
+        "The favicon is https://thebossvietnam.com/upload/photo/thiet-ke-chua-co-ten-8-6944.png — the source file name literally means \"design with no name\".",
+        "<title></title> is completely empty, so the homepage ships no title text at all."
+      ],
+      "notes": [
+        "Captured from the saved raw HTML at .scratch/raw/company/home.html. This file was rebuilt offline from that stored response with no network request, so the capture date is the one the page itself renders in its own config block (var TIMENOW = '30/09/2026') and not a re-measured clock reading.",
+        "No view counter exists anywhere on this page: home.html has no .attr-pro-detail block and no «Lượt xem» label, so nothing on the homepage is a live counter and none may be invented.",
+        "The homepage renders NO product card in its static HTML. <div class=\"load_ajax_product\"></div> is empty and the cards arrive from api/product.php, so no product name, price or image exists on this page; anything claiming otherwise came from the feed capture, not from this file.",
+        "The 7 testimonials are verbatim customer statements with a name and an affiliation. The source markup has NO avatar element — 0 of the 7 cards in the ĐÁNH GIÁ KHÁCH HÀNG rail carry an <img class=…avatar…> — which is why every quote block in this capture carries avatar: null. They are owner-supplied marketing copy: a replica must present them as quotes attributed to a named person, never as an editorial claim of The Boss.",
+        "39 blocks in DOM order: hero 3, intro 1, product-tab table 1, accordion 6, testimonials 7, articles 3, partners 11, albums 4, dealer CTA 2, Zalo 1. That is the grouping src/families/home/index.ts documents for this page.",
+        "The dealer banner's two paragraphs and the «Nhấn vào để xem chi tiết» link are the only homepage copy that points at another route, and the link in the markup is absolute to the source origin.",
+        "The «Nhấn vào để xem chi tiết» anchor text is wrapped across three indented source lines; the captured text is that anchor's text content with the surrounding whitespace collapsed.",
+        "Not measured in this rebuild: intrinsic image width/height. The file was rebuilt offline from the stored HTML, so no image header was read; the render size a thumbs/ or watermark/ path encodes is recorded per media entry as sourceRenderSize."
+      ]
+    },
+    {
+      "path": "/gioi-thieu",
+      "sourceUrl": "https://thebossvietnam.com/gioi-thieu",
+      "httpStatus": 200,
+      "sourceTitle": "the boss",
+      "metaDescription": "",
+      "h1": "the boss",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Giới thiệu"
+      ],
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "the boss",
+          "source": "<div class=\"title-main\"><h2>the boss</h2></div>"
+        },
+        {
+          "type": "h2",
+          "text": "TỔNG QUAN VỀ THE BOSS"
+        },
+        {
+          "type": "p",
+          "text": "The Boss là một trong những đơn vị tiên phong trong lĩnh vực sản xuất thức ăn tươi dành cho chó mèo tại Viêt Nam. Với sứ mệnh và tầm nhìn rõ ràng, chúng tôi không ngừng nỗ lực để cải thiện sức khỏe, nâng cao chất lượng sống cho thú cưng và góp phần xây dựng một tương lai phát triển bền vững cho ngành công nghiệp thực phẩm thú cưng phát triển bền vững.",
+          "empty": false
+        },
+        {
+          "type": "p",
+          "text": "1. Tầm nhìn: hướng đến mục tiêu trở thành thương hiệu hàng đầu trong lĩnh vực thức ăn tươi cho chó mèo tại Việt Nam. Chúng tôi mong muốn nhận được sự tin cậy và yêu thích của khách hàng không chỉ qua chất lượng sản phẩm mà còn qua sự đồng hành tận tâm trong quá trình chăm sóc sức khỏe thú cưng.",
+          "empty": false
+        },
+        {
+          "type": "p",
+          "text": "2. Sứ mệnh: Cung cấp những sản phẩm thức ăn tươi ngon, an toàn và giàu dinh dưỡng, giúp thú cưng phát triển toàn diện cả về thể chất lẫn tinh thần. Chúng tôi luôn lấy khách hàng và thú cưng làm trung tâm trong mọi hoạt động, từ khâu nghiên cứu, sản xuất đến phân phối sản phẩm.",
+          "empty": false
+        },
+        {
+          "type": "p",
+          "text": "3. Giá trị cốt lõi:",
+          "empty": false
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Cam kết đặt chất lượng và an toàn lên hàng đầu: từng sản phẩm được chế biến từ nguyên liệu tươi sạch, đảm bảo mang đến những bữa ăn ngon miệng, đầy đủ dưỡng chất cho thú cưng. Mỗi sản phẩm là kết quả của sự tận tâm và tình yêu thương, giúp thú cưng luôn nhận được sự chăm sóc tốt nhất.",
+            "Không ngừng đổi mới: để đáp ứng nhu cầu đa dạng của khách hàng và luôn lắng nghe ý kiến phản hồi để liên tục cải tiến và nâng cao chất lượng sản phẩm nhằm mang đến những giải pháp dinh dưỡng phù hợp với nhu cầu và sở thích của từng thú cưng."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "",
+          "empty": true
+        },
+        {
+          "type": "h2",
+          "text": "SẢN PHẨM CỦA THE BOSS"
+        },
+        {
+          "type": "p",
+          "text": "Thịt Tươi Rau Củ (Raw Food) là dòng sản phẩm nổi bật của chúng tôi với menu đa dạng, nhiều hương vị khác nhau để dễ dàng thay đổi bữa ăn cho các bé, giúp các bé luôn thưởng thức bữa ăn ngon miệng, đầy đủ dinh dưỡng mà không bị ngán. Ngoài ra, chúng tôi còn có nhiều mức trọng lượng khác nhau từ nhỏ gọn cho bé mới dùng thử đến trọng lượng lớn tiết kiệm hơn nhằm đáp ứng nhu cầu linh hoạt của các Sen.",
+          "empty": false
+        },
+        {
+          "type": "p",
+          "text": "Với tiêu chí “an toàn và bổ dưỡng’, sản phẩm của chúng tôi được tạo nên từ các nguyên liệu được chọn lọc kỹ lưỡng, nhập từ những nhà cung cấp uy tín hàng đầu trên thị trường; kết hợp với quy trình sản xuất hiện đại nhằm bảo toàn giá trị dinh dưỡng của thức ăn và đảm bảo an toàn thực phẩm. Bên cạnh đó, công thức dinh dưỡng toàn diện sẽ giúp thú cưng phát triển mạnh mẽ từ bên trong, tăng cường sức đề kháng và duy trì nguồn năng lượng dồi dào. Đồng thời, hương vị thơm ngon khó cưỡng khiến các bé luôn hào hứng và mong chờ mỗi bữa ăn.",
+          "empty": false
+        },
+        {
+          "type": "p",
+          "text": "Để khẳng định cam kết về chất lượng và mang lại sự an tâm tuyệt đối cho khách hàng, The Boss đã được chứng nhận, công nhận bởi các đơn vị có uy tín như:",
+          "empty": false
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Đạt được các chứng chỉ quốc tế về quản lý chất lượng sản phẩm, an toàn thực phẩm như ISO 9001:2015 & HACCP.",
+            "Sản phẩm của chúng tôi đã được Cục Chăn Nuôi công nhận, cấp giấy phép lưu hành trên toàn quốc một cách hợp pháp và công bố trên website của Bộ Nông Nghiệp & Phát Triển Nông Thôn.",
+            "Sở Bộ Nông Nghiệp & Phát Triển Nông Thôn cấp Giấy chứng nhận đủ điều kiện sản xuất thức ăn cho chó mèo.",
+            "Trung tâm Giám định và Chứng nhận Hợp chuẩn Hợp quy VietCert cấp Giấy chứng nhận sản phẩm đạt Quy chuẩn Kỹ thuật Quốc gia QCVN 01-190:2020/BNNPTNT."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Đặc biệt, VietCert sẽ tiến hành kiểm tra và đánh giá định kỳ hàng năm nhằm đảm bảo chất lượng ổn định và đáng tin cậy, giúp khách hàng hoàn toàn yên tâm về sự an toàn và hiệu quả dinh dưỡng cho thú cưng.",
+          "empty": false
+        },
+        {
+          "type": "p",
+          "text": "Sản phẩm của chúng tôi được đóng gói gọn gàng, dễ bảo quản, dễ sử dụng, nhằm nâng cao tính tiện dụng để giúp các Sen tiết kiệm thời gian mà vẫn đảm bảo các Boss được chăm sóc tốt nhất.",
+          "empty": false
+        },
+        {
+          "type": "h2",
+          "text": "SỰ TIN DÙNG CỦA ĐỐI TÁC VÀ KHÁCH HÀNG."
+        },
+        {
+          "type": "p",
+          "text": "Các sản phẩm của chúng tôi hiện đã có mặt tại hơn 100+ cửa hàng Petshop và Phòng Khám Thú Y trên toàn quốc, được tin dùng và giới thiệu đến khách hàng, là sự chứng nhận cho sự uy tín và chất lượng vượt trội của thương hiệu.",
+          "empty": false
+        },
+        {
+          "type": "p",
+          "text": "Từ thành phần tự nhiên, dễ tiêu hóa đến các dưỡng chất thiết yếu, các sản phẩm của The Boss luôn được nghiên cứu và phát triển để mang lại lợi ích lâu dài cho sức khỏe của các bé.",
+          "empty": false
+        },
+        {
+          "type": "p",
+          "text": "Chúng tôi tự hào là người bạn đồng hành đáng tin cậy của các Sen trong việc chăm sóc các Boss nhà mình, giúp chúng sống khỏe mạnh và hạnh phúc.",
+          "empty": false
+        }
+      ],
+      "forms": [],
+      "interactions": [
+        "Table of contents: <div class=\"meta-toc\"> holds <a class=\"mucluc-dropdown-list_button\"></a> plus <ul class=\"toc-list\" data-toc=\"article\" data-toc-headings=\"h1, h2, h3\"></ul>, built at runtime by the TOC script bundled in assets/js/main.js. It is empty in the static HTML, so with JS off there is no contents list.",
+        "Share bar: <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> with a2a_dd, a2a_button_facebook, a2a_button_twitter, a2a_button_facebook_messenger and a2a_button_copy_link, initialised by https://static.addtoany.com/menu/page.js — a third-party script.",
+        "Zalo share: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/gioi-thieu\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div>, initialised by the third-party script https://sp.zalo.me/plugins/sdk.js. The OA id is real and is embedded on the page.",
+        "Header search: <a class=\"search\" href=\"javascript:void();\"> opens the hidden input; <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> submits on Enter, and a hidden <input type=\"hidden\" onclick=\"onSearch('keyword');\"> is the submit trigger.",
+        "Header dropdown: the «Sản phẩm» <li> opens a nested <ul>, driven by assets/mmenu/mmenu.js on mobile and a CSS :hover rule on desktop.",
+        "Lazy-loading contract used site-wide: <img class=\"lazy\" data-src=\"…\"> with an onerror fallback to a thumbs/…/assets/images/noimage.png placeholder, and assets/js/apps.js copying data-src into src on scroll.",
+        "Scroll animation: every section wrapper carries data-aos=\"fade-up\" or data-aos=\"zoom-in\" with data-aos-duration=\"1000\", driven by assets/css/animate.min.css.",
+        "Floating Zalo: <a class=\"btn-zalo btn-frame text-decoration-none\" target=\"_blank\" href=\"https://zalo.me/\"> — the href is the bare Zalo domain, a placeholder, not a real OA URL.",
+        "Chat and Facebook SDK injection: <div id=\"script-main\"></div> and <div id=\"messages-facebook\"></div> are both filled 2000 ms after load from api/addons.php?type=script-main and api/addons.php?type=messages-facebook.",
+        "Go-top: assets/js/apps.js appends <div class=\"scrollToTop\"><img src=\"assets/images/top.png\" alt=\"Go Top\"/></div> after 100 px of scroll."
+      ],
+      "seoDefects": [
+        "<title>the boss</title> is an 8-character lower-case string with no page name, no brand in title case and no separator. It is not a usable title tag.",
+        "<h1 class=\"hidden-seoh\">the boss</h1> is CSS-hidden and the visible page heading is the <h2>the boss</h2> inside <div class=\"title-main\">, so the page has no visible H1 and the H1 it does have is that same 8-character string.",
+        "<meta property=\"og:type\" content=\"article\" /> on a static corporate page, and og:image is https://thebossvietnam.com/thumbs/1091x1600x2/upload/news/z5782567673808294211b18a82586d7b22e053cb232e63-5190.jpg — a 1091x1600 PORTRAIT image used as the share image, which every social platform will crop.",
+        "The body is pasted from a word processor: every paragraph is wrapped in nested <span style=\"font-family:Arial,Helvetica,sans-serif\"> spans and interleaved Outlook conditional comments (<!--[if--> … <!--[endif]-->), some of them unterminated. The markup is noise, not authoring, and any parser that does not strip it will emit the literal comment text.",
+        "The paragraphs «2. Sứ mệnh:» and «3. Giá trị cốt lõi:» are split across conditional-comment regions, so the visible text and the plain-text extraction can differ depending on the comment parser.",
+        "The phrase «Với tiêu chí “an toàn và bổ dưỡng’, » opens with a LEFT double quote “ and closes with a right SINGLE quote ’. The quotation marks are mismatched in the source; the captured text reproduces it exactly and it must not be silently corrected.",
+        "BreadcrumbList JSON-LD lists 1 item (position 1 = the page itself) while the rendered breadcrumb shows 2 items — «Trang chủ» is missing from the structured data, so position 1 disagrees with the visible trail.",
+        "<html lang=\"vi|en\"> is not a valid BCP-47 language tag; it is a pipe-delimited list of two tags.",
+        "<meta name=\"description\" content=\"\" /> is an empty string and <meta name=\"keywords\" content=\"\" /> is empty too.",
+        "<meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are empty strings.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> puts an e-mail address in a Twitter handle field; <meta name=\"twitter:creator\" content=\"THE BOSS VIỆT NAM\"> puts a brand name in the same field.",
+        "<meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width, not width=device-width, initial-scale=1 — this is what forces the horizontal overflow on a 390 px screen.",
+        "The Twitter card block re-emits Open Graph property= tags instead of twitter:* name= tags.",
+        "<meta name=\"format-detection\" content=\"telephone=no\"> suppresses iOS link detection site-wide, including on the contact page.",
+        "The Organization JSON-LD declares an empty sameAs array, addressRegion \"Ho Chi Minh\" (English), addressCountry \"vi\" (lowercase) and a hard-coded postalCode \"70000\"; the microdata <ul class=\"h-card hidden\"> declares <li class=\"h-tel tel\"></li> with an empty telephone.",
+        "<a class=\"logo-head\" href=\"\"> in the header and the centre menu, and <a class=\"logo-footer\" href=\"\"> in the footer, are empty-href placeholder links.",
+        "The favicon is https://thebossvietnam.com/upload/photo/thiet-ke-chua-co-ten-8-6944.png — the source file name literally means \"design with no name\".",
+        "<title>the boss</title> carries no brand word and ends in a full stop, so it reads as a sentence rather than a title tag."
+      ],
+      "notes": [
+        "Captured from the saved raw HTML at .scratch/raw/company/gioi-thieu.html. This file was rebuilt offline from that stored response; the capture date is the one the page renders in its own config block (var TIMENOW = '30/09/2026').",
+        "Block order is DOM order inside <div class=\"content-main w-clear\" id=\"toc-content\">, preceded by the <div class=\"title-main\"><h2>the boss</h2></div> page heading.",
+        "One <p> in the middle of «Giá trị cốt lõi» has no text at all: <p style=\"line-height:115%;\"> contains nothing but conditional comments. It is captured as an empty p block (empty: true) so the source's paragraph count is preserved instead of being tidied away.",
+        "This page asserts business facts: a founding claim («tiên phong»), the certifications ISO 9001:2015, HACCP and QCVN 01-190:2020/BNNPTNT, a distribution claim («hơn 100+ cửa hàng Petshop và Phòng Khám Thú Y») and a licensing claim. All are owner-asserted marketing copy captured from the live site; none was verified independently and all must be re-verified with the owner before publication.",
+        "Not measured in this rebuild: intrinsic image width/height. The file was rebuilt offline from the stored HTML, so no image header was read; the render size a thumbs/ or watermark/ path encodes is recorded per media entry as sourceRenderSize."
+      ]
+    },
+    {
+      "path": "/lien-he",
+      "sourceUrl": "https://thebossvietnam.com/lien-he",
+      "httpStatus": 200,
+      "sourceTitle": "Liên hệ",
+      "metaDescription": "",
+      "h1": "Liên hệ",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Liên hệ"
+      ],
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "Liên hệ"
+        },
+        {
+          "type": "p",
+          "text": "THE BOSS VIỆT NAM"
+        },
+        {
+          "type": "p",
+          "text": "Địa chỉ: 225A Kênh Đông, ấp Bàu Tre 1, xã Tân An Hội, Huyện Củ Chi, TP. Hồ Chí Minh."
+        },
+        {
+          "type": "p",
+          "text": "Phone: 0965153621 - 0978202063"
+        },
+        {
+          "type": "p",
+          "text": "Zalo: 0965153621"
+        }
+      ],
+      "forms": [
+        {
+          "index": 0,
+          "selector": "form.contact-form.validation-contact",
+          "method": "post",
+          "action": "",
+          "enctype": "multipart/form-data",
+          "novalidate": true,
+          "fields": [
+            {
+              "tag": "input",
+              "id": "fullname-contact",
+              "name": "dataContact[fullname]",
+              "type": "text",
+              "placeholder": "Họ tên",
+              "label": "Họ tên",
+              "required": true,
+              "class": "form-control text-sm reset-token",
+              "invalidFeedback": "Vui lòng nhập họ và tên",
+              "clientSideValidationAttributes": null
+            },
+            {
+              "tag": "input",
+              "id": "phone-contact",
+              "name": "dataContact[phone]",
+              "type": "number",
+              "placeholder": "Điện thoại",
+              "label": "Điện thoại",
+              "required": true,
+              "class": "form-control text-sm",
+              "invalidFeedback": "Vui lòng nhập số điện thoại",
+              "clientSideValidationAttributes": null
+            },
+            {
+              "tag": "input",
+              "id": "address-contact",
+              "name": "dataContact[address]",
+              "type": "text",
+              "placeholder": "Địa chỉ",
+              "label": "Địa chỉ",
+              "required": true,
+              "class": "form-control text-sm",
+              "invalidFeedback": "Vui lòng nhập địa chỉ",
+              "clientSideValidationAttributes": null
+            },
+            {
+              "tag": "input",
+              "id": "email-contact",
+              "name": "dataContact[email]",
+              "type": "email",
+              "placeholder": "Email",
+              "label": "Email",
+              "required": true,
+              "class": "form-control text-sm",
+              "invalidFeedback": "Vui lòng nhập địa chỉ email",
+              "clientSideValidationAttributes": null
+            },
+            {
+              "tag": "input",
+              "id": "subject-contact",
+              "name": "dataContact[subject]",
+              "type": "text",
+              "placeholder": "Chủ đề",
+              "label": "Chủ đề",
+              "required": true,
+              "class": "form-control text-sm",
+              "invalidFeedback": "Vui lòng nhập chủ đề",
+              "clientSideValidationAttributes": null
+            },
+            {
+              "tag": "textarea",
+              "id": "content-contact",
+              "name": "dataContact[content]",
+              "type": null,
+              "placeholder": "Nội dung",
+              "label": "Nội dung",
+              "required": true,
+              "class": "form-control text-sm",
+              "invalidFeedback": "Vui lòng nhập nội dung",
+              "clientSideValidationAttributes": null
+            }
+          ],
+          "submit": {
+            "name": "submit-contact",
+            "type": "submit",
+            "value": "Gửi",
+            "disabled": true
+          },
+          "reset": {
+            "name": null,
+            "type": "reset",
+            "value": "Nhập lại",
+            "disabled": false
+          },
+          "hiddenFields": [
+            {
+              "name": "recaptcha_response_contact",
+              "id": "recaptchaResponseContact"
+            }
+          ],
+          "clientSideValidation": false,
+          "serverEndpoint": null,
+          "note": "One <form> in the document and no other. action is the empty string, so a submit posts back to the page URL; no POST response was captured, so there is no evidence the handler does anything. The submit button ships disabled. There is no minlength, maxlength, pattern, data-bs-* or any other validation attribute anywhere in the form: the only .invalid-feedback text is static server-rendered markup."
+        }
+      ],
+      "interactions": [
+        "The form uses a Bootstrap-style .invalid-feedback pattern: each control has a sibling <div class=\"invalid-feedback\"> message, and the form carries novalidate so the browser's own bubbles are suppressed in favour of those server-rendered strings.",
+        "reCAPTCHA v3: the page config sets RECAPTCHA_ACTIVE = true and RECAPTCHA_SITEKEY = '6LdqpecqAAAAAIhAzHyxZjWEUUOjT0e5KoT8b-NP', and the inline script loads https://www.google.com/recaptcha/api.js?render=… only on a change event of 'form input.reset-token' — i.e. only after the user has typed in the name field. generateCaptcha('contact', 'recaptchaResponseContact') writes the token into the hidden input.",
+        "The phone field is <input type=\"number\" …>: it rejects a leading +, refuses a formatted number and renders spinner buttons. Recorded, not endorsed — the replica is free to use type=\"tel\" for the same field.",
+        "Header search: <a class=\"search\" href=\"javascript:void();\"> opens the hidden input; <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> submits on Enter, and a hidden <input type=\"hidden\" onclick=\"onSearch('keyword');\"> is the submit trigger.",
+        "Header dropdown: the «Sản phẩm» <li> opens a nested <ul>, driven by assets/mmenu/mmenu.js on mobile and a CSS :hover rule on desktop.",
+        "Lazy-loading contract used site-wide: <img class=\"lazy\" data-src=\"…\"> with an onerror fallback to a thumbs/…/assets/images/noimage.png placeholder, and assets/js/apps.js copying data-src into src on scroll.",
+        "Scroll animation: every section wrapper carries data-aos=\"fade-up\" or data-aos=\"zoom-in\" with data-aos-duration=\"1000\", driven by assets/css/animate.min.css.",
+        "Floating Zalo: <a class=\"btn-zalo btn-frame text-decoration-none\" target=\"_blank\" href=\"https://zalo.me/\"> — the href is the bare Zalo domain, a placeholder, not a real OA URL.",
+        "Chat and Facebook SDK injection: <div id=\"script-main\"></div> and <div id=\"messages-facebook\"></div> are both filled 2000 ms after load from api/addons.php?type=script-main and api/addons.php?type=messages-facebook.",
+        "Go-top: assets/js/apps.js appends <div class=\"scrollToTop\"><img src=\"assets/images/top.png\" alt=\"Go Top\"/></div> after 100 px of scroll."
+      ],
+      "seoDefects": [
+        "<title>Liên hệ</title> is 9 characters, carries no brand and no phone number, and is byte-identical to the breadcrumb and to the visible H2 — three copies of the same string for one page.",
+        "<meta property=\"og:type\" content=\"object\" /> is not a valid Open Graph type; the valid values are website, article, product and a handful of others.",
+        "<meta property=\"og:image\" content=\"\" /> is empty while og:image:alt names «Liên hệ» — the alt describes a picture that does not exist.",
+        "The contact page carries NO map, NO map iframe and NO map link, and no working hours, even though the family links a dealer network everywhere else. The page a user visits to find the shop does not say when it is open.",
+        "The contact page states two different phone numbers in two different regions of the same viewport: «Phone: 0965153621 - 0978202063» plus «Zalo: 0965153621» in the body, and «Điện thoại: 0978202063» in the site-wide footer. 0978202063 is never offered as a Zalo number and 0965153621 is never offered as the landline.",
+        "The address in the body ends «xã Tân An Hội, Huyện Củ Chi, TP. Hồ Chí Minh.» and the address in the footer ends «xã Tân An Hội, Thành phố Hồ Chí Minh.» — the body adds «Huyện Củ Chi» and the footer does not, so the site publishes two strings for one address.",
+        "The form has action=\"\" and therefore posts to the page's own URL. No capture of the POST response exists, so the source gives no evidence that submitting does anything.",
+        "The submit control ships as <input type=\"submit\" … value=\"Gửi\" disabled />, so a visitor cannot submit the form on the live site at all.",
+        "The form names every field dataContact[fullname] … dataContact[content], which leaks the backend data-binding scheme into the public markup.",
+        "BreadcrumbList JSON-LD lists 1 item (position 1 = the page itself) while the rendered breadcrumb shows 2 items — «Trang chủ» is missing from the structured data, so position 1 disagrees with the visible trail.",
+        "<html lang=\"vi|en\"> is not a valid BCP-47 language tag; it is a pipe-delimited list of two tags.",
+        "<meta name=\"description\" content=\"\" /> is an empty string and <meta name=\"keywords\" content=\"\" /> is empty too.",
+        "<meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are empty strings.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> puts an e-mail address in a Twitter handle field; <meta name=\"twitter:creator\" content=\"THE BOSS VIỆT NAM\"> puts a brand name in the same field.",
+        "<meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width, not width=device-width, initial-scale=1 — this is what forces the horizontal overflow on a 390 px screen.",
+        "The Twitter card block re-emits Open Graph property= tags instead of twitter:* name= tags.",
+        "<meta name=\"format-detection\" content=\"telephone=no\"> suppresses iOS link detection site-wide, including on the contact page.",
+        "The Organization JSON-LD declares an empty sameAs array, addressRegion \"Ho Chi Minh\" (English), addressCountry \"vi\" (lowercase) and a hard-coded postalCode \"70000\"; the microdata <ul class=\"h-card hidden\"> declares <li class=\"h-tel tel\"></li> with an empty telephone.",
+        "<a class=\"logo-head\" href=\"\"> in the header and the centre menu, and <a class=\"logo-footer\" href=\"\"> in the footer, are empty-href placeholder links.",
+        "The favicon is https://thebossvietnam.com/upload/photo/thiet-ke-chua-co-ten-8-6944.png — the source file name literally means \"design with no name\".",
+        "<title>Liên hệ</title> carries no brand word and ends in a full stop, so it reads as a sentence rather than a title tag."
+      ],
+      "notes": [
+        "Captured from the saved raw HTML at .scratch/raw/company/lien-he.html. This file was rebuilt offline from that stored response; the capture date is the one the page renders in its own config block (var TIMENOW = '30/09/2026').",
+        "Exactly one <form> exists in the document, and it is the only form on any of the five routes in this family.",
+        "The form ships no client-side validation attributes at all: no required-message wiring, no minlength, no maxlength, no pattern, no data-bs-toggle. The only .invalid-feedback strings are static server-rendered text.",
+        "Two strings a replica might plausibly want have NO source in this raw HTML and are therefore deliberately absent from this capture: «Vui lòng nhập nội dung ít nhất 10 ký tự» and «Vui lòng nhập địa chỉ email hợp lệ». Any module carrying them is carrying copy the source never published.",
+        "Working hours, a map and a real send endpoint are all absent from the source. Their absence is a finding, not licence to invent them.",
+        "Not measured in this rebuild: intrinsic image width/height. The file was rebuilt offline from the stored HTML, so no image header was read; the render size a thumbs/ or watermark/ path encodes is recorded per media entry as sourceRenderSize."
+      ]
+    },
+    {
+      "path": "/chinh-sach-bao-mat",
+      "sourceUrl": "https://thebossvietnam.com/chinh-sach-bao-mat",
+      "httpStatus": 200,
+      "sourceTitle": "Chính sách bảo mật.",
+      "metaDescription": "",
+      "h1": "Chính sách bảo mật.",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Chính sách bảo mật."
+      ],
+      "blocks": [
+        {
+          "type": "h1",
+          "text": "Chính sách bảo mật.",
+          "source": "A <div class=\"title-detail-main\">, not a heading element; the page has no visible H1 because the only <h1> is CSS-hidden."
+        },
+        {
+          "type": "p",
+          "text": "03/09/2024 10:56 PM",
+          "icon": "bi-calendar-check-fill"
+        },
+        {
+          "type": "p",
+          "text": "930 Lượt xem",
+          "icon": "bi-eye-fill"
+        },
+        {
+          "type": "h2",
+          "text": "1. QUY ĐỊNH CHUNG.",
+          "rawHtml": "<p><strong>1. QUY ĐỊNH CHUNG.</strong></p>",
+          "source": "The source marks this clause title with <p><strong>; it is the page's real heading, so it is carried as an h2 with the text byte-identical. The source markup is kept in rawHtml."
+        },
+        {
+          "type": "p",
+          "text": "Khi truy cập và sử dụng các dịch vụ trên website The Boss, khách hàng đồng ý với các điều khoản được quy định trong Chính sách bảo mật này. Chúng tôi cam kết bảo vệ quyền riêng tư và thông tin cá nhân của khách hàng theo đúng quy định pháp luật Việt Nam."
+        },
+        {
+          "type": "h2",
+          "text": "2. MỤC ĐÍCH VÀ PHẠM VI THU THẬP THÔNG TIN CÁ NHÂN.",
+          "rawHtml": "<p><strong>2. MỤC ĐÍCH VÀ PHẠM VI THU THẬP THÔNG TIN CÁ NHÂN.</strong></p>",
+          "source": "The source marks this clause title with <p><strong>; it is the page's real heading, so it is carried as an h2 with the text byte-identical. The source markup is kept in rawHtml."
+        },
+        {
+          "type": "p",
+          "text": "Chúng tôi chỉ thu thập thông tin cá nhân cần thiết để cung cấp dịch vụ, bao gồm nhưng không giới hạn:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Họ và tên.",
+            "Số điện thoại.",
+            "Địa chỉ email.",
+            "Địa chỉ giao hàng.",
+            "Thông tin thanh toán (nếu có)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Thông tin này được sử dụng nhằm mục đích:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Xử lý đơn hàng và cung cấp dịch vụ theo yêu cầu của khách hàng.",
+            "Hỗ trợ khách hàng, chăm sóc khách hàng.",
+            "Cải thiện chất lượng dịch vụ và nghiên cứu thị trường.",
+            "Gửi thông báo về chương trình khuyến mãi, ưu đãi (chỉ khi có sự đồng ý từ khách hàng)."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "3. PHƯƠNG THỨC THU THẬP THÔNG TIN.",
+          "rawHtml": "<p><strong>3. PHƯƠNG THỨC THU THẬP THÔNG TIN.</strong></p>",
+          "source": "The source marks this clause title with <p><strong>; it is the page's real heading, so it is carried as an h2 with the text byte-identical. The source markup is kept in rawHtml."
+        },
+        {
+          "type": "p",
+          "text": "Chúng tôi thu thập thông tin cá nhân từ khách hàng thông qua các phương thức sau:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Khi khách hàng trực tiếp cung cấp thông tin trên website.",
+            "Khi khách hàng tương tác với chúng tôi thông qua email, điện thoại hoặc mạng xã hội.",
+            "Khi hệ thống tự động ghi nhận thông tin trong quá trình khách hàng sử dụng dịch vụ."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Khách hàng có quyền từ chối cung cấp thông tin hoặc yêu cầu xóa dữ liệu cá nhân bằng cách liên hệ với chúng tôi qua email info.thebossvietnam@gmail.com."
+        },
+        {
+          "type": "h2",
+          "text": "4. PHẠM VI SỬ DỤNG THÔNG TIN",
+          "rawHtml": "<p><strong>4. PHẠM VI SỬ DỤNG THÔNG TIN</strong></p>",
+          "source": "The source marks this clause title with <p><strong>; it is the page's real heading, so it is carried as an h2 with the text byte-identical. The source markup is kept in rawHtml."
+        },
+        {
+          "type": "p",
+          "text": "Chúng tôi cam kết không sử dụng thông tin cá nhân của khách hàng ngoài các mục đích đã nêu và chỉ chia sẻ thông tin trong các trường hợp sau:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Với các đơn vị vận chuyển để thực hiện giao hàng.",
+            "Với các đối tác thanh toán khi khách hàng thực hiện giao dịch trực tuyến.",
+            "Với cơ quan nhà nước có thẩm quyền khi có yêu cầu hợp pháp."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Chúng tôi không bán, trao đổi hoặc chia sẻ thông tin khách hàng với bên thứ ba ngoài phạm vi này."
+        },
+        {
+          "type": "p",
+          "text": "Nếu khách hàng theo dõi hoặc/và tương tác với chúng tôi trên các trang xã hội như Facebook hoặc Zalo, thông tin cá nhân của khách hàng cũng sẽ chịu sự quản lý của cơ quan cung cấp dịch vụ trên. Chúng tôi khuyến nghị khách hàng xem xét chính sách bảo mật của các nền tảng mạng xã hội đó để hiểu rõ cách thức thông tin của họ được thu thập, sử dụng và bảo vệ."
+        },
+        {
+          "type": "h2",
+          "text": "5. THỜI GIAN LƯU TRỮ THÔNG TIN",
+          "rawHtml": "<p><strong>5. THỜI GIAN LƯU TRỮ THÔNG TIN</strong></p>",
+          "source": "The source marks this clause title with <p><strong>; it is the page's real heading, so it is carried as an h2 with the text byte-identical. The source markup is kept in rawHtml."
+        },
+        {
+          "type": "p",
+          "text": "Thông tin cá nhân sẽ được lưu trữ trong vòng 03 năm kể từ lần cập nhật gần nhất của khách hàng hoặc theo quy định pháp luật. Sau thời gian này, dữ liệu sẽ được xóa hoặc ẩn danh trừ khi có yêu cầu khác từ khách hàng."
+        },
+        {
+          "type": "h2",
+          "text": "6. BẢO MẬT THÔNG TIN",
+          "rawHtml": "<p><strong>6. BẢO MẬT THÔNG TIN</strong></p>",
+          "source": "The source marks this clause title with <p><strong>; it is the page's real heading, so it is carried as an h2 with the text byte-identical. The source markup is kept in rawHtml."
+        },
+        {
+          "type": "p",
+          "text": "Chúng tôi áp dụng các biện pháp bảo mật nghiêm ngặt để bảo vệ thông tin cá nhân khỏi truy cập trái phép, bao gồm:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Mã hóa dữ liệu khi truyền tải.",
+            "Kiểm soát truy cập hệ thống nội bộ.",
+            "Cập nhật và nâng cấp hệ thống bảo mật thường xuyên."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Trong trường hợp xảy ra vi phạm bảo mật dữ liệu, chúng tôi sẽ thông báo kịp thời cho khách hàng và cơ quan chức năng theo quy định pháp luật."
+        },
+        {
+          "type": "h2",
+          "text": "7. QUYỀN LỢI CỦA KHÁCH HÀNG",
+          "rawHtml": "<p><strong>7. QUYỀN LỢI CỦA KHÁCH HÀNG</strong></p>",
+          "source": "The source marks this clause title with <p><strong>; it is the page's real heading, so it is carried as an h2 with the text byte-identical. The source markup is kept in rawHtml."
+        },
+        {
+          "type": "p",
+          "text": "Khách hàng có quyền:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Kiểm tra, cập nhật hoặc điều chỉnh thông tin cá nhân bất kỳ lúc nào.",
+            "Yêu cầu xóa thông tin cá nhân khi không còn sử dụng dịch vụ.",
+            "Khiếu nại nếu phát hiện thông tin bị sử dụng sai mục đích."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Mọi yêu cầu liên quan đến thông tin cá nhân, khách hàng có thể liên hệ qua email info.thebossvietnam@gmail.com."
+        },
+        {
+          "type": "h2",
+          "text": "8. THAY ĐỔI CHÍNH SÁCH BẢO MẬT",
+          "rawHtml": "<p><strong>8. THAY ĐỔI CHÍNH SÁCH BẢO MẬT</strong></p>",
+          "source": "The source marks this clause title with <p><strong>; it is the page's real heading, so it is carried as an h2 with the text byte-identical. The source markup is kept in rawHtml."
+        },
+        {
+          "type": "p",
+          "text": "Chúng tôi có quyền cập nhật Chính sách bảo mật này và sẽ thông báo cho khách hàng trên website hoặc qua email. Khách hàng tiếp tục sử dụng dịch vụ sau khi có thay đổi đồng nghĩa với việc chấp nhận các nội dung mới."
+        },
+        {
+          "type": "p",
+          "text": "Chúng tôi khuyến khích khách hàng thường xuyên kiểm tra Chính sách bảo mật để cập nhật các thay đổi mới nhất."
+        }
+      ],
+      "forms": [],
+      "interactions": [
+        "Table of contents: <ul class=\"toc-list\" data-toc=\"article\" data-toc-headings=\"h1, h2, h3\"></ul> is built at runtime by the TOC script in assets/js/main.js and is empty in the static HTML.",
+        "Share bar: AddToAny (a2a_dd, a2a_button_facebook, a2a_button_twitter, a2a_button_facebook_messenger, a2a_button_copy_link) from https://static.addtoany.com/menu/page.js, plus a Zalo share widget with oaid 579745863508352884 from https://sp.zalo.me/plugins/sdk.js. Both are third-party.",
+        "Related-news rail: <div class=\"share othernews\"> titled «Tin liên quan:» lists the sibling policy with its thumbnail; the <div class=\"pagination-home w-100\"></div> underneath is empty.",
+        "Header search: <a class=\"search\" href=\"javascript:void();\"> opens the hidden input; <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> submits on Enter, and a hidden <input type=\"hidden\" onclick=\"onSearch('keyword');\"> is the submit trigger.",
+        "Header dropdown: the «Sản phẩm» <li> opens a nested <ul>, driven by assets/mmenu/mmenu.js on mobile and a CSS :hover rule on desktop.",
+        "Lazy-loading contract used site-wide: <img class=\"lazy\" data-src=\"…\"> with an onerror fallback to a thumbs/…/assets/images/noimage.png placeholder, and assets/js/apps.js copying data-src into src on scroll.",
+        "Scroll animation: every section wrapper carries data-aos=\"fade-up\" or data-aos=\"zoom-in\" with data-aos-duration=\"1000\", driven by assets/css/animate.min.css.",
+        "Floating Zalo: <a class=\"btn-zalo btn-frame text-decoration-none\" target=\"_blank\" href=\"https://zalo.me/\"> — the href is the bare Zalo domain, a placeholder, not a real OA URL.",
+        "Chat and Facebook SDK injection: <div id=\"script-main\"></div> and <div id=\"messages-facebook\"></div> are both filled 2000 ms after load from api/addons.php?type=script-main and api/addons.php?type=messages-facebook.",
+        "Go-top: assets/js/apps.js appends <div class=\"scrollToTop\"><img src=\"assets/images/top.png\" alt=\"Go Top\"/></div> after 100 px of scroll."
+      ],
+      "seoDefects": [
+        "<title>Chính sách bảo mật.</title> ends in a full stop and carries no brand word, so it is a sentence in a title tag.",
+        "The visible page heading is a <div class=\"title-detail-main\">, not a heading element, and the only <h1> is <h1 class=\"hidden-seoh\"> which is CSS-hidden. The page therefore has no visible H1 and no heading structure above the body.",
+        "The clause titles are <p><strong>…</strong></p> in the source, i.e. they are not headings at all, so a document outline of this page is empty. This capture carries them as h2 with the text unchanged so the outline exists, and each block keeps the source markup in rawHtml.",
+        "The clause numbering and punctuation are inconsistent in the source: clauses 1, 2, 3, 6 and 7 end in a full stop while 4, 5 and 8 do not.",
+        "A publication date and a live view counter are rendered as body copy beside the title. Both are server values that change over time and neither may be presented as a current fact.",
+        "This is a privacy policy for a site with no cookie banner, no consent mechanism and no data-processing disclosure in the markup, so none of the stated obligations is connected to anything the page actually does.",
+        "BreadcrumbList JSON-LD lists 1 item (position 1 = the page itself) while the rendered breadcrumb shows 2 items — «Trang chủ» is missing from the structured data, so position 1 disagrees with the visible trail.",
+        "<html lang=\"vi|en\"> is not a valid BCP-47 language tag; it is a pipe-delimited list of two tags.",
+        "<meta name=\"description\" content=\"\" /> is an empty string and <meta name=\"keywords\" content=\"\" /> is empty too.",
+        "<meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are empty strings.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> puts an e-mail address in a Twitter handle field; <meta name=\"twitter:creator\" content=\"THE BOSS VIỆT NAM\"> puts a brand name in the same field.",
+        "<meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width, not width=device-width, initial-scale=1 — this is what forces the horizontal overflow on a 390 px screen.",
+        "The Twitter card block re-emits Open Graph property= tags instead of twitter:* name= tags.",
+        "<meta name=\"format-detection\" content=\"telephone=no\"> suppresses iOS link detection site-wide, including on the contact page.",
+        "The Organization JSON-LD declares an empty sameAs array, addressRegion \"Ho Chi Minh\" (English), addressCountry \"vi\" (lowercase) and a hard-coded postalCode \"70000\"; the microdata <ul class=\"h-card hidden\"> declares <li class=\"h-tel tel\"></li> with an empty telephone.",
+        "<a class=\"logo-head\" href=\"\"> in the header and the centre menu, and <a class=\"logo-footer\" href=\"\"> in the footer, are empty-href placeholder links.",
+        "The favicon is https://thebossvietnam.com/upload/photo/thiet-ke-chua-co-ten-8-6944.png — the source file name literally means \"design with no name\".",
+        "<title>Chính sách bảo mật.</title> carries no brand word and ends in a full stop, so it reads as a sentence rather than a title tag."
+      ],
+      "notes": [
+        "Captured from the saved raw HTML at .scratch/raw/company/chinh-sach-bao-mat.html. This file was rebuilt offline from that stored response; the capture date is the one the page renders in its own config block (var TIMENOW = '30/09/2026').",
+        "The eight numbered clause titles are <p><strong>…</strong></p> in the raw markup. This capture records them as h2 because they are the page's real headings: the text is byte-identical and each block keeps the source markup in rawHtml.",
+        "The date and the view counter are captured verbatim as two p blocks with their icon classes, because the layout puts them inside .time-main and a reader does read them.",
+        "This policy is owner-asserted legal copy about how personal data is handled. It describes obligations the site does not implement in its own markup — no consent, no cookie control, no deletion endpoint — and it must be reviewed and rewritten by the owner before publication.",
+        "Not measured in this rebuild: intrinsic image width/height. The file was rebuilt offline from the stored HTML, so no image header was read; the render size a thumbs/ or watermark/ path encodes is recorded per media entry as sourceRenderSize."
+      ]
+    },
+    {
+      "path": "/chinh-sach-tuyen-dung",
+      "sourceUrl": "https://thebossvietnam.com/chinh-sach-tuyen-dung",
+      "httpStatus": 200,
+      "sourceTitle": "Chính sách tuyển dụng.",
+      "metaDescription": "",
+      "h1": "Chính sách tuyển dụng.",
+      "breadcrumbs": [
+        "Trang chủ",
+        "Chính sách tuyển dụng."
+      ],
+      "blocks": [
+        {
+          "type": "h1",
+          "text": "Chính sách tuyển dụng.",
+          "source": "A <div class=\"title-detail-main\">, not a heading element; the page has no visible H1 because the only <h1> is CSS-hidden."
+        },
+        {
+          "type": "p",
+          "text": "19/10/2024 02:38 PM",
+          "icon": "bi-calendar-check-fill"
+        },
+        {
+          "type": "p",
+          "text": "1057 Lượt xem",
+          "icon": "bi-eye-fill"
+        },
+        {
+          "type": "p",
+          "text": "Nội dung đang cập nhật",
+          "rawHtml": "<div class=\"alert alert-warning w-100\" role=\"alert\"><strong>Nội dung đang cập nhật</strong></div>"
+        }
+      ],
+      "forms": [],
+      "interactions": [
+        "Table of contents: <ul class=\"toc-list\" data-toc=\"article\" data-toc-headings=\"h1, h2, h3\"></ul> is built at runtime by the TOC script in assets/js/main.js and is empty in the static HTML.",
+        "Share bar: AddToAny (a2a_dd, a2a_button_facebook, a2a_button_twitter, a2a_button_facebook_messenger, a2a_button_copy_link) from https://static.addtoany.com/menu/page.js, plus a Zalo share widget with oaid 579745863508352884 from https://sp.zalo.me/plugins/sdk.js. Both are third-party.",
+        "Related-news rail: <div class=\"share othernews\"> titled «Tin liên quan:» lists the sibling policy with its thumbnail; the <div class=\"pagination-home w-100\"></div> underneath is empty.",
+        "Header search: <a class=\"search\" href=\"javascript:void();\"> opens the hidden input; <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> submits on Enter, and a hidden <input type=\"hidden\" onclick=\"onSearch('keyword');\"> is the submit trigger.",
+        "Header dropdown: the «Sản phẩm» <li> opens a nested <ul>, driven by assets/mmenu/mmenu.js on mobile and a CSS :hover rule on desktop.",
+        "Lazy-loading contract used site-wide: <img class=\"lazy\" data-src=\"…\"> with an onerror fallback to a thumbs/…/assets/images/noimage.png placeholder, and assets/js/apps.js copying data-src into src on scroll.",
+        "Scroll animation: every section wrapper carries data-aos=\"fade-up\" or data-aos=\"zoom-in\" with data-aos-duration=\"1000\", driven by assets/css/animate.min.css.",
+        "Floating Zalo: <a class=\"btn-zalo btn-frame text-decoration-none\" target=\"_blank\" href=\"https://zalo.me/\"> — the href is the bare Zalo domain, a placeholder, not a real OA URL.",
+        "Chat and Facebook SDK injection: <div id=\"script-main\"></div> and <div id=\"messages-facebook\"></div> are both filled 2000 ms after load from api/addons.php?type=script-main and api/addons.php?type=messages-facebook.",
+        "Go-top: assets/js/apps.js appends <div class=\"scrollToTop\"><img src=\"assets/images/top.png\" alt=\"Go Top\"/></div> after 100 px of scroll."
+      ],
+      "seoDefects": [
+        "<title>Chính sách tuyển dụng.</title> ends in a full stop and carries no brand word, so it is a sentence in a title tag.",
+        "The visible page heading is a <div class=\"title-detail-main\">, not a heading element, and the only <h1> is <h1 class=\"hidden-seoh\"> which is CSS-hidden. The page therefore has no visible H1 and no heading structure above the body.",
+        "The clause titles are <p><strong>…</strong></p> in the source, i.e. they are not headings at all, so a document outline of this page is empty. This capture carries them as h2 with the text unchanged so the outline exists, and each block keeps the source markup in rawHtml.",
+        "The clause numbering and punctuation are inconsistent in the source: clauses 1, 2, 3, 6 and 7 end in a full stop while 4, 5 and 8 do not.",
+        "A publication date and a live view counter are rendered as body copy beside the title. Both are server values that change over time and neither may be presented as a current fact.",
+        "The recruitment page has no recruitment content at all: <div class=\"alert alert-warning\"><strong>Nội dung đang cập nhật</strong></div> is the entire body, yet the page is indexed (meta robots index,follow) and has its own og:image and a breadcrumb.",
+        "BreadcrumbList JSON-LD lists 1 item (position 1 = the page itself) while the rendered breadcrumb shows 2 items — «Trang chủ» is missing from the structured data, so position 1 disagrees with the visible trail.",
+        "<html lang=\"vi|en\"> is not a valid BCP-47 language tag; it is a pipe-delimited list of two tags.",
+        "<meta name=\"description\" content=\"\" /> is an empty string and <meta name=\"keywords\" content=\"\" /> is empty too.",
+        "<meta property=\"og:description\" content=\"\" /> and the duplicated Twitter description are empty strings.",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> puts an e-mail address in a Twitter handle field; <meta name=\"twitter:creator\" content=\"THE BOSS VIỆT NAM\"> puts a brand name in the same field.",
+        "<meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width, not width=device-width, initial-scale=1 — this is what forces the horizontal overflow on a 390 px screen.",
+        "The Twitter card block re-emits Open Graph property= tags instead of twitter:* name= tags.",
+        "<meta name=\"format-detection\" content=\"telephone=no\"> suppresses iOS link detection site-wide, including on the contact page.",
+        "The Organization JSON-LD declares an empty sameAs array, addressRegion \"Ho Chi Minh\" (English), addressCountry \"vi\" (lowercase) and a hard-coded postalCode \"70000\"; the microdata <ul class=\"h-card hidden\"> declares <li class=\"h-tel tel\"></li> with an empty telephone.",
+        "<a class=\"logo-head\" href=\"\"> in the header and the centre menu, and <a class=\"logo-footer\" href=\"\"> in the footer, are empty-href placeholder links.",
+        "The favicon is https://thebossvietnam.com/upload/photo/thiet-ke-chua-co-ten-8-6944.png — the source file name literally means \"design with no name\".",
+        "<title>Chính sách tuyển dụng.</title> carries no brand word and ends in a full stop, so it reads as a sentence rather than a title tag."
+      ],
+      "notes": [
+        "Captured from the saved raw HTML at .scratch/raw/company/chinh-sach-tuyen-dung.html. This file was rebuilt offline from that stored response; the capture date is the one the page renders in its own config block (var TIMENOW = '30/09/2026').",
+        "The whole body is one Bootstrap warning alert whose only content is «Nội dung đang cập nhật». There is no recruitment copy, no role, no applicant contact and no form on this route; that absence is the finding.",
+        "The date and the view counter are captured verbatim as two p blocks with their icon classes, because the layout puts them inside .time-main and a reader does read them.",
+        "The page is indexed and sits in the confirmed sitemap set while shipping a placeholder. That is a source defect to record, not a licence to write recruitment copy.",
+        "Not measured in this rebuild: intrinsic image width/height. The file was rebuilt offline from the stored HTML, so no image header was read; the render size a thumbs/ or watermark/ path encodes is recorded per media entry as sourceRenderSize."
+      ]
+    }
+  ],
+  "media": [
+    {
+      "url": "https://thebossvietnam.com/thumbs/157x60x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "logo",
+      "localName": "noimage",
+      "sourceRenderSize": "157x60",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/",
+        "/gioi-thieu",
+        "/lien-he",
+        "/chinh-sach-bao-mat",
+        "/chinh-sach-tuyen-dung"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/157x60x1/upload/photo/02-logo-boss-chu-do-nen-trang-5204.png",
+      "role": "shell-logo",
+      "alt": "logo",
+      "localName": "02-logo-boss-chu-do-nen-trang-5204",
+      "sourceRenderSize": "157x60",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/",
+        "/gioi-thieu",
+        "/lien-he",
+        "/chinh-sach-bao-mat",
+        "/chinh-sach-tuyen-dung"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/photo/02-logo-boss-chu-do-nen-trang-5204.png",
+      "role": "shell-logo",
+      "alt": "logo",
+      "localName": "02-logo-boss-chu-do-nen-trang-5204",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/",
+        "/gioi-thieu",
+        "/lien-he",
+        "/chinh-sach-bao-mat",
+        "/chinh-sach-tuyen-dung"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/1920x800x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "Khuyen mai 08.08.2026",
+      "localName": "noimage",
+      "sourceRenderSize": "1920x800",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/1920x800x1/upload/photo/banner-boss-vn-final-03-5325.png",
+      "role": "image",
+      "alt": "Khuyen mai 08.08.2026",
+      "localName": "banner-boss-vn-final-03-5325",
+      "sourceRenderSize": "1920x800",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/1920x800x1/upload/photo/15-sp-1379.png",
+      "role": "partner",
+      "alt": "",
+      "localName": "15-sp-1379",
+      "sourceRenderSize": "1920x800",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/1920x800x1/upload/photo/9-sp-88630.png",
+      "role": "partner",
+      "alt": "",
+      "localName": "9-sp-88630",
+      "sourceRenderSize": "1920x800",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/460x75x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "",
+      "localName": "noimage",
+      "sourceRenderSize": "460x75",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/photo/theboss-460x75-8475-1-3806.png",
+      "role": "image",
+      "alt": "",
+      "localName": "theboss-460x75-8475-1-3806",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/300x300x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "the boss",
+      "localName": "noimage",
+      "sourceRenderSize": "300x300",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/300x300x1/upload/news/z5782567673808294211b18a82586d7b22e053cb232e63-5190.jpg",
+      "role": "article-card",
+      "alt": "the boss",
+      "localName": "z5782567673808294211b18a82586d7b22e053cb232e63-5190",
+      "sourceRenderSize": "300x300",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/470x460x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "the boss",
+      "localName": "noimage",
+      "sourceRenderSize": "470x460",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/470x460x1/upload/news/thiet-ke-chua-co-ten-2-2080.png",
+      "role": "article-card",
+      "alt": "the boss",
+      "localName": "thiet-ke-chua-co-ten-2-2080",
+      "sourceRenderSize": "470x460",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/assets/images/spnb.png",
+      "role": "icon",
+      "alt": "icon-sanpham",
+      "localName": "spnb",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/551x398x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "",
+      "localName": "noimage",
+      "sourceRenderSize": "551x398",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/551x398x1/upload/photo/green-bold-international-cat-day-instagram-post-5-2940.png",
+      "role": "image",
+      "alt": "",
+      "localName": "green-bold-international-cat-day-instagram-post-5-2940",
+      "sourceRenderSize": "551x398",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/assets/images/vscb.png",
+      "role": "icon",
+      "alt": "",
+      "localName": "vscb",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/assets/images/feedback.png",
+      "role": "icon",
+      "alt": "icon-news",
+      "localName": "feedback",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/assets/images/cam-nang.png",
+      "role": "icon",
+      "alt": "icon-news",
+      "localName": "cam-nang",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/376x300x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "HƯỚNG DẪN CÁCH CHUYỂN ĐỔI THỨC ĂN CHO CHÓ, MÈO AN TOÀN.",
+      "localName": "noimage",
+      "sourceRenderSize": "376x300",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/376x300x1/upload/news/chuyen-doi-thuc-an-cho-cho-meo-an-toan-3612.png",
+      "role": "article-card",
+      "alt": "HƯỚNG DẪN CÁCH CHUYỂN ĐỔI THỨC ĂN CHO CHÓ, MÈO AN TOÀN.",
+      "localName": "chuyen-doi-thuc-an-cho-cho-meo-an-toan-3612",
+      "sourceRenderSize": "376x300",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/376x300x1/upload/news/2-3691.png",
+      "role": "article-card",
+      "alt": "NHỮNG THỰC PHẨM NGUY HIỂM KHÔNG NÊN CHO CHÓ, MÈO ĂN.",
+      "localName": "2-3691",
+      "sourceRenderSize": "376x300",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/376x300x1/upload/news/cham-soc-suc-khoe-toan-dien-2472.png",
+      "role": "article-card",
+      "alt": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN CHO CHÓ, MÈO NGOÀI CHẾ ĐỘ DINH DƯỠNG.",
+      "localName": "cham-soc-suc-khoe-toan-dien-2472",
+      "sourceRenderSize": "376x300",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/150x150x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "",
+      "localName": "noimage",
+      "sourceRenderSize": "150x150",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/photo/1-17150.png",
+      "role": "partner",
+      "alt": "",
+      "localName": "1-17150",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/photo/3-78501.jpg",
+      "role": "partner",
+      "alt": "",
+      "localName": "3-78501",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/photo/41-39172.jpg",
+      "role": "partner",
+      "alt": "",
+      "localName": "41-39172",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/photo/4-13183.jpg",
+      "role": "partner",
+      "alt": "",
+      "localName": "4-13183",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/photo/5-14164.png",
+      "role": "partner",
+      "alt": "",
+      "localName": "5-14164",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/photo/6-13700.jpg",
+      "role": "partner",
+      "alt": "",
+      "localName": "6-13700",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/photo/7-49701.jpg",
+      "role": "partner",
+      "alt": "",
+      "localName": "7-49701",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/photo/8-75602.jpg",
+      "role": "partner",
+      "alt": "",
+      "localName": "8-75602",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/photo/9-39953.jpg",
+      "role": "partner",
+      "alt": "",
+      "localName": "9-39953",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/photo/10-44294.jpg",
+      "role": "partner",
+      "alt": "",
+      "localName": "10-44294",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/photo/2-42230.png",
+      "role": "partner",
+      "alt": "",
+      "localName": "2-42230",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/assets/images/ha.png",
+      "role": "icon",
+      "alt": "icon-album",
+      "localName": "ha",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/420x420x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "",
+      "localName": "noimage",
+      "sourceRenderSize": "420x420",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/420x420x1/upload/product/46888521713645814346431795730101411714443059n-5759.jpg",
+      "role": "album",
+      "alt": "",
+      "localName": "46888521713645814346431795730101411714443059n-5759",
+      "sourceRenderSize": "420x420",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/400x300x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "",
+      "localName": "noimage",
+      "sourceRenderSize": "400x300",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/400x300x1/upload/product/z606654379618397dc21fc4b42ff42e5b8dde4047177a2-8324.jpg",
+      "role": "album",
+      "alt": "",
+      "localName": "z606654379618397dc21fc4b42ff42e5b8dde4047177a2-8324",
+      "sourceRenderSize": "400x300",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/600x300x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "",
+      "localName": "noimage",
+      "sourceRenderSize": "600x300",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/600x300x1/upload/product/z60665223331916862929201120000a7f7c73949df2ead-4394.jpg",
+      "role": "album",
+      "alt": "",
+      "localName": "z60665223331916862929201120000a7f7c73949df2ead-4394",
+      "sourceRenderSize": "600x300",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/340x380x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "",
+      "localName": "noimage",
+      "sourceRenderSize": "340x380",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/340x380x1/upload/product/z5900547486416aa949ad65d7bb44ee429be3463640095-7034.jpg",
+      "role": "album",
+      "alt": "",
+      "localName": "z5900547486416aa949ad65d7bb44ee429be3463640095-7034",
+      "sourceRenderSize": "340x380",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/assets/images/icon2.png",
+      "role": "shell-icon",
+      "alt": "icon-album",
+      "localName": "icon2",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/assets/images/icon3.png",
+      "role": "shell-icon",
+      "alt": "icon-album",
+      "localName": "icon3",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/assets/images/title-ds.png",
+      "role": "icon",
+      "alt": "",
+      "localName": "title-ds",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/785x350x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "",
+      "localName": "noimage",
+      "sourceRenderSize": "785x350",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/785x350x1/upload/photo/thiet-ke-chua-co-ten-14-8887.png",
+      "role": "image",
+      "alt": "",
+      "localName": "thiet-ke-chua-co-ten-14-8887",
+      "sourceRenderSize": "785x350",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/210x80x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "logo",
+      "localName": "noimage",
+      "sourceRenderSize": "210x80",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/",
+        "/gioi-thieu",
+        "/lien-he",
+        "/chinh-sach-bao-mat",
+        "/chinh-sach-tuyen-dung"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/upload/news/02-logo-boss-chu-do-nen-trang-5204-8553.png",
+      "role": "shell-logo",
+      "alt": "logo",
+      "localName": "02-logo-boss-chu-do-nen-trang-5204-8553",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/",
+        "/gioi-thieu",
+        "/lien-he",
+        "/chinh-sach-bao-mat",
+        "/chinh-sach-tuyen-dung"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/assets/images/fb1.png",
+      "role": "shell-icon",
+      "alt": "logo",
+      "localName": "fb1",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/",
+        "/gioi-thieu",
+        "/lien-he",
+        "/chinh-sach-bao-mat",
+        "/chinh-sach-tuyen-dung"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/240x180x2/upload/photo/hinh-anh-dan-den-fanpage-9032.jpg",
+      "role": "image",
+      "alt": "",
+      "localName": "hinh-anh-dan-den-fanpage-9032",
+      "sourceRenderSize": "240x180",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/",
+        "/gioi-thieu",
+        "/lien-he",
+        "/chinh-sach-bao-mat",
+        "/chinh-sach-tuyen-dung"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/35x35x2/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "",
+      "localName": "noimage",
+      "sourceRenderSize": "35x35",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/",
+        "/gioi-thieu",
+        "/lien-he",
+        "/chinh-sach-bao-mat",
+        "/chinh-sach-tuyen-dung"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/assets/images/zl.png",
+      "role": "shell-icon",
+      "alt": "",
+      "localName": "zl",
+      "sourceRenderSize": null,
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/",
+        "/gioi-thieu",
+        "/lien-he",
+        "/chinh-sach-bao-mat",
+        "/chinh-sach-tuyen-dung"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/210x144x1/assets/images/noimage.png",
+      "role": "placeholder",
+      "alt": "Chính sách tuyển dụng.",
+      "localName": "noimage",
+      "sourceRenderSize": "210x144",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/chinh-sach-bao-mat",
+        "/chinh-sach-tuyen-dung"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/210x144x1/upload/news/1-5393.png",
+      "role": "related-card",
+      "alt": "Chính sách tuyển dụng.",
+      "localName": "1-5393",
+      "sourceRenderSize": "210x144",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/chinh-sach-bao-mat"
+      ]
+    },
+    {
+      "url": "https://thebossvietnam.com/thumbs/210x144x1/upload/news/2-1557.png",
+      "role": "related-card",
+      "alt": "Chính sách bảo mật.",
+      "localName": "2-1557",
+      "sourceRenderSize": "210x144",
+      "width": null,
+      "height": null,
+      "usedOn": [
+        "/chinh-sach-tuyen-dung"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "family": "catalog",
+  "capturedAt": "2026-09-30T10:46:54+07:00 (server var TIMENOW = '30/09/2026' on every page; capture window 10:46-10:53 +07:00)",
+  "sourceOrigin": "https://thebossvietnam.com",
+  "httpStatusEvidence": {
+    "method": "curl -sS -o NUL -w \"%{http_code} %{url_effective}\\n\" -L",
+    "/": 200,
+    "/san-pham": 200,
+    "/thit-tuoi": 200,
+    "/pate": 200,
+    "/tim-kiem": 200,
+    "/tim-kiem?keyword=ga": 200,
+    "/tim-kiem?keyword=": 200,
+    "/tim-kiem?keyword=zzzzqqq": 200,
+    "/gio-hang": 404,
+    "/robots.txt": 200,
+    "/sitemap.xml": 200
+  },
+  "ajaxEndpointsObserved": [
+    {
+      "trigger": "product tab (a) click, or first paint on /san-pham",
+      "request": "POST https://thebossvietnam.com/api/load_ajax_product.php",
+      "postBody": "id=0&page=9&tenkhongdau=san-pham  |  id=4&page=9&tenkhongdau=thit-tuoi  |  id=5&page=9&tenkhongdau=pate",
+      "responseBody": "<div class=\"paging-product-category paging-product-category-0\" data-list=\"0\" data-page=\"9\"></div> plus an inline script calling loadPaging(\"api/product.php?perpage=\"+page+\"&idList=\"+list,'.paging-product-category-'+list)",
+      "wiringSource": "assets/js/apps.js:810-811 FirstLoadAPI(\".list-hot a:first\", \"api/load_ajax_product.php\", \".load_ajax_product\"); LoadAPI(\".list-hot a\", \"api/load_ajax_product.php\", \".load_ajax_product\"); -> assets/js/functions.js:387-424 FirstLoadAPI/LoadAPI/FrameAjax POST {id, page, tenkhongdau}; target container .load_ajax_product",
+      "evidenceFiles": [".scratch/raw/catalog/ajax_tab_id0.html", ".scratch/raw/catalog/ajax_tab_id4.html", ".scratch/raw/catalog/ajax_tab_id5.html"]
+    },
+    {"trigger": "second-stage loadPaging()", "request": "GET https://thebossvietnam.com/api/product.php?perpage=9&idList=0", "result": "9 product cards + <div class=\"pagination-ajax\"> with English First/Prev/1/2/Next/Last", "evidenceFiles": [".scratch/raw/catalog/api_product_idlist0.html"]},
+    {"trigger": "second-stage loadPaging()", "request": "GET https://thebossvietnam.com/api/product.php?perpage=9&idList=4", "result": "9 product cards + <div class=\"pagination-ajax\"></div> (empty)", "evidenceFiles": [".scratch/raw/catalog/api_product_idlist4.html"]},
+    {"trigger": "second-stage loadPaging()", "request": "GET https://thebossvietnam.com/api/product.php?perpage=9&idList=5", "result": "6 product cards + <div class=\"pagination-ajax\"></div> (empty)", "evidenceFiles": [".scratch/raw/catalog/api_product_idlist5.html"]},
+    {"trigger": "pagination Next/2 link inside the Tất cả tab feed", "request": "GET https://thebossvietnam.com/api/product.php?perpage=9&p=2", "result": "6 product cards (the 6 soups) + pagination 1 / 2(current) with disabled Next/Last; the p=2 URL drops idList entirely", "evidenceFiles": [".scratch/raw/catalog/api_product_perpage9_p2.html"]}
+  ],
+  "productTabsObserved": {
+    "containerMarkup": "<div class=\"cats-owl list-hot\"><div class=\"owl-page owl-carousel owl-theme\" data-items=\"screen:0|items:3|margin:10,screen:425|items:3|margin:10,screen:575|items:3|margin:10,screen:767|items:3|margin:10,screen:991|items:3|margin:10,screen:1199|items:3|margin:10\" data-rewind=\"1\" data-autoplay=\"1\" data-loop=\"0\" data-lazyload=\"0\" data-mousedrag=\"1\" data-touchdrag=\"1\" data-smartspeed=\"300\" data-autoplayspeed=\"500\" data-autoplaytimeout=\"3500\" data-dots=\"0\" data-nav=\"0\" data-navcontainer=\"\">",
+    "target": ".load_ajax_product",
+    "tabs": [
+      {"label": "Tất cả", "href": null, "attrs": {"class": "text-decoration-none", "data-page": "9", "data-id": "0", "data-tenkhongdau": "san-pham"}, "resultingFeed": "api/product.php?perpage=9&idList=0", "cardCount": 9},
+      {"label": "Thịt Tươi Rau Củ", "href": null, "attrs": {"class": "text-decoration-none", "data-page": "9", "data-id": "4", "data-tenkhongdau": "thit-tuoi"}, "resultingFeed": "api/product.php?perpage=9&idList=4", "cardCount": 9},
+      {"label": "Pate Tươi", "href": null, "attrs": {"class": "text-decoration-none", "data-page": "9", "data-id": "5", "data-tenkhongdau": "pate"}, "resultingFeed": "api/product.php?perpage=9&idList=5", "cardCount": 6}
+    ]
+  },
+  "routes": [
+    {
+      "path": "/san-pham",
+      "sourceUrl": "https://thebossvietnam.com/san-pham",
+      "httpStatus": 200,
+      "sourceTitle": "Sản phẩm",
+      "metaDescription": "",
+      "h1": "Sản phẩm",
+      "breadcrumbs": ["Trang chủ", "Sản phẩm"],
+      "blocks": [
+        {"type": "h2", "text": "Sản phẩm", "note": "inside <div class=\"title-main\">. The <h1 class=\"hidden-seoh\">Sản phẩm</h1> sits above the header and is CSS-hidden, so this h2 is the visible page heading."},
+        {"type": "ul", "items": ["Tất cả", "Thịt Tươi Rau Củ", "Pate Tươi"], "note": "the product tab row. All three tab elements are <a> tags with NO href attribute: <a class=\"text-decoration-none\" data-page=\"9\" data-id=\"0\" data-tenkhongdau=\"san-pham\">Tất cả</a>. They are not linkable and not keyboard-focusable."},
+        {"type": "p", "text": "", "note": "<div class=\"load_ajax_product\"></div> — the product grid is EMPTY in the served HTML. Zero product cards ship in /san-pham's HTML; the grid only exists after the two-stage AJAX chain runs."}
+      ],
+      "forms": [],
+      "interactions": [
+        "Product tabs: data-id 0/4/5 with data-page=9 and data-tenkhongdau san-pham/thit-tuoi/pate. Clicking (or first paint via FirstLoadAPI(\".list-hot a:first\")) POSTs id/page/tenkhongdau to api/load_ajax_product.php and injects the HTML into .load_ajax_product; the clicked tab gains class=\"active\".",
+        "Two-stage load: the api/load_ajax_product.php response is only a stub div <div class=\"paging-product-category paging-product-category-0\" data-list=\"0\" data-page=\"9\"></div> whose inline script then runs loadPaging(\"api/product.php?perpage=\"+page+\"&idList=\"+list,'.paging-product-category-'+list). The real cards come from api/product.php, NOT from load_ajax_product.php.",
+        "Tab row is an Owl carousel container (class=\"owl-page owl-carousel owl-theme\") with data-dots=\"0\" data-nav=\"0\" data-autoplay=\"1\" data-loop=\"0\" data-mousedrag=\"1\" data-touchdrag=\"1\" — draggable, no dots, no arrows.",
+        "Pagination inside the Tất cả feed, verbatim markup: <div class=\"pagination-ajax\"><a class=\"first disabled\">First</a><a class=\"prev disabled\">Prev</a><a id=1 class=\"current\">1</a><a onclick=\"loadPaging('api/product.php?perpage=9&p=2','')\" >2</a><a class=\"next\" onclick=\"loadPaging('api/product.php?perpage=9&p=2','')\" >Next</a><a class=\"last\" onclick=\"loadPaging('api/product.php?perpage=9&p=2','')\" >Last</a></div>. Labels are hard-coded English First/Prev/Next/Last on a Vietnamese page, and every onclick passes the EMPTY string as eShow, so loadPaging() returns without writing — the page links are no-ops.",
+        "Product cards carry data-aos=\"fade-up\" data-aos-duration=\"1000\" (AOS scroll-animation library).",
+        "Header search: <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> plus <input type=\"hidden\" onclick=\"onSearch('keyword');>. onSearch() (assets/js/functions.js:228) does location.href = 'tim-kiem?keyword=' + encodeURI(keyword);; on an empty value it calls notifyDialog(LANG['no_keywords']) which raises a SweetAlert-style modal with title LANG['thongbao'] = 'Thông báo', icon 'fas fa-exclamation-triangle' and body 'Chưa nhập từ khóa tìm kiếm', then returns false without navigating. doEnter fires on keyCode 13."
+      ],
+      "seoDefects": [
+        "<meta name=\"description\" content=\"\" /> is an empty string",
+        "<meta name=\"keywords\" content=\"\" /> is an empty string",
+        "<meta property=\"og:type\" content=\"object\" /> — invalid, must be a resource type such as website",
+        "<meta property=\"og:description\" content=\"\" />, <meta property=\"og:image\" content=\"\" />, og:image:type, og:image:width, og:image:height are all empty",
+        "<meta property=\"og:image:alt\" content=\"Sản phẩm\" /> reuses the page title as the image alt",
+        "<meta name=\"twitter:card\" content=\"summary_large_image\" /> is declared while og:image is empty, so no card can render",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\" /> — an email address in a field that expects an @handle",
+        "<html lang=\"vi|en\"> — invalid language list",
+        "<meta name=\"viewport\" content=\"width=1366px\"> — fixed 1366px viewport, no width=device-width",
+        "The only h1 is <h1 class=\"hidden-seoh\">Sản phẩm</h1>, which is CSS-hidden; the visible heading is an h2",
+        "BreadcrumbList JSON-LD has a single ListItem at position 1 named \"Sản phẩm\": the visible \"Trang chủ\" crumb is missing and the current page is numbered 1",
+        "<meta name=\"robots\" content=\"index,follow,noodp\" /> — noodp suppresses the description snippet, which is empty anyway",
+        "<meta name='revisit-after' content='1 days' /> is not a standard directive",
+        "The h-card microdata block declares <li class=\"h-tel tel\"></li> with an empty telephone value",
+        "The three product tabs are <a> elements with no href attribute",
+        "All product cards are absent from the initial HTML (empty .load_ajax_product), so the page ships no crawlable product content",
+        "Organization JSON-LD has an empty \"sameAs\": [] array and postalCode \"70000\", which does not match the visible footer address"
+      ],
+      "notes": [
+        "SOURCE DEFECT — perpage=0 single-card behaviour, EVIDENCED not assumed. The Tất cả tab markup itself sends page=9 (data-page=\"9\"), so the live request is api/product.php?perpage=9&idList=0, which returns 9 cards. The single-card-over-15-pages behaviour appears whenever perpage is 0, empty or missing. GET https://thebossvietnam.com/api/product.php?perpage=0&idList=0 returns exactly 1 card (GÀ XAY HỖN HỢP) plus: <div class=\"pagination-ajax\"><a class=\"first disabled\">First</a><a class=\"prev disabled\">Prev</a><a id=1 class=\"current\">1</a><a onclick=\"loadPaging('api/product.php?perpage=1&p=2','')\" >2</a><a onclick=\"loadPaging('api/product.php?perpage=1&p=3','')\" >3</a><a class=\"dot\">...</a><a onclick=\"loadPaging('api/product.php?perpage=1&p=15','')\" >15</a><a class=\"next\" onclick=\"loadPaging('api/product.php?perpage=1&p=2','')\" >Next</a><a class=\"last\" onclick=\"loadPaging('api/product.php?perpage=1&p=15','')\" >Last</a></div>. Measured card counts: perpage=0 -> 1 (2599 bytes); perpage= (empty) -> 1; perpage absent -> 1; perpage=abc -> 0; perpage=1 -> 1; perpage=9 -> 9 (16883 bytes); perpage=15 -> 15 (27060 bytes). Full response saved at .scratch/raw/catalog/api_product_perpage0_evidence.html. The replica must render all 15 products in HTML and filter locally; it must not reproduce this.",
+        "The three tab feeds together cover 15 products: Tất cả page 1 = the 9 fresh meats, page 2 = the 6 soups. 9 + 6 = 15 confirmed.",
+        "Feed cards (from api/product.php) use grid classes col-md-4 col-sm-6 col-6 col-20 and carry TWO images per card (a.pic-product1 + a.pic-product2). The statically-rendered category pages use col-4 col-20 and only ONE image per card. The two markup variants genuinely differ; do not merge them when reading design values.",
+        "Badge mapping observed in the feeds: check-hot on THỊT HEO and THỊT BÒ only; check-new on all 6 soups. The other 7 fresh meats carry no badge. No product has both.",
+        "The page's <head> loads magiczoomplus.css (unlike /tim-kiem) and the body loads jQuery, mmenu, flatpickr, AOS, SweetAlert-style $.alert, Google reCAPTCHA v3 (site key 6LdqpecqAAAAAIhAzHyxZjWEUUOjT0e5KoT8b-NP), then after a 2000ms timeout loads api/addons.php?type=messages-facebook into #messages-facebook and api/addons.php?type=script-main into #script-main. These are remote runtime dependencies the replica must not carry.",
+        "No hero/banner/slide images exist on /san-pham. The only Owl carousel on the page is the tab row."
+      ]
+    },
+    {
+      "path": "/thit-tuoi",
+      "sourceUrl": "https://thebossvietnam.com/thit-tuoi",
+      "httpStatus": 200,
+      "sourceTitle": "Thịt Tươi Rau Củ",
+      "metaDescription": "",
+      "h1": "Thịt Tươi Rau Củ",
+      "breadcrumbs": ["Trang chủ", "Sản phẩm", "Thịt Tươi Rau Củ"],
+      "blocks": [
+        {"type": "h2", "text": "Thịt Tươi Rau Củ", "note": "inside <div class=\"title-main\">"},
+        {"type": "p", "text": "GÀ XAY HỖN HỢP", "href": "ga-xay-hon-hop", "price": ["33.000đ/cây (800gr)", "19.000đ/cây (400gr)"], "badge": "none", "unit": "cây"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ga-xay-hon-hop-3116.png", "alt": "GÀ XAY HỖN HỢP", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "SUPER GÀ", "href": "supper-ga", "price": ["43.000đ/cây (800gr)", "26.000đ/cây (400gr)"], "badge": "none", "unit": "cây"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/super-ga-9866.png", "alt": "SUPER GÀ", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "THỊT HEO", "href": "thit-heo", "price": ["67.000đ/cây (800gr)", "39.000đ/cây (400gr)"], "badge": "hot", "unit": "cây"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/thit-heo-4805.png", "alt": "THỊT HEO", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "THỊT BÒ", "href": "thit-bo", "price": ["77.000đ/cây (800gr)", "46.000đ/cây (400gr)"], "badge": "hot", "unit": "cây"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/thit-bo-3112.png", "alt": "THỊT BÒ", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "CÁ XAY", "href": "ca-xay", "price": ["67.000đ/cây (800gr)", "39.000đ/cây (400gr)"], "badge": "none", "unit": "cây"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ca-xay-1854.png", "alt": "CÁ XAY", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "CHIM CÚT", "href": "chim-cut", "price": ["77.000đ/cây (800gr)", "46.000đ/cây (400gr)"], "badge": "none", "unit": "cây"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/chim-cut-3392.png", "alt": "CHIM CÚT", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "THỊT VỊT", "href": "thit-vit", "price": ["77.000đ/cây (800gr)", "46.000đ/cây (400gr)"], "badge": "none", "unit": "cây"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/thit-vit-5339.png", "alt": "THỊT VỊT", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "GÀ ÁC", "href": "ga-ac", "price": ["77.000đ/cây (800gr)", "46.000đ/cây (400gr)"], "badge": "none", "unit": "cây"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ga-ac-3281.png", "alt": "GÀ ÁC", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "TÔM XAY HỖN HỢP", "href": "tom-xay-hon-hop", "price": ["56.000đ/cây (400gr)"], "badge": "none", "unit": "cây", "note": "the only product in the whole catalogue with a single weight/variant"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/tom-xay-1642.png", "alt": "TÔM XAY HỖN HỢP", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "", "note": "<div class=\"pagination-home w-100\"></div> — the pagination container is present but EMPTY. The 9 products fit on one page, so no controls render and there is no server-side pagination on this page."}
+      ],
+      "forms": [],
+      "interactions": [
+        "NO tab row on this page. The .dm-noibat / .list-hot container and the three <a data-id> tabs exist only on /san-pham; /thit-tuoi and /pate render their full product list directly in the HTML with no AJAX.",
+        "Cards are wrapped in <div class=\"col-4 col-20\" data-aos=\"fade-up\" data-aos-duration=\"1000\"> and scroll-animate in via AOS.",
+        "Each card links to its detail page twice: a.pic-product1 wrapping the image, and <h3 class=\"mb-0\"><a class=\"text-decoration-none text-split name-product\" href=\"...\">. Prices are inline-styled rich text inside <p class=\"price-product\">: font-size:18px bold in #ff0000 for the price, font-size:12px for the weight in parentheses, two separate <p> elements for the two variants."
+      ],
+      "seoDefects": [
+        "<meta name=\"description\" content=\"\" /> is an empty string",
+        "<meta name=\"keywords\" content=\"\" /> is an empty string",
+        "<meta property=\"og:type\" content=\"object\" /> — invalid",
+        "<meta property=\"og:description\" content=\"\" />, og:image and og:image:type/width/height are all empty",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\" /> — email in a handle field",
+        "<html lang=\"vi|en\"> — invalid language list",
+        "<meta name=\"viewport\" content=\"width=1366px\"> — fixed viewport, no width=device-width",
+        "The only h1 is <h1 class=\"hidden-seoh\">Thịt Tươi Rau Củ</h1>, CSS-hidden; the visible heading is an h2",
+        "BreadcrumbList JSON-LD omits the visible \"Trang chủ\" crumb and starts numbering at Sản phẩm as position 1"
+      ],
+      "notes": [
+        "9 products, fully server-rendered, one image each, grid col-4 col-20. Card count verified by counting <div class=\"box-product\"> in the raw HTML.",
+        "Static cards here carry ONE image; the /san-pham AJAX feed for the same 9 products carries TWO (a.pic-product1 + a.pic-product2). Do not assume one markup.",
+        "Prices are stored as HTML rich text with inline styles, not structured data. The rendered text quoted above is what the source actually displays.",
+        "No hero/banner images on this page."
+      ]
+    },
+    {
+      "path": "/pate",
+      "sourceUrl": "https://thebossvietnam.com/pate",
+      "httpStatus": 200,
+      "sourceTitle": "Pate Tươi",
+      "metaDescription": "",
+      "h1": "Pate Tươi",
+      "breadcrumbs": ["Trang chủ", "Sản phẩm", "Pate Tươi"],
+      "blocks": [
+        {"type": "h2", "text": "Pate Tươi", "note": "inside <div class=\"title-main\">"},
+        {"type": "p", "text": "SOUP GÀ TIỀM", "href": "soup-ga-tiem", "price": ["45.000đ/hộp (500gr)"], "badge": "new", "unit": "hộp"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-hop-soup-ga-tiem-500gr-8807.png", "alt": "SOUP GÀ TIỀM", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "SOUP HEO HẦM", "href": "soup-heo-ham", "price": ["60.000đ/hộp (500gr)"], "badge": "new", "unit": "hộp"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/2-hop-soup-heo-ham-500gr-2426.png", "alt": "SOUP HEO HẦM", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "SOUP VỊT TIỀM", "href": "soup-vit-tiem", "price": ["60.000đ/hộp (500gr)"], "badge": "new", "unit": "hộp"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/5-hop-soup-vit-tiem-500gr-6648.png", "alt": "SOUP VỊT TIỀM", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "SOUP CÁ TƯƠI", "href": "soup-ca-tuoi", "price": ["60.000đ/hộp (500gr)"], "badge": "new", "unit": "hộp"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/4-hop-soup-ca-tuoi-500gr-9469.png", "alt": "SOUP CÁ TƯƠI", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "SOUP BÒ HẦM", "href": "soup-bo-ham", "price": ["70.000đ/hộp (500gr)"], "badge": "new", "unit": "hộp"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/3-hop-soup-bo-ham-500gr-5025.png", "alt": "SOUP BÒ HẦM", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "SOUP HẢI SẢN", "href": "soup-hai-san", "price": ["70.000đ/hộp (500gr)"], "badge": "new", "unit": "hộp"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/6-hop-soup-hai-san-500gr-6344.png", "alt": "SOUP HẢI SẢN", "role": "product-main", "width": 400, "height": 200},
+        {"type": "p", "text": "", "note": "<div class=\"pagination-home w-100\"></div> — empty pagination container, identical to /thit-tuoi"}
+      ],
+      "forms": [],
+      "interactions": [
+        "Same as /thit-tuoi: no tab row, no AJAX; cards wrapped in <div class=\"col-4 col-20\" data-aos=\"fade-up\" data-aos-duration=\"1000\">.",
+        "All 6 cards render <span class=\"check-new\"><img src=\"assets/images/new.png\"></span> above the image. No product on this page carries check-hot."
+      ],
+      "seoDefects": [
+        "<meta name=\"description\" content=\"\" /> is an empty string",
+        "<meta name=\"keywords\" content=\"\" /> is an empty string",
+        "<meta property=\"og:type\" content=\"object\" /> — invalid",
+        "<meta property=\"og:description\" content=\"\"/>, og:image and its type/width/height are all empty",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\" /> — email in a handle field",
+        "<html lang=\"vi|en\"> — invalid language list",
+        "<meta name=\"viewport\" content=\"width=1366px\"> — fixed viewport",
+        "The only h1 is <h1 class=\"hidden-seoh\">Pate Tươi</h1>, CSS-hidden; the visible heading is an h2",
+        "BreadcrumbList JSON-LD omits the visible \"Trang chủ\" crumb",
+        "The page title and the nav label say \"Pate Tươi\" but all six products are soups (SOUP ...) — label, title and content disagree"
+      ],
+      "notes": [
+        "6 products, fully server-rendered, one image each. Card count verified = 6.",
+        "Unit is hộp (box), not cây, and every soup is a single 500gr variant — unlike the 9 fresh meats which are cây with 800gr + 400gr.",
+        "Image filenames are not slug-aligned: soup-ga-tiem is 1-hop-soup-ga-tiem-500gr-8807.png, soup-vit-tiem is 5-hop-..., soup-ca-tuoi is 4-hop-..., soup-bo-ham is 3-hop-..., soup-hai-san is 6-hop-.... The numeric prefix is DB order, not list position. Do not derive localName from the numeric prefix.",
+        "No hero/banner images on this page."
+      ]
+    },
+    {
+      "path": "/tim-kiem?keyword=ga",
+      "sourceUrl": "https://thebossvietnam.com/tim-kiem?keyword=ga",
+      "httpStatus": 200,
+      "sourceTitle": "Tìm kiếm",
+      "metaDescription": "",
+      "h1": "",
+      "breadcrumbs": ["Trang chủ", "Tìm kiếm"],
+      "blocks": [
+        {"type": "h2", "text": "Tìm kiếm", "note": "inside <div class=\"title-main\">"},
+        {"type": "p", "text": "Tìm kiếm (4): \"ga\"", "note": "EXACT rendered markup: <div class=\"div_kq_search mb-4\">Tìm kiếm (4): <span>\"ga\"</span></div>. The result count is parenthesised immediately after the words Tìm kiếm, a colon and a space follow, and the echoed keyword is wrapped in straight double quotes inside a <span>."},
+        {"type": "p", "text": "GÀ XAY HỖN HỢP", "href": "ga-xay-hon-hop", "price": [], "badge": "none", "note": "search cards render an EMPTY <p class=\"price-product\"></p> — no price and no weight is shown on search results at all"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ga-xay-hon-hop-3116.png", "alt": "GÀ XAY HỖN HỢP", "role": "search-result", "width": 400, "height": 200},
+        {"type": "p", "text": "SUPER GÀ", "href": "supper-ga", "price": [], "badge": "none", "note": "the card text is \"SUPER GÀ\" while the slug is /supper-ga — the misspelling is in the slug only, the product name is correct"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/super-ga-9866.png", "alt": "SUPER GÀ", "role": "search-result", "width": 400, "height": 200},
+        {"type": "p", "text": "GÀ ÁC", "href": "ga-ac", "price": [], "badge": "none"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/ga-ac-3281.png", "alt": "GÀ ÁC", "role": "search-result", "width": 400, "height": 200},
+        {"type": "p", "text": "SOUP GÀ TIỀM", "href": "soup-ga-tiem", "price": [], "badge": "none"},
+        {"type": "img", "url": "https://thebossvietnam.com/watermark/product/400x200x1/upload/product/1-hop-soup-ga-tiem-500gr-8807.png", "alt": "SOUP GÀ TIỀM", "role": "search-result", "width": 400, "height": 200},
+        {"type": "p", "text": "", "note": "<div class=\"pagination-home w-100\"></div> — empty pagination container"}
+      ],
+      "forms": [],
+      "interactions": [
+        "The result count and the echoed keyword are server-rendered: the page needs no JS to display its 4 results.",
+        "Search cards use the same <div class=\"col-4 col-20\" data-aos=\"fade-up\" data-aos-duration=\"1000\"> grid as the static category pages, with ONE image (a.pic-product1) and an empty <p class=\"price-product\">.",
+        "The header search input's value attribute stays empty even on a results page: <input id=\"keyword\" value=\"\">. The keyword is echoed only into the .div_kq_search line, never back into the form.",
+        "Submitting the header search with an empty box never navigates: onSearch() calls notifyDialog(LANG['no_keywords']) which raises a SweetAlert-style modal titled 'Thông báo' with body 'Chưa nhập từ khóa tìm kiếm' and icon 'fas fa-exclamation-triangle', then returns false."
+      ],
+      "seoDefects": [
+        "<link rel=\"canonical\" href=\"https://thebossvietnam.com/tim-kiem?keyword=ga\" /> — canonicalises a query-string URL, so each keyword combination becomes its own self-canonical URL",
+        "<meta property=\"og:url\" content=\"\" /> is empty while og:title is populated",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\" /> — email in a handle field",
+        "<meta name=\"robots\" content=\"noindex,nofollow\" /> — noindex,nofollow (the repo plan had assumed noindex,follow)",
+        "<h1 class=\"hidden-seoh\"></h1> is an EMPTY H1 element; the visible heading is <h2>Tìm kiếm</h2>",
+        "<meta name=\"description\" content=\"\" /> is an empty string",
+        "<meta name=\"keywords\" content=\"\" /> is an empty string",
+        "<meta property=\"og:type\" content=\"object\" /> — invalid",
+        "<html lang=\"vi|en\"> — invalid language list",
+        "<meta name=\"viewport\" content=\"width=1366px\"> — fixed viewport",
+        "BreadcrumbList JSON-LD is incomplete and malformed: the visible \"Trang chủ\" crumb is missing and the terminal item is {\"@type\":\"ListItem\",\"position\":1,\"name\":\"Tìm kiếm\",\"item\":\"\"} — an empty item URL. The visible breadcrumb anchor is likewise href=\"\""
+      ],
+      "notes": [
+        "ga -> exactly 4 results, in this source order: GÀ XAY HỖN HỢP, SUPER GÀ, GÀ ÁC, SOUP GÀ TIỀM. Verified by counting <div class=\"box-product\"> in the raw HTML and reading each name-product anchor.",
+        "Search is accent- and case-insensitive for a single token: ga -> 4, GÀ -> 4, Gà -> 4, g -> 4, a -> 10, ac -> 1, soup -> 6, super -> 1, xay -> 3, tom -> 1, ho -> 2, ham -> 2.",
+        "SOURCE SEARCH BUG, observed not assumed: several multi-word queries that should clearly match return 0. \"super ga\" -> 0, \"super g\" -> 0, \"uper g\" -> 0, \"uper ga\" -> 0, \"uper xay\" -> 0, \"souper ga\" -> 0, \"uper  \" (trailing spaces) -> 1, \"super  g\" -> 0 — while the single tokens \"super\" -> 1 and \"ga\" -> 4. Working multi-word examples: \"ga xay\" -> 1, \"ga a\" -> 1, \"ga t\" -> 1, \"soup g\" -> 1, \"soup ga\" -> 1, \"soup ga tiem\" -> 1, \"thit heo\" -> 1, \"THỊT HEO\" -> 1, \"chim cut\" -> 1, \"per g\" -> 1 (matches SUPER GÀ), \"uper\" -> 1. Zero-result cases: \"g a\" -> 0, \"b o\" -> 0, \"hep\" -> 0, \"a c\" -> 0, \"ac x\" -> 0, \"gaxay\" -> 0 (while \"ga xay\" -> 1), \"33.000\" -> 0 (prices are not searchable). Note the near-contradiction pair \"per g\" -> 1 but \"uper g\" -> 0. The exact multi-word rule could not be characterised further from black-box probing; a plain accent-stripped substring match does NOT reproduce it. Do not try to replicate this and do not assume substring semantics are safe.",
+        "The echoed keyword is rendered exactly as received with no display normalisation: ga, GÀ and Gà each echo their own casing inside the quotes.",
+        "/tim-kiem is absent from sitemap.xml and is not linked from the visible navigation; it is reachable only by submitting the header search or by typing the URL."
+      ]
+    },
+    {
+      "path": "/tim-kiem",
+      "sourceUrl": "https://thebossvietnam.com/tim-kiem",
+      "httpStatus": 200,
+      "sourceTitle": "Tìm kiếm",
+      "metaDescription": "",
+      "h1": "",
+      "breadcrumbs": ["Trang chủ", "Tìm kiếm"],
+      "blocks": [
+        {"type": "h2", "text": "Tìm kiếm", "note": "inside <div class=\"title-main\">"},
+        {"type": "p", "text": "Tìm kiếm (): \"\"", "note": "EXACT markup: <div class=\"div_kq_search mb-4\">Tìm kiếm (): <span>\"\"</span></div>. The count renders as EMPTY parentheses with nothing between them and the echoed keyword as an empty pair of quotes. This is the source's rendering of a missing keyword — visibly malformed."},
+        {"type": "p", "text": "Không tìm thấy kết quả", "note": "EXACT markup: <div class=\"col-12\"><div class=\"alert alert-warning w-100\" role=\"alert\"><strong>Không tìm thấy kết quả</strong></div></div> inside the .row — a Bootstrap warning alert, not a bespoke empty-state component"},
+        {"type": "p", "text": "", "note": "<div class=\"pagination-home w-100\"></div> — empty pagination container"}
+      ],
+      "forms": [],
+      "interactions": [
+        "The source renders the SAME state for a missing keyword and for a keyword with no matches: the count line plus the alert 'Không tìm thấy kết quả'. There is NO dedicated 'you did not enter a keyword' message on this page.",
+        "The only empty-keyword message in the whole flow is the client-side modal raised by the header search input: notifyDialog(LANG['no_keywords']) -> title 'Thông báo', body 'Chưa nhập từ khóa tìm kiếm'. It never reaches /tim-kiem."
+      ],
+      "seoDefects": [
+        "<link rel=\"canonical\" href=\"https://thebossvietnam.com/tim-kiem\" />",
+        "<meta property=\"og:url\" content=\"\" /> is empty",
+        "<meta name=\"robots\" content=\"noindex,nofollow\" />",
+        "<h1 class=\"hidden-seoh\"></h1> is an EMPTY H1 element",
+        "<meta name=\"description\" content=\"\" /> is an empty string",
+        "<meta name=\"keywords\" content=\"\" /> is an empty string",
+        "<meta property=\"og:type\" content=\"object\" /> — invalid",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\" /> — email in a handle field",
+        "<html lang=\"vi|en\"> — invalid language list",
+        "<meta name=\"viewport\" content=\"width=1366px\"> — fixed viewport",
+        "BreadcrumbList JSON-LD drops \"Trang chủ\" and gives the terminal item \"item\":\"\"",
+        "The empty count renders as the malformed user-visible string 'Tìm kiếm (): \"\"'"
+      ],
+      "notes": [
+        "The rendered main region of /tim-kiem and /tim-kiem?keyword= is identical: 'Tìm kiếm Tìm kiếm (): \"\" Không tìm thấy kết quả'. Only the <link rel=\"canonical\"> differs between the two URLs.",
+        "This bare URL returns HTTP 200, not 404 — a soft landing page with no results, reachable only by typing it."
+      ]
+    },
+    {
+      "path": "/tim-kiem?keyword=",
+      "sourceUrl": "https://thebossvietnam.com/tim-kiem?keyword=",
+      "httpStatus": 200,
+      "sourceTitle": "Tìm kiếm",
+      "metaDescription": "",
+      "h1": "",
+      "breadcrumbs": ["Trang chủ", "Tìm kiếm"],
+      "blocks": [
+        {"type": "h2", "text": "Tìm kiếm", "note": "inside <div class=\"title-main\">"},
+        {"type": "p", "text": "Tìm kiếm (): \"\"", "note": "EXACT markup: <div class=\"div_kq_search mb-4\">Tìm kiếm (): <span>\"\"</span></div>. An explicitly empty keyword param renders identically to a missing one: empty count parentheses and an empty quoted keyword."},
+        {"type": "p", "text": "Không tìm thấy kết quả", "note": "<div class=\"col-12\"><div class=\"alert alert-warning w-100\" role=\"alert\"><strong>Không tìm thấy kết quả</strong></div></div>"},
+        {"type": "p", "text": "", "note": "<div class=\"pagination-home w-100\"></div> — empty pagination container"}
+      ],
+      "forms": [],
+      "interactions": [
+        "Reaching this URL requires typing it or submitting the header form; onSearch() blocks the empty submission client-side with the modal 'Chưa nhập từ khóa tìm kiếm', so in normal UI use this state is never reached.",
+        "Server-side the empty keyword is treated exactly like a missing keyword: same count line, same alert, zero result cards."
+      ],
+      "seoDefects": [
+        "<link rel=\"canonical\" href=\"https://thebossvietnam.com/tim-kiem?keyword=\" /> — a canonical URL ending in a bare query key with an empty value",
+        "<meta property=\"og:url\" content=\"\" /> is empty",
+        "<meta name=\"robots\" content=\"noindex,nofollow\" />",
+        "<h1 class=\"hidden-seoh\"></h1> is an EMPTY H1 element",
+        "<meta name=\"description\" content=\"\" /> is an empty string",
+        "<meta name=\"keywords\" content=\"\" /> is an empty string",
+        "<meta property=\"og:type\" content=\"object\" /> — invalid",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\" /> — email in a handle field",
+        "<html lang=\"vi|en\"> — invalid language list",
+        "<meta name=\"viewport\" content=\"width=1366px\"> — fixed viewport",
+        "BreadcrumbList JSON-LD drops \"Trang chủ\" and gives the terminal item \"item\":\"\""
+      ],
+      "notes": [
+        "Rendered main region is byte-identical to the bare /tim-kiem: 'Tìm kiếm Tìm kiếm (): \"\" Không tìm thấy kết quả'."
+      ]
+    },
+    {
+      "path": "/tim-kiem?keyword=zzzzqqq",
+      "sourceUrl": "https://thebossvietnam.com/tim-kiem?keyword=zzzzqqq",
+      "httpStatus": 200,
+      "sourceTitle": "Tìm kiếm",
+      "metaDescription": "",
+      "h1": "",
+      "breadcrumbs": ["Trang chủ", "Tìm kiếm"],
+      "blocks": [
+        {"type": "h2", "text": "Tìm kiếm", "note": "inside <div class=\"title-main\">"},
+        {"type": "p", "text": "Tìm kiếm (0): \"zzzzqqq\"", "note": "EXACT markup: <div class=\"div_kq_search mb-4\">Tìm kiếm (0): <span>\"zzzzqqq\"</span></div>. With a real keyword but no matches the count renders as a literal 0 — unlike the empty-keyword case, which renders empty parentheses."},
+        {"type": "p", "text": "Không tìm thấy kết quả", "note": "EXACT markup: <div class=\"col-12\"><div class=\"alert alert-warning w-100\" role=\"alert\"><strong>Không tìm thấy kết quả</strong></div></div>"},
+        {"type": "p", "text": "", "note": "<div class=\"pagination-home w-100\"></div> — empty pagination container"}
+      ],
+      "forms": [],
+      "interactions": [
+        "The no-match state is fully server-rendered: the count line shows 0 and the Bootstrap warning alert 'Không tìm thấy kết quả' appears where the product grid would be. No JS is involved.",
+        "The alert carries role=\"alert\", but it is not a live region that updates — the whole page is reloaded per query."
+      ],
+      "seoDefects": [
+        "<link rel=\"canonical\" href=\"https://thebossvietnam.com/tim-kiem?keyword=zzzzqqq\" /> — canonicalises an arbitrary user-supplied query string",
+        "<meta property=\"og:url\" content=\"\" /> is empty",
+        "<meta name=\"robots\" content=\"noindex,nofollow\" />",
+        "<h1 class=\"hidden-seoh\"></h1> is an EMPTY H1 element",
+        "<meta name=\"description\" content=\"\" /> is an empty string",
+        "<meta name=\"keywords\" content=\"\" /> is an empty string",
+        "<meta property=\"og:type\" content=\"object\" /> — invalid",
+        "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\" /> — email in a handle field",
+        "<html lang=\"vi|en\"> — invalid language list",
+        "<meta name=\"viewport\" content=\"width=1366px\"> — fixed viewport",
+        "BreadcrumbList JSON-LD drops \"Trang chủ\" and gives the terminal item \"item\":\"\""
+      ],
+      "notes": [
+        "This is the reference no-match state: count 0 + the warning alert. It differs from the empty-keyword state only by the '0' in the count line; the alert text is identical in all three zero-result cases."
+      ]
+    },
+    {
+      "path": "/gio-hang",
+      "sourceUrl": "https://thebossvietnam.com/gio-hang",
+      "httpStatus": 404,
+      "sourceTitle": " 404",
+      "metaDescription": "",
+      "h1": "ERROR 404",
+      "breadcrumbs": [],
+      "blocks": [
+        {"type": "h1", "text": "ERROR 404", "note": "inside <div class=\"err-text swing-text\"> — the only h1 on the page, inside the animated night-sky scene"},
+        {"type": "p", "text": "Trở lại trang chủ", "note": "inside <div class=\"back-home\"><a href=\"https://thebossvietnam.com/\">Trở lại trang chủ</a></div> — the single link on the page, an absolute URL to the homepage"},
+        {"type": "p", "text": "", "note": "structural divs only, no text: <div class=\"wrapper\"> containing #sky (#moon, #stars, #clouds), #middle-content (#spaceship.swing > #light, .err-text, .back-home) and #ground (#mountain1, #mountain2, #mountain3)"}
+      ],
+      "forms": [],
+      "interactions": [
+        "Animated 404 scene driven by plax.js (parallax on mouse), jquery.spritely-0.6.1.js (cloud/star sprites) and jquery-animate-css-rotate-scale.js, with .swing / .swing-text classes and 404-style.css body{overflow:hidden}.",
+        "Conditional IE<9 shim: <!--[if lt IE 9]><script src=\"http://html5shim.googlecode.com/svn/trunk/html5.js\"></script><![endif]--> — an insecure http:// third-party script.",
+        "This 404 template shares no markup, no stylesheet and no header/footer with the rest of the site. It is a separate static template under /assets/404_files/."
+      ],
+      "seoDefects": [
+        "A 404 response whose <title> is \" 404\" — a bare number with a leading space, not a human-readable error message",
+        "<html> has NO lang attribute at all",
+        "No meta description, no meta keywords, no meta robots, no link rel=\"canonical\", and no Open Graph or Twitter tags on the 404 template",
+        "ALL nine background images referenced by /assets/404_files/style.css are broken. The stylesheet uses relative paths url(../404_files/sky-bg.png) etc., which resolve from /assets/404_files/style.css to /404_files/*.png. Verified HTTP 404 for all nine: /404_files/sky-bg.png, /404_files/clouds.png, /404_files/stars.png, /404_files/moon.png, /404_files/mountains1.png, /404_files/mountains2.png, /404_files/mountains3.png, /404_files/spaceship.png, /404_files/light.png. The real files exist one level deeper and return 200: /assets/404_files/clouds.png (1768x261), /assets/404_files/stars.png (1236x389), /assets/404_files/moon.png (310x313), /assets/404_files/mountains1.png (1495x204), /assets/404_files/mountains2.png (1392x163), /assets/404_files/mountains3.png (1580x234), /assets/404_files/spaceship.png (576x185), /assets/404_files/light.png (697x480). sky-bg.png does not exist at either path (404 at /assets/404_files/sky-bg.png too). Net effect: the 404 page renders as a flat #2C3841 background with text and no artwork.",
+        "Third-party CDN dependencies on a 404 page: https://code.jquery.com/jquery-1.9.1.min.js and https://code.jquery.com/jquery-migrate-1.1.1.min.js, plus Google Fonts Open Sans + Sarina"
+      ],
+      "notes": [
+        "CONFIRMED 404. curl -sS -o NUL -w \"%{http_code} %{url_effective}\" -L https://thebossvietnam.com/gio-hang returns '404 https://thebossvietnam.com/gio-hang'. There is no cart anywhere on the site: the page config sets var SHIP_CART = false, and the endpoints that would manage one are api/cart.php with cmd=update-cart / delete-cart / ship-cart.",
+        "Response body saved verbatim at .scratch/raw/catalog/gio-hang.html.",
+        "The replica must serve a real 404 via dist/404.html. It should not reproduce the broken starfield, but the 'Trở lại trang chủ' link back to the homepage is the source's own recovery affordance and is worth keeping."
+      ]
+    }
+  ],
+  "rawTextDefects": {
+    "robots.txt": [
+      "Sitemap: https://example.com/sitemap.xml — the placeholder domain example.com, not the live origin. A crawler following this is sent to a third party's placeholder site and the real sitemap is never discovered.",
+      "Two consecutive User-agent lines, 'User-agent: *' then 'User-agent: Googlebot', form ONE group per the robots.txt spec, so the four Disallow lines apply to BOTH '*' and Googlebot. Listing Googlebot separately (presumably to relax it for it) does not happen.",
+      "Disallow: /nogooglebot/ is a misspelling — it is not a real path on this site.",
+      "Disallow: /cgi-bin/ and Disallow: /admin/ point at paths that do not exist here. The site is plain PHP with public endpoints under /api/ (api/product.php, api/cart.php, api/addons.php), and none of those are disallowed.",
+      "No Allow: rule, no Crawl-delay, and no directive covering the /api/ AJAX endpoints that return product HTML."
+    ],
+    "sitemap.xml": [
+      "Exactly 36 <url> elements — matches the 36-route inventory. /tim-kiem and /gio-hang are correctly absent.",
+      "lastmod is regenerated as the CURRENT time on every request for 7 of the 36 URLs: /, /san-pham, /thu-vien-anh, /cam-nang, /he-thong-dai-ly, /gioi-thieu and /lien-he all carried <lastmod>2026-09-30T10:46:54+07:00</lastmod>, exactly matching the request time and the page's own var TIMENOW = '30/09/2026'. Those pages will always look freshly modified.",
+      "Every URL carries a fabricated changefreq and priority. All 35 non-homepage URLs have the identical pair <changefreq>daily</changefreq><priority>1</priority> — a priority of 1 on every page conveys no prioritisation at all — and the homepage is arbitrarily demoted to <priority>0.1</priority>.",
+      "All <loc> values are absolute and correct: no .html variants, no query strings, no redirects, no trailing slashes."
+    ]
+  },
+  "media": []
+}

@@ -1,0 +1,154 @@
+/* Cẩm nang family — /cam-nang hub cards and the article chrome the shared
+   dispatcher does not own (the reading measure, publish date, related rail).
+   Body copy keeps the global `.prose` styles; this sheet only sets the width
+   the column is measured at, plus the furniture around it. */
+
+/* Reading measure.
+   NOT `68ch`: `ch` resolves against each element's own font, so one `ch` value
+   silently means two different measures on this page (the 13px date, the 16px
+   body) — and 68ch of 16px Arial measured 80 characters a line in Chromium,
+   over the 60–75 target. `rem` is font-independent, so one value holds for
+   every block inside. 34.5rem = 552px, measured 67 characters average, 72 on
+   full lines. */
+.handbook-article {
+  max-width: 34.5rem;
+}
+
+/* `.prose` (global) caps at 900px; the article column is already the measure. */
+.handbook-article .prose {
+  max-width: none;
+}
+
+.handbook-hub {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+}
+
+.handbook-card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* The three hub thumbs are captured at 210×144. Fixing the ratio keeps the card
+   grid rows level whatever the column width is, and `cover` crops instead of
+   stretching when the real asset is a different shape. */
+.handbook-card__thumb {
+  width: 100%;
+  aspect-ratio: 210 / 144;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Two lines then an ellipsis. The three titles are 53/53/63 uppercase Vietnamese
+   characters; at one column the third runs to three lines and makes the grid
+   ragged. Clamping the heading (not the inner link) keeps the hover underline
+   and the plain-text fallback intact. */
+.handbook-card__title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin: 0.9rem 0 0.5rem;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.handbook-card__title a {
+  text-decoration: none;
+}
+
+.handbook-card__title a:hover {
+  text-decoration: underline;
+}
+
+/* Unbuilt targets degrade to plain text, so give the span the same size. */
+.handbook-card__title span {
+  color: var(--color-black);
+}
+
+.handbook-card__excerpt {
+  flex: 1;
+  margin: 0 0 0.6rem;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.handbook-hub .handbook-date {
+  margin: 0;
+  color: var(--color-gray);
+  font-size: 13px;
+  text-align: center;
+}
+
+/* Article: publish date sits under the page heading, above the captured body. */
+.handbook-article > .handbook-date {
+  margin: -0.75rem auto 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #eee;
+  color: var(--color-gray);
+  font-size: 13px;
+}
+
+.handbook-related {
+  margin: 2.5rem auto 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid #eee;
+}
+
+.handbook-related__title {
+  margin: 0 0 0.6rem;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.handbook-related ul {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.handbook-related li + li {
+  margin-top: 0.4rem;
+}
+
+.handbook-related li {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.handbook-related li span {
+  color: var(--color-gray);
+}
+
+/* The 7–10 day conversion table: three short numeric columns, so nothing needs
+   to wrap and the digits line up. `.prose table` (global) supplies the borders
+   and padding. */
+.handbook-article .prose table {
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.handbook-article .prose th,
+.handbook-article .prose td {
+  white-space: nowrap;
+}
+
+.handbook-article .prose tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+@media (max-width: 1023px) {
+  .handbook-hub {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 639px) {
+  .handbook-hub {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

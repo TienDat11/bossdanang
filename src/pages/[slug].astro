@@ -1,0 +1,36 @@
+---
+/**
+ * Every non-home registry route.
+ *
+ * The view comes from the family that claims this record's `PageKind` (see
+ * `src/families/index.ts`). A record whose kind has no view throws at build time
+ * instead of emitting a soft-200 empty page.
+ */
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import { breadcrumbTrail, pages } from '@/data/pages';
+import type { PageRecord } from '@/data/pages/types';
+import { viewFor } from '@/families';
+
+export function getStaticPaths() {
+  return pages
+    .filter((page) => page.path !== '/')
+    .map((page) => ({ params: { slug: page.path.slice(1) }, props: { page } }));
+}
+
+const { page } = Astro.props as { page: PageRecord };
+
+const body = viewFor(page)(page);
+const breadcrumbs = breadcrumbTrail(page);
+---
+
+<SiteLayout
+  title={page.seo.title}
+  description={page.seo.description}
+  path={page.path}
+  image={page.seo.image}
+  noindex={page.noindex}
+  breadcrumbs={breadcrumbs}
+>
+  <h1 class="page-title">{page.h1}</h1>
+  <Fragment set:html={body} />
+</SiteLayout>

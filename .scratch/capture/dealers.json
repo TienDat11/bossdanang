@@ -1,0 +1,2013 @@
+{
+ "family": "dealers",
+ "capturedAt": "2026-09-30 10:46 (Asia/Ho_Chi_Minh, +07:00)",
+ "notes": [
+  "Family covers exactly the 4 dealer routes from the confirmed sitemap set. All 4 returned HTTP 200 after redirects (curl -sS -o NUL -w \"%{http_code} %{url_effective}\" -L).",
+  "Raw HTML evidence saved to .scratch/raw/dealers/<slug>.html for all 4 routes (hub + 3 regional pages).",
+  "NO map exists on any of these 4 routes: there is no map <img>, no <iframe> (google maps or otherwise), no map anchor and no inline background-image in the page bodies. Only two external hrefs ship in the shared shell: https://www.facebook.com/TheBossVietnam and the placeholder https://zalo.me/. No external map target URL was found, so none is recorded. Do not add or embed a map service.",
+  "NO dealer phone numbers exist on any of the 4 routes. Dealer data is shop name + street address only, grouped under «Khu vực …» headings. The single phone on every page (0978202063) is the site-wide footer line owned by the shell task.",
+  "The hub embeds a stale copy of the dealer lists: /he-thong-dai-ly card 1 has 65 dealer rows vs 66 on /danh-sach-dai-ly-o-ho-chi-minh, card 2 has 20 vs 21 on /danh-sach-dai-ly-o-binh-duong-binh-phuoc. Exact missing rows and the one trailing-period difference are recorded in each route's notes.",
+  "Dealer addresses (and any future phone numbers) are owner-asserted business data captured from the live site at the timestamp above. They must be re-verified with the site owner before publication and must not be presented as verified facts.",
+  "Font/media note: every asset referenced by these 4 pages is a same-origin upload/ or assets/ image except the Google-hosted Inter stylesheet <link href=\"https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap\" rel=\"stylesheet\"> with preconnect to https://fonts.googleapis.com and https://fonts.gstatic.com — third-party, owned by the shell task.",
+  "Every media URL listed below was verified reachable with HTTP 200 and its intrinsic width/height were measured from the file header (PNG IHDR / JPEG SOF marker), not guessed."
+ ],
+ "routes": [
+  {
+   "path": "/he-thong-dai-ly",
+   "sourceUrl": "https://thebossvietnam.com/he-thong-dai-ly",
+   "httpStatus": 200,
+   "sourceTitle": "Hệ thống đại lý",
+   "metaDescription": "",
+   "h1": "Hệ thống đại lý",
+   "breadcrumbs": [
+    "Trang chủ",
+    "Hệ thống đại lý"
+   ],
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Hệ thống đại lý"
+    },
+    {
+     "type": "h3",
+     "text": "DANH SÁCH ĐẠI LÝ Ở HỒ CHÍ MINH",
+     "href": "danh-sach-dai-ly-o-ho-chi-minh",
+     "hrefTitle": "DANH SÁCH ĐẠI LÝ Ở HỒ CHÍ MINH",
+     "containerAttrs": "d-flex flex-wrap col-12 pb-3 mb-3\" data-aos=\"fade-up\" data-aos-duration=\"1000\">\r\n                <div class=\"info-news w-100 p-0\">"
+    },
+    {
+     "type": "table",
+     "headers": [],
+     "rows": [
+      [
+       "Khu vực Quận 1:\n\n\nDOG PARADISE\n\n7 Trần Khắc Chân, phường Tân Định, quận 1, Tp.Hồ Chí Minh\n\n\nKhu vực Quận 4:\n\n\nPHÒNG KHÁM THÚ Y PET ZONE\n\nU48-U50-U52-U54 Nguyễn Hữu Hào, phường 8, quận 4, Tp.Hồ Chí Minh\n\n\nKhu vực Quận 6:\n\n\nARALE PETSHOP\n\n213D Minh Phụng, phường 6, quận 6, Tp.Hồ Chí Minh\n\nRANZILLA PET CARE\n\n179 Bình Tiên, phường 8, quận 6, Tp.Hồ Chí Minh\n\nVCT PET\n\n892 Hậu Giang, phường 12, quận 6, Tp.Hồ Chí Minh\n\n\nKhu vực Quận 7:\n\n\nPHÒNG KHÁM THÚ Y HOME PET CARE\n\n49 Đường số 85, phường Tân Quy, quận 7, Tp.Hồ Chí Minh\n\nTHÚ Y VET & PET MART\n\n1470 Huỳnh Tấn Phát, phường Phú Mỹ, quận 7, Tp.Hồ Chí Minh\n\nPET FRIEND\n\n62/47 Lâm Văn Bền, phường Tân Kiểng, quận 7, Tp.Hồ Chí Minh\n\n\nKhu vực Quận 8:\n\n\nPHÒNG KHÁM THÚ Y PET ZONE\n\n967-969 Tạ Quang Bửu, phường 6, quận 8, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y 199\n\n93 Liên Tỉnh 5, phường 5, quận 8, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y 199\n\n218 Tạ Quảng Bửu, phường 13, quận 8, Tp.Hồ Chí Minh\n\n\nKhu vực Quận 10:\n\n\nPHÒNG KHÁM THÚ Y PET ZONE\n\n59 Hòa Hưng, phường 12, quận 10, Tp.Hồ Chí Minh\n\nPET SAIGON\n\n285/55 Cách Mạng Tháng 8, phường 12, quận 10, Tp.Hồ Chí Minh\n\n\nKhu vực Quận 12:\n\n\nDOCA PET PLUS\n\n281 Lê Văn Khương, phường Hiệp Thành, quận 12, Tp.Hồ Chí Minh\n\nTHÚ Y RED\n\n51 Phan Văn Hớn, phường Tân Thới Nhất, quận 12, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y ĐĂNG KHÔI\n\n668 Hà Huy Giáp, phường Thạnh Lộc, quận 12, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y BẢO BỐI\n\n807 Hà Huy Giáp, phường Thạnh Xuân, quận 12, Tp.Hồ Chí Minh\n\n\nKhu vực Quận Bình Tân:\n\n\nPHÒNG KHÁM THÚ Y HOME PET CARE\n\n15 Miếu Bình Đông, phường Bình Hưng Hòa, quận Bình Tân, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y MÃ LÒ\n\n317 Mã Lò, phường Bình Trị Đông A, quận Bình Tân, Tp.Hồ Chí Minh\n\nPET HOUSE 126\n\n128 đường 26/3, phường Bình Hưng Hòa, quận Bình Tân, Tp.Hồ Chí Minh\n\nTRUNG TÂM THÚ Y VET & PET\n\n78 đường số 2, KDC Vĩnh Lộc, phường Bình Hưng Hòa B, quận Bình Tân, Tp.Hồ Chí Minh",
+       "Khu vực Quận Gò Vấp:\n\n\nARALE PETSHOP\n\n731 Tân Sơn, phường 12, quận Gò Vấp, Tp.Hồ Chí Minh\n\nPET LOVE\n\n760 Phan Văn Trị, phường 10, quận Gò Vấp, Tp.Hồ Chí Minh\n\nPET STATION\n\nA1 Phan Văn Trị, phường 7, quận Gò Vấp, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y MEKONG\n\n446 Phan Huy Ích, phường 12, quận Gò Vấp, Tp.Hồ Chí Minh\n\nPETXINH.NET\n\n730 Lê Đức Thọ, phường 15, quận Gò Vấp, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y KANG PET\n\n123 đường số 3, phường 9, quận Gò Vấp, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y CHICOPET\n\n497 Lê Văn Thọ, phường 9, quận Gò Vấp, Tp.Hồ Chí Minh\n\n\nKhu vực Quận Bình Thạnh:\n\n\nDOG SALON MOMO\n\n217 Ngô Tất Tố, phường 12, quận Bình Thạnh, Tp.Hồ Chí Minh\n\nCHU CHU PET\n\n283 Nguyễn Văn Đậu, phường 13, quận Bình Thạnh, Tp.Hồ Chí Minh\n\nSAM SAM PET SHOP\n\n140 Nơ Trang Long, phường 14, quận Bình Thạnh, Tp.Hồ Chí Minh\n\nCELA PAW\n\n574 Điện Biên Phủ, phường 22, quận Bình Thạnh, Tp.Hồ Chí Minh\n\nBỆNH VIỆN THÚ Y MIỀN NAM\n\n401 Phạm Văn Đồng, phường 11, quận Bình Thạnh, Tp.Hồ Chí Minh\n\nNHÀ PHÔ MAI\n\n30A Vũ Ngọc Phan, phường 13, quận Bình Thạnh, Tp.Hồ Chí Minh\n\n\nKhu vực Thành phố Thủ Đức:\n\n\nỈN PET SHOP\n\n45 đường 9A, phường Long Bình, quận 9, Tp.Hồ Chí Minh\n\nLUCA PET SHOP\n\n328 Nguyễn Duy Trinh, phường Bình Trưng Tây, quận 2, Tp.Hồ Chí Minh\n\nPET SAIGON\n\n178 Nguyễn Thị Định, phường Bình Trưng Tây, quận 2, Tp.Hồ Chí Minh\n\nPAWS & CLAWS\n\n16 Nguyễn Văn Hưởng, phường Thảo Điền, TP.Thủ Đức, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y FUNY PET\n\n46A Làng Tăng Phú, phường Tăng Nhơn Phú A, TP.Thủ Đức, Tp.Hồ Chí Minh\n\nIU PET\n\n422 Liên Phường, phường Phước Long B, TP.Thủ Đức, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y LINH ĐÔNG\n\n214A đường Linh Đông, phường Linh Đông, TP.Thủ Đức, Tp.Hồ Chí Minh\n\nPET CARE\n\n15B Tam Bình, phường Hiệp Bình Chánh, Tp.Thủ Đức, Tp.Hồ Chí Minh",
+       "Khu vực Quận Phú Nhuận:\n\n\nPET STORE & SPA - NHÀ PHÔ MAI\n\nSố 4 Hoa Cau, phường 7, quận Phú Nhuận, Tp.Hồ Chí Minh\n\n\nKhu vực Quận Tân Bình:\n\n\nVCT PET\n\n 379 Nguyễn Thái Bình, phường 12, quận Tân Bình, Tp.Hồ Chí Minh\n\n\nKhu vực Quận Tân Phú:\n\n\nMR GÂU\n\n99 Trương Vĩnh Ký, phường Tân Thành, quận Tân Phú, Tp.Hồ Chí Minh\n\nPET STATION\n\n369A Tân Sơn Nhì, phường Tân Thành, quận Tân Phú, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y THANH TÂN\n\n86 Tây Thạnh, phường Tây Thạnh, quận Tân Phú, Tp.Hồ Chí Minh\n\nLILDAN PET SPA HOTEL & CLINIC\n\n309A Tân Hương, phường Tân Quý, quận Tân Phú, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y ONEE'S PET\n\n325A Nguyễn Sơn, phường Phú Thạnh, quận Tân Phú, Tp.Hồ Chí Minh\n\nPHINTHECAT\n\n239/54 Khuông Việt, phường Phú Trung, quận Tân Phú, Tp.Hồ Chí Minh\n\nTI TI SHOP\n\n65 Trịnh Đình Trọng, phường Phú Trung, quận Tân Phú, Tp.Hồ Chí Minh\n\nRIN RIN PETCARE\n\n45 Tân Quý, phường Tân Quý, quận Tân Phú, Tp.Hồ Chí Minh\n\n\nKhu vực Huyện Hóc Môn:\n\n\nPHÒNG KHÁM THÚ Y IBU\n\n89 Bùi Công Trừng, phường Đông Thạnh, huyện Hóc Môn, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y IBU 2\n\n6/2 Lê Thị Hà, Khu Phố 8, Thị trấn Hóc Môn, huyện Hóc Môn, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y NGỌC CHÂU\n\n223 Đặng Thúc Vịnh, xã Đông Thạnh, huyện Hóc Môn, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y DC VET\n\n12/1B Tô Ký, xã Thới Tam Thôn, huyện Hóc Môn, Tp.Hồ Chí Minh\n\nTHI THI PET CLINIC\n\n146 Nguyễn Ảnh Thủ, xã Trung Chánh, huyện Hóc Môn, Tp.Hồ Chí Minh\n\nTHANH VY PETCARE\n\n61 đường XTT7, ấp 3, xã Xuân Thới Thượng, huyện Hóc Môn, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y HÓC MÔN\n\n49 Đỗ Văn Dậy, xã Tân Hiệp, huyện Hóc Môn, Tp.Hồ Chí Minh\n\n\nKhu vực Huyện Củ Chi:\n\n\nPHÒNG KHÁM THÚ Y QUANG BÌNH - CN1\n\n410 Tỉnh lộ 2, ấp Gia Bẹ, xã Trung Lập Hạ, huyện Củ Chi, Tp.Hồ Chí Minh\n\nPHÒNG KHÁM THÚ Y QUANG BÌNH - CN3\n\n636 Quốc lộ 22 , KP2, Thị trấn Củ Chi, huyện Củ Chi, Tp.Hồ Chí Minh\n\nPET SHOP LINH LANH 2\n\n210 Liêu Bình Hương, xã Tân Thông Hội, huyện Củ Chi, Tp.Hồ Chí Minh\n\n\nKhu vực Huyện Bình Chánh:\n\n\nDOG PARADISE 3\n\n1099 Quốc lộ 50, xã Bình Hưng, huyện Bình Chánh, Tp.Hồ Chí Minh\n\nVĨNH LỘC PET FAMILY\n\nE8/7 Ấp 5, xã Vĩnh Lộc B, huyện Bình Chánh, Tp.Hồ Chí Minh\n\n\nKhu vực Huyện Cần Giờ:\n\n\nSUNNY PET SHOP\n\n2/95 Đồng Hoà, xã Long Hòa, huyện Cần Giờ, Tp.Hồ Chí Minh"
+      ]
+     ],
+     "sourceMarkup": {
+      "tableOpenTag": "<table align=\"center\" border=\"0\" cellpadding=\"10\" cellspacing=\"1\" style=\"width:1200px;\">",
+      "tdOpenTags": [
+       "<td style=\"width: 385px; text-align: left; vertical-align: top;\">",
+       "<td style=\"width: 365px; text-align: left; vertical-align: top;\">",
+       "<td style=\"width: 375px; text-align: left; vertical-align: top;\">"
+      ]
+     }
+    },
+    {
+     "type": "p",
+     "text": " ",
+     "rawHtml": "<p> </p>"
+    },
+    {
+     "type": "h3",
+     "text": "DANH SÁCH ĐẠI LÝ Ở BÌNH DƯƠNG",
+     "href": "danh-sach-dai-ly-o-binh-duong-binh-phuoc",
+     "hrefTitle": "DANH SÁCH ĐẠI LÝ Ở BÌNH DƯƠNG",
+     "containerAttrs": "d-flex flex-wrap col-12 pb-3 mb-3\" data-aos=\"fade-up\" data-aos-duration=\"1000\">\r\n                <div class=\"info-news w-100 p-0\">"
+    },
+    {
+     "type": "table",
+     "headers": [],
+     "rows": [
+      [
+       "Khu vực Thủ Dầu Một:\n\n\nPETSHOP HANG GẤU Ú - CN1\n\n53 Huỳnh Văn Nghệ, phường Phú Lợi, TP.Thủ Dầu Một, tỉnh Bình Dương\n\nPETSHOP HANG GẤU Ú - CN3\n\n207 đường 30/4, phường Phú Thọ, TP.Thủ Dầu Một, tỉnh Bình Dương\n\nPHÒNG KHÁM THÚ Y VÀ SIÊU THỊ THÚ CƯNG HƯƠNG NỞ\n\n235-237 Phú Lợi, phường Phú Lợi, TP.Thủ Dầu Một, tỉnh Bình Dương\n\nBỆNH VIỆN THÚ Y BẰNG PHẠM\n\n232 đường Phú Lợi, phường Phú Hòa, TP.Thủ Dầu Một, tỉnh Bình Dương\n\nMIMI PET SHOP\n\n135 Trần Văn Ơn, phường Phú Hòa, TP.Thủ Dầu Một, tỉnh Bình Dương\n\nGẠO PET HOUSE\n\n453/26 Lê Hồng Phong, phường Phú Hòa, TP.Thủ Dầu Một, tỉnh Bình Dương\n\nLUCKY PET SHOP\n\n784 Huỳnh Văn Lũy, phường Phú Mỹ, TP.Thủ Dầu Một, tỉnh Bình Dương",
+       "Khu vực Thuận An:\n\n\nPETSHOP HANG GẤU Ú - CN2\n\n46 Nguyễn Văn Tiết, phường Lái Thiêu, TP.Thuận An, tỉnh Bình Dương\n\nPETSHOP HANG GẤU Ú - CN4\n\n500D Nguyễn Trãi, phường Lái Thiêu, TP.Thuận An, tỉnh Bình Dương\n\nPHÒNG KHÁM THÚ Y DŨNG - CN1\n\n51B/3 Hồ Văn Mên, phường An Thạnh, TP.Thuận An, tỉnh Bình Dương\n\nPHÒNG KHÁM THÚ Y DŨNG - CN2\n\n14 Cách Mạng Tháng 8, phường Hưng Định, TP.Thuận An, tỉnh Bình Dương\n\nINFINITY SIÊU THỊ THÚ CƯNG - CN1\n\nB12/19 Đường D2, KDC Thuận Giao, TP.Thuận An, tỉnh Bình Dương\n\nINFINITY SIÊU THỊ THÚ CƯNG - CN2\n\nD19 KDC VSIP1, phường An Phú, TP.Thuận An, tỉnh Bình Dương",
+       "Khu vực Dĩ An:\n\n\nPHÒNG KHÁM THÚ Y HALLO PET\n\n559A, DT743, Khu phố Đông Tân, TP. Dĩ An, tỉnh Bình Dương\n\nPHÒNG KHÁM THÚ Y GIA PHÁT\n\n810 Quốc lộ 1K, xã Bình An, TP. Dĩ An, tỉnh Bình Dương\n\n\nKhu vực Tân Uyên:\n\n\nPHÒNG KHÁM THÚ Y Ơ VET\n\nĐường DH 409, KP Ông Đông, phường Tân Hiệp, TP. Tân Uyên, tỉnh Bình Dương\n\nTHÚ Y ROYAL PET\n\n172 KP. Bình Hòa 2, phường Tân Phước Khánh, TP. Tân Uyên, tỉnh Bình Dương\n\n\nKhu vực Bến Cát:\n\n\nPHÒNG KHÁM THÚ Y NHÂN TRÍ\n\n34 Quốc lộ 13, KP3, phường Tân Định, Bến Cát, tỉnh Bình Dương\n\nSALON & HOTEL NHÀ CỦA ĐỐM\n\nC1-22 TC3 Mỹ Phước 2, Bến Cát, tỉnh Bình Dương\n\n\nKhu vực Bàu Bàng:\n\n\nPHÒNG KHÁM THÚ Y HIỆP PHÁT\n\nTĐS 33, xã Long Nguyên, huyện Bàu Bàng, tỉnh Bình Dương"
+      ]
+     ],
+     "sourceMarkup": {
+      "tableOpenTag": "<table align=\"center\" border=\"0\" cellpadding=\"10\" cellspacing=\"1\" style=\"width:1200px;\">",
+      "tdOpenTags": [
+       "<td style=\"vertical-align: top; width: 387px;\">",
+       "<td style=\"vertical-align: top; width: 387px;\">",
+       "<td style=\"vertical-align: top; width: 355px;\">"
+      ]
+     }
+    },
+    {
+     "type": "p",
+     "text": " ",
+     "rawHtml": "<p> </p>"
+    },
+    {
+     "type": "h3",
+     "text": "DANH SÁCH ĐẠI LÝ Ở KHU VỰC KHÁC",
+     "href": "danh-sach-dai-ly-o-khu-vuc-khac",
+     "hrefTitle": "DANH SÁCH ĐẠI LÝ Ở KHU VỰC KHÁC",
+     "containerAttrs": "d-flex flex-wrap col-12 pb-3 mb-3\" data-aos=\"fade-up\" data-aos-duration=\"1000\">\r\n                <div class=\"info-news w-100 p-0\">"
+    },
+    {
+     "type": "p",
+     "text": "Quý khách quan tâm đến đại lý ở các khu vực khác, vui lòng liên hệ với chúng tôi để được tư vấn và cung cấp thông tin phù hợp.",
+     "rawHtml": "<p>Quý khách quan tâm đến đại lý ở các khu vực khác, vui lòng liên hệ với chúng tôi để được tư vấn và cung cấp thông tin phù hợp.</p>"
+    }
+   ],
+   "forms": [],
+   "interactions": [
+    "Header search: <a class=\"search\" href=\"javascript:void();\"> opens the hidden input; <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> submits on Enter, and a hidden <input type=\"hidden\" onclick=\"onSearch('keyword');\"> is the submit trigger.",
+    "Region card <div class=\"news border-bottom d-flex flex-wrap col-12 pb-3 mb-3\" data-aos=\"fade-up\" data-aos-duration=\"1000\"> — each card animates on scroll via animate.min.css data-aos attributes.",
+    "Card titles use class=\"name-news text-decoration-none text-split\" (CSS text-split effect) inside <h3>.",
+    "Floating Zalo button: <a class=\"btn-zalo btn-frame text-decoration-none\" target=\"_blank\" href=\"https://zalo.me/\"> — the href is the bare Zalo domain, i.e. a placeholder, not a real OA URL.",
+    "Empty pagination container <div class=\"pagination-home w-100\"></div> is present but no pagination markup or JS pager is emitted.",
+    "Lazy-loading contract used site-wide: <img class=\"lazy\" data-src=\"…\"> with an onerror fallback to a thumbs/…/assets/images/noimage.png placeholder."
+   ],
+   "seoDefects": [
+    "<html lang=\"vi|en\"> is not a valid BCP-47 language tag.",
+    "<meta name=\"description\" content=\"\" /> is an empty string.",
+    "<meta name=\"keywords\" content=\"\" /> is an empty string.",
+    "<meta property=\"og:description\" content=\"\" /> is an empty string.",
+    "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> and <meta name=\"twitter:creator\" content=\"THE BOSS VIỆT NAM\"> put an e-mail address / brand name in Twitter handle fields.",
+    "<meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width, not width=device-width.",
+    "The only <h1> on the page is <h1 class=\"hidden-seoh\">, i.e. hidden by CSS; there is no visible H1.",
+    "<meta property=\"og:type\" content=\"object\"> is not a valid Open Graph type (should be website/article).",
+    "<meta property=\"og:image\" content=\"\"> is empty; og:image:alt, og:image:type, og:image:width and og:image:height are also empty strings.",
+    "<meta name=\"author\" content=\"THE BOSS VIỆT NAM\"> and the JSON-LD Organization are present, but the Organization node has an empty \"sameAs\": [] array and a postalCode \"70000\".",
+    "The visible page heading is an <h2>; the only <h1> is class=\"hidden-seoh\".",
+    "BreadcrumbList JSON-LD lists 1 item (position 1 = \"Hệ thống đại lý\", the page itself) while the rendered breadcrumb shows 2 items — \"Trang chủ\" is missing from the structured data.",
+    "Every region card <a href> is relative (\"danh-sach-dai-ly-o-ho-chi-minh\"), relying on <base href=\"https://thebossvietnam.com/\">."
+   ],
+   "notes": [
+    "Captured 2026-09-30 10:46 (Asia/Ho_Chi_Minh, +07:00) via curl -L (final HTTP status 200).",
+    "Hub is a plain category listing: one <div class=\"title-main\"><h2> heading followed by 3 <div class=\"news border-bottom …\"> cards. No intro paragraph, no banner, no card thumbnail image (hasImage=false for all 3 cards) — cards are text heading + description only.",
+    "Card 1 «DANH SÁCH ĐẠI LÝ Ở HỒ CHÍ MINH» contains exactly 1 <table> with 1 <tr> and 3 <td> layout cells: td widths 385px / 365px / 375px. Layout-table cell split: cell 1 = 8 area headings / 21 dealer rows, cell 2 = 3 area headings / 21 dealer rows, cell 3 = 7 area headings / 23 dealer rows → 18 area headings and 65 dealer rows total.",
+    "Card 2 «DANH SÁCH ĐẠI LÝ Ở BÌNH DƯƠNG» contains exactly 1 <table> with 1 <tr> and 3 <td> layout cells: td widths 387px / 387px / 355px. Cell split: cell 1 = 1 area heading / 7 dealer rows, cell 2 = 1 / 6, cell 3 = 4 / 7 → 6 area headings and 20 dealer rows total.",
+    "Card 3 «DANH SÁCH ĐẠI LÝ Ở KHU VỰC KHÁC» contains NO table, only 1 <p>. No dealer rows, no address, no phone.",
+    "Both tables are followed by an empty spacer paragraph <p>&nbsp;</p> (U+00A0 only, no visible text) — captured verbatim as a p block.",
+    "Row-count cross-check vs the regional pages (each hub card table re-parsed cell by cell): card 1 has 65 dealer rows while /danh-sach-dai-ly-o-ho-chi-minh has 66 — the hub copy is missing «PET YÊU | 413 Nguyễn Kiệm, phường 9, quận Phú Nhuận, Tp.Hồ Chí Minh» (Khu vực Quận Phú Nhuận: hub 1 row, page 2 rows). Card 2 has 20 dealer rows while /danh-sach-dai-ly-o-binh-duong-binh-phuoc has 21 — the hub copy is missing «SƠN SPA - TIỆM CẮT LÔNG CHÓ MÈO | 506 Nguyễn Trãi, phường Lái Thiêu, TP.Thuận An, tỉnh Bình Dương» (Khu vực Thuận An: hub 6 rows, page 7 rows). All other 23 area groups match row-for-row and string-for-string.",
+    "One more textual difference: for «SUNNY PET SHOP» the hub omits the trailing period — hub: \"2/95 Đồng Hoà, xã Long Hòa, huyện Cần Giờ, Tp.Hồ Chí Minh\"; regional page: \"2/95 Đồng Hoà, xã Long Hòa, huyện Cần Giờ, Tp.Hồ Chí Minh.\". Both captured verbatim.",
+    "No dealer phone number, no map image, no map iframe and no map link exists anywhere in this page's content. The only external hrefs on the page are the shell's https://www.facebook.com/TheBossVietnam and https://zalo.me/.",
+    "Empty <div class=\"pagination-home w-100\"></div> follows the cards; no pagination controls rendered.",
+    "Dealer addresses and phone numbers are owner-asserted business data captured from the live site. They must be re-verified with the site owner before publication; the replica must not present them as verified facts."
+   ]
+  },
+  {
+   "path": "/danh-sach-dai-ly-o-ho-chi-minh",
+   "sourceUrl": "https://thebossvietnam.com/danh-sach-dai-ly-o-ho-chi-minh",
+   "httpStatus": 200,
+   "sourceTitle": "DANH SÁCH ĐẠI LÝ Ở HỒ CHÍ MINH",
+   "metaDescription": "",
+   "h1": "DANH SÁCH ĐẠI LÝ Ở HỒ CHÍ MINH",
+   "breadcrumbs": [
+    "Trang chủ",
+    "Hệ thống đại lý",
+    "DANH SÁCH ĐẠI LÝ Ở HỒ CHÍ MINH"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "DANH SÁCH ĐẠI LÝ Ở HỒ CHÍ MINH",
+     "role": "detail-title",
+     "sourceMarkup": "<div class=\"title-detail-main\">DANH SÁCH ĐẠI LÝ Ở HỒ CHÍ MINH</div>"
+    },
+    {
+     "type": "p",
+     "text": "18/09/2024 04:36 PM",
+     "role": "publish-date",
+     "sourceMarkup": "<i class=\"bi bi-calendar-check-fill\"></i><span class=\"me-2\">18/09/2024 04:36 PM</span> <i class=\"bi bi-eye-fill\"></i> 1416 Lượt xem"
+    },
+    {
+     "type": "p",
+     "text": "",
+     "role": "view-counter",
+     "sourceMarkup": "<i class=\"bi bi-calendar-check-fill\"></i><span class=\"me-2\">18/09/2024 04:36 PM</span> <i class=\"bi bi-eye-fill\"></i> 1416 Lượt xem"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Quận 1:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Quận 1:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "DOG PARADISE",
+     "rawHtml": "<p><span style=\"font-size:16px;\">DOG PARADISE</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "7 Trần Khắc Chân, phường Tân Định, quận 1, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>7 Trần Khắc Chân, phường Tân Định, quận 1, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Quận 4:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Quận 4:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y PET ZONE",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y PET ZONE</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "U48-U50-U52-U54 Nguyễn Hữu Hào, phường 8, quận 4, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>U48-U50-U52-U54 Nguyễn Hữu Hào, phường 8, quận 4, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Quận 6:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Quận 6:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "ARALE PETSHOP",
+     "rawHtml": "<p><span style=\"font-size:16px;\">ARALE PETSHOP</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "213D Minh Phụng, phường 6, quận 6, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>213D Minh Phụng, phường 6, quận 6, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "RANZILLA PET CARE",
+     "rawHtml": "<p><span style=\"font-size:16px;\">RANZILLA PET CARE</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "179 Bình Tiên, phường 8, quận 6, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>179 Bình Tiên, phường 8, quận 6, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "VCT PET",
+     "rawHtml": "<p><span style=\"font-size:16px;\">VCT PET</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "892 Hậu Giang, phường 12, quận 6, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>892 Hậu Giang, phường 12, quận 6, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Quận 7:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Quận 7:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y HOME PET CARE",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y HOME PET CARE</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "49 Đường số 85, phường Tân Quy, quận 7, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>49 Đường số 85, phường Tân Quy, quận 7, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "THÚ Y VET & PET MART",
+     "rawHtml": "<p><span style=\"font-size:16px;\">THÚ Y VET & PET MART</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "1470 Huỳnh Tấn Phát, phường Phú Mỹ, quận 7, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>1470 Huỳnh Tấn Phát, phường Phú Mỹ, quận 7, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PET FRIEND",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PET FRIEND</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "62/47 Lâm Văn Bền, phường Tân Kiểng, quận 7, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>62/47 Lâm Văn Bền, phường Tân Kiểng, quận 7, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Quận 8:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Quận 8:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y PET ZONE",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y PET ZONE</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "967-969 Tạ Quang Bửu, phường 6, quận 8, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>967-969 Tạ Quang Bửu, phường 6, quận 8, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y 199",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y 199</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "93 Liên Tỉnh 5, phường 5, quận 8, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>93 Liên Tỉnh 5, phường 5, quận 8, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y 199",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y 199</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "218 Tạ Quảng Bửu, phường 13, quận 8, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>218 Tạ Quảng Bửu, phường 13, quận 8, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Quận 10:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Quận 10:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y PET ZONE",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y PET ZONE</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "59 Hòa Hưng, phường 12, quận 10, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>59 Hòa Hưng, phường 12, quận 10, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PET SAIGON",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PET SAIGON</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "285/55 Cách Mạng Tháng 8, phường 12, quận 10, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>285/55 Cách Mạng Tháng 8, phường 12, quận 10, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Quận 12:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Quận 12:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "DOCA PET PLUS",
+     "rawHtml": "<p><span style=\"font-size:16px;\">DOCA PET PLUS</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "281 Lê Văn Khương, phường Hiệp Thành, quận 12, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>281 Lê Văn Khương, phường Hiệp Thành, quận 12, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "THÚ Y RED",
+     "rawHtml": "<p><span style=\"font-size:16px;\">THÚ Y RED</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "51 Phan Văn Hớn, phường Tân Thới Nhất, quận 12, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>51 Phan Văn Hớn, phường Tân Thới Nhất, quận 12, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y ĐĂNG KHÔI",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y ĐĂNG KHÔI</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "668 Hà Huy Giáp, phường Thạnh Lộc, quận 12, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>668 Hà Huy Giáp, phường Thạnh Lộc, quận 12, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y BẢO BỐI",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y BẢO BỐI</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "807 Hà Huy Giáp, phường Thạnh Xuân, quận 12, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>807 Hà Huy Giáp, phường Thạnh Xuân, quận 12, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Quận Bình Tân:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Quận Bình Tân:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y HOME PET CARE",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y HOME PET CARE</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "15 Miếu Bình Đông, phường Bình Hưng Hòa, quận Bình Tân, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>15 Miếu Bình Đông, phường Bình Hưng Hòa, quận Bình Tân, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y MÃ LÒ",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y MÃ LÒ</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "317 Mã Lò, phường Bình Trị Đông A, quận Bình Tân, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>317 Mã Lò, phường Bình Trị Đông A, quận Bình Tân, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PET HOUSE 126",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PET HOUSE 126</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "128 đường 26/3, phường Bình Hưng Hòa, quận Bình Tân, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>128 đường 26/3, phường Bình Hưng Hòa, quận Bình Tân, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "TRUNG TÂM THÚ Y VET & PET",
+     "rawHtml": "<p><span style=\"font-size:16px;\">TRUNG TÂM THÚ Y VET & PET</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "78 đường số 2, KDC Vĩnh Lộc, phường Bình Hưng Hòa B, quận Bình Tân, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>78 đường số 2, KDC Vĩnh Lộc, phường Bình Hưng Hòa B, quận Bình Tân, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Quận Gò Vấp:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Quận Gò Vấp:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "ARALE PETSHOP",
+     "rawHtml": "<p><span style=\"font-size:16px;\">ARALE PETSHOP</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "731 Tân Sơn, phường 12, quận Gò Vấp, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>731 Tân Sơn, phường 12, quận Gò Vấp, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PET LOVE",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PET LOVE</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "760 Phan Văn Trị, phường 10, quận Gò Vấp, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>760 Phan Văn Trị, phường 10, quận Gò Vấp, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PET STATION",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PET STATION</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "A1 Phan Văn Trị, phường 7, quận Gò Vấp, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>A1 Phan Văn Trị, phường 7, quận Gò Vấp, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y MEKONG",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y MEKONG</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "446 Phan Huy Ích, phường 12, quận Gò Vấp, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>446 Phan Huy Ích, phường 12, quận Gò Vấp, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PETXINH.NET",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PETXINH.NET</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "730 Lê Đức Thọ, phường 15, quận Gò Vấp, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>730 Lê Đức Thọ, phường 15, quận Gò Vấp, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y KANG PET",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y KANG PET</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "123 đường số 3, phường 9, quận Gò Vấp, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>123 đường số 3, phường 9, quận Gò Vấp, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y CHICOPET",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y CHICOPET</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "497 Lê Văn Thọ, phường 9, quận Gò Vấp, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>497 Lê Văn Thọ, phường 9, quận Gò Vấp, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Quận Bình Thạnh:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Quận Bình Thạnh:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "DOG SALON MOMO",
+     "rawHtml": "<p><span style=\"font-size:16px;\">DOG SALON MOMO</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "217 Ngô Tất Tố, phường 12, quận Bình Thạnh, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>217 Ngô Tất Tố, phường 12, quận Bình Thạnh, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "CHU CHU PET",
+     "rawHtml": "<p><span style=\"font-size:16px;\">CHU CHU PET</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "283 Nguyễn Văn Đậu, phường 13, quận Bình Thạnh, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>283 Nguyễn Văn Đậu, phường 13, quận Bình Thạnh, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "SAM SAM PET SHOP",
+     "rawHtml": "<p><span style=\"font-size:16px;\">SAM SAM PET SHOP</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "140 Nơ Trang Long, phường 14, quận Bình Thạnh, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>140 Nơ Trang Long, phường 14, quận Bình Thạnh, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "CELA PAW",
+     "rawHtml": "<p><span style=\"font-size:16px;\">CELA PAW</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "574 Điện Biên Phủ, phường 22, quận Bình Thạnh, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>574 Điện Biên Phủ, phường 22, quận Bình Thạnh, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "BỆNH VIỆN THÚ Y MIỀN NAM",
+     "rawHtml": "<p><span style=\"font-size:16px;\">BỆNH VIỆN THÚ Y MIỀN NAM</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "401 Phạm Văn Đồng, phường 11, quận Bình Thạnh, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>401 Phạm Văn Đồng, phường 11, quận Bình Thạnh, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "NHÀ PHÔ MAI",
+     "rawHtml": "<p><span style=\"font-size:16px;\">NHÀ PHÔ MAI</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "30A Vũ Ngọc Phan, phường 13, quận Bình Thạnh, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>30A Vũ Ngọc Phan, phường 13, quận Bình Thạnh, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Thành phố Thủ Đức:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Thành phố Thủ Đức:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "ỈN PET SHOP",
+     "rawHtml": "<p><span style=\"font-size:16px;\">ỈN PET SHOP</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "45 đường 9A, phường Long Bình, quận 9, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>45 đường 9A, phường Long Bình, quận 9, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "LUCA PET SHOP",
+     "rawHtml": "<p><span style=\"font-size:16px;\">LUCA PET SHOP</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "328 Nguyễn Duy Trinh, phường Bình Trưng Tây, quận 2, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>328 Nguyễn Duy Trinh, phường Bình Trưng Tây, quận 2, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PET SAIGON",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PET SAIGON</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "178 Nguyễn Thị Định, phường Bình Trưng Tây, quận 2, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>178 Nguyễn Thị Định, phường Bình Trưng Tây, quận 2, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PAWS & CLAWS",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PAWS & CLAWS</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "16 Nguyễn Văn Hưởng, phường Thảo Điền, TP.Thủ Đức, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>16 Nguyễn Văn Hưởng, phường Thảo Điền, TP.Thủ Đức, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y FUNY PET",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y FUNY PET</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "46A Làng Tăng Phú, phường Tăng Nhơn Phú A, TP.Thủ Đức, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>46A Làng Tăng Phú, phường Tăng Nhơn Phú A, TP.Thủ Đức, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "IU PET",
+     "rawHtml": "<p><span style=\"font-size:16px;\">IU PET</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "422 Liên Phường, phường Phước Long B, TP.Thủ Đức, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>422 Liên Phường, phường Phước Long B, TP.Thủ Đức, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y LINH ĐÔNG",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y LINH ĐÔNG</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "214A đường Linh Đông, phường Linh Đông, TP.Thủ Đức, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>214A đường Linh Đông, phường Linh Đông, TP.Thủ Đức, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PET CARE",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PET CARE</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "15B Tam Bình, phường Hiệp Bình Chánh, Tp.Thủ Đức, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>15B Tam Bình, phường Hiệp Bình Chánh, Tp.Thủ Đức, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Quận Phú Nhuận:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Quận Phú Nhuận:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "PET STORE & SPA - NHÀ PHÔ MAI",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PET STORE & SPA - NHÀ PHÔ MAI</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "Số 4 Hoa Cau, phường 7, quận Phú Nhuận, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>Số 4 Hoa Cau, phường 7, quận Phú Nhuận, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PET YÊU",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PET YÊU</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "413 Nguyễn Kiệm, phường 9, quận Phú Nhuận, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>413 Nguyễn Kiệm, phường 9, quận Phú Nhuận, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Quận Tân Bình:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Quận Tân Bình:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "VCT PET",
+     "rawHtml": "<p><span style=\"font-size:16px;\">VCT PET</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "379 Nguyễn Thái Bình, phường 12, quận Tân Bình, Tp.Hồ Chí Minh",
+     "rawHtml": "<p> 379 Nguyễn Thái Bình, phường 12, quận Tân Bình, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Quận Tân Phú:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Quận Tân Phú:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "MR GÂU",
+     "rawHtml": "<p><span style=\"font-size:16px;\">MR GÂU</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "99 Trương Vĩnh Ký, phường Tân Thành, quận Tân Phú, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>99 Trương Vĩnh Ký, phường Tân Thành, quận Tân Phú, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PET STATION",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PET STATION</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "369A Tân Sơn Nhì, phường Tân Thành, quận Tân Phú, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>369A Tân Sơn Nhì, phường Tân Thành, quận Tân Phú, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y THANH TÂN",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y THANH TÂN</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "86 Tây Thạnh, phường Tây Thạnh, quận Tân Phú, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>86 Tây Thạnh, phường Tây Thạnh, quận Tân Phú, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "LILDAN PET SPA HOTEL & CLINIC",
+     "rawHtml": "<p><span style=\"font-size:16px;\">LILDAN PET SPA HOTEL & CLINIC</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "309A Tân Hương, phường Tân Quý, quận Tân Phú, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>309A Tân Hương, phường Tân Quý, quận Tân Phú, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y ONEE'S PET",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y ONEE'S PET</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "325A Nguyễn Sơn, phường Phú Thạnh, quận Tân Phú, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>325A Nguyễn Sơn, phường Phú Thạnh, quận Tân Phú, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHINTHECAT",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHINTHECAT</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "239/54 Khuông Việt, phường Phú Trung, quận Tân Phú, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>239/54 Khuông Việt, phường Phú Trung, quận Tân Phú, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "TI TI SHOP",
+     "rawHtml": "<p><span style=\"font-size:16px;\">TI TI SHOP</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "65 Trịnh Đình Trọng, phường Phú Trung, quận Tân Phú, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>65 Trịnh Đình Trọng, phường Phú Trung, quận Tân Phú, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "RIN RIN PETCARE",
+     "rawHtml": "<p><span style=\"font-size:16px;\">RIN RIN PETCARE</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "45 Tân Quý, phường Tân Quý, quận Tân Phú, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>45 Tân Quý, phường Tân Quý, quận Tân Phú, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Huyện Hóc Môn:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Huyện Hóc Môn:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y IBU",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y IBU</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "89 Bùi Công Trừng, phường Đông Thạnh, huyện Hóc Môn, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>89 Bùi Công Trừng, phường Đông Thạnh, huyện Hóc Môn, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y IBU 2",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y IBU 2</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "6/2 Lê Thị Hà, Khu Phố 8, Thị trấn Hóc Môn, huyện Hóc Môn, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>6/2 Lê Thị Hà, Khu Phố 8, Thị trấn Hóc Môn, huyện Hóc Môn, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y NGỌC CHÂU",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y NGỌC CHÂU</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "223 Đặng Thúc Vịnh, xã Đông Thạnh, huyện Hóc Môn, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>223 Đặng Thúc Vịnh, xã Đông Thạnh, huyện Hóc Môn, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y DC VET",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y DC VET</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "12/1B Tô Ký, xã Thới Tam Thôn, huyện Hóc Môn, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>12/1B Tô Ký, xã Thới Tam Thôn, huyện Hóc Môn, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "THI THI PET CLINIC",
+     "rawHtml": "<p><span style=\"font-size:16px;\">THI THI PET CLINIC</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "146 Nguyễn Ảnh Thủ, xã Trung Chánh, huyện Hóc Môn, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>146 Nguyễn Ảnh Thủ, xã Trung Chánh, huyện Hóc Môn, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "THANH VY PETCARE",
+     "rawHtml": "<p><span style=\"font-size:16px;\">THANH VY PETCARE</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "61 đường XTT7, ấp 3, xã Xuân Thới Thượng, huyện Hóc Môn, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>61 đường XTT7, ấp 3, xã Xuân Thới Thượng, huyện Hóc Môn, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y HÓC MÔN",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y HÓC MÔN</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "49 Đỗ Văn Dậy, xã Tân Hiệp, huyện Hóc Môn, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>49 Đỗ Văn Dậy, xã Tân Hiệp, huyện Hóc Môn, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Huyện Củ Chi:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Huyện Củ Chi:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y QUANG BÌNH - CN1",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y QUANG BÌNH - CN1</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "410 Tỉnh lộ 2, ấp Gia Bẹ, xã Trung Lập Hạ, huyện Củ Chi, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>410 Tỉnh lộ 2, ấp Gia Bẹ, xã Trung Lập Hạ, huyện Củ Chi, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y QUANG BÌNH - CN3",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y QUANG BÌNH - CN3</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "636 Quốc lộ 22 , KP2, Thị trấn Củ Chi, huyện Củ Chi, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>636 Quốc lộ 22 , KP2, Thị trấn Củ Chi, huyện Củ Chi, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "PET SHOP LINH LANH 2",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PET SHOP LINH LANH 2</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "210 Liêu Bình Hương, xã Tân Thông Hội, huyện Củ Chi, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>210 Liêu Bình Hương, xã Tân Thông Hội, huyện Củ Chi, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Huyện Bình Chánh:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Huyện Bình Chánh:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "DOG PARADISE 3",
+     "rawHtml": "<p><span style=\"font-size:16px;\">DOG PARADISE 3</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "1099 Quốc lộ 50, xã Bình Hưng, huyện Bình Chánh, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>1099 Quốc lộ 50, xã Bình Hưng, huyện Bình Chánh, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "p",
+     "text": "VĨNH LỘC PET FAMILY",
+     "rawHtml": "<p><span style=\"font-size:16px;\">VĨNH LỘC PET FAMILY</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "E8/7 Ấp 5, xã Vĩnh Lộc B, huyện Bình Chánh, Tp.Hồ Chí Minh",
+     "rawHtml": "<p>E8/7 Ấp 5, xã Vĩnh Lộc B, huyện Bình Chánh, Tp.Hồ Chí Minh</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Huyện Cần Giờ:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Huyện Cần Giờ:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "SUNNY PET SHOP",
+     "rawHtml": "<p><span style=\"font-size:16px;\">SUNNY PET SHOP</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "2/95 Đồng Hoà, xã Long Hòa, huyện Cần Giờ, Tp.Hồ Chí Minh.",
+     "rawHtml": "<p><span style=\"font-family:Aptos,sans-serif;\"><span style=\"font-size:11.0pt;\">2/95 Đồng Hoà, xã Long Hòa, huyện Cần Giờ, Tp.Hồ Chí Minh.</span></span></p>"
+    },
+    {
+     "type": "table",
+     "headers": [],
+     "rows": [
+      [
+       "Khu vực Quận 1:",
+       "DOG PARADISE",
+       "7 Trần Khắc Chân, phường Tân Định, quận 1, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 4:",
+       "PHÒNG KHÁM THÚ Y PET ZONE",
+       "U48-U50-U52-U54 Nguyễn Hữu Hào, phường 8, quận 4, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 6:",
+       "ARALE PETSHOP",
+       "213D Minh Phụng, phường 6, quận 6, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 6:",
+       "RANZILLA PET CARE",
+       "179 Bình Tiên, phường 8, quận 6, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 6:",
+       "VCT PET",
+       "892 Hậu Giang, phường 12, quận 6, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 7:",
+       "PHÒNG KHÁM THÚ Y HOME PET CARE",
+       "49 Đường số 85, phường Tân Quy, quận 7, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 7:",
+       "THÚ Y VET & PET MART",
+       "1470 Huỳnh Tấn Phát, phường Phú Mỹ, quận 7, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 7:",
+       "PET FRIEND",
+       "62/47 Lâm Văn Bền, phường Tân Kiểng, quận 7, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 8:",
+       "PHÒNG KHÁM THÚ Y PET ZONE",
+       "967-969 Tạ Quang Bửu, phường 6, quận 8, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 8:",
+       "PHÒNG KHÁM THÚ Y 199",
+       "93 Liên Tỉnh 5, phường 5, quận 8, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 8:",
+       "PHÒNG KHÁM THÚ Y 199",
+       "218 Tạ Quảng Bửu, phường 13, quận 8, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 10:",
+       "PHÒNG KHÁM THÚ Y PET ZONE",
+       "59 Hòa Hưng, phường 12, quận 10, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 10:",
+       "PET SAIGON",
+       "285/55 Cách Mạng Tháng 8, phường 12, quận 10, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 12:",
+       "DOCA PET PLUS",
+       "281 Lê Văn Khương, phường Hiệp Thành, quận 12, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 12:",
+       "THÚ Y RED",
+       "51 Phan Văn Hớn, phường Tân Thới Nhất, quận 12, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 12:",
+       "PHÒNG KHÁM THÚ Y ĐĂNG KHÔI",
+       "668 Hà Huy Giáp, phường Thạnh Lộc, quận 12, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận 12:",
+       "PHÒNG KHÁM THÚ Y BẢO BỐI",
+       "807 Hà Huy Giáp, phường Thạnh Xuân, quận 12, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Bình Tân:",
+       "PHÒNG KHÁM THÚ Y HOME PET CARE",
+       "15 Miếu Bình Đông, phường Bình Hưng Hòa, quận Bình Tân, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Bình Tân:",
+       "PHÒNG KHÁM THÚ Y MÃ LÒ",
+       "317 Mã Lò, phường Bình Trị Đông A, quận Bình Tân, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Bình Tân:",
+       "PET HOUSE 126",
+       "128 đường 26/3, phường Bình Hưng Hòa, quận Bình Tân, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Bình Tân:",
+       "TRUNG TÂM THÚ Y VET & PET",
+       "78 đường số 2, KDC Vĩnh Lộc, phường Bình Hưng Hòa B, quận Bình Tân, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Gò Vấp:",
+       "ARALE PETSHOP",
+       "731 Tân Sơn, phường 12, quận Gò Vấp, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Gò Vấp:",
+       "PET LOVE",
+       "760 Phan Văn Trị, phường 10, quận Gò Vấp, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Gò Vấp:",
+       "PET STATION",
+       "A1 Phan Văn Trị, phường 7, quận Gò Vấp, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Gò Vấp:",
+       "PHÒNG KHÁM THÚ Y MEKONG",
+       "446 Phan Huy Ích, phường 12, quận Gò Vấp, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Gò Vấp:",
+       "PETXINH.NET",
+       "730 Lê Đức Thọ, phường 15, quận Gò Vấp, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Gò Vấp:",
+       "PHÒNG KHÁM THÚ Y KANG PET",
+       "123 đường số 3, phường 9, quận Gò Vấp, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Gò Vấp:",
+       "PHÒNG KHÁM THÚ Y CHICOPET",
+       "497 Lê Văn Thọ, phường 9, quận Gò Vấp, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Bình Thạnh:",
+       "DOG SALON MOMO",
+       "217 Ngô Tất Tố, phường 12, quận Bình Thạnh, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Bình Thạnh:",
+       "CHU CHU PET",
+       "283 Nguyễn Văn Đậu, phường 13, quận Bình Thạnh, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Bình Thạnh:",
+       "SAM SAM PET SHOP",
+       "140 Nơ Trang Long, phường 14, quận Bình Thạnh, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Bình Thạnh:",
+       "CELA PAW",
+       "574 Điện Biên Phủ, phường 22, quận Bình Thạnh, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Bình Thạnh:",
+       "BỆNH VIỆN THÚ Y MIỀN NAM",
+       "401 Phạm Văn Đồng, phường 11, quận Bình Thạnh, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Bình Thạnh:",
+       "NHÀ PHÔ MAI",
+       "30A Vũ Ngọc Phan, phường 13, quận Bình Thạnh, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Thành phố Thủ Đức:",
+       "ỈN PET SHOP",
+       "45 đường 9A, phường Long Bình, quận 9, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Thành phố Thủ Đức:",
+       "LUCA PET SHOP",
+       "328 Nguyễn Duy Trinh, phường Bình Trưng Tây, quận 2, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Thành phố Thủ Đức:",
+       "PET SAIGON",
+       "178 Nguyễn Thị Định, phường Bình Trưng Tây, quận 2, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Thành phố Thủ Đức:",
+       "PAWS & CLAWS",
+       "16 Nguyễn Văn Hưởng, phường Thảo Điền, TP.Thủ Đức, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Thành phố Thủ Đức:",
+       "PHÒNG KHÁM THÚ Y FUNY PET",
+       "46A Làng Tăng Phú, phường Tăng Nhơn Phú A, TP.Thủ Đức, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Thành phố Thủ Đức:",
+       "IU PET",
+       "422 Liên Phường, phường Phước Long B, TP.Thủ Đức, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Thành phố Thủ Đức:",
+       "PHÒNG KHÁM THÚ Y LINH ĐÔNG",
+       "214A đường Linh Đông, phường Linh Đông, TP.Thủ Đức, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Thành phố Thủ Đức:",
+       "PET CARE",
+       "15B Tam Bình, phường Hiệp Bình Chánh, Tp.Thủ Đức, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Phú Nhuận:",
+       "PET STORE & SPA - NHÀ PHÔ MAI",
+       "Số 4 Hoa Cau, phường 7, quận Phú Nhuận, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Phú Nhuận:",
+       "PET YÊU",
+       "413 Nguyễn Kiệm, phường 9, quận Phú Nhuận, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Tân Bình:",
+       "VCT PET",
+       "379 Nguyễn Thái Bình, phường 12, quận Tân Bình, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Tân Phú:",
+       "MR GÂU",
+       "99 Trương Vĩnh Ký, phường Tân Thành, quận Tân Phú, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Tân Phú:",
+       "PET STATION",
+       "369A Tân Sơn Nhì, phường Tân Thành, quận Tân Phú, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Tân Phú:",
+       "PHÒNG KHÁM THÚ Y THANH TÂN",
+       "86 Tây Thạnh, phường Tây Thạnh, quận Tân Phú, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Tân Phú:",
+       "LILDAN PET SPA HOTEL & CLINIC",
+       "309A Tân Hương, phường Tân Quý, quận Tân Phú, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Tân Phú:",
+       "PHÒNG KHÁM THÚ Y ONEE'S PET",
+       "325A Nguyễn Sơn, phường Phú Thạnh, quận Tân Phú, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Tân Phú:",
+       "PHINTHECAT",
+       "239/54 Khuông Việt, phường Phú Trung, quận Tân Phú, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Tân Phú:",
+       "TI TI SHOP",
+       "65 Trịnh Đình Trọng, phường Phú Trung, quận Tân Phú, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Quận Tân Phú:",
+       "RIN RIN PETCARE",
+       "45 Tân Quý, phường Tân Quý, quận Tân Phú, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Huyện Hóc Môn:",
+       "PHÒNG KHÁM THÚ Y IBU",
+       "89 Bùi Công Trừng, phường Đông Thạnh, huyện Hóc Môn, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Huyện Hóc Môn:",
+       "PHÒNG KHÁM THÚ Y IBU 2",
+       "6/2 Lê Thị Hà, Khu Phố 8, Thị trấn Hóc Môn, huyện Hóc Môn, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Huyện Hóc Môn:",
+       "PHÒNG KHÁM THÚ Y NGỌC CHÂU",
+       "223 Đặng Thúc Vịnh, xã Đông Thạnh, huyện Hóc Môn, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Huyện Hóc Môn:",
+       "PHÒNG KHÁM THÚ Y DC VET",
+       "12/1B Tô Ký, xã Thới Tam Thôn, huyện Hóc Môn, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Huyện Hóc Môn:",
+       "THI THI PET CLINIC",
+       "146 Nguyễn Ảnh Thủ, xã Trung Chánh, huyện Hóc Môn, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Huyện Hóc Môn:",
+       "THANH VY PETCARE",
+       "61 đường XTT7, ấp 3, xã Xuân Thới Thượng, huyện Hóc Môn, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Huyện Hóc Môn:",
+       "PHÒNG KHÁM THÚ Y HÓC MÔN",
+       "49 Đỗ Văn Dậy, xã Tân Hiệp, huyện Hóc Môn, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Huyện Củ Chi:",
+       "PHÒNG KHÁM THÚ Y QUANG BÌNH - CN1",
+       "410 Tỉnh lộ 2, ấp Gia Bẹ, xã Trung Lập Hạ, huyện Củ Chi, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Huyện Củ Chi:",
+       "PHÒNG KHÁM THÚ Y QUANG BÌNH - CN3",
+       "636 Quốc lộ 22 , KP2, Thị trấn Củ Chi, huyện Củ Chi, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Huyện Củ Chi:",
+       "PET SHOP LINH LANH 2",
+       "210 Liêu Bình Hương, xã Tân Thông Hội, huyện Củ Chi, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Huyện Bình Chánh:",
+       "DOG PARADISE 3",
+       "1099 Quốc lộ 50, xã Bình Hưng, huyện Bình Chánh, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Huyện Bình Chánh:",
+       "VĨNH LỘC PET FAMILY",
+       "E8/7 Ấp 5, xã Vĩnh Lộc B, huyện Bình Chánh, Tp.Hồ Chí Minh"
+      ],
+      [
+       "Khu vực Huyện Cần Giờ:",
+       "SUNNY PET SHOP",
+       "2/95 Đồng Hoà, xã Long Hòa, huyện Cần Giờ, Tp.Hồ Chí Minh."
+      ]
+     ],
+     "derivedFrom": "The source page renders no <table>. Each row is the shop-name <p> / address <p> pair that follows a verbatim 'Khu vực …:' <ul><li><strong> heading; the area column repeats that verbatim heading. Source has no header row, so headers is []."
+    }
+   ],
+   "forms": [],
+   "interactions": [
+    "Table-of-contents dropdown: <div class=\"meta-toc\"><a class=\"mucluc-dropdown-list_button\"></a><div class=\"box-readmore\"><ul class=\"toc-list\" data-toc=\"article\" data-toc-headings=\"h1, h2, h3\"></ul></div></div> — the list is built client-side from headings; this page has none, so it renders empty.",
+    "Share bar below the body: <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> with anchors a2a_dd (href=\"https://www.addtoany.com/share\"), a2a_button_facebook, a2a_button_twitter, a2a_button_facebook_messenger, a2a_button_copy_link.",
+    "Zalo share button container: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/danh-sach-dai-ly-o-ho-chi-minh\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div> — third-party OA widget, markup only, no script observed in the static HTML.",
+    "No Facebook comments embed is present on this route (no .fb-comments element in the served HTML); the page shows no comment tab.",
+    "Header search: <a class=\"search\" href=\"javascript:void();\"> plus <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> and <input type=\"hidden\" onclick=\"onSearch('keyword');\">.",
+    "Empty pagination container <div class=\"pagination-home w-100\"></div> is emitted after the related-news block."
+   ],
+   "seoDefects": [
+    "<html lang=\"vi|en\"> is not a valid BCP-47 language tag.",
+    "<meta name=\"description\" content=\"\" /> is an empty string.",
+    "<meta name=\"keywords\" content=\"\" /> is an empty string.",
+    "<meta property=\"og:description\" content=\"\" /> is an empty string.",
+    "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> and <meta name=\"twitter:creator\" content=\"THE BOSS VIỆT NAM\"> put an e-mail address / brand name in Twitter handle fields.",
+    "<meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width, not width=device-width.",
+    "The only <h1> on the page is <h1 class=\"hidden-seoh\">, i.e. hidden by CSS; there is no visible H1.",
+    "<meta property=\"og:type\" content=\"article\"> is set, but the page emits no Article JSON-LD (only BreadcrumbList and the site-wide Organization), so the publish date and author in .time-main are unstructured.",
+    "The visible page title is a <div class=\"title-detail-main\">, not a heading element; the document outline has no visible H1 and no H2 at all.",
+    "BreadcrumbList JSON-LD lists 2 items and starts at position 1 with the parent «Hệ thống đại lý»; the rendered breadcrumb shows 3 items, so «Trang chủ» is missing from the structured data.",
+    "The «Tin liên quan:» related-news anchors use relative hrefs (\"danh-sach-dai-ly-o-binh-duong-binh-phuoc\") resolved through <base href=\"https://thebossvietnam.com/\">.",
+    "<meta name=\"geo.placename\" content=\"Hồ Chí Minh\"> and geo.position/ICBM are site-wide constants and are wrong for this route’s subject matter (and for Bình Dương).",
+    "An empty TOC widget is emitted: <a class=\"mucluc-dropdown-list_button\"></a> plus <ul class=\"toc-list\" data-toc=\"article\" data-toc-headings=\"h1, h2, h3\"></ul>, but the article body contains no h1/h2/h3, so the generated list is always empty."
+   ],
+   "notes": [
+    "Captured 2026-09-30 10:46 (Asia/Ho_Chi_Minh, +07:00) via curl -L (final HTTP status 200).",
+    "Article body is <div class=\"content-main content-text w-clear content-text\" id=\"toc-content\"> containing exactly 150 top-level blocks: 132 <p> and 18 <ul>. All are captured verbatim and in document order.",
+    "Dealer table: 1 normalized table derived from those blocks, 66 rows x 3 cells (area heading | shop name | address). Cross-check: 132 <p> / 2 = 66 dealer rows, and every area group has an even paragraph count, so no row was dropped or invented.",
+    "Area headings and dealer counts, in document order: Khu vực Quận 1: = 1 đại lý; Khu vực Quận 4: = 1 đại lý; Khu vực Quận 6: = 3 đại lý; Khu vực Quận 7: = 3 đại lý; Khu vực Quận 8: = 3 đại lý; Khu vực Quận 10: = 2 đại lý; Khu vực Quận 12: = 4 đại lý; Khu vực Quận Bình Tân: = 4 đại lý; Khu vực Quận Gò Vấp: = 7 đại lý; Khu vực Quận Bình Thạnh: = 6 đại lý; Khu vực Thành phố Thủ Đức: = 8 đại lý; Khu vực Quận Phú Nhuận: = 2 đại lý; Khu vực Quận Tân Bình: = 1 đại lý; Khu vực Quận Tân Phú: = 8 đại lý; Khu vực Huyện Hóc Môn: = 7 đại lý; Khu vực Huyện Củ Chi: = 3 đại lý; Khu vực Huyện Bình Chánh: = 2 đại lý; Khu vực Huyện Cần Giờ: = 1 đại lý.",
+    "The source renders NO <table>, no <thead>, no header row and no <th> on this page, so the captured table block has headers: []. No phone number column, no map column and no link column exists in the source — the shop name is a plain <p><span style=\"font-size:16px;\"> and the address a plain <p>, with no anchor.",
+    "No dealer phone number appears anywhere in the page body. The only phone on the page is the site-wide footer line «Điện thoại: 0978202063», owned by the shell task.",
+    "No map image, no map iframe, no external map link and no inline background-image exists in the content. The only external URLs on the page are the shell's addtoany share loader, the Zalo share widget OA id, https://www.facebook.com/TheBossVietnam and the placeholder https://zalo.me/.",
+    "Publish date rendered as «18/09/2024 04:36 PM»; view counter rendered as «» at capture time 2026-09-30 10:46 (Asia/Ho_Chi_Minh, +07:00). The view counter is a live value and changes between requests — snapshot only, do not hard-code as a live figure.",
+    "«Tin liên quan:» related-news block renders 2 cards, each a 210x144 thumb linking to \"danh-sach-dai-ly-o-binh-duong-binh-phuoc\" and \"danh-sach-dai-ly-o-khu-vuc-khac\". Captured in media as related-card images; treated as cross-route promo boilerplate, not as blocks.",
+    "Hub/page divergence found: this page has 66 dealer rows; the copy embedded on /he-thong-dai-ly has 65. This page lists «PET YÊU» at «413 Nguyễn Kiệm, phường 9, quận Phú Nhuận, Tp.Hồ Chí Minh», which is absent from the hub (Khu vực Quận Phú Nhuận: page 2 rows vs hub 1 row). The remaining 17 area groups match row-for-row and string-for-string.",
+    "The final address on this page ends with a period — «2/95 Đồng Hoà, xã Long Hòa, huyện Cần Giờ, Tp.Hồ Chí Minh.» — while the hub copy of the same row omits the period. Both captured verbatim; do not normalise either.",
+    "This address is the only one wrapped in <span style=\"font-family:Aptos,sans-serif;\"><span style=\"font-size:11.0pt;\"> instead of the default 16px run; every other address is plain <p> text.",
+    "Dealer addresses are owner-asserted business data captured from the live site and must be re-verified with the site owner before publication; the replica must not present them as verified facts."
+   ]
+  },
+  {
+   "path": "/danh-sach-dai-ly-o-binh-duong-binh-phuoc",
+   "sourceUrl": "https://thebossvietnam.com/danh-sach-dai-ly-o-binh-duong-binh-phuoc",
+   "httpStatus": 200,
+   "sourceTitle": "DANH SÁCH ĐẠI LÝ Ở BÌNH DƯƠNG",
+   "metaDescription": "",
+   "h1": "DANH SÁCH ĐẠI LÝ Ở BÌNH DƯƠNG",
+   "breadcrumbs": [
+    "Trang chủ",
+    "Hệ thống đại lý",
+    "DANH SÁCH ĐẠI LÝ Ở BÌNH DƯƠNG"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "DANH SÁCH ĐẠI LÝ Ở BÌNH DƯƠNG",
+     "role": "detail-title",
+     "sourceMarkup": "<div class=\"title-detail-main\">DANH SÁCH ĐẠI LÝ Ở BÌNH DƯƠNG</div>"
+    },
+    {
+     "type": "p",
+     "text": "18/09/2024 04:38 PM",
+     "role": "publish-date",
+     "sourceMarkup": "<i class=\"bi bi-calendar-check-fill\"></i><span class=\"me-2\">18/09/2024 04:38 PM</span> <i class=\"bi bi-eye-fill\"></i> 2738 Lượt xem"
+    },
+    {
+     "type": "p",
+     "text": "",
+     "role": "view-counter",
+     "sourceMarkup": "<i class=\"bi bi-calendar-check-fill\"></i><span class=\"me-2\">18/09/2024 04:38 PM</span> <i class=\"bi bi-eye-fill\"></i> 2738 Lượt xem"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Thủ Dầu Một:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Thủ Dầu Một:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "PETSHOP HANG GẤU Ú - CN1",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PETSHOP HANG GẤU Ú - CN1</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "53 Huỳnh Văn Nghệ, phường Phú Lợi, TP.Thủ Dầu Một, tỉnh Bình Dương",
+     "rawHtml": "<p>53 Huỳnh Văn Nghệ, phường Phú Lợi, TP.Thủ Dầu Một, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "PETSHOP HANG GẤU Ú - CN3",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PETSHOP HANG GẤU Ú - CN3</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "207 đường 30/4, phường Phú Thọ, TP.Thủ Dầu Một, tỉnh Bình Dương",
+     "rawHtml": "<p>207 đường 30/4, phường Phú Thọ, TP.Thủ Dầu Một, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y VÀ SIÊU THỊ THÚ CƯNG HƯƠNG NỞ",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y VÀ SIÊU THỊ THÚ CƯNG HƯƠNG NỞ</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "235-237 Phú Lợi, phường Phú Lợi, TP.Thủ Dầu Một, tỉnh Bình Dương",
+     "rawHtml": "<p>235-237 Phú Lợi, phường Phú Lợi, TP.Thủ Dầu Một, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "BỆNH VIỆN THÚ Y BẰNG PHẠM",
+     "rawHtml": "<p><span style=\"font-size:16px;\">BỆNH VIỆN THÚ Y BẰNG PHẠM</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "232 đường Phú Lợi, phường Phú Hòa, TP.Thủ Dầu Một, tỉnh Bình Dương",
+     "rawHtml": "<p>232 đường Phú Lợi, phường Phú Hòa, TP.Thủ Dầu Một, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "MIMI PET SHOP",
+     "rawHtml": "<p><span style=\"font-size:16px;\">MIMI PET SHOP</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "135 Trần Văn Ơn, phường Phú Hòa, TP.Thủ Dầu Một, tỉnh Bình Dương",
+     "rawHtml": "<p>135 Trần Văn Ơn, phường Phú Hòa, TP.Thủ Dầu Một, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "GẠO PET HOUSE",
+     "rawHtml": "<p><span style=\"font-size:16px;\">GẠO PET HOUSE</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "453/26 Lê Hồng Phong, phường Phú Hòa, TP.Thủ Dầu Một, tỉnh Bình Dương",
+     "rawHtml": "<p>453/26 Lê Hồng Phong, phường Phú Hòa, TP.Thủ Dầu Một, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "LUCKY PET SHOP",
+     "rawHtml": "<p><span style=\"font-size:16px;\">LUCKY PET SHOP</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "784 Huỳnh Văn Lũy, phường Phú Mỹ, TP.Thủ Dầu Một, tỉnh Bình Dương",
+     "rawHtml": "<p>784 Huỳnh Văn Lũy, phường Phú Mỹ, TP.Thủ Dầu Một, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Thuận An:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Thuận An:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "PETSHOP HANG GẤU Ú - CN2",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PETSHOP HANG GẤU Ú - CN2</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "46 Nguyễn Văn Tiết, phường Lái Thiêu, TP.Thuận An, tỉnh Bình Dương",
+     "rawHtml": "<p>46 Nguyễn Văn Tiết, phường Lái Thiêu, TP.Thuận An, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "PETSHOP HANG GẤU Ú - CN4",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PETSHOP HANG GẤU Ú - CN4</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "500D Nguyễn Trãi, phường Lái Thiêu, TP.Thuận An, tỉnh Bình Dương",
+     "rawHtml": "<p>500D Nguyễn Trãi, phường Lái Thiêu, TP.Thuận An, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y DŨNG - CN1",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y DŨNG - CN1</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "51B/3 Hồ Văn Mên, phường An Thạnh, TP.Thuận An, tỉnh Bình Dương",
+     "rawHtml": "<p>51B/3 Hồ Văn Mên, phường An Thạnh, TP.Thuận An, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y DŨNG - CN2",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y DŨNG - CN2</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "14 Cách Mạng Tháng 8, phường Hưng Định, TP.Thuận An, tỉnh Bình Dương",
+     "rawHtml": "<p>14 Cách Mạng Tháng 8, phường Hưng Định, TP.Thuận An, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "INFINITY SIÊU THỊ THÚ CƯNG - CN1",
+     "rawHtml": "<p><span style=\"font-size:16px;\">INFINITY SIÊU THỊ THÚ CƯNG - CN1</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "B12/19 Đường D2, KDC Thuận Giao, TP.Thuận An, tỉnh Bình Dương",
+     "rawHtml": "<p>B12/19 Đường D2, KDC Thuận Giao, TP.Thuận An, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "INFINITY SIÊU THỊ THÚ CƯNG - CN2",
+     "rawHtml": "<p><span style=\"font-size:16px;\">INFINITY SIÊU THỊ THÚ CƯNG - CN2</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "D19 KDC VSIP1, phường An Phú, TP.Thuận An, tỉnh Bình Dương",
+     "rawHtml": "<p>D19 KDC VSIP1, phường An Phú, TP.Thuận An, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "SƠN SPA - TIỆM CẮT LÔNG CHÓ MÈO",
+     "rawHtml": "<p><span style=\"font-size:16px;\">SƠN SPA - TIỆM CẮT LÔNG CHÓ MÈO</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "506 Nguyễn Trãi, phường Lái Thiêu, TP.Thuận An, tỉnh Bình Dương",
+     "rawHtml": "<p>506 Nguyễn Trãi, phường Lái Thiêu, TP.Thuận An, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Dĩ An:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Dĩ An:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y HALLO PET",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y HALLO PET</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "559A, DT743, Khu phố Đông Tân, TP. Dĩ An, tỉnh Bình Dương",
+     "rawHtml": "<p>559A, DT743, Khu phố Đông Tân, TP. Dĩ An, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y GIA PHÁT",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y GIA PHÁT</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "810 Quốc lộ 1K, xã Bình An, TP. Dĩ An, tỉnh Bình Dương",
+     "rawHtml": "<p>810 Quốc lộ 1K, xã Bình An, TP. Dĩ An, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Tân Uyên:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Tân Uyên:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y Ơ VET",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y Ơ VET</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "Đường DH 409, KP Ông Đông, phường Tân Hiệp, TP. Tân Uyên, tỉnh Bình Dương",
+     "rawHtml": "<p>Đường DH 409, KP Ông Đông, phường Tân Hiệp, TP. Tân Uyên, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "THÚ Y ROYAL PET",
+     "rawHtml": "<p><span style=\"font-size:16px;\">THÚ Y ROYAL PET</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "172 KP. Bình Hòa 2, phường Tân Phước Khánh, TP. Tân Uyên, tỉnh Bình Dương",
+     "rawHtml": "<p>172 KP. Bình Hòa 2, phường Tân Phước Khánh, TP. Tân Uyên, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Bến Cát:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Bến Cát:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y NHÂN TRÍ",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y NHÂN TRÍ</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "34 Quốc lộ 13, KP3, phường Tân Định, Bến Cát, tỉnh Bình Dương",
+     "rawHtml": "<p>34 Quốc lộ 13, KP3, phường Tân Định, Bến Cát, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "p",
+     "text": "SALON & HOTEL NHÀ CỦA ĐỐM",
+     "rawHtml": "<p><span style=\"font-size:16px;\">SALON & HOTEL NHÀ CỦA ĐỐM</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "C1-22 TC3 Mỹ Phước 2, Bến Cát, tỉnh Bình Dương",
+     "rawHtml": "<p>C1-22 TC3 Mỹ Phước 2, Bến Cát, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Khu vực Bàu Bàng:"
+     ],
+     "rawHtml": "<ul>\r\n\t<li><span style=\"font-size:16px;\"><strong>Khu vực Bàu Bàng:</strong></span></li>\r\n</ul>"
+    },
+    {
+     "type": "p",
+     "text": "PHÒNG KHÁM THÚ Y HIỆP PHÁT",
+     "rawHtml": "<p><span style=\"font-size:16px;\">PHÒNG KHÁM THÚ Y HIỆP PHÁT</span></p>"
+    },
+    {
+     "type": "p",
+     "text": "TĐS 33, xã Long Nguyên, huyện Bàu Bàng, tỉnh Bình Dương",
+     "rawHtml": "<p>TĐS 33, xã Long Nguyên, huyện Bàu Bàng, tỉnh Bình Dương</p>"
+    },
+    {
+     "type": "table",
+     "headers": [],
+     "rows": [
+      [
+       "Khu vực Thủ Dầu Một:",
+       "PETSHOP HANG GẤU Ú - CN1",
+       "53 Huỳnh Văn Nghệ, phường Phú Lợi, TP.Thủ Dầu Một, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Thủ Dầu Một:",
+       "PETSHOP HANG GẤU Ú - CN3",
+       "207 đường 30/4, phường Phú Thọ, TP.Thủ Dầu Một, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Thủ Dầu Một:",
+       "PHÒNG KHÁM THÚ Y VÀ SIÊU THỊ THÚ CƯNG HƯƠNG NỞ",
+       "235-237 Phú Lợi, phường Phú Lợi, TP.Thủ Dầu Một, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Thủ Dầu Một:",
+       "BỆNH VIỆN THÚ Y BẰNG PHẠM",
+       "232 đường Phú Lợi, phường Phú Hòa, TP.Thủ Dầu Một, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Thủ Dầu Một:",
+       "MIMI PET SHOP",
+       "135 Trần Văn Ơn, phường Phú Hòa, TP.Thủ Dầu Một, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Thủ Dầu Một:",
+       "GẠO PET HOUSE",
+       "453/26 Lê Hồng Phong, phường Phú Hòa, TP.Thủ Dầu Một, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Thủ Dầu Một:",
+       "LUCKY PET SHOP",
+       "784 Huỳnh Văn Lũy, phường Phú Mỹ, TP.Thủ Dầu Một, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Thuận An:",
+       "PETSHOP HANG GẤU Ú - CN2",
+       "46 Nguyễn Văn Tiết, phường Lái Thiêu, TP.Thuận An, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Thuận An:",
+       "PETSHOP HANG GẤU Ú - CN4",
+       "500D Nguyễn Trãi, phường Lái Thiêu, TP.Thuận An, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Thuận An:",
+       "PHÒNG KHÁM THÚ Y DŨNG - CN1",
+       "51B/3 Hồ Văn Mên, phường An Thạnh, TP.Thuận An, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Thuận An:",
+       "PHÒNG KHÁM THÚ Y DŨNG - CN2",
+       "14 Cách Mạng Tháng 8, phường Hưng Định, TP.Thuận An, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Thuận An:",
+       "INFINITY SIÊU THỊ THÚ CƯNG - CN1",
+       "B12/19 Đường D2, KDC Thuận Giao, TP.Thuận An, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Thuận An:",
+       "INFINITY SIÊU THỊ THÚ CƯNG - CN2",
+       "D19 KDC VSIP1, phường An Phú, TP.Thuận An, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Thuận An:",
+       "SƠN SPA - TIỆM CẮT LÔNG CHÓ MÈO",
+       "506 Nguyễn Trãi, phường Lái Thiêu, TP.Thuận An, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Dĩ An:",
+       "PHÒNG KHÁM THÚ Y HALLO PET",
+       "559A, DT743, Khu phố Đông Tân, TP. Dĩ An, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Dĩ An:",
+       "PHÒNG KHÁM THÚ Y GIA PHÁT",
+       "810 Quốc lộ 1K, xã Bình An, TP. Dĩ An, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Tân Uyên:",
+       "PHÒNG KHÁM THÚ Y Ơ VET",
+       "Đường DH 409, KP Ông Đông, phường Tân Hiệp, TP. Tân Uyên, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Tân Uyên:",
+       "THÚ Y ROYAL PET",
+       "172 KP. Bình Hòa 2, phường Tân Phước Khánh, TP. Tân Uyên, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Bến Cát:",
+       "PHÒNG KHÁM THÚ Y NHÂN TRÍ",
+       "34 Quốc lộ 13, KP3, phường Tân Định, Bến Cát, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Bến Cát:",
+       "SALON & HOTEL NHÀ CỦA ĐỐM",
+       "C1-22 TC3 Mỹ Phước 2, Bến Cát, tỉnh Bình Dương"
+      ],
+      [
+       "Khu vực Bàu Bàng:",
+       "PHÒNG KHÁM THÚ Y HIỆP PHÁT",
+       "TĐS 33, xã Long Nguyên, huyện Bàu Bàng, tỉnh Bình Dương"
+      ]
+     ],
+     "derivedFrom": "The source page renders no <table>. Each row is the shop-name <p> / address <p> pair that follows a verbatim 'Khu vực …:' <ul><li><strong> heading; the area column repeats that verbatim heading. Source has no header row, so headers is []."
+    }
+   ],
+   "forms": [],
+   "interactions": [
+    "Table-of-contents dropdown: <div class=\"meta-toc\"><a class=\"mucluc-dropdown-list_button\"></a><div class=\"box-readmore\"><ul class=\"toc-list\" data-toc=\"article\" data-toc-headings=\"h1, h2, h3\"></ul></div></div> — the list is built client-side from headings; this page has none, so it renders empty.",
+    "Share bar below the body: <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> with anchors a2a_dd (href=\"https://www.addtoany.com/share\"), a2a_button_facebook, a2a_button_twitter, a2a_button_facebook_messenger, a2a_button_copy_link.",
+    "Zalo share button container: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/danh-sach-dai-ly-o-binh-duong-binh-phuoc\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div> — third-party OA widget, markup only, no script observed in the static HTML.",
+    "No Facebook comments embed is present on this route (no .fb-comments element in the served HTML); the page shows no comment tab.",
+    "Header search: <a class=\"search\" href=\"javascript:void();\"> plus <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> and <input type=\"hidden\" onclick=\"onSearch('keyword');\">.",
+    "Empty pagination container <div class=\"pagination-home w-100\"></div> is emitted after the related-news block."
+   ],
+   "seoDefects": [
+    "<html lang=\"vi|en\"> is not a valid BCP-47 language tag.",
+    "<meta name=\"description\" content=\"\" /> is an empty string.",
+    "<meta name=\"keywords\" content=\"\" /> is an empty string.",
+    "<meta property=\"og:description\" content=\"\" /> is an empty string.",
+    "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> and <meta name=\"twitter:creator\" content=\"THE BOSS VIỆT NAM\"> put an e-mail address / brand name in Twitter handle fields.",
+    "<meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width, not width=device-width.",
+    "The only <h1> on the page is <h1 class=\"hidden-seoh\">, i.e. hidden by CSS; there is no visible H1.",
+    "<meta property=\"og:type\" content=\"article\"> is set, but the page emits no Article JSON-LD (only BreadcrumbList and the site-wide Organization), so the publish date and author in .time-main are unstructured.",
+    "The visible page title is a <div class=\"title-detail-main\">, not a heading element; the document outline has no visible H1 and no H2 at all.",
+    "BreadcrumbList JSON-LD lists 2 items and starts at position 1 with the parent «Hệ thống đại lý»; the rendered breadcrumb shows 3 items, so «Trang chủ» is missing from the structured data.",
+    "The «Tin liên quan:» related-news anchors use relative hrefs (\"danh-sach-dai-ly-o-binh-duong-binh-phuoc\") resolved through <base href=\"https://thebossvietnam.com/\">.",
+    "<meta name=\"geo.placename\" content=\"Hồ Chí Minh\"> and geo.position/ICBM are site-wide constants and are wrong for this route’s subject matter (and for Bình Dương).",
+    "An empty TOC widget is emitted: <a class=\"mucluc-dropdown-list_button\"></a> plus <ul class=\"toc-list\" data-toc=\"article\" data-toc-headings=\"h1, h2, h3\"></ul>, but the article body contains no h1/h2/h3, so the generated list is always empty."
+   ],
+   "notes": [
+    "Captured 2026-09-30 10:46 (Asia/Ho_Chi_Minh, +07:00) via curl -L (final HTTP status 200).",
+    "Article body is <div class=\"content-main content-text w-clear content-text\" id=\"toc-content\"> containing exactly 48 top-level blocks: 42 <p> and 6 <ul>. All are captured verbatim and in document order.",
+    "Dealer table: 1 normalized table derived from those blocks, 21 rows x 3 cells (area heading | shop name | address). Cross-check: 42 <p> / 2 = 21 dealer rows, and every area group has an even paragraph count, so no row was dropped or invented.",
+    "Area headings and dealer counts, in document order: Khu vực Thủ Dầu Một: = 7 đại lý; Khu vực Thuận An: = 7 đại lý; Khu vực Dĩ An: = 2 đại lý; Khu vực Tân Uyên: = 2 đại lý; Khu vực Bến Cát: = 2 đại lý; Khu vực Bàu Bàng: = 1 đại lý.",
+    "The source renders NO <table>, no <thead>, no header row and no <th> on this page, so the captured table block has headers: []. No phone number column, no map column and no link column exists in the source — the shop name is a plain <p><span style=\"font-size:16px;\"> and the address a plain <p>, with no anchor.",
+    "No dealer phone number appears anywhere in the page body. The only phone on the page is the site-wide footer line «Điện thoại: 0978202063», owned by the shell task.",
+    "No map image, no map iframe, no external map link and no inline background-image exists in the content. The only external URLs on the page are the shell's addtoany share loader, the Zalo share widget OA id, https://www.facebook.com/TheBossVietnam and the placeholder https://zalo.me/.",
+    "Publish date rendered as «18/09/2024 04:38 PM»; view counter rendered as «» at capture time 2026-09-30 10:46 (Asia/Ho_Chi_Minh, +07:00). The view counter is a live value and changes between requests — snapshot only, do not hard-code as a live figure.",
+    "«Tin liên quan:» related-news block renders 2 cards, each a 210x144 thumb linking to \"danh-sach-dai-ly-o-ho-chi-minh\" and \"danh-sach-dai-ly-o-khu-vuc-khac\". Captured in media as related-card images; treated as cross-route promo boilerplate, not as blocks.",
+    "Hub/page divergence found: this page has 21 dealer rows; the copy embedded on /he-thong-dai-ly has 20. This page lists «SƠN SPA - TIỆM CẮT LÔNG CHÓ MÈO» at «506 Nguyễn Trãi, phường Lái Thiêu, TP.Thuận An, tỉnh Bình Dương», which is absent from the hub (Khu vực Thuận An: page 7 rows vs hub 6 rows). The remaining 5 area groups match row-for-row and string-for-string.",
+    "Slug is «danh-sach-dai-ly-o-binh-duong-binh-phuoc» and the page title/heading only ever say «BÌNH DƯƠNG» — Bình Phước is never mentioned in the title or the content. The slug is reproduced verbatim from the source and must not be rewritten.",
+    "Addresses use inconsistent administrative naming as published («TP.Thủ Dầu Một», «xã Tân Thông Hội», «Thị trấn Củ Chi»-style terms and post-2021 «phường» naming mixed with «xã»). Captured verbatim, not corrected.",
+    "Dealer addresses are owner-asserted business data captured from the live site and must be re-verified with the site owner before publication; the replica must not present them as verified facts."
+   ]
+  },
+  {
+   "path": "/danh-sach-dai-ly-o-khu-vuc-khac",
+   "sourceUrl": "https://thebossvietnam.com/danh-sach-dai-ly-o-khu-vuc-khac",
+   "httpStatus": 200,
+   "sourceTitle": "DANH SÁCH ĐẠI LÝ Ở KHU VỰC KHÁC",
+   "metaDescription": "",
+   "h1": "DANH SÁCH ĐẠI LÝ Ở KHU VỰC KHÁC",
+   "breadcrumbs": [
+    "Trang chủ",
+    "Hệ thống đại lý",
+    "DANH SÁCH ĐẠI LÝ Ở KHU VỰC KHÁC"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "DANH SÁCH ĐẠI LÝ Ở KHU VỰC KHÁC",
+     "role": "detail-title",
+     "sourceMarkup": "<div class=\"title-detail-main\">DANH SÁCH ĐẠI LÝ Ở KHU VỰC KHÁC</div>"
+    },
+    {
+     "type": "p",
+     "text": "16/02/2025 11:23 AM",
+     "role": "publish-date",
+     "sourceMarkup": "<i class=\"bi bi-calendar-check-fill\"></i><span class=\"me-2\">16/02/2025 11:23 AM</span> <i class=\"bi bi-eye-fill\"></i> 519 Lượt xem"
+    },
+    {
+     "type": "p",
+     "text": "",
+     "role": "view-counter",
+     "sourceMarkup": "<i class=\"bi bi-calendar-check-fill\"></i><span class=\"me-2\">16/02/2025 11:23 AM</span> <i class=\"bi bi-eye-fill\"></i> 519 Lượt xem"
+    },
+    {
+     "type": "p",
+     "text": "Quý khách quan tâm đến đại lý ở các khu vực khác, vui lòng liên hệ với chúng tôi để được tư vấn và cung cấp thông tin phù hợp.",
+     "rawHtml": "<p>Quý khách quan tâm đến đại lý ở các khu vực khác, vui lòng liên hệ với chúng tôi để được tư vấn và cung cấp thông tin phù hợp.</p>"
+    },
+    {
+     "type": "table",
+     "headers": [],
+     "rows": [],
+     "derivedFrom": "The source page renders no <table>. Each row is the shop-name <p> / address <p> pair that follows a verbatim 'Khu vực …:' <ul><li><strong> heading; the area column repeats that verbatim heading. Source has no header row, so headers is []."
+    }
+   ],
+   "forms": [],
+   "interactions": [
+    "Table-of-contents dropdown: <div class=\"meta-toc\"><a class=\"mucluc-dropdown-list_button\"></a><div class=\"box-readmore\"><ul class=\"toc-list\" data-toc=\"article\" data-toc-headings=\"h1, h2, h3\"></ul></div></div> — the list is built client-side from headings; this page has none, so it renders empty.",
+    "Share bar below the body: <div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"> with anchors a2a_dd (href=\"https://www.addtoany.com/share\"), a2a_button_facebook, a2a_button_twitter, a2a_button_facebook_messenger, a2a_button_copy_link.",
+    "Zalo share button container: <div class=\"zalo-share-button\" data-href=\"https://thebossvietnam.com/danh-sach-dai-ly-o-khu-vuc-khac\" data-oaid=\"579745863508352884\" data-layout=\"3\" data-color=\"blue\" data-customize=false></div> — third-party OA widget, markup only, no script observed in the static HTML.",
+    "No Facebook comments embed is present on this route (no .fb-comments element in the served HTML); the page shows no comment tab.",
+    "Header search: <a class=\"search\" href=\"javascript:void();\"> plus <input type=\"text\" name=\"keyword\" class=\"an\" id=\"keyword\" placeholder=\"Nhập từ khóa cần tìm...\" onkeypress=\"doEnter(event,'keyword');\" value=\"\"> and <input type=\"hidden\" onclick=\"onSearch('keyword');\">.",
+    "Empty pagination container <div class=\"pagination-home w-100\"></div> is emitted after the related-news block."
+   ],
+   "seoDefects": [
+    "<html lang=\"vi|en\"> is not a valid BCP-47 language tag.",
+    "<meta name=\"description\" content=\"\" /> is an empty string.",
+    "<meta name=\"keywords\" content=\"\" /> is an empty string.",
+    "<meta property=\"og:description\" content=\"\" /> is an empty string.",
+    "<meta name=\"twitter:site\" content=\"info.thebossvietnam@gmail.com\"> and <meta name=\"twitter:creator\" content=\"THE BOSS VIỆT NAM\"> put an e-mail address / brand name in Twitter handle fields.",
+    "<meta name=\"viewport\" content=\"width=1366px\"> is a fixed pixel width, not width=device-width.",
+    "The only <h1> on the page is <h1 class=\"hidden-seoh\">, i.e. hidden by CSS; there is no visible H1.",
+    "<meta property=\"og:type\" content=\"article\"> is set, but the page emits no Article JSON-LD (only BreadcrumbList and the site-wide Organization), so the publish date and author in .time-main are unstructured.",
+    "The visible page title is a <div class=\"title-detail-main\">, not a heading element; the document outline has no visible H1 and no H2 at all.",
+    "BreadcrumbList JSON-LD lists 2 items and starts at position 1 with the parent «Hệ thống đại lý»; the rendered breadcrumb shows 3 items, so «Trang chủ» is missing from the structured data.",
+    "The «Tin liên quan:» related-news anchors use relative hrefs (\"danh-sach-dai-ly-o-binh-duong-binh-phuoc\") resolved through <base href=\"https://thebossvietnam.com/\">.",
+    "<meta name=\"geo.placename\" content=\"Hồ Chí Minh\"> and geo.position/ICBM are site-wide constants and are wrong for this route’s subject matter (and for Bình Dương).",
+    "An empty TOC widget is emitted: <a class=\"mucluc-dropdown-list_button\"></a> plus <ul class=\"toc-list\" data-toc=\"article\" data-toc-headings=\"h1, h2, h3\"></ul>, but the article body contains no h1/h2/h3, so the generated list is always empty."
+   ],
+   "notes": [
+    "Captured 2026-09-30 10:46 (Asia/Ho_Chi_Minh, +07:00) via curl -L (final HTTP status 200).",
+    "Article body is <div class=\"content-main content-text w-clear content-text\" id=\"toc-content\"> containing exactly 1 top-level blocks: 1 <p> and 0 <ul>. All are captured verbatim and in document order.",
+    "Dealer table: 1 normalized table derived from those blocks, 0 rows x 3 cells (area heading | shop name | address). Cross-check: 1 <p> / 2 = 0 dealer rows, and every area group has an even paragraph count, so no row was dropped or invented.",
+    "Area headings and dealer counts, in document order: .",
+    "The source renders NO <table>, no <thead>, no header row and no <th> on this page, so the captured table block has headers: []. No phone number column, no map column and no link column exists in the source — the shop name is a plain <p><span style=\"font-size:16px;\"> and the address a plain <p>, with no anchor.",
+    "No dealer phone number appears anywhere in the page body. The only phone on the page is the site-wide footer line «Điện thoại: 0978202063», owned by the shell task.",
+    "No map image, no map iframe, no external map link and no inline background-image exists in the content. The only external URLs on the page are the shell's addtoany share loader, the Zalo share widget OA id, https://www.facebook.com/TheBossVietnam and the placeholder https://zalo.me/.",
+    "Publish date rendered as «16/02/2025 11:23 AM»; view counter rendered as «» at capture time 2026-09-30 10:46 (Asia/Ho_Chi_Minh, +07:00). The view counter is a live value and changes between requests — snapshot only, do not hard-code as a live figure.",
+    "«Tin liên quan:» related-news block renders 2 cards, each a 210x144 thumb linking to \"danh-sach-dai-ly-o-ho-chi-minh\" and \"danh-sach-dai-ly-o-binh-duong-binh-phuoc\". Captured in media as related-card images; treated as cross-route promo boilerplate, not as blocks.",
+    "This page has NO dealer table at all: the content div contains exactly 1 <p> and 0 <ul>. Zero dealer rows, zero addresses, zero phone numbers. The normalized dealer table block is therefore not emitted for this route.",
+    "The page is a placeholder that directs the visitor to contact the company; the contact route /lien-he is owned by another family task.",
+    "Dealer addresses are owner-asserted business data captured from the live site and must be re-verified with the site owner before publication; the replica must not present them as verified facts."
+   ]
+  }
+ ],
+ "media": [
+  {
+   "url": "https://thebossvietnam.com/upload/photo/02-logo-boss-chu-do-nen-trang-5204.png",
+   "role": "shell-logo",
+   "alt": "logo",
+   "localName": "logo-boss-full",
+   "width": 1600,
+   "height": 599,
+   "usedOn": [
+    "/he-thong-dai-ly",
+    "/danh-sach-dai-ly-o-ho-chi-minh",
+    "/danh-sach-dai-ly-o-binh-duong-binh-phuoc",
+    "/danh-sach-dai-ly-o-khu-vuc-khac"
+   ]
+  },
+  {
+   "url": "https://thebossvietnam.com/thumbs/157x60x1/upload/photo/02-logo-boss-chu-do-nen-trang-5204.png",
+   "role": "shell-logo",
+   "alt": "logo",
+   "localName": "logo-boss-head-157x60",
+   "width": 157,
+   "height": 60,
+   "usedOn": [
+    "/he-thong-dai-ly",
+    "/danh-sach-dai-ly-o-ho-chi-minh",
+    "/danh-sach-dai-ly-o-binh-duong-binh-phuoc",
+    "/danh-sach-dai-ly-o-khu-vuc-khac"
+   ]
+  },
+  {
+   "url": "https://thebossvietnam.com/upload/news/02-logo-boss-chu-do-nen-trang-5204-8553.png",
+   "role": "shell-logo",
+   "alt": "logo",
+   "localName": "logo-boss-footer",
+   "width": 1600,
+   "height": 599,
+   "usedOn": [
+    "/he-thong-dai-ly",
+    "/danh-sach-dai-ly-o-ho-chi-minh",
+    "/danh-sach-dai-ly-o-binh-duong-binh-phuoc",
+    "/danh-sach-dai-ly-o-khu-vuc-khac"
+   ]
+  },
+  {
+   "url": "https://thebossvietnam.com/assets/images/fb1.png",
+   "role": "shell-icon",
+   "alt": "logo",
+   "localName": "icon-facebook",
+   "width": 40,
+   "height": 180,
+   "usedOn": [
+    "/he-thong-dai-ly",
+    "/danh-sach-dai-ly-o-ho-chi-minh",
+    "/danh-sach-dai-ly-o-binh-duong-binh-phuoc",
+    "/danh-sach-dai-ly-o-khu-vuc-khac"
+   ]
+  },
+  {
+   "url": "https://thebossvietnam.com/thumbs/240x180x2/upload/photo/hinh-anh-dan-den-fanpage-9032.jpg",
+   "role": "shell-image",
+   "alt": "",
+   "localName": "fanpage-qr",
+   "width": 240,
+   "height": 180,
+   "usedOn": [
+    "/he-thong-dai-ly",
+    "/danh-sach-dai-ly-o-ho-chi-minh",
+    "/danh-sach-dai-ly-o-binh-duong-binh-phuoc",
+    "/danh-sach-dai-ly-o-khu-vuc-khac"
+   ]
+  },
+  {
+   "url": "https://thebossvietnam.com/assets/images/zl.png",
+   "role": "shell-icon",
+   "alt": "Zalo",
+   "localName": "icon-zalo",
+   "width": 35,
+   "height": 35,
+   "usedOn": [
+    "/he-thong-dai-ly",
+    "/danh-sach-dai-ly-o-ho-chi-minh",
+    "/danh-sach-dai-ly-o-binh-duong-binh-phuoc",
+    "/danh-sach-dai-ly-o-khu-vuc-khac"
+   ]
+  },
+  {
+   "url": "https://thebossvietnam.com/thumbs/420x288x2/upload/news/avatar-chi-nhanh-dai-ly-5309.png",
+   "role": "og-image",
+   "alt": "DANH SÁCH ĐẠI LÝ Ở HỒ CHÍ MINH",
+   "localName": "dai-ly-ho-chi-minh-og",
+   "width": 420,
+   "height": 288,
+   "usedOn": [
+    "/danh-sach-dai-ly-o-ho-chi-minh"
+   ]
+  },
+  {
+   "url": "https://thebossvietnam.com/thumbs/420x288x2/upload/news/binh-duong-6179.png",
+   "role": "og-image",
+   "alt": "DANH SÁCH ĐẠI LÝ Ở BÌNH DƯƠNG",
+   "localName": "dai-ly-binh-duong-og",
+   "width": 420,
+   "height": 288,
+   "usedOn": [
+    "/danh-sach-dai-ly-o-binh-duong-binh-phuoc"
+   ]
+  },
+  {
+   "url": "https://thebossvietnam.com/thumbs/420x288x2/upload/news/khu-vuc-khac-2615.png",
+   "role": "og-image",
+   "alt": "DANH SÁCH ĐẠI LÝ Ở KHU VỰC KHÁC",
+   "localName": "dai-ly-khu-vuc-khac-og",
+   "width": 420,
+   "height": 288,
+   "usedOn": [
+    "/danh-sach-dai-ly-o-khu-vuc-khac"
+   ]
+  },
+  {
+   "url": "https://thebossvietnam.com/thumbs/210x144x1/upload/news/avatar-chi-nhanh-dai-ly-5309.png",
+   "role": "related-card",
+   "alt": "DANH SÁCH ĐẠI LÝ Ở HỒ CHÍ MINH",
+   "localName": "dai-ly-ho-chi-minh-thumb",
+   "width": 210,
+   "height": 144,
+   "usedOn": [
+    "/danh-sach-dai-ly-o-binh-duong-binh-phuoc",
+    "/danh-sach-dai-ly-o-khu-vuc-khac"
+   ]
+  },
+  {
+   "url": "https://thebossvietnam.com/thumbs/210x144x1/upload/news/binh-duong-6179.png",
+   "role": "related-card",
+   "alt": "DANH SÁCH ĐẠI LÝ Ở BÌNH DƯƠNG",
+   "localName": "dai-ly-binh-duong-thumb",
+   "width": 210,
+   "height": 144,
+   "usedOn": [
+    "/danh-sach-dai-ly-o-ho-chi-minh",
+    "/danh-sach-dai-ly-o-khu-vuc-khac"
+   ]
+  },
+  {
+   "url": "https://thebossvietnam.com/thumbs/210x144x1/upload/news/khu-vuc-khac-2615.png",
+   "role": "related-card",
+   "alt": "DANH SÁCH ĐẠI LÝ Ở KHU VỰC KHÁC",
+   "localName": "dai-ly-khu-vuc-khac-thumb",
+   "width": 210,
+   "height": 144,
+   "usedOn": [
+    "/danh-sach-dai-ly-o-ho-chi-minh",
+    "/danh-sach-dai-ly-o-binh-duong-binh-phuoc"
+   ]
+  }
+ ]
+}
