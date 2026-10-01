@@ -130,7 +130,9 @@ difference is in the source, not a transcription error.
 
 ## 6. Deliberate deviations from the source
 
-Every item here is a **fixed source defect**, not a design change. The rule is:
+Every item here is a deliberate departure with a stated reason: usually a source
+defect the replica refuses to copy, sometimes a fact the replica cannot honestly
+reproduce (rows 12, 15, 19). None is a design change. The rule is:
 fix it, document it, never copy it.
 
 | # | Source behaviour | Replica | Why |
