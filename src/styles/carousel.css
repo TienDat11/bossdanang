@@ -333,6 +333,9 @@
   display: block;
   overflow: hidden;
   border-radius: 30px 30px 0 0;
+  /* The source wraps this box in a `<p>`, so Bootstrap's `p { margin: 0 0 1rem }`
+     is what separates it from the text block. Reproduce the default, not 16px. */
+  margin: 0 0 1rem;
 }
 
 .carousel__thumb {
@@ -382,6 +385,7 @@
   background: #f5dd00;
   color: #000;
   font-size: 15px;
+  line-height: 1.5;
   text-align: center;
   text-transform: uppercase;
   transition: 0.4s;
