@@ -225,29 +225,46 @@ main {
 
 .product-tabs__list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
-  gap: 0.75rem;
-  margin: 0 0 1.5rem;
+  gap: 10px;
+  max-width: 650px;
+  margin: 0 auto 1.5rem;
   padding: 0;
   list-style: none;
 }
 
+.product-tabs__list > li {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 210px;
+  display: flex;
+}
+
 .product-tabs__tab {
-  min-height: 2.75rem;
-  padding: 0.5rem 1.4rem;
-  border: 1px solid var(--color-dark-red);
-  border-radius: 2px;
-  background: #fff;
-  color: var(--color-dark-red);
-  font: inherit;
-  font-weight: 600;
+  flex: 1 1 auto;
+  width: 100%;
+  min-width: 0;
+  min-height: 46px;
+  padding: 10px;
+  border: 0.8px solid #eaeaea;
+  border-radius: 50px;
+  background: #a81c1e;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
   cursor: pointer;
 }
 
 .product-tabs__tab[aria-selected='true'] {
-  background: var(--color-dark-red);
-  color: #fff;
+  background: #ffd400;
+  color: #000;
+}
+
+.product-tabs__tab:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 2px;
 }
 
 .product-tabs__empty {
@@ -257,8 +274,8 @@ main {
 
 .product-tabs__grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1.75rem 1.5rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -291,53 +308,45 @@ main {
 
 .product-card__pic {
   position: relative;
+  aspect-ratio: 2/1;
+  margin-bottom: 16px;
   background: #fff;
-  border: 1px solid #eee;
+  overflow: hidden;
 }
-
-.product-card__img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-/* The source swaps to a second card image on hover; CSS does that without JS. */
-.product-card__img--hover {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
-
-.product-card:hover .product-card__img--hover,
-.product-card:focus-within .product-card__img--hover {
-  opacity: 1;
-}
-
 .product-card__badge {
   position: absolute;
-  top: 0.4rem;
-  right: 0.4rem;
+  top: 0;
+  right: 0;
   z-index: 1;
   width: auto;
-  height: 2rem;
+  height: 36px;
 }
-
 .product-card__name {
   margin: 0.6rem 0 0;
-  font-size: 0.95rem;
-  line-height: 1.35;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-black);
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.product-card__name a {
+  color: inherit;
 }
 
 .product-card__price {
-  margin: 0.15rem 0 0;
-  color: var(--color-dark-red);
-  font-weight: 600;
+  margin: 0 0 16px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff0000;
+  text-align: center;
 }
 
 .product-card__price-weight {
-  font-weight: 400;
-  color: var(--color-gray);
+  font-size: 12px;
+  font-weight: 700;
+  color: #ff0000;
 }
 
 /* ------------------------------------------------------------- accordion -- */

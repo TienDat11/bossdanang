@@ -52,6 +52,7 @@ import { mediaPath } from '@/lib/media';
 import { pageByPath } from '@/data/pages';
 import catalogCss from '@/styles/catalog.css?raw';
 import { search, withBase } from '@/data/site';
+import { paginationHtml, PAGER_SCRIPT } from '@/components/pagination';
 import { CATEGORIES, products } from '@/data/products';
 import type { CategoryId, PriceLine, Product } from '@/data/products';
 
@@ -196,18 +197,16 @@ const TABS_SCRIPT = `
   if (!root) return;
   var tabs = Array.prototype.slice.call(root.querySelectorAll('[role="tab"]'));
   var panel = root.querySelector('[role="tabpanel"]');
-  var items = Array.prototype.slice.call(panel.querySelectorAll('[data-category]'));
   function select(tab) {
-    var filter = tab.getAttribute('data-filter');
     tabs.forEach(function (other) {
       var on = other === tab;
       other.setAttribute('aria-selected', on ? 'true' : 'false');
       other.tabIndex = on ? 0 : -1;
     });
     panel.setAttribute('aria-labelledby', tab.id);
-    items.forEach(function (item) {
-      item.hidden = filter !== 'all' && item.getAttribute('data-category') !== filter;
-    });
+    // The pager script owns which cards are visible: it pages within whatever
+    // survives this filter. Two scripts writing hidden would fight over it.
+    root.dispatchEvent(new CustomEvent('filterchange', { bubbles: true }));
   }
   tabs.forEach(function (tab, index) {
     tab.addEventListener('click', function () { select(tab); });
@@ -335,7 +334,7 @@ const cardHtml = (product: Product, headingLevel: 2 | 3) => {
     : '';
   const heading = `h${headingLevel}`;
   return [
-    `<li class="product-card" data-category="${product.category}">`,
+    `<li class="product-card" data-product-card data-category="${product.category}">`,
     `<div class="product-card__pic">${badge}${imageTag(product.image, product.name, { className: 'product-card__img', width: 400, height: 200 })}${imageTag(product.hoverImage, product.name, { className: 'product-card__img product-card__img--hover', width: 400, height: 200 })}</div>`,
     `<${heading} class="product-card__name">${link(`/${product.slug}`, product.name)}</${heading}>`,
     product.variants.map((variant) => priceLine(variant, 'product-card__price')).join(''),
@@ -365,11 +364,18 @@ const catalogView = () => {
       // would narrow to are already on screen, and `/thit-tuoi` and `/pate` are
       // one click away in the breadcrumb. Upgrade by pointing the tabs at
       // `/san-pham`, `/thit-tuoi` and `/pate` and enhancing a nav instead.
-      '<div id="product-tabs">',
+      '<div id="product-tabs" data-product-grid>',
       `<ul class="product-tabs__list" role="tablist" aria-label="Danh mục sản phẩm">${tabs}</ul>`,
-      `<div role="tabpanel" id="panel-products" aria-labelledby="tab-all">${gridHtml(products, 2)}</div>`,
+      `<div role="tabpanel" id="panel-products" aria-labelledby="tab-all">`,
+      // Live region: the pager rewrites this on every page change, so a screen
+      // reader hears the window rather than only seeing cards appear.
+      '<p class="sr-only" data-product-status aria-live="polite"></p>',
+      gridHtml(products, 2),
+      paginationHtml(products.length),
+      '</div>',
       '</div>',
       `<script>${TABS_SCRIPT}</script>`,
+      `<script>${PAGER_SCRIPT}</script>`,
     ].join(''),
   );
 };

@@ -155,7 +155,7 @@ fix it, document it, never copy it.
 | 18 | Search submit uses `javascript:void();` | real form `GET /tim-kiem` | A form that goes nowhere |
 | 19 | Embedded map on dealer pages | none | **No map exists on any of the 4 source routes** — no map image, no iframe, no map URL. Nothing to replicate; nothing was invented. |
 | 20 | `/gio-hang` 404 page with a broken starfield (`/404_files/sky-bg.png` itself 404s) | plain local 404 with a link home | The source's 404 art is missing in the source |
-| 21 | `/lien-he` contact form uses Bootstrap `form-floating` — labels sit on the control's top border, inside it | labels sit above the control, outside the field | Requires Bootstrap 5's `form-floating` + its floating-label scale; hand-rolling it would be worse than the difference. Owner accepted this deviation. |
+| 21 | `/lien-he` contact form uses Bootstrap `form-floating` — labels inside the control, 45px box, 1px bottom border, `row-20` 2-column grid for the first four fields, Bootstrap primary/secondary buttons | reproduces the source geometry (floating labels, 45px box, 1px bottom border, `row-20` grid, primary/secondary buttons); only deviation is the deliberately `disabled` send button (no recipient configured) | No endpoint exists to receive submissions. |
 | 22 | 6 soup detail pages carry **no price block at all** — the price exists only in the `api/product.php` feed, never in the page HTML | no price block on those 6 pages | The source is the authority. Rendering a feed price on a page that has none would be inventing content. |
 
 ## 7. Known gaps awaiting owner confirmation

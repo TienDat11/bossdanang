@@ -73,12 +73,12 @@ export const contact = {
 export type FooterColumn =
   | { kind: 'brand'; heading: string }
   | { kind: 'contact'; heading: string }
-  | { kind: 'links'; heading: string; links: SiteLink[] };
+  | { kind: 'links'; heading: string; links: SiteLink[] }
+  | { kind: 'facebook'; heading: string };
 
 /**
- * `shell.footerColumns`. The Facebook entry is kept as text only: the capture's
- * `shell.thirdPartyInventory` marks it `dropFromReplica`, and `isLive()` renders
- * anything outside the route registry as plain text.
+ * `shell.footerColumns`. The fourth column renders the source footer fanpage
+ * block: no heading, just the facebook mark beside the fanpage thumbnail link.
  */
 export const footerColumns: FooterColumn[] = [
   { kind: 'brand', heading: 'Logo' },
@@ -91,11 +91,7 @@ export const footerColumns: FooterColumn[] = [
       { label: 'Chính sách tuyển dụng.', path: '/chinh-sach-tuyen-dung' },
     ],
   },
-  {
-    kind: 'links',
-    heading: 'Social',
-    links: [{ label: 'Facebook', path: 'https://www.facebook.com/TheBossVietnam' }],
-  },
+  { kind: 'facebook', heading: 'Facebook' },
 ];
 
 export const footerCopyright = {

@@ -1,0 +1,174 @@
+---
+import { mediaPath } from '@/lib/media';
+
+const zaloSrc = mediaPath('https://thebossvietnam.com/assets/images/zl.png');
+const topSrc = mediaPath('https://thebossvietnam.com/assets/images/top.png');
+---
+<nav class="floating-contact" aria-label="Liên hệ nhanh">
+  <a
+    class="fc-btn fc-zalo"
+    href="https://zalo.me/"
+    target="_blank"
+    rel="noopener"
+    aria-label="Nhắn Zalo"
+  >
+    <span class="fc-zalo-ring" aria-hidden="true"></span>
+    <span class="fc-zalo-fill" aria-hidden="true"></span>
+    <img src={zaloSrc} width="35" height="35" alt="" />
+  </a>
+  <a
+    class="fc-btn fc-messenger"
+    href="https://www.facebook.com/TheBossVietnam"
+    target="_blank"
+    rel="noopener"
+    aria-label="Nhắn Messenger"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.47 30.66" width="28" height="28" aria-hidden="true" focusable="false"><path d="M29.56,14.34c-8.41,0-15.23,6.35-15.23,14.19A13.83,13.83,0,0,0,20,39.59V45l5.19-2.86a16.27,16.27,0,0,0,4.37.59c8.41,0,15.23-6.35,15.23-14.19S38,14.34,29.56,14.34Zm1.51,19.11-3.88-4.16-7.57,4.16,8.33-8.89,4,4.16,7.48-4.16Z" transform="translate(-14.32 -14.34)" fill="#fff"></path></svg>
+  </a>
+  <button type="button" class="fc-btn go-top" data-go-top aria-label="Lên đầu trang">
+    <img src={topSrc} width="41" height="41" alt="" />
+  </button>
+</nav>
+<script>
+  const btn = document.querySelector('[data-go-top]');
+  if (btn instanceof HTMLButtonElement) {
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+    btn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: reduce.matches ? 'auto' : 'smooth' });
+    });
+  }
+</script>
+<style>
+  .floating-contact {
+    position: fixed;
+    z-index: 1002;
+    right: 17px;
+    bottom: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .fc-btn {
+    position: relative;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border: 0 none;
+    border-radius: 50%;
+    color: #fff;
+    background: #a81c1e;
+    cursor: pointer;
+  }
+  .fc-btn:focus-visible {
+    outline: 3px solid #f3a02c;
+    outline-offset: 3px;
+  }
+  .fc-zalo {
+    width: 50px;
+    height: 50px;
+    overflow: visible;
+  }
+  .fc-zalo-ring,
+  .fc-zalo-fill {
+    position: absolute;
+    inset: -2px;
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .fc-zalo-ring {
+    border: 2px solid rgb(255 212 0 / 90%);
+    animation: fc-zalo-zoom 1s ease-out infinite;
+  }
+  .fc-zalo-fill {
+    background: rgb(63 160 126 / 25%);
+    animation: fc-zalo-pulse 1s ease-out infinite;
+  }
+  .fc-zalo img {
+    position: relative;
+    z-index: 1;
+    display: block;
+  }
+  .fc-messenger {
+    width: 56px;
+    height: 56px;
+    overflow: visible;
+    border-radius: 100%;
+    background: #a81c1e;
+  }
+  .fc-messenger::before,
+  .fc-messenger::after {
+    position: absolute;
+    z-index: -1;
+    inset: -2px;
+    border-radius: 50%;
+    background: rgb(168 28 30 / 55%);
+    content: '';
+    pointer-events: none;
+    animation: fc-msg-ripple 1.8s ease-out infinite;
+  }
+  .fc-messenger::after {
+    animation-delay: 0.9s;
+  }
+  .fc-messenger svg {
+    position: relative;
+    z-index: 1;
+    display: block;
+  }
+  .go-top {
+    display: block;
+    margin-top: 20px;
+    width: 41px;
+    height: 41px;
+    overflow: hidden;
+    border: 0 none;
+    border-radius: 50%;
+    background: transparent;
+  }
+  .go-top img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  @keyframes fc-zalo-zoom {
+    0% {
+      transform: scale(1);
+      opacity: 0.75;
+    }
+    100% {
+      transform: scale(1.9);
+      opacity: 0;
+    }
+  }
+  @keyframes fc-zalo-pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+    100% {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+  }
+  @keyframes fc-msg-ripple {
+    0% {
+      transform: scale(1);
+      opacity: 0.75;
+    }
+    100% {
+      transform: scale(1.9);
+      opacity: 0;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .fc-zalo-ring,
+    .fc-zalo-fill,
+    .fc-messenger::before,
+    .fc-messenger::after {
+      animation: none;
+    }
+  }
+</style>

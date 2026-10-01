@@ -119,6 +119,7 @@ type ContactField = {
   requiredMessage: string;
   multiline?: boolean;
   type?: string;
+  half?: boolean;
   minLength?: number;
   checkMessage?: string;
 };
@@ -130,6 +131,7 @@ const contactFields: ContactField[] = [
     label: 'Họ tên',
     placeholder: 'Họ tên',
     requiredMessage: 'Vui lòng nhập họ và tên',
+    half: true,
   },
   {
     id: 'phone-contact',
@@ -138,6 +140,7 @@ const contactFields: ContactField[] = [
     placeholder: 'Điện thoại',
     type: 'tel',
     requiredMessage: 'Vui lòng nhập số điện thoại',
+    half: true,
   },
   {
     id: 'address-contact',
@@ -145,6 +148,7 @@ const contactFields: ContactField[] = [
     label: 'Địa chỉ',
     placeholder: 'Địa chỉ',
     requiredMessage: 'Vui lòng nhập địa chỉ',
+    half: true,
   },
   {
     id: 'email-contact',
@@ -154,6 +158,7 @@ const contactFields: ContactField[] = [
     type: 'email',
     requiredMessage: 'Vui lòng nhập địa chỉ email',
     checkMessage: 'Vui lòng nhập địa chỉ email hợp lệ',
+    half: true,
   },
   {
     id: 'subject-contact',
@@ -175,29 +180,48 @@ const contactFields: ContactField[] = [
 ];
 
 /**
- * Scoped to the two classes below, so it cannot leak into another family.
- * ponytail: the source uses Bootstrap `form-floating` (label overlapping the input
- * border) inside a 2-column `row`; labels here sit above their control and the
- * grid collapses to one column under 768px. Ceiling: not pixel-identical at
- * 1366px. Upgrade: add the floating-label transform when visual parity is required.
+ * The source's own Bootstrap `form-floating` geometry, measured on
+ * `https://thebossvietnam.com/lien-he` at 1366px: a 2-column `row-20` (10px
+ * gutters) inside the 1200px frame, each control a 45px box with a single 1px
+ * bottom border, and the label sitting inside the control and floating to the
+ * top-left on focus or once the field has content. The left column keeps the
+ * source's own type: the brand line is 20px bold in Arial and the three labels
+ * below it ("Địa chỉ: ", "Phone: ", "Zalo: ") are bold while their values stay
+ * regular.
+ *
+ * Scoped to `.contact-article` / `.contact-form`, so it cannot leak into another
+ * family. `.btn-primary` / `.btn-secondary` carry the source's own Bootstrap
+ * colours; the disabled primary keeps Bootstrap's 65% opacity.
  */
 const contactStyles = `<style>
-.contact-layout{display:grid;grid-template-columns:1fr;gap:2rem;align-items:start}
-@media (min-width:768px){.contact-layout{grid-template-columns:1fr 1fr;gap:2.5rem}}
-.contact-details h2{font-size:20px;margin:0 0 .6em}
-.contact-details p,.contact-form p{text-align:left}
-.contact-form .field{margin:0 0 1rem}
-.contact-form label{display:block;margin:0 0 .35rem;font-weight:700}
-.contact-form input,.contact-form textarea{box-sizing:border-box;width:100%;padding:.6rem .75rem;border:1px solid #b9bcc0;border-radius:4px;font:inherit;color:inherit}
-.contact-form textarea{min-height:9rem;resize:vertical}
-.contact-form [aria-invalid="true"]{border-color:var(--color-dark-red)}
-.contact-form .field-error{margin:.35rem 0 0;color:var(--color-dark-red);font-size:13px}
-.contact-form .form-actions{display:flex;flex-wrap:wrap;gap:.75rem}
-.contact-form button{padding:.6rem 1.5rem;border:0;border-radius:4px;font:inherit;cursor:pointer}
-.contact-form .btn-send{background:var(--color-dark-red);color:#fff}
-.contact-form .btn-send[disabled]{background:#b9bcc0;cursor:not-allowed}
-.contact-form .btn-reset{background:#eceff1;color:var(--color-black)}
-.contact-form .form-notice{margin:1rem 0 0;color:var(--color-gray);font-size:13px}
+.contact-article{display:flex;flex-wrap:wrap;margin:0 -12px}
+.contact-article>*{padding:0 12px}
+.contact-text,.contact-form{flex:0 0 100%;max-width:100%}
+@media (min-width:992px){.contact-text,.contact-form{flex:0 0 50%;max-width:50%}}
+.contact-text h2{margin:0 0 16px;font-size:20px;line-height:1.5;font-family:Arial,Helvetica,sans-serif}
+.contact-text p{margin:0 0 16px;font-size:16px;line-height:1.5}
+.contact-row{display:flex;flex-wrap:wrap;margin:0 -10px}
+.contact-input{position:relative;margin:0 0 20px}
+.contact-input--half{flex:0 0 100%;max-width:100%;padding:0 10px}
+@media (min-width:576px){.contact-input--half{flex:0 0 50%;max-width:50%}}
+.form-floating{position:relative}
+.form-floating>.form-control{display:block;width:100%;height:45px;padding:16px 12px;font-family:inherit;font-size:14px;line-height:1.25;color:var(--color-black);background-color:#fff;border:0;border-bottom:1px solid #ced4da;border-radius:0;transition:border-color .15s ease-in-out}
+.form-floating>.form-control:focus{outline:0;border-bottom-color:#86b7fe}
+.form-floating>.form-control:focus,.form-floating>.form-control:not(:placeholder-shown){padding-top:26px;padding-bottom:10px}
+.form-floating>.form-control::placeholder{color:transparent}
+.form-floating>textarea.form-control{height:100px;resize:none}
+.form-floating>label{position:absolute;top:0;left:0;height:100%;padding:10px;color:var(--color-gray);font-size:14px;line-height:1.5;pointer-events:none;border:1px solid transparent;transform-origin:0 0;transition:opacity .1s ease-in-out,transform .1s ease-in-out}
+.form-floating>.form-control:focus~label,.form-floating>.form-control:not(:placeholder-shown)~label{opacity:.65;transform:scale(.85) translateY(-.5rem) translateX(.15rem)}
+.invalid-feedback{display:none;width:100%;margin-top:4px;font-size:12.25px;color:#dc3545}
+.contact-input.is-invalid .invalid-feedback{display:block}
+.contact-input.is-invalid .form-control{border-bottom-color:#dc3545}
+.form-actions{display:flex;flex-wrap:wrap;gap:4px}
+.btn{display:inline-block;padding:6px 12px;font-family:inherit;font-size:16px;line-height:1.5;text-align:center;border:1px solid transparent;border-radius:4px;cursor:pointer}
+.btn-primary{color:#fff;background-color:#0d6efd;border-color:#0d6efd}
+.btn-primary:disabled{opacity:.65;cursor:not-allowed}
+.btn-secondary{color:#fff;background-color:#6c757d;border-color:#6c757d}
+.btn-secondary:hover{background-color:#5c636a;border-color:#565e64}
+.form-notice{margin:16px 0 0;color:var(--color-gray);font-size:13px}
 </style>`;
 
 const NOT_CONFIGURED =
@@ -230,8 +254,9 @@ const contactScript = `<script>
   // aria-describedby, so a screen reader reads it with the field, not just a colour.
   function show(field, message) {
     var error = document.getElementById(field.id + '-error');
+    var wrap = field.closest('.contact-input');
     error.textContent = message;
-    error.hidden = message === '';
+    if (wrap) wrap.classList.toggle('is-invalid', message !== '');
     if (message) field.setAttribute('aria-invalid', 'true');
     else field.removeAttribute('aria-invalid');
     return message === '';
@@ -262,7 +287,7 @@ const contactScript = `<script>
 })();
 </script>`;
 
-function control(field: ContactField): string {
+function fieldHtml(field: ContactField): string {
   const attributes = [
     `id="${field.id}"`,
     `name="${field.name}"`,
@@ -275,16 +300,33 @@ function control(field: ContactField): string {
   ]
     .filter(Boolean)
     .join(' ');
-
-  return field.multiline
-    ? `<textarea ${attributes} rows="6"></textarea>`
-    : `<input type="${field.type ?? 'text'}" ${attributes} />`;
+  const input = field.multiline
+    ? `<textarea class="form-control" ${attributes} rows="6"></textarea>`
+    : `<input class="form-control" type="${field.type ?? 'text'}" ${attributes} />`;
+  return (
+    `<div class="${field.half ? 'contact-input contact-input--half' : 'contact-input'}">` +
+    `<div class="form-floating">${input}<label for="${field.id}">${escapeHtml(field.label)}</label></div>` +
+    `<div class="invalid-feedback" id="${field.id}-error"></div>` +
+    `</div>`
+  );
 }
 
 const content: ContentFamily = {
   'policies:chinh-sach-bao-mat': privacy,
   'policies:chinh-sach-tuyen-dung': recruitment,
   'policies:lien-he': contactDetails,
+};
+
+/**
+ * The source wraps each label in `<strong>` and leaves the value regular —
+ * measured live: label `font-weight: 700`, value `400`. The split is on the
+ * first ": ", which all of these captured strings have; the guard keeps a copy
+ * edit from silently dropping the bold rather than throwing.
+ */
+const withBoldLabel = (text: string): string => {
+  const at = text.indexOf(': ');
+  if (at === -1) return escapeHtml(text);
+  return `<strong>${escapeHtml(text.slice(0, at + 2))}</strong>${escapeHtml(text.slice(at + 2))}`;
 };
 
 function contactView(record: PageRecord): string {
@@ -299,30 +341,34 @@ function contactView(record: PageRecord): string {
 
   return [
     contactStyles,
-    '<div class="prose wrap-content contact-layout">',
-    '<div class="contact-details">',
+    '<div class="wrap-content">',
+    '<div class="contact-article">',
+    '<div class="contact-text">',
     tag('h2', brand),
-    `<p>${escapeHtml(address)}</p>`,
-    `<p>${escapeHtml(phoneLabel)}${phoneNumbers
+    `<p>${withBoldLabel(address)}</p>`,
+    `<p><strong>${escapeHtml(phoneLabel)}</strong>${phoneNumbers
       .map((number) => `<a href="tel:${escapeHtml(number)}">${escapeHtml(number)}</a>`)
       .join(' - ')}</p>`,
-    `<p>${escapeHtml(zalo)}</p>`,
+    `<p>${withBoldLabel(zalo)}</p>`,
     '</div>',
     '<form class="contact-form" id="contact-form" novalidate aria-label="Liên hệ">',
+    '<div class="contact-row">',
     contactFields
-      .map(
-        (field) =>
-          `<div class="field"><label for="${field.id}">${escapeHtml(field.label)}</label>` +
-          `${control(field)}` +
-          `<p class="field-error" id="${field.id}-error" hidden></p></div>`,
-      )
+      .filter((field) => field.half)
+      .map(fieldHtml)
+      .join(''),
+    '</div>',
+    contactFields
+      .filter((field) => !field.half)
+      .map(fieldHtml)
       .join(''),
     '<div class="form-actions">',
-    '<button type="submit" class="btn-send" disabled aria-describedby="contact-form-notice">Gửi</button>',
-    '<button type="reset" class="btn-reset">Nhập lại</button>',
+    '<button type="submit" class="btn btn-primary" disabled aria-describedby="contact-form-notice">Gửi</button>',
+    '<button type="reset" class="btn btn-secondary">Nhập lại</button>',
     '</div>',
     `<p class="form-notice" id="contact-form-notice">${escapeHtml(NOT_CONFIGURED)}</p>`,
     '</form>',
+    '</div>',
     '</div>',
     contactScript,
   ].join('');

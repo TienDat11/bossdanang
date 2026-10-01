@@ -5,6 +5,13 @@
  */
 import { brand, contact, footerColumns, footerCopyright, logoPath, withBase } from '@/data/site';
 import { pageByPath } from '@/data/pages';
+import { mediaPath } from '@/lib/media';
+
+const footerRulePath = mediaPath('https://thebossvietnam.com/assets/images/vien1.png');
+const facebookMarkPath = mediaPath('https://thebossvietnam.com/assets/images/fb1.png');
+const fanpageThumbPath = mediaPath(
+  'https://thebossvietnam.com/thumbs/240x180x2/upload/photo/hinh-anh-dan-den-fanpage-9032.jpg',
+);
 ---
 
 <footer class="site-footer">
@@ -15,10 +22,10 @@ import { pageByPath } from '@/data/pages';
           <div class="footer-news">
             {column.kind === 'brand' ? (
               <a class="logo-footer" href={withBase('/')}>
-                <img src={withBase(logoPath)} alt={brand.name} width="210" height="79" />
+                <img src={withBase(logoPath)} alt={brand.name} width="240" height="90" />
               </a>
             ) : (
-              <p class="footer-title">{column.heading}</p>
+              column.kind !== 'facebook' && <p class="footer-title">{column.heading}</p>
             )}
 
             {column.kind === 'contact' && (
@@ -47,12 +54,30 @@ import { pageByPath } from '@/data/pages';
                 ))}
               </ul>
             )}
+
+            {column.kind === 'facebook' && (
+              <div class="footer-facebook">
+                <img src={withBase(facebookMarkPath)} alt="logo" width="40" height="180" />
+                <a
+                  href="https://www.facebook.com/TheBossVietnam"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img
+                    src={withBase(fanpageThumbPath)}
+                    alt="THE BOSS VIỆT NAM"
+                    width="240"
+                    height="180"
+                  />
+                </a>
+              </div>
+            )}
           </div>
         ))
       }
     </div>
   </div>
-  <div class="footer-powered">
+  <div class="footer-powered" style={`--footer-rule:url(${withBase(footerRulePath)})`}>
     <div class="wrap-content">
       <p class="footer-copyright">
         Copyright © {footerCopyright.year} {footerCopyright.holder} - {footerCopyright.licence}
@@ -62,19 +87,27 @@ import { pageByPath } from '@/data/pages';
 </footer>
 
 <style>
+  .footer-article {
+    background: #fcfcd7;
+  }
+
   .footer-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    grid-template-columns: 240px 300px 200px 280px;
+    justify-content: space-between;
     padding: 60px 0;
+  }
+
+  .footer-grid > .footer-news:first-child {
+    padding: 20px 0 0;
   }
 
   .footer-title {
     position: relative;
-    margin: 0 0 1rem;
+    margin: 0 0 16px;
     padding-bottom: 10px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     text-transform: uppercase;
   }
 
@@ -89,7 +122,7 @@ import { pageByPath } from '@/data/pages';
   }
 
   .footer-info p {
-    margin: 0 0 4px;
+    margin: 0 0 16px;
   }
 
   .footer-info a {
@@ -102,6 +135,9 @@ import { pageByPath } from '@/data/pages';
   }
 
   .footer-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -122,13 +158,25 @@ import { pageByPath } from '@/data/pages';
   }
 
   .footer-powered {
+    position: relative;
     color: var(--color-static);
-    background-color: var(--background-powered);
+    background: var(--background-powered);
     text-align: center;
   }
 
+  .footer-powered::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 55px;
+    width: 100%;
+    height: 10px;
+    background-image: var(--footer-rule);
+    background-repeat: repeat;
+  }
+
   .footer-powered .wrap-content {
-    padding: 12px 0;
+    padding: 17px 0;
   }
 
   .footer-copyright {
@@ -137,7 +185,12 @@ import { pageByPath } from '@/data/pages';
 
   .logo-footer {
     display: block;
-    max-width: 210px;
+    max-width: 240px;
+  }
+
+  .footer-facebook {
+    display: flex;
+    justify-content: space-between;
   }
 
   @media (max-width: 991px) {

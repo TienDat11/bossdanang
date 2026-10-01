@@ -408,9 +408,11 @@ const testimonialsHtml = (quotes: QuoteBlock[]): string => {
 /* --------------------------------------------------------------- articles -- */
 
 /**
- * The source wraps each article's image, its title AND a `Xem thêm` line in
- * three separate anchors to the same URL: three tab stops announcing one article
- * three times. The card below is a single link with the image inside it.
+ * The source wraps each article's image, its title AND its read-more line in
+ * three separate anchors to the same URL: three tab stops announcing one
+ * article three times. The card below is a single link with the image inside
+ * it. The read-more row keeps a sized 16px chevron so the icon cannot stretch
+ * to the card width.
  */
 const articlesHtml = (articles: ArticleBlock[]): string => {
   const items = articles
@@ -422,7 +424,7 @@ const articlesHtml = (articles: ArticleBlock[]): string => {
           `<a class="carousel__link" href="${escapeHtml(withBase(`/${article.href}`))}">`,
           imageTag(article.image, article.alt, { className: 'carousel__thumb', width: 376, height: 300 }),
           `<h3 class="carousel__headline">${escapeHtml(article.title)}</h3>`,
-          '<span class="carousel__more">Xem thêm <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h10M8 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>',
+          '<span class="carousel__more">Xem thêm <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h10M8 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>',
           '</a>',
           '</article>',
           '</div>',
