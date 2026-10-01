@@ -17,7 +17,7 @@ if (publishApproved) {
   if (!process.env.SITE_URL) {
     throw new Error(
       'Release build blocked: PUBLISH_APPROVED=1 but SITE_URL is not set. ' +
-        'Set SITE_URL to the absolute public origin, e.g. SITE_URL=https://tientdat11.github.io/bossdanang.',
+        'Set SITE_URL to the absolute public origin, e.g. SITE_URL=https://tiendat11.github.io/bossdanang.',
     );
   }
   if (!site.startsWith('https://')) {

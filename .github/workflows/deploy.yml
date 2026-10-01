@@ -20,7 +20,7 @@ jobs:
     env:
       # Origin only. SITE_BASE is appended by `absoluteUrl`, so putting the repo
       # path in SITE_URL too would emit /bossdanang/bossdanang/… everywhere.
-      SITE_URL: https://tientdat11.github.io
+      SITE_URL: https://tiendat11.github.io
       SITE_BASE: /bossdanang
       PUBLISH_APPROVED: '1'
     steps:
@@ -37,7 +37,7 @@ jobs:
       # can publish a site that is quietly missing routes.
       - run: node scripts/verify-build.mjs
         env:
-          SITE_URL: https://tientdat11.github.io
+          SITE_URL: https://tiendat11.github.io
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

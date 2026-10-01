@@ -1,7 +1,7 @@
 # Reference inventory — thebossvietnam.com replica
 
 Source: `https://thebossvietnam.com`, captured 2026-09-30.
-Target: static Astro site at `https://tientdat11.github.io/bossdanang`.
+Target: static Astro site at `https://tiendat11.github.io/bossdanang`.
 
 This file is the record of *what the source actually is* — the route inventory, the
 media inventory with provenance, and every place the replica deliberately departs

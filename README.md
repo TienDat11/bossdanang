@@ -28,7 +28,7 @@ quietly missing routes.
 For a release build the site URL and base path must be supplied:
 
 ```bash
-SITE_URL=https://tientdat11.github.io SITE_BASE=/bossdanang npm run build
+SITE_URL=https://tiendat11.github.io SITE_BASE=/bossdanang npm run build
 npm run preview -- --base /bossdanang
 ```
 
