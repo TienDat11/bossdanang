@@ -417,13 +417,18 @@ const testimonialsHtml = (quotes: QuoteBlock[]): string => {
 const articlesHtml = (articles: ArticleBlock[]): string => {
   const items = articles
     .map(
-      (article) =>
+      (article, index) =>
         [
           '<div class="carousel__item">',
           '<article class="carousel__card">',
           `<a class="carousel__link" href="${escapeHtml(withBase(`/${article.href}`))}">`,
+          '<div class="carousel__pic">',
           imageTag(article.image, article.alt, { className: 'carousel__thumb', width: 376, height: 300 }),
+          '</div>',
+          '<div class="carousel__info">',
+          `<span class="carousel__index">${String(index + 1).padStart(2, '0')}</span>`,
           `<h3 class="carousel__headline">${escapeHtml(article.title)}</h3>`,
+          '</div>',
           '<span class="carousel__more">Xem thêm <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h10M8 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>',
           '</a>',
           '</article>',
